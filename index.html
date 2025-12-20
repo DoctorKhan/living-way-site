@@ -261,6 +261,43 @@
       gap: 1.5rem;
     }
 
+    /* Floating chat button */
+    .chat-fab {
+      position: fixed;
+      right: 1.5rem;
+      bottom: 1.5rem;
+      padding: 0.75rem 1.25rem;
+      border-radius: 999px;
+      background: rgba(54, 43, 35, 0.95);
+      color: #fdfbf7;
+      font-family: inherit;
+      font-size: 0.95rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+      z-index: 1000;
+      border: 1px solid rgba(253, 251, 247, 0.6);
+      letter-spacing: 0.01em;
+      transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+    }
+
+    .chat-fab:hover {
+      background: rgba(54, 43, 35, 1);
+      transform: translateY(-1px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    @media (max-width: 600px) {
+      .chat-fab {
+        right: 1rem;
+        bottom: 1rem;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+      }
+    }
+
     .scroll-item:hover {
       border-color: var(--accent);
     }
@@ -488,7 +525,7 @@
       <a class="logo" href="index.html">The Living Way</a>
       <ul class="nav-links">
         <li><a href="public-knowledge/">Library</a></li>
-        <li><a href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" target="_blank" rel="noopener">Guide</a></li>
+	        <li><a href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" target="_blank" rel="noopener">Ask the Living Jesus</a></li>
         <li><a href="#waitlist">Join</a></li>
       </ul>
     </nav>
@@ -616,6 +653,16 @@
       <a href="#waitlist" class="btn">Begin Here</a>
     </section>
   </main>
+
+  <a
+    href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus"
+    class="chat-fab"
+    target="_blank"
+    rel="noopener"
+    aria-label="Ask the Living Jesus"
+  >
+    Ask the Living Jesus
+  </a>
 
   <footer>
     <p>The Living Way © 2025</p>
