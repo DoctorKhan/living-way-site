@@ -174,34 +174,80 @@
       transform: translateY(-1px);
     }
 
-    .quick-links {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-      font-size: 0.85rem;
-    }
-
-    .quick-links a {
-      color: var(--text-tertiary);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-
-    .quick-links a:hover {
-      color: var(--accent);
-    }
-
-    /* Features */
-    .features {
-      max-width: 1200px;
+    /* About Section */
+    .about {
+      max-width: 800px;
       margin: 0 auto;
-      padding: 6rem 2rem;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .about-content p {
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 2.5rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 1.5rem;
+      color: var(--text-primary);
+    }
+
+    .start-here {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      min-width: 120px;
+    }
+
+    .step-number {
+      font-size: 0.75rem;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .step-label {
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 0.25rem;
+    }
+
+    .step-desc {
+      font-size: 0.8rem;
+      color: var(--text-tertiary);
+    }
+
+    .step-arrow {
+      color: var(--text-tertiary);
+      font-size: 1.2rem;
+    }
+
+    /* Scrolls Section */
+    .scrolls {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
     }
 
     .section-header {
       text-align: center;
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
     }
 
     .section-header h2 {
@@ -210,66 +256,14 @@
       text-transform: uppercase;
       color: var(--text-tertiary);
       font-weight: 500;
-      margin-bottom: 1rem;
     }
 
-    .feature-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 2rem;
-    }
-
-    .feature {
-      padding: 2.5rem;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      transition: all 0.3s;
-    }
-
-    .feature:hover {
-      border-color: rgba(212, 165, 116, 0.3);
-      transform: translateY(-4px);
-    }
-
-    .feature-icon {
-      width: 40px;
-      height: 40px;
-      background: var(--accent-dim);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 1.5rem;
-      color: var(--accent);
-      font-weight: 500;
-    }
-
-    .feature h3 {
-      font-size: 1.3rem;
-      margin-bottom: 0.75rem;
-      font-weight: 500;
-    }
-
-    .feature p {
-      color: var(--text-secondary);
-      margin-bottom: 1.5rem;
-      line-height: 1.7;
-    }
-
-    /* Resources */
-    .resources {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 2rem 6rem;
-    }
-
-    .resource-list {
+    .scroll-list {
       display: grid;
       gap: 1rem;
     }
 
-    .resource {
+    .scroll-item {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -281,30 +275,53 @@
       gap: 2rem;
     }
 
-    .resource:hover {
+    .scroll-item:hover {
       border-color: rgba(212, 165, 116, 0.3);
     }
 
-    .resource-info h3 {
+    .scroll-item.highlight {
+      border-color: rgba(212, 165, 116, 0.2);
+      background: var(--accent-dim);
+    }
+
+    .scroll-info h3 {
       font-size: 1.1rem;
       margin-bottom: 0.25rem;
       font-weight: 500;
     }
 
-    .resource-info p {
+    .scroll-info p {
       color: var(--text-tertiary);
       font-size: 0.9rem;
     }
 
-    .resource-actions {
+    .scroll-actions {
       display: flex;
       gap: 0.75rem;
       flex-shrink: 0;
     }
 
+    .browse-all {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
     .btn-small {
       padding: 0.6rem 1.2rem;
       font-size: 0.85rem;
+    }
+
+    /* Bottom CTA */
+    .bottom-cta {
+      text-align: center;
+      padding: 4rem 2rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .bottom-cta p {
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+      color: var(--text-secondary);
     }
 
     /* Footer */
@@ -373,20 +390,30 @@
         padding: 4rem 1.5rem 3rem;
       }
 
-      .features, .resources {
+      .about, .scrolls {
         padding: 3rem 1.5rem;
       }
 
-      .feature-grid {
-        grid-template-columns: 1fr;
+      .start-here {
+        flex-direction: column;
+        gap: 0.75rem;
       }
 
-      .resource {
+      .step-arrow {
+        transform: rotate(90deg);
+      }
+
+      .step {
+        width: 100%;
+        max-width: 200px;
+      }
+
+      .scroll-item {
         flex-direction: column;
         align-items: flex-start;
       }
 
-      .resource-actions {
+      .scroll-actions {
         width: 100%;
       }
 
@@ -396,6 +423,10 @@
 
       .btn {
         width: 100%;
+      }
+
+      .bottom-cta {
+        padding: 3rem 1.5rem;
       }
     }
   </style>
@@ -413,11 +444,12 @@
   </header>
 
   <main>
+    <!-- Hero Section -->
     <section class="hero">
       <h1 class="serif">A quiet room in the noise</h1>
       <p class="subtitle serif">A field manual for awakening in this lifetime</p>
       <p class="description">
-        The Living Way is a living experiment in practice: scrolls, architectures, and Guides designed to help you remember who you are — and walk it in the middle of ordinary life.
+        Scrolls, a Guide, and a quiet companion for awakening — designed to meet you in the middle of ordinary life.
       </p>
 
       <div id="waitlist" class="waitlist">
@@ -440,93 +472,100 @@
             <button id="share-native" class="share-btn">Copy Link</button>
           </div>
         </div>
-
-        <div class="quick-links">
-          <a href="public-knowledge/">Browse Library</a>
-          <span>·</span>
-          <a href="public-knowledge/living_way_guide.html">Try the Guide</a>
-        </div>
       </div>
     </section>
 
-    <section class="features">
-      <div class="section-header">
-        <h2>Features</h2>
-      </div>
-      <div class="feature-grid">
-        <div class="feature">
-          <div class="feature-icon">📖</div>
-          <h3>Read the Scrolls</h3>
-          <p>Explore beautifully set transcripts and PDFs: The Living Way, The Living Architecture, and more.</p>
-          <a href="public-knowledge/" class="btn btn-secondary btn-small">Open Library</a>
-        </div>
-
-        <div class="feature">
-          <div class="feature-icon">🧭</div>
-          <h3>Try the Guide</h3>
-          <p>A gentle, guided reading and practice to meet the material in your life.</p>
-          <a href="public-knowledge/living_way_guide.html" class="btn btn-secondary btn-small">Open Guide</a>
-          <a href="https://thelivingway.app/download" class="btn btn-secondary btn-small" target="_blank" rel="noopener">Get the App (Beta)</a>
-        </div>
-
-        <div class="feature">
-          <div class="feature-icon">✨</div>
-          <h3>Join the Circle</h3>
-          <p>Join the early access list for the full app experience. Invitations are sent to the first circle.</p>
-          <a href="#waitlist" class="btn btn-secondary btn-small">Seal My Place</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="resources">
-      <div class="section-header">
-        <h2>Resources</h2>
-      </div>
-      <div class="resource-list">
-        <div class="resource">
-          <div class="resource-info">
-            <h3>The Living Way</h3>
-            <p>Foundational scroll</p>
+    <!-- What is The Living Way -->
+    <section class="about">
+      <div class="about-content">
+        <h2 class="section-title serif">What is The Living Way?</h2>
+        <p>
+          The Living Way is a living experiment in practice. It offers a collection of scrolls —
+          foundational texts, architectural blueprints, and translated suttas — alongside a
+          guided companion to help you read, reflect, and walk the path in your own life.
+        </p>
+        <div class="start-here">
+          <div class="step">
+            <span class="step-number">1</span>
+            <span class="step-label">Read</span>
+            <span class="step-desc">Browse the Scrolls</span>
           </div>
-          <div class="resource-actions">
-            <a href="public-knowledge/The_Living_Way.html" class="btn btn-small">Open</a>
+          <div class="step-arrow">→</div>
+          <div class="step">
+            <span class="step-number">2</span>
+            <span class="step-label">Practice</span>
+            <span class="step-desc">Try the Guide</span>
+          </div>
+          <div class="step-arrow">→</div>
+          <div class="step">
+            <span class="step-number">3</span>
+            <span class="step-label">Join</span>
+            <span class="step-desc">Seal your place</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Scrolls (merged Features + Resources) -->
+    <section class="scrolls">
+      <div class="section-header">
+        <h2>The Scrolls</h2>
+      </div>
+      <div class="scroll-list">
+        <div class="scroll-item">
+          <div class="scroll-info">
+            <h3>The Living Way</h3>
+            <p>Foundational scroll — the core teaching</p>
+          </div>
+          <div class="scroll-actions">
+            <a href="public-knowledge/The_Living_Way.html" class="btn btn-small">Read</a>
             <a href="public-knowledge/The_Living_Way.pdf" class="btn btn-secondary btn-small">PDF</a>
           </div>
         </div>
 
-        <div class="resource">
-          <div class="resource-info">
+        <div class="scroll-item">
+          <div class="scroll-info">
             <h3>The Living Architecture</h3>
             <p>Blueprint of the soul's descent & return</p>
           </div>
-          <div class="resource-actions">
-            <a href="public-knowledge/The_Living_Architecture.html" class="btn btn-small">Open</a>
+          <div class="scroll-actions">
+            <a href="public-knowledge/The_Living_Architecture.html" class="btn btn-small">Read</a>
             <a href="public-knowledge/The_Living_Architecture.pdf" class="btn btn-secondary btn-small">PDF</a>
           </div>
         </div>
 
-        <div class="resource">
-          <div class="resource-info">
+        <div class="scroll-item">
+          <div class="scroll-info">
             <h3>The Living Suttas</h3>
             <p>Translations and commentary</p>
           </div>
-          <div class="resource-actions">
-            <a href="public-knowledge/The_Living_Suttas.html" class="btn btn-small">Open</a>
+          <div class="scroll-actions">
+            <a href="public-knowledge/The_Living_Suttas.html" class="btn btn-small">Read</a>
             <a href="public-knowledge/The_Living_Suttas.pdf" class="btn btn-secondary btn-small">PDF</a>
           </div>
         </div>
 
-        <div class="resource">
-          <div class="resource-info">
-            <h3>Guide & Conversation</h3>
-            <p>Guided reading and an experimental conversational Guide</p>
+        <div class="scroll-item highlight">
+          <div class="scroll-info">
+            <h3>The Guide</h3>
+            <p>Guided reading and practice companion</p>
           </div>
-          <div class="resource-actions">
+          <div class="scroll-actions">
             <a href="public-knowledge/living_way_guide.html" class="btn btn-small">Open</a>
-            <a href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" class="btn btn-secondary btn-small" target="_blank" rel="noopener">Chat</a>
+            <a href="https://thelivingway.app/download" class="btn btn-secondary btn-small" target="_blank" rel="noopener">App</a>
           </div>
         </div>
       </div>
+
+      <div class="browse-all">
+        <a href="public-knowledge/" class="btn btn-secondary">Browse Full Library</a>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="bottom-cta">
+      <p class="serif">Ready to begin?</p>
+      <a href="#waitlist" class="btn">Join the Waitlist</a>
     </section>
   </main>
 
