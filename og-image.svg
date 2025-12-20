@@ -1,0 +1,40 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#8c7b6c" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8c7b6c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#e8e4d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Logo (centered, scaled up) -->
+  <g transform="translate(540, 100) scale(1.2)">
+    <!-- Outer Ring -->
+    <circle cx="50" cy="50" r="40" stroke="#8c7b6c" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <!-- Inner Ring -->
+    <circle cx="50" cy="50" r="28" stroke="#8c7b6c" stroke-width="1" fill="none" opacity="0.4"/>
+    <!-- 4 Cardinal Rays -->
+    <path d="M50 10 L53 47 L90 50 L53 53 L50 90 L47 53 L10 50 L47 47 Z" fill="#8c7b6c" />
+    <!-- Center Glow -->
+    <circle cx="50" cy="50" r="10" fill="url(#glow)" />
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="320" font-family="Georgia, serif" font-size="52" fill="#2c2c2c" text-anchor="middle" font-weight="400">The Living Way</text>
+
+  <!-- Tagline -->
+  <text x="600" y="385" font-family="Georgia, serif" font-size="26" fill="#5a5a5a" text-anchor="middle" font-style="italic">"These sayings are not commandments, but mirrors."</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="460" font-family="Georgia, serif" font-size="20" fill="#7a7a7a" text-anchor="middle">The 81 Sayings of Yeshua the Living One</text>
+
+  <!-- Bottom accent line -->
+  <rect x="500" y="530" width="200" height="1" fill="#8c7b6c" opacity="0.4"/>
+</svg>
+

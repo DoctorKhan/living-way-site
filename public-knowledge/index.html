@@ -29,11 +29,17 @@
             background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
             color: var(--text-main);
             min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .main-content {
             display: flex;
             justify-content: center;
             align-items: center;
+            min-height: calc(100vh - 60px);
             padding: 2rem;
-            line-height: 1.6;
         }
 
         .container {
@@ -166,7 +172,8 @@
             text-decoration: none;
             letter-spacing: 0.03em;
         }
-        .nav-links { display:flex; gap:1rem; list-style:none; }
+        .nav-links { display:flex; gap:1.5rem; list-style:none; margin:0; padding:0; }
+        .nav-links li { display:inline; }
         .nav-links a { color:var(--text-muted); text-decoration:none; font-size:0.95rem; }
         .nav-links a:hover { color:var(--accent); }
 
@@ -188,6 +195,7 @@
       </ul>
     </nav>
   </header>
+  <main class="main-content">
     <div class="container">
         <h1>The Living Wisdom of Yeshua</h1>
         <p class="subtitle">Inspired by the Gospels of Thomas and Mary</p>
@@ -244,6 +252,7 @@
 
         <p class="footer">A timeless guide for the awakened path &middot; Created by Rez Khan &copy; 2025</p>
     </div>
+  </main>
 </body>
 </html>
 
