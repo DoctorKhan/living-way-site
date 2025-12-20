@@ -143,19 +143,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // If the user clicks the 'Seal My Place' link, ensure the waitlist is focused
-    const waitAnchor = document.querySelector('a[href="#waitlist-form"]');
-    if (waitAnchor) {
+    // If the user clicks any anchor that points to the waitlist, ensure it's focused
+    const waitAnchors = document.querySelectorAll('a[href="#waitlist"], a[href="#waitlist-form"]');
+    waitAnchors.forEach(waitAnchor => {
         waitAnchor.addEventListener('click', (e) => {
             e.preventDefault();
-            const el = document.getElementById('waitlist-form');
+            const el = document.getElementById('waitlist') || document.getElementById('waitlist-form');
             if (el) {
                 el.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 const inputEl = el.querySelector('input[type="email"]');
                 if (inputEl) inputEl.focus();
             }
         });
-    }
+    });
 
     // Normalize links that point into the public-knowledge folder so they work
     // both when viewing the root `index.html` and when viewing pages inside

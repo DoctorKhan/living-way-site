@@ -6,18 +6,19 @@
   <title>The Living Way</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Crimson+Pro:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg-start: #050608;
-      --bg-end: #14151a;
-      --card: #111218;
-      --text-main: #f5f4f0;
-      --text-muted: #a5a2b4;
-      --accent: #f6c453;
-      --accent-soft: rgba(246, 196, 83, 0.16);
-      --btn-dark: #f5f4f0;
-      --btn-light: #050608;
+      --bg: #0a0a0a;
+      --surface: #151515;
+      --surface-elevated: #1a1a1a;
+      --border: rgba(255, 255, 255, 0.06);
+      --text-primary: #ffffff;
+      --text-secondary: #a0a0a0;
+      --text-tertiary: #707070;
+      --accent: #d4a574;
+      --accent-hover: #e0b890;
+      --accent-dim: rgba(212, 165, 116, 0.1);
     }
 
     * {
@@ -27,492 +28,633 @@
     }
 
     body {
-      font-family: 'EB Garamond', 'Garamond', serif;
-      min-height: 100vh;
-      background: radial-gradient(circle at top, #24252f 0%, #050608 45%, #020308 100%);
-      color: var(--text-main);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 2.5rem 1.5rem;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
     }
 
-    .shell {
-      max-width: 960px;
-      width: 100%;
-      border-radius: 18px;
-      padding: 2px;
-      background: radial-gradient(circle at top left, rgba(246, 196, 83, 0.5), transparent 60%),
-                  radial-gradient(circle at bottom right, rgba(115, 163, 255, 0.35), transparent 55%);
+    .serif {
+      font-family: 'Crimson Pro', 'Georgia', serif;
     }
 
-    .frame {
-      position: relative;
-      background: radial-gradient(circle at top, #191a22 0%, #050608 65%);
-      border-radius: 16px;
-      padding: 2.5rem 2.25rem;
-      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.65);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-    }
-
+    /* Header */
     header {
-      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+      background: rgba(10, 10, 10, 0.8);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
 
-    h1 {
-      font-size: 2.8rem;
-      letter-spacing: 0.08em;
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
       text-transform: uppercase;
-      margin-bottom: 0.5rem;
+      color: var(--text-primary);
     }
 
-    .tagline {
-      font-size: 1.3rem;
-      color: var(--text-muted);
-      font-style: italic;
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
     }
 
-    .summary {
-      margin-top: 1.0rem;
-      font-size: 1.05rem;
-      color: var(--text-muted);
-      max-width: 720px;
-      line-height: 1.8;
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
     }
 
-    /* Accessibility: smooth scrolling and skip link */
-    html { scroll-behavior: smooth; }
-
-    .skip-link {
-      position: absolute;
-      left: -999px;
-      top: auto;
-      width: 1px;
-      height: 1px;
-      overflow: hidden;
-    }
-    .skip-link:focus {
-      left: 1rem;
-      top: 1rem;
-      width: auto;
-      height: auto;
-      padding: 0.5rem 0.75rem;
-      background: rgba(0,0,0,0.6);
-      border-radius: 6px;
-      color: var(--text-main);
-      z-index: 1000;
+    .nav-links a:hover {
+      color: var(--text-primary);
     }
 
     /* Hero */
     .hero {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 8rem 2rem 6rem;
       text-align: center;
-      gap: 0.8rem;
-      padding-bottom: 1.25rem;
-      border-bottom: 1px solid rgba(255,255,255,0.02);
     }
 
-    .site-title {
-      font-size: 3rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      margin-bottom: 0.25rem;
-      color: var(--text-main);
+    .hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 300;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
     }
 
-    /* Quick nav under hero for faster navigation */
-    .quick-nav {
+    .hero .subtitle {
+      font-size: clamp(1.1rem, 2vw, 1.4rem);
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+
+    .hero .description {
+      font-size: 1.05rem;
+      color: var(--text-tertiary);
+      max-width: 700px;
+      margin: 0 auto 3rem;
+      line-height: 1.8;
+    }
+
+    /* Waitlist Form */
+    .waitlist {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .form-group {
       display: flex;
-      gap: 0.6rem;
-      margin-top: 0.6rem;
-      flex-wrap: wrap;
-      justify-content:center;
-    }
-    .quick-nav a {
-      padding: 0.35rem 0.8rem;
-      background: rgba(255,255,255,0.02);
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.04);
-      text-decoration: none;
-      color: var(--text-main);
-      font-size: 0.78rem;
-      letter-spacing: 0.08em;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
     }
 
-    /* Waitlist: larger, clearer controls */
-    .waitlist-form {
-      display: flex;
-      gap: 0.8rem;
-      align-items: center;
-      margin-top: 0.9rem;
-      width: min(880px, 100%);
-    }
-
-    .waitlist-form input[type="email"] {
-      flex: 1 1 auto;
-      padding: 0.95rem 1.1rem;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.06);
-      background: rgba(255,255,255,0.03);
-      color: var(--text-main);
-      font-size: 1rem;
-      outline: none;
-      transition: border-color 0.18s ease, box-shadow 0.18s ease;
-    }
-    .waitlist-form input[type="email"]:focus {
-      border-color: rgba(246,196,83,0.9);
-      box-shadow: 0 6px 18px rgba(246,196,83,0.08);
-    }
-
-    .waitlist-form .btn-primary {
+    input[type="email"] {
+      flex: 1;
       padding: 0.9rem 1.2rem;
-      border-radius: 999px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 0.95rem;
+      outline: none;
+      transition: all 0.2s;
     }
 
-    .success-message { display: none; }
-    .success-message.visible { display: block; margin-top: 0.9rem; }
-    .hidden { display: none !important; }
-
-    .share-buttons { display: flex; gap: 0.5rem; margin-top: 0.6rem; }
-    .share-btn { padding: 0.5rem 0.9rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.06); background: rgba(255,255,255,0.02); cursor: pointer; font-size:0.78rem; }
-
-    /* Features grid */
-    .features {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.25rem;
-      margin-top: 2rem;
-    }
-
-    .link-inline { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(246,196,83,0.06); font-weight:600; }
-    .link-inline:hover { border-bottom-color: rgba(246,196,83,0.9); }
-
-    .feature-card {
-      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-      padding: 1.35rem;
-      border-radius: 12px;
-      border: 1px solid rgba(255,255,255,0.04);
-      min-height: 150px;
-      display:flex;
-      flex-direction:column;
-      justify-content:space-between;
-    }
-
-    .feature-card h2 { font-size: 1.05rem; margin-bottom:0.5rem; }
-    .feature-card p { color: var(--text-muted); line-height:1.6; }
-
-    /* Resources grid improved */
-    .resources { margin-top: 2rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-    .resource-card { background: rgba(255,255,255,0.02); padding: 1rem 1.25rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.04); display:flex; align-items:center; justify-content:space-between; gap:1rem; transition: transform 0.18s ease, box-shadow 0.18s ease; }
-    .resource-card:hover { transform: translateY(-4px); box-shadow: 0 14px 40px rgba(0,0,0,0.45); }
-
-    .resource-body .resource-meta { color: var(--text-muted); font-size:0.92rem; margin-top:0.25rem; }
-    .resource-actions { display:flex; gap:0.6rem; align-items:center; }
-    .pdf-link { padding:0.45rem 0.6rem; border-radius:999px; background:transparent; color:var(--text-muted); border:1px solid rgba(255,255,255,0.04); font-size:0.85rem; text-decoration:none; }
-    .pdf-link:hover { color:var(--text-main); border-color:rgba(255,255,255,0.12); }
-    .resource-card h3 { margin:0; }
-
-    .resource-card h3 { font-size:1rem; margin:0; }
-    .resource-card .btn-row { gap:0.5rem; }
-
-    /* Footer tweaks */
-    .site-footer { margin-top: 2.8rem; text-align:center; color:var(--text-muted); }
-    .site-footer .footer-tagline { display:block; margin-top:0.6rem; font-size:0.9rem; }
-
-    @media (max-width: 1000px) {
-      .features { grid-template-columns: repeat(2, 1fr); }
-      .resources { grid-template-columns: 1fr; }
-    }
-
-    @media (max-width: 700px) {
-      .features { grid-template-columns: 1fr; }
-      .site-title { font-size: 2.2rem; }
-      .waitlist-form { flex-direction: column; gap:0.5rem; }
-      .waitlist-form .btn-primary { width:100%; }
-    }
-
-    /* Desktop page anchors */
-    .page-anchors { display: none; }
-    @media (min-width: 1100px) {
-      .frame { padding-right: 4.5rem; }
-      .page-anchors { display:block; position:absolute; right:1rem; top:8.5rem; display:flex; flex-direction:column; gap:0.6rem; }
-      .page-anchors a { padding:0.5rem 0.8rem; background: rgba(0,0,0,0.35); color:var(--text-main); border-radius:999px; text-decoration:none; font-size:0.85rem; border:1px solid rgba(255,255,255,0.04); }
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 1.75rem;
-      margin-top: 2.5rem;
-    }
-
-    .card {
-      background: radial-gradient(circle at top, rgba(246,196,83,0.12), transparent 55%),
-                  var(--card);
-      border-radius: 12px;
-      padding: 1.5rem 1.4rem;
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      min-height: 190px;
-    }
-
-    .card h2 {
-      font-size: 1.25rem;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      margin-bottom: 0.6rem;
-    }
-
-    .card p {
-      font-size: 0.98rem;
-      color: var(--text-muted);
-      margin-bottom: 1.25rem;
-      line-height: 1.6;
-    }
-
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding: 0.25rem 0.7rem;
-      border-radius: 999px;
-      background-color: rgba(245, 244, 240, 0.06);
-      color: var(--text-muted);
-      font-size: 0.7rem;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      margin-bottom: 0.9rem;
-    }
-
-    .pill-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 999px;
-      background-color: var(--accent);
-    }
-
-    .btn-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.6rem;
+    input[type="email"]:focus {
+      border-color: var(--accent);
+      background: var(--surface-elevated);
     }
 
     .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.55rem 1.3rem;
-      border-radius: 999px;
-      border: 1px solid transparent;
+      padding: 0.9rem 1.8rem;
+      background: var(--accent);
+      color: var(--bg);
+      border: none;
+      border-radius: 8px;
       font-size: 0.9rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      text-decoration: none;
+      font-weight: 500;
       cursor: pointer;
-      transition: all 0.25s ease;
-      background: none;
-      color: inherit;
+      transition: all 0.2s;
+      text-decoration: none;
+      display: inline-block;
     }
 
-    .btn-primary {
-      background-color: var(--accent);
-      color: #1b1204;
-      border-color: rgba(246, 196, 83, 0.9);
-      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.65);
-    }
-
-    .btn-primary:hover {
+    .btn:hover {
+      background: var(--accent-hover);
       transform: translateY(-1px);
-      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.75);
-    }
-
-    .btn:focus {
-      outline: 3px solid rgba(246,196,83,0.12);
-      outline-offset: 3px;
-      box-shadow: 0 6px 20px rgba(246,196,83,0.06);
     }
 
     .btn-secondary {
-      border-color: rgba(255, 255, 255, 0.18);
-      color: var(--text-main);
-      background: var(--accent-soft);
+      background: transparent;
+      color: var(--text-primary);
+      border: 1px solid var(--border);
     }
 
     .btn-secondary:hover {
-      border-color: rgba(255, 255, 255, 0.4);
-      background: rgba(246, 196, 83, 0.22);
+      border-color: var(--accent);
+      background: var(--accent-dim);
+      transform: translateY(-1px);
     }
 
-    .btn-ghost {
-      border-color: rgba(255, 255, 255, 0.12);
-      color: var(--text-muted);
+    .quick-links {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
     }
 
-    .btn-ghost:hover {
-      border-color: rgba(255, 255, 255, 0.4);
-      color: var(--text-main);
-    }
-
-    footer {
-      margin-top: 2.4rem;
-      font-size: 0.75rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-    }
-
-    footer a {
-      color: inherit;
+    .quick-links a {
+      color: var(--text-tertiary);
       text-decoration: none;
-      border-bottom: 1px solid rgba(255,255,255,0.18);
+      transition: color 0.2s;
     }
 
-    footer a:hover {
-      border-bottom-color: rgba(255,255,255,0.5);
+    .quick-links a:hover {
+      color: var(--accent);
     }
 
-    @media (max-width: 800px) {
-      .frame {
-        padding: 1.9rem 1.4rem;
+    /* Features */
+    .features {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 6rem 2rem;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .section-header h2 {
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    .feature {
+      padding: 2.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      transition: all 0.3s;
+    }
+
+    .feature:hover {
+      border-color: rgba(212, 165, 116, 0.3);
+      transform: translateY(-4px);
+    }
+
+    .feature-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--accent-dim);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .feature h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.75rem;
+      font-weight: 500;
+    }
+
+    .feature p {
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+    }
+
+    /* Resources */
+    .resources {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem 6rem;
+    }
+
+    .resource-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .resource {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      transition: all 0.2s;
+      gap: 2rem;
+    }
+
+    .resource:hover {
+      border-color: rgba(212, 165, 116, 0.3);
+    }
+
+    .resource-info h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.25rem;
+      font-weight: 500;
+    }
+
+    .resource-info p {
+      color: var(--text-tertiary);
+      font-size: 0.9rem;
+    }
+
+    .resource-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-shrink: 0;
+    }
+
+    .btn-small {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.85rem;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 3rem 2rem;
+      text-align: center;
+      color: var(--text-tertiary);
+      font-size: 0.9rem;
+    }
+
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .success-message {
+      padding: 1.5rem;
+      background: var(--accent-dim);
+      border: 1px solid rgba(212, 165, 116, 0.3);
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    .success-message p {
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    .share-buttons {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .share-btn {
+      padding: 0.5rem 1rem;
+      background: transparent;
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .share-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        padding: 1rem;
       }
 
-      h1 {
-        font-size: 2.2rem;
+      .nav-links {
+        gap: 1rem;
       }
 
-      .grid {
+      .hero {
+        padding: 4rem 1.5rem 3rem;
+      }
+
+      .features, .resources {
+        padding: 3rem 1.5rem;
+      }
+
+      .feature-grid {
         grid-template-columns: 1fr;
       }
 
-      body {
-        padding: 1.5rem 1rem;
+      .resource {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .resource-actions {
+        width: 100%;
+      }
+
+      .form-group {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
       }
     }
   </style>
 </head>
-<body data-share-title="The Living Way" data-share-text="A quiet room in the noise. I joined The Living Way waitlist.">
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="index.html">The Living Way</a>
+      <ul class="nav-links">
+        <li><a href="public-knowledge/">Library</a></li>
+        <li><a href="public-knowledge/living_way_guide.html">Guide</a></li>
+        <li><a href="#waitlist">Join</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <main id="main-content" class="shell">
-    <div class="frame">
-      <header class="hero">
-        <h1 class="site-title">The Living Way</h1>
-        <div class="tagline">A quiet room in the noise. A field manual for awakening in this lifetime.</div>
-        <p class="summary">
-          The Living Way is a living experiment in practice: scrolls, architectures, and Guides designed to help you remember who you are — and walk it in the middle of ordinary life.
-        </p>
-        <form id="waitlist-form" class="waitlist-form" action="https://formspree.io/f/myzrpowy" method="POST">
-          <input type="email" name="email" placeholder="Enter your email" required aria-label="Email address">
+  <main>
+    <section class="hero">
+      <h1 class="serif">A quiet room in the noise</h1>
+      <p class="subtitle serif">A field manual for awakening in this lifetime</p>
+      <p class="description">
+        The Living Way is a living experiment in practice: scrolls, architectures, and Guides designed to help you remember who you are — and walk it in the middle of ordinary life.
+      </p>
+
+      <div id="waitlist" class="waitlist">
+        <form id="waitlist-form" action="https://formspree.io/f/myzrpowy" method="POST">
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Enter your email" required aria-label="Email address">
+            <button type="submit" class="btn">Join Waitlist</button>
+          </div>
           <input type="hidden" name="referred_by" id="referred_by">
           <input type="text" name="_gotcha" style="display:none">
-          <button type="submit" class="btn btn-primary">Join the Waitlist</button>
         </form>
-        <div class="success-message hidden">
-          <p class="sealed-text">You're in. I'll write when the first room opens.</p>
-          <div class="referral-section">
-            <p>Share with friends to get early access</p>
-            <div class="share-buttons">
-              <button id="share-whatsapp" class="share-btn">WHATSAPP</button>
-              <button id="share-telegram" class="share-btn">TELEGRAM</button>
-              <button id="share-native" class="share-btn">COPY LINK</button>
-            </div>
+
+        <p class="error-message hidden" role="alert" aria-live="polite" style="color:var(--accent); margin-top:0.6rem;"></p>
+
+        <div class="success-message hidden" id="success-message">
+          <p>You're in. I'll write when the first room opens.</p>
+          <div class="share-buttons">
+            <button id="share-whatsapp" class="share-btn">WhatsApp</button>
+            <button id="share-telegram" class="share-btn">Telegram</button>
+            <button id="share-native" class="share-btn">Copy Link</button>
           </div>
         </div>
-        <p class="error-message hidden"></p>
-        <div class="quick-nav" role="navigation" aria-label="Quick navigation">
-          <a href="public-knowledge/">Library</a>
-          <a href="public-knowledge/living_way_guide.html">Guide</a>
-          <a href="#waitlist-form">Join</a>
-        </div>
-      </header>
 
-      <section id="features" class="features">
-        <nav class="page-anchors" aria-label="Page sections">
-          <a href="#features">Features</a>
-          <a href="#resources">Resources</a>
-          <a href="#waitlist-form">Join</a>
-          <a href="public-knowledge/">Library</a>
-        </nav>
-        <div class="feature-card">
-          <div class="pill"><span class="pill-dot"></span>Read</div>
-          <h2>Read the Scrolls</h2>
-          <p>Explore beautifully set transcripts and PDFs: The Living Way, The Living Architecture, and more. <a href="public-knowledge/" class="link-inline">Open the library →</a></p>
+        <div class="quick-links">
+          <a href="public-knowledge/">Browse Library</a>
+          <span>·</span>
+          <a href="public-knowledge/living_way_guide.html">Try the Guide</a>
         </div>
-        <div class="feature-card">
-          <div class="pill"><span class="pill-dot"></span>Guide</div>
-          <h2>Try the Guide</h2>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="section-header">
+        <h2>Features</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature">
+          <div class="feature-icon">📖</div>
+          <h3>Read the Scrolls</h3>
+          <p>Explore beautifully set transcripts and PDFs: The Living Way, The Living Architecture, and more.</p>
+          <a href="public-knowledge/" class="btn btn-secondary btn-small">Open Library</a>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🧭</div>
+          <h3>Try the Guide</h3>
           <p>A gentle, guided reading and practice to meet the material in your life.</p>
-          <div class="btn-row">
-            <a href="public-knowledge/living_way_guide.html" class="btn btn-secondary">Open the Guide</a>
-            <a href="https://thelivingway.app/download" class="btn btn-ghost" target="_blank" rel="noopener">Get the App (Beta)</a>
-          </div>
+          <a href="public-knowledge/living_way_guide.html" class="btn btn-secondary btn-small">Open Guide</a>
+          <a href="https://thelivingway.app/download" class="btn btn-secondary btn-small" target="_blank" rel="noopener">Get the App (Beta)</a>
         </div>
-        <div class="feature-card">
-          <div class="pill"><span class="pill-dot"></span>Join</div>
-          <h2>Join the Waitlist</h2>
+
+        <div class="feature">
+          <div class="feature-icon">✨</div>
+          <h3>Join the Circle</h3>
           <p>Join the early access list for the full app experience. Invitations are sent to the first circle.</p>
-          <div class="btn-row">
-            <a href="#waitlist-form" class="btn btn-secondary">Seal My Place</a>
-          </div>
+          <a href="#waitlist" class="btn btn-secondary btn-small">Seal My Place</a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="resources" class="resources">
-        <div class="resource-card">
-          <div class="resource-body">
+    <section class="resources">
+      <div class="section-header">
+        <h2>Resources</h2>
+      </div>
+      <div class="resource-list">
+        <div class="resource">
+          <div class="resource-info">
             <h3>The Living Way</h3>
-            <p class="resource-meta">Foundational scroll</p>
+            <p>Foundational scroll</p>
           </div>
           <div class="resource-actions">
-            <a href="public-knowledge/The_Living_Way.html" class="btn btn-primary">Open</a>
-            <a href="public-knowledge/The_Living_Way.pdf" class="pdf-link">PDF</a>
+            <a href="public-knowledge/The_Living_Way.html" class="btn btn-small">Open</a>
+            <a href="public-knowledge/The_Living_Way.pdf" class="btn btn-secondary btn-small">PDF</a>
           </div>
         </div>
-        <div class="resource-card">
-          <div class="resource-body">
-            <h3>The Living Architecture</h3>
-            <p class="resource-meta">Blueprint of the soul's descent & return</p>
-          </div>
-          <div class="resource-actions">
-            <a href="public-knowledge/The_Living_Architecture.html" class="btn btn-primary">Open</a>
-            <a href="public-knowledge/The_Living_Architecture.pdf" class="pdf-link">PDF</a>
-          </div>
-        </div>
-        <div class="resource-card">
-          <div class="resource-body">
-            <h3>The Living Suttas</h3>
-            <p class="resource-meta">Translations and commentary</p>
-          </div>
-          <div class="resource-actions">
-            <a href="public-knowledge/The_Living_Suttas.html" class="btn btn-primary">Open</a>
-            <a href="public-knowledge/The_Living_Suttas.pdf" class="pdf-link">PDF</a>
-          </div>
-        </div>
-        <div class="resource-card">
-          <div class="resource-body">
-            <h3>Guide &amp; Conversation</h3>
-            <p class="resource-meta">Guided reading and an experimental conversational Guide</p>
-          </div>
-          <div class="resource-actions">
-            <a href="public-knowledge/living_way_guide.html" class="btn btn-primary">Open</a>
-            <a href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" class="pdf-link" target="_blank" rel="noopener">Chat</a>
-          </div>
-        </div>
-      </section>
 
-      <footer class="site-footer">
-        <span>Created by Rez Khan &middot; The Living Way &copy; 2025</span>
-        <span class="footer-tagline">A quiet conversation with truth — a mirror for your mind, not a judge for your soul.</span>
-      </footer>
-    </div>
+        <div class="resource">
+          <div class="resource-info">
+            <h3>The Living Architecture</h3>
+            <p>Blueprint of the soul's descent & return</p>
+          </div>
+          <div class="resource-actions">
+            <a href="public-knowledge/The_Living_Architecture.html" class="btn btn-small">Open</a>
+            <a href="public-knowledge/The_Living_Architecture.pdf" class="btn btn-secondary btn-small">PDF</a>
+          </div>
+        </div>
+
+        <div class="resource">
+          <div class="resource-info">
+            <h3>The Living Suttas</h3>
+            <p>Translations and commentary</p>
+          </div>
+          <div class="resource-actions">
+            <a href="public-knowledge/The_Living_Suttas.html" class="btn btn-small">Open</a>
+            <a href="public-knowledge/The_Living_Suttas.pdf" class="btn btn-secondary btn-small">PDF</a>
+          </div>
+        </div>
+
+        <div class="resource">
+          <div class="resource-info">
+            <h3>Guide & Conversation</h3>
+            <p>Guided reading and an experimental conversational Guide</p>
+          </div>
+          <div class="resource-actions">
+            <a href="public-knowledge/living_way_guide.html" class="btn btn-small">Open</a>
+            <a href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" class="btn btn-secondary btn-small" target="_blank" rel="noopener">Chat</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <script src="script.js"></script>
+
+  <footer>
+    <p>Created by Rez Khan · The Living Way © 2025</p>
+    <p class="serif">A quiet conversation with truth — a mirror for your mind, not a judge for your soul.</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const form = document.getElementById('waitlist-form');
+      const successMsg = document.getElementById('success-message');
+      const errorEl = document.querySelector('.error-message');
+      const emailInput = form?.querySelector('input[type="email"]');
+      const submitBtn = form?.querySelector('button[type="submit"]') || form?.querySelector('button');
+      const refInput = document.getElementById('referred_by');
+      let sealedEmail = '';
+
+      // Prefill referral from URL (if someone came via ?ref=...)
+      const params = new URLSearchParams(window.location.search);
+      const ref = params.get('ref');
+      if (ref && refInput) refInput.value = ref;
+
+      if (!form) return; // nothing to do
+
+      function setError(msg) {
+        if (!errorEl) return;
+        errorEl.textContent = msg;
+        errorEl.classList.remove('hidden');
+      }
+
+      function clearError() {
+        if (!errorEl) return;
+        errorEl.textContent = '';
+        errorEl.classList.add('hidden');
+      }
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        clearError();
+        if (!emailInput || !submitBtn) return;
+
+        const email = emailInput.value;
+        if (!email) {
+          setError('Please enter a valid email.');
+          return;
+        }
+
+        // UI state: disable
+        submitBtn.disabled = true;
+        submitBtn.dataset.original = submitBtn.textContent;
+        submitBtn.textContent = 'Sealing...';
+        emailInput.disabled = true;
+
+        try {
+          const formData = new FormData(form);
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: formData,
+            headers: { 'Accept': 'application/json' }
+          });
+
+          if (response.ok) {
+            sealedEmail = email;
+            form.classList.add('hidden');
+            if (successMsg) successMsg.classList.remove('hidden');
+            // focus first share button for convenience
+            const firstShare = document.getElementById('share-whatsapp') || document.getElementById('share-telegram') || document.getElementById('share-native');
+            if (firstShare) firstShare.focus();
+          } else {
+            const data = await response.json().catch(() => ({}));
+            let msg = 'Unable to seal your place. Please try again.';
+            if (data && data.errors) {
+              msg = data.errors.map(e => e.message).join(', ');
+            } else if (data && data.error) {
+              msg = data.error;
+            }
+            setError(msg);
+            submitBtn.disabled = false;
+            submitBtn.textContent = submitBtn.dataset.original || 'Join Waitlist';
+            emailInput.disabled = false;
+          }
+        } catch (err) {
+          console.error(err);
+          setError('Connection error. Please try again.');
+          submitBtn.disabled = false;
+          submitBtn.textContent = submitBtn.dataset.original || 'Join Waitlist';
+          emailInput.disabled = false;
+        }
+      });
+
+      // Share helpers
+      function referralUrl() {
+        const base = window.location.origin + window.location.pathname;
+        return sealedEmail ? `${base}?ref=${encodeURIComponent(sealedEmail)}` : window.location.href;
+      }
+
+      const shareText = document.body.dataset.shareText || 'A quiet room in the noise. I joined The Living Way waitlist.';
+
+      const wa = document.getElementById('share-whatsapp');
+      const tg = document.getElementById('share-telegram');
+      const native = document.getElementById('share-native');
+
+      wa?.addEventListener('click', () => {
+        const url = `https://wa.me/?text=${encodeURIComponent(shareText + ' ' + referralUrl())}`;
+        window.open(url, '_blank');
+      });
+
+      tg?.addEventListener('click', () => {
+        const url = `https://t.me/share/url?url=${encodeURIComponent(referralUrl())}&text=${encodeURIComponent(shareText)}`;
+        window.open(url, '_blank');
+      });
+
+      native?.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(`${shareText} ${referralUrl()}`);
+          const original = native.textContent;
+          native.textContent = 'Copied!';
+          setTimeout(() => native.textContent = original, 2000);
+        } catch (err) {
+          console.error(err);
+          alert(referralUrl());
+        }
+      });
+
+      // If a ref query exists, and the user hasn't signed up, we keep it in the hidden input
+      if (ref && refInput) refInput.value = ref;
+    });
+  </script>
 </body>
 </html>
-
