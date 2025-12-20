@@ -29,11 +29,17 @@
             background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
             color: var(--text-main);
             min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .main-content {
             display: flex;
             justify-content: center;
             align-items: flex-start;
+            min-height: calc(100vh - 60px);
             padding: 2rem;
-            line-height: 1.6;
         }
 
         .container {
@@ -193,6 +199,7 @@
       </ul>
     </nav>
   </header>
+  <main class="main-content">
     <div class="container">
         <a href="index.html" class="back-link">← Back to Home</a>
         
@@ -576,5 +583,6 @@
             <p>The Scroll of The Living Way</p>
         </div>
     </div>
+  </main>
 </body>
 </html>
