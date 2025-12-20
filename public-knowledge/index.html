@@ -143,6 +143,21 @@
             letter-spacing: 0.15em;
         }
 
+        /* Small top nav for public-knowledge pages */
+        .pk-nav {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            width:100%;
+            max-width:700px;
+            margin: 1rem auto 0;
+            padding: 0 1rem;
+        }
+        .pk-nav .logo { text-decoration:none; color:var(--text-main); font-weight:600; font-size:1.05rem; }
+        .pk-nav .nav-links { list-style:none; display:flex; gap:1rem; }
+        .pk-nav .nav-links a { color:var(--text-muted); text-decoration:none; font-size:0.95rem; }
+        .pk-nav .nav-links a:hover { color:var(--accent); }
+
         @media (max-width: 600px) {
             h1 { font-size: 2.5rem; }
             .container { padding: 2rem 1.5rem; }
@@ -151,6 +166,16 @@
     </style>
 </head>
 <body>
+  <header>
+    <nav class="pk-nav" aria-label="Primary">
+      <a class="logo" href="../index.html">The Living Way</a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#waitlist">Join</a></li>
+        <li><a href="../index.html#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
     <div class="container">
         <h1>The Living Wisdom of Yeshua</h1>
         <p class="subtitle">Inspired by the Gospels of Thomas and Mary</p>
