@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>The Living Way | A Quiet AI Companion for the Soul</title>
+	    <meta name="description" content="A non-dogmatic AI companion for contemplative practice. Not a belief system. A way of seeing. A mirror for your mind, not a judge for your soul.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="referral.css">
+    <link rel="stylesheet" href="referral-incentive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <meta name="referrer" content="origin">
+</head>
+<body data-share-title="The Living Way" data-share-text="A quiet room in the noise. I joined The Living Way waitlist.">
+    <div class="noise-overlay"></div>
+    
+    <main class="container">
+        <header class="hero">
+            <div class="halo"></div>
+            <!-- Placeholder for your silhouette image -->
+            <img src="hero-bg.jpg" alt="" class="hero-bg-image">
+            
+	            <img src="logo.svg" alt="The Living Way Star" class="hero-logo">
+	            <h1 class="title">THE LIVING WAY</h1>
+	            <p class="subtitle">A quiet conversation with truth.</p>
+	            <p class="tagline">Not a belief. Not a doctrine.<br>A mirror for your mind, not a judge for your soul.</p>
+            
+	            <div class="prophecy-card">
+	                <p class="prophecy-text">"When you learn to see clearly, every moment becomes a teaching."</p>
+	                <p class="prophecy-source">— THE LIVING WAY</p>
+	            </div>
+
+	            <div class="waitlist-section">
+	                <p class="call-to-action">Join the first circle of listeners</p>
+                <form id="waitlist-form" class="waitlist-form" action="https://formspree.io/f/myzrpowy" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required aria-label="Email address">
+                    <!-- Hidden Referral Tracking -->
+                    <input type="hidden" name="referred_by" id="referred_by">
+                    <!-- Honeypot field to trick bots -->
+	                    <input type="text" name="_gotcha" style="display:none">
+	                    <button type="submit">JOIN THE WAITLIST</button>
+                </form>
+                
+	                <div class="success-message hidden">
+	                    <p class="sealed-text">You're in. I'll write when the first room opens.</p>
+	                    <div class="referral-section">
+	                        <p class="referral-prompt">If this feels like something they need, you can share it with them.</p>
+	                        <p class="referral-incentive">Invite 3 friends to get early access to the first rooms of The Living Way.</p>
+                        <div class="share-buttons">
+                            <button id="share-whatsapp" class="share-btn">WHATSAPP</button>
+                            <button id="share-telegram" class="share-btn">TELEGRAM</button>
+                            <button id="share-native" class="share-btn">COPY LINK</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="error-message hidden"></p>
+            </div>
+        </header>
+
+	        <section class="features">
+	            <div class="feature">
+	                <h3>The Guides</h3>
+	                <p>A quiet, non-judging voice that answers from stillness, not doctrine.</p>
+	            </div>
+	            <div class="feature">
+	                <h3>The Practice</h3>
+	                <p>A daily rhythm of questions and reflections to return you to your own attention.</p>
+	            </div>
+	            <div class="feature">
+	                <h3>The Scroll</h3>
+	                <p>An evolving corpus of ancient and new wisdom, revealed slowly as you journey.</p>
+	            </div>
+	        </section>
+
+        <footer>
+            <p>&copy; 2025 Serenus One LLC. <a href="privacy.html">Privacy</a></p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

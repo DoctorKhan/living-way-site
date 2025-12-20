@@ -142,4 +142,48 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // If the user clicks the 'Seal My Place' link, ensure the waitlist is focused
+    const waitAnchor = document.querySelector('a[href="#waitlist-form"]');
+    if (waitAnchor) {
+        waitAnchor.addEventListener('click', (e) => {
+            e.preventDefault();
+            const el = document.getElementById('waitlist-form');
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                const inputEl = el.querySelector('input[type="email"]');
+                if (inputEl) inputEl.focus();
+            }
+        });
+    }
+
+    // Normalize links that point into the public-knowledge folder so they work
+    // both when viewing the root `index.html` and when viewing pages inside
+    // `public-knowledge/` directly (file:// or via different servers).
+    (function normalizePublicKnowledgeLinks() {
+        const anchors = document.querySelectorAll('a[href^="public-knowledge/"]');
+        const insidePublic = window.location.pathname.includes('/public-knowledge/');
+
+        anchors.forEach(a => {
+            const href = a.getAttribute('href');
+            if (insidePublic) {
+                // If we're already inside public-knowledge/, convert
+                // public-knowledge/X -> ./X so it resolves correctly.
+                if (href === 'public-knowledge/' || href === 'public-knowledge') {
+                    a.setAttribute('href', './');
+                } else {
+                    a.setAttribute('href', href.replace(/^public-knowledge\//, ''));
+                }
+            } else {
+                // If we're at root, make sure the link explicitly points to
+                // the public directory. Preserve existing href.
+                // If someone opens a page from elsewhere with a different
+                // base, this helps the links remain consistent when served.
+                if (!href.startsWith('/')) {
+                    // keep as-is (relative to current document root)
+                }
+            }
+        });
+    })();
+
 });

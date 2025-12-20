@@ -1,0 +1,490 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  10 DEC 2025 17:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**The_Living_Architecture.tex
+(./The_Living_Architecture.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count271
+\Gm@cntv=\count272
+\c@Gm@tempcnt=\count273
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+\babel@savecnt=\count274
+\U@D=\dimen150
+\l@unhyphenated=\language90
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count275
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 108.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.t
+ex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
+Package: ebgaramond 2024/04/23 (Bob Tennent and autoinst) Style file for EB Gar
+amond fonts.
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+)
+\XKV@depth=\count276
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+LaTeX Info: Redefining \oldstylenums on input line 163.
+LaTeX Info: Redefining \textsw on input line 173.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count277
+)
+\MT@toks=\toks23
+\MT@tempbox=\box52
+\MT@count=\count278
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks24
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen151
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count279
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip51
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen152
+\ttl@minus=\dimen153
+\ttl@toksa=\toks25
+\titlewidth=\dimen154
+\titlewidthlast=\dimen155
+\titlewidthfirst=\dimen156
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip54
+\f@nch@offset@elh=\skip55
+\f@nch@offset@erh=\skip56
+\f@nch@offset@olh=\skip57
+\f@nch@offset@orh=\skip58
+\f@nch@offset@elf=\skip59
+\f@nch@offset@erf=\skip60
+\f@nch@offset@olf=\skip61
+\f@nch@offset@orf=\skip62
+\f@nch@height=\skip63
+\f@nch@footalignment=\skip64
+\f@nch@widthL=\skip65
+\f@nch@widthC=\skip66
+\f@nch@widthR=\skip67
+\@temptokenb=\toks26
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks27
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/emptypage/emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
+)
+LaTeX Font Info:    Trying to load font information for T1+EBGaramond-OsF on in
+put line 58.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-OsF.fd
+File: T1EBGaramond-OsF.fd 2023/03/19 (autoinst) Font definitions for T1/EBGaram
+ond-OsF.
+)
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 58.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count280
+\l__pdf_internal_box=\box54
+)
+(./The_Living_Architecture.aux)
+\openout1 = `The_Living_Architecture.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(54.2025pt, 271.0125pt, 36.135pt)
+* v-part:(T,H,B)=(54.2025pt, 469.75499pt, 54.2025pt)
+* \paperwidth=361.34999pt
+* \paperheight=578.15999pt
+* \textwidth=271.0125pt
+* \textheight=469.75499pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-36.135pt
+* \topmargin=-48.13498pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@mv@tabular=\count281
+\c@mv@boldtabular=\count282
+LaTeX Info: Redefining \microtypecontext on input line 58.
+Package microtype Info: Applying patch `item' on input line 58.
+Package microtype Info: Applying patch `toc' on input line 58.
+Package microtype Info: Applying patch `eqnum' on input line 58.
+Package microtype Info: Applying patch `footnote' on input line 58.
+Package microtype Info: Applying patch `verbatim' on input line 58.
+LaTeX Info: Redefining \microtypesetup on input line 58.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 58.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-EBGaramond.cfg
+File: mt-EBGaramond.cfg 2021/10/25 v2.0 microtype config. file: EB Garamond / A
+dobe Garamond (RS)
+)
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 64.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
+(Font)              scaled to size 24.88pt on input line 64.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 66.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 66.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 68.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 70.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+
+[1
+
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_byuyni.enc}{/usr/loca
+l/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_ljow5q.enc}{/usr/local
+/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_tcdnmr.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on i
+nput line 82.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
+File: TS1EBGaramond-OsF.fd 2023/03/19 (autoinst) Font definitions for TS1/EBGar
+amond-OsF.
+)
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 82.
+Package microtype Info: Character `textthreeoldstyle ' is missing
+(microtype)             in font `TS1/EBGaramond-OsF/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textfouroldstyle ' is missing
+(microtype)             in font `TS1/EBGaramond-OsF/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textsevenoldstyle ' is missing
+(microtype)             in font `TS1/EBGaramond-OsF/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textlbrackdbl ' is missing
+(microtype)             in font `TS1/EBGaramond-OsF/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textrbrackdbl ' is missing
+(microtype)             in font `TS1/EBGaramond-OsF/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `texttildelow ' is missing
+(microtype)             in font `TS1/EBGaramond-OsF/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 85.
+
+
+[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_yod6vr.enc
+}]
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 92.
+ (./The_Living_Architecture.toc)
+\tf@toc=\write3
+\openout3 = `The_Living_Architecture.toc'.
+
+
+
+[1
+
+
+]
+
+[2
+
+]
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 95.
+
+
+[3]
+
+[4
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 107.
+
+
+[1
+
+]
+
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 137.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 137.
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16]
+
+[17]
+
+[18]
+
+[19] (./The_Living_Architecture.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 7271 strings out of 473190
+ 129479 string characters out of 5715801
+ 599879 words of memory out of 5000000
+ 30322 multiletter control sequences out of 15000+600000
+ 639981 words of font info for 144 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,11n,69p,1212b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-
+Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ebgaramond/EBGa
+ramond-Italic.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ebgara
+mond/EBGaramond-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy9.pfb>
+Output written on The_Living_Architecture.pdf (25 pages, 100150 bytes).
+PDF statistics:
+ 120 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 54785 words of extra memory for PDF output out of 61914 (max. 10000000)
+

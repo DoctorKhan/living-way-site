@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cmd=${1:-}
+
+case "$cmd" in
+  rebuild|*)
+    echo "Starting build process..."
+    
+    # Build PDFs
+    echo "Compiling The_Living_Way.tex..."
+    pdflatex -interaction=nonstopmode The_Living_Way.tex >/dev/null || echo "Warning: PDF build for Living Way had errors."
+    
+    echo "Compiling The_Living_Suttas.tex..."
+    pdflatex -interaction=nonstopmode The_Living_Suttas.tex >/dev/null || echo "Warning: PDF build for Living Suttas had errors."
+
+    echo "Compiling The_Living_Architecture.tex..."
+    pdflatex -interaction=nonstopmode The_Living_Architecture.tex >/dev/null || echo "Warning: PDF build for Living Architecture had errors."
+
+    # Build HTML using the new bash script
+    ./tools/build_html.sh
+    
+    echo "All builds complete."
+    ;;
+esac
