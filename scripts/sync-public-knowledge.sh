@@ -6,6 +6,7 @@ SRC="$ROOT/../living-way-knowledge/"
 DEST="$ROOT/public-knowledge/"
 
 # Site keeps its own Library index (organized by teacher); do not overwrite with knowledge repo's index.
+# read.html lives in the knowledge repo so it syncs over (markdown reader for .md links).
 rsync -av --delete \
   --exclude '.git/' \
   --exclude '.vscode/' \
