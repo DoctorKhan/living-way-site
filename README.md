@@ -62,8 +62,15 @@ The site’s **Library** and links to texts come from the `public-knowledge/` fo
 After you change or rebuild content in `../living-way-knowledge`, run:
 
 ```bash
-./scripts/sync-public-knowledge.sh
+./run.sh
 ```
+
+Or use the sync script directly: `./scripts/sync-public-knowledge.sh`. The **run.sh** script at the repo root can do more:
+
+- **`./run.sh`** — Sync public-knowledge from the knowledge repo (no build, no server).
+- **`./run.sh build`** — Build the knowledge repo (PDF + HTML) then sync, so the site has the latest built files.
+- **`./run.sh serve`** — Sync then start a local server at http://localhost:8000 to preview the site.
+- **`./run.sh build serve`** — Build knowledge, sync, then serve locally.
 
 This rsyncs from `../living-way-knowledge` into `public-knowledge/`, excluding `.git`, editor files, and LaTeX build artifacts (`.aux`, `.log`, `.toc`, etc.). The site then serves the latest public texts; private guide material stays in the app repo only.
 
