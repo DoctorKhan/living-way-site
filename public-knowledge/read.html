@@ -107,7 +107,12 @@
       }
       setTitle(doc);
 
-      fetch(doc)
+      // Resolve doc URL relative to this page's directory (works with base path and file://)
+      var base = location.href.split('?')[0].split('#')[0];
+      var dir = base.replace(/\/[^/]*$/, '/');
+      var url = dir + doc;
+
+      fetch(url)
         .then(function(r) {
           if (!r.ok) throw new Error(r.statusText);
           return r.text();
@@ -117,7 +122,11 @@
           content.innerHTML = marked.parse(md);
         })
         .catch(function(err) {
-          content.innerHTML = '<p class="error">Could not load this document. It may be missing or the path may be wrong.</p>';
+          var msg = 'Could not load this document. It may be missing or the path may be wrong.';
+          if (location.protocol === 'file:') {
+            msg += ' Viewing from file:// often blocks loading. Run <code>./run.sh serve</code> and open http://localhost:8000 instead.';
+          }
+          content.innerHTML = '<p class="error">' + msg + '</p>';
         });
     })();
   </script>

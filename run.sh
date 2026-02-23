@@ -7,22 +7,31 @@ KNOWLEDGE="${ROOT}/../living-way-knowledge"
 DO_BUILD=false
 DO_SERVE=false
 
+show_help() {
+  echo "Living Way site — run script"
+  echo ""
+  echo "Usage: $0 [build] [serve]"
+  echo ""
+  echo "Options:"
+  echo "  (none)    Sync public-knowledge from ../living-way-knowledge only."
+  echo "  build     Build knowledge repo (PDF + HTML) first, then sync."
+  echo "  serve     After sync, start local server at http://localhost:8000"
+  echo "  help      Show this help (also -h, --help)."
+  echo ""
+  echo "Examples:"
+  echo "  $0              # sync only"
+  echo "  $0 serve        # sync + preview in browser"
+  echo "  $0 build        # build knowledge, then sync"
+  echo "  $0 build serve  # build, sync, then serve locally"
+  echo ""
+}
+
 for arg in "$@"; do
   case "$arg" in
-    build)   DO_BUILD=true ;;
-    serve)   DO_SERVE=true ;;
-    --help|-h)
-      echo "Usage: $0 [build] [serve]"
-      echo ""
-      echo "  (no args)  Sync public-knowledge from ../living-way-knowledge (always done)."
-      echo "  build     Run ../living-way-knowledge/run.sh first (PDF + HTML), then sync."
-      echo "  serve     After sync, start a local server at http://localhost:8000 for preview."
-      echo ""
-      echo "Examples:"
-      echo "  $0           # sync only"
-      echo "  $0 serve     # sync + local preview"
-      echo "  $0 build     # build knowledge, then sync"
-      echo "  $0 build serve   # build, sync, then serve"
+    build)      DO_BUILD=true ;;
+    serve)      DO_SERVE=true ;;
+    help|--help|-h)
+      show_help
       exit 0
       ;;
   esac
