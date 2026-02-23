@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Living Way</title>
+    <title>Library by Teacher | The Living Way</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
@@ -17,202 +17,142 @@
             --btn-dark: #2c2c2c;
             --btn-light: #f5f3e8;
         }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'EB Garamond', 'Garamond', serif;
             background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
             color: var(--text-main);
             min-height: 100vh;
-            margin: 0;
-            padding: 0;
             line-height: 1.6;
         }
-
-        .main-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: calc(100vh - 60px);
-            padding: 2rem;
-        }
-
-        .container {
-            text-align: center;
-            max-width: 700px;
-            width: 100%;
-            padding: 4rem 3rem;
-            background-color: rgba(255, 255, 255, 0.45);
-            border: 1px solid rgba(255, 255, 255, 0.6);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.04);
-            border-radius: 8px;
-            backdrop-filter: blur(5px);
-        }
-
-        h1 {
-            font-size: 3.5rem;
-            color: #1a1a1a;
-            margin-bottom: 0.5rem;
-            font-weight: 500;
-            letter-spacing: 0.02em;
-        }
-
-        .subtitle {
-            font-style: italic;
-            color: var(--text-muted);
-            font-size: 1.5rem;
-            margin-bottom: 2.5rem;
-            font-weight: 400;
-            opacity: 0.9;
-        }
-
-        .description {
-            font-size: 1.25rem;
-            line-height: 1.7;
-            color: #444;
-            margin: 0 auto 2.5rem;
-            max-width: 540px;
-        }
-
-        .ornament {
-            font-size: 1.2rem;
-            color: var(--accent);
-            margin: 2.5rem 0;
-            opacity: 0.8;
-            letter-spacing: 0.6em;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 1rem 2.5rem;
-            text-decoration: none;
-            font-size: 1.15rem;
-            letter-spacing: 0.03em;
-            transition: all 0.3s ease;
-            border: 1px solid;
-            margin: 0.5rem;
-            cursor: pointer;
-            font-family: inherit;
-            border-radius: 2px;
-        }
-
-        .btn-primary {
-            background-color: var(--btn-dark);
-            color: var(--btn-light);
-            border-color: var(--btn-dark);
-        }
-
-        .btn-primary:hover {
-            background-color: transparent;
-            color: var(--btn-dark);
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-
-        .btn-secondary {
-            background-color: var(--accent);
-            color: #fff;
-            border-color: var(--accent);
-        }
-
-        .btn-secondary:hover {
-            background-color: transparent;
-            color: var(--accent);
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(140, 123, 108, 0.2);
-        }
-
-        .divider {
-            border-top: 1px solid #d4d0c0;
-            width: 120px;
-            margin: 3.5rem auto;
-            opacity: 0.6;
-        }
-
-        .chat-section p {
-            font-style: italic;
-            color: var(--text-muted);
-            margin-bottom: 1.5rem;
-            font-size: 1.2rem;
-        }
-
-        .footer {
-            margin-top: 4.5rem;
-            color: #888;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-        }
-
-        /* Shared site header/nav so pages keep a consistent navbar */
         header {
-            border-bottom: 1px solid rgba(0,0,0,0.04);
-            background: rgba(255,255,255,0.8);
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+            background: rgba(255,255,255,0.9);
             position: sticky;
             top: 0;
             z-index: 100;
         }
         nav {
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 0.75rem 1.5rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .logo {
-            font-size: 1rem;
-            font-weight: 600;
-            color: var(--text-main);
-            text-decoration: none;
-            letter-spacing: 0.03em;
+        .logo { font-size: 1rem; font-weight: 600; color: var(--text-main); text-decoration: none; letter-spacing: 0.03em; }
+        .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+        .nav-links a { color: var(--text-muted); text-decoration: none; font-size: 0.95rem; }
+        .nav-links a:hover { color: var(--accent); }
+        main { max-width: 800px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+        h1 { font-size: 2.2rem; font-weight: 500; margin-bottom: 0.5rem; }
+        .intro { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 2rem; }
+        .teacher-section {
+            margin-bottom: 2.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
         }
-        .nav-links { display:flex; gap:1.5rem; list-style:none; margin:0; padding:0; }
-        .nav-links li { display:inline; }
-        .nav-links a { color:var(--text-muted); text-decoration:none; font-size:0.95rem; }
-        .nav-links a:hover { color:var(--accent); }
-
-        @media (max-width: 600px) {
-            h1 { font-size: 2.5rem; }
-            .container { padding: 2rem 1.5rem; }
-            .btn { width: 100%; box-sizing: border-box; }
-        }
+        .teacher-section:last-of-type { border-bottom: 0; }
+        .teacher-name { font-size: 1.5rem; font-weight: 500; margin-bottom: 0.25rem; }
+        .teacher-subtitle { font-style: italic; color: var(--text-muted); font-size: 1rem; margin-bottom: 0.75rem; }
+        .work-list { list-style: none; }
+        .work-list li { margin-bottom: 0.6rem; }
+        .work-list a { color: var(--text-main); text-decoration: none; }
+        .work-list a:hover { text-decoration: underline; color: var(--accent); }
+        .work-links { font-size: 0.9rem; margin-left: 1rem; }
+        .work-links a { color: var(--text-muted); margin-right: 0.75rem; }
+        .btn { display: inline-block; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; border: 1px solid var(--accent); color: var(--accent); font-size: 0.9rem; margin-top: 0.5rem; }
+        .btn:hover { background: rgba(140, 123, 108, 0.1); }
+        .note { font-size: 0.95rem; color: var(--text-muted); margin-top: 1rem; margin-bottom: 1.5rem; }
+        @media (max-width: 600px) { nav { flex-wrap: wrap; } .nav-links { gap: 0.75rem; } }
     </style>
 </head>
 <body>
   <header>
-    <nav class="pk-nav" aria-label="Primary">
+    <nav aria-label="Primary">
       <a class="logo" href="../index.html">The Living Way</a>
       <ul class="nav-links">
+        <li><a href="../teachers.html">Teachers</a></li>
         <li><a href="../index.html">Home</a></li>
         <li><a href="../index.html#waitlist">Join</a></li>
-        <li><a href="../index.html#about">About</a></li>
       </ul>
     </nav>
   </header>
-  <main class="main-content">
-    <div class="container">
-        <h1>Library</h1>
-        <p style="font-size:1.1rem; color:#5a5a5a; margin-bottom:1.75rem;">This is a directory of all available resources. Most core texts are now linked directly from the <a href="../index.html">main page</a>.</p>
+  <main>
+    <h1>Library by Teacher</h1>
+    <p class="intro">Texts and scrolls are grouped by teacher. Only the <a href="wisdom_gospels.html">Wisdom Gospels</a> are close to the original words of Yeshua; the rest are modern works inspired by or derived from these traditions.</p>
 
-        <h2 style="font-size:1.4rem; margin-bottom:0.75rem; color:#2c2c2c;">How these scrolls relate to church Christianity</h2>
-        <p style="font-size:1.05rem; color:#5a5a5a; margin-bottom:0.75rem;">The scrolls and essays here lean toward the early &ldquo;religion of Yeshua&rdquo;&mdash;a path of inner transformation and direct knowing&mdash;more than the later systems <em>about</em> Jesus that became official doctrine. They are not written to attack church Christianity, but to uncover the deeper stream that runs beneath it.</p>
-        <p style="font-size:1.05rem; color:#5a5a5a; margin-bottom:2.3rem;">If you come from a church background, you may recognize the names, symbols, and feasts, but hear them spoken in a different key. The Wisdom Gospels and the Syncretic Christ essay both explore how the Living Way relates to orthodox belief, so you are free to honor what has been meaningful to you and still follow the call of the inner Kingdom.</p>
-        <div style="margin:2.5rem 0;">
-          <a href="wisdom_gospels.html" class="btn btn-secondary">Wisdom Gospels</a>
-        </div>
-        <div style="margin:0.5rem 0 2.5rem 0;">
-          <a href="syncretic_construct_christ.html" class="btn btn-secondary">The Syncretic Christ (Essay)</a>
-        </div>
-        <div class="divider"></div>
-        <a href="../index.html" class="btn btn-ghost">Back to Home</a>
-      </div>
+    <section class="teacher-section" id="yeshua">
+      <h2 class="teacher-name">Yeshua</h2>
+      <p class="teacher-subtitle">The Living Jesus</p>
+      <ul class="work-list">
+        <li><a href="The_Living_Way.html">The Living Way</a> <span class="work-links">(<a href="The_Living_Way.html">Read</a> · <a href="The_Living_Way.pdf">PDF</a>)</span></li>
+        <li><a href="The_Living_Architecture.html">The Living Architecture</a> <span class="work-links">(<a href="The_Living_Architecture.html">Read</a> · <a href="The_Living_Architecture.pdf">PDF</a>)</span></li>
+        <li><a href="The_Living_Suttas.html">The Living Suttas</a> <span class="work-links">(<a href="The_Living_Suttas.html">Read</a> · <a href="The_Living_Suttas.pdf">PDF</a>)</span></li>
+        <li><a href="wisdom_gospels.html">Wisdom Gospels</a> (Philip, Mary, Thomas — closest to original words)</li>
+        <li><a href="living_way_guide.html">A Guide to the Way of the Living Jesus</a></li>
+        <li><a href="syncretic_construct_christ.html">The Syncretic Christ</a> (essay)</li>
+      </ul>
+      <p class="note">These scrolls lean toward the early “religion of Yeshua”—inner transformation and direct knowing—more than later doctrine. They are not written to attack church Christianity, but to uncover the deeper stream beneath it.</p>
+      <a href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" class="btn" target="_blank" rel="noopener">Ask the Living Jesus (AI)</a>
+    </section>
+
+    <section class="teacher-section" id="gotama">
+      <h2 class="teacher-name">Gotama</h2>
+      <p class="teacher-subtitle">The Living Buddha</p>
+      <ul class="work-list">
+        <li><a href="Gotama/The_Dhammapada_of_the_Living_Way.md">The Dhammapada of the Living Way</a></li>
+      </ul>
+    </section>
+
+    <section class="teacher-section" id="laozi">
+      <h2 class="teacher-name">Laozi</h2>
+      <p class="teacher-subtitle">The Unforced Leader</p>
+      <ul class="work-list">
+        <li><a href="Laozi/The_Unforced_Leader_Tao_Te_Ching.md">The Unforced Leader (Tao Te Ching)</a></li>
+      </ul>
+    </section>
+
+    <section class="teacher-section" id="krishna">
+      <h2 class="teacher-name">Krishna</h2>
+      <p class="teacher-subtitle">The Charioteer</p>
+      <ul class="work-list">
+        <li><a href="Krishna/The_Gita_of_the_Living_Way.md">The Gita of the Living Way</a></li>
+      </ul>
+    </section>
+
+    <section class="teacher-section" id="einstein">
+      <h2 class="teacher-name">Einstein</h2>
+      <p class="teacher-subtitle">The Scientist</p>
+      <ul class="work-list">
+        <li><a href="Einstein/The_Unified_Field_Papers.md">The Unified Field Papers</a></li>
+      </ul>
+    </section>
+
+    <section class="teacher-section" id="architect">
+      <h2 class="teacher-name">Architect</h2>
+      <p class="teacher-subtitle">The Designer</p>
+      <ul class="work-list">
+        <li><a href="Architect/The_Manual_of_Simulation.md">The Manual of Simulation</a></li>
+      </ul>
+    </section>
+
+    <section class="teacher-section" id="core">
+      <h2 class="teacher-name">Core</h2>
+      <p class="teacher-subtitle">Foundational treatises</p>
+      <ul class="work-list">
+        <li><a href="Core/Treatise_of_the_Living_Architecture.md">Treatise of the Living Architecture</a></li>
+        <li><a href="Core/living-way-guide.md">Living Way Guide</a> (source)</li>
+      </ul>
+    </section>
+
+    <section class="teacher-section" id="musashi">
+      <h2 class="teacher-name">Musashi</h2>
+      <p class="teacher-subtitle">The Sword Master</p>
+      <p class="note">Guide voice in development. Texts and AI coming soon.</p>
+    </section>
+
+    <p style="margin-top: 2rem;"><a href="../teachers.html" class="btn">View Teachers page</a> · <a href="../index.html" class="btn">Back to Home</a></p>
   </main>
 </body>
 </html>
-

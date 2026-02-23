@@ -61,7 +61,7 @@ In Yeshua’s voice:
 > This is not tragedy but play.”
 
 Thus the soul’s “ignorance” is **voluntary immersion**.
-The problem is not descent —
+The Gnostic problem is not descent —
 it is *getting stuck*.
 
 ---

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teachers | The Living Way</title>
+  <meta name="description" content="Explore The Living Way by teacher: Yeshua, Gotama, Laozi, Krishna, Einstein, Architect, and Musashi." />
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-start: #fdfbf7;
+      --bg-end: #e8e4d4;
+      --surface: rgba(255, 255, 255, 0.55);
+      --surface-hover: rgba(255, 255, 255, 0.75);
+      --border: rgba(140, 123, 108, 0.2);
+      --text-primary: #2c2c2c;
+      --text-secondary: #5a5a5a;
+      --accent: #8c7b6c;
+      --accent-hover: #6d5d4e;
+      --accent-dim: rgba(140, 123, 108, 0.1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'EB Garamond', 'Georgia', serif;
+      background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
+      background-attachment: fixed;
+      color: var(--text-primary);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(253, 251, 247, 0.9);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.25rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.1rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .nav-links a:hover { color: var(--accent); }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3.5rem 2rem 4rem;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 5vw, 3.1rem);
+      font-weight: 500;
+      margin-bottom: 0.75rem;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    .intro {
+      max-width: 680px;
+      margin: 0 auto 2.5rem;
+      text-align: center;
+      color: var(--text-secondary);
+      font-size: 1.15rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+    }
+
+    .card:hover {
+      background: var(--surface-hover);
+      border-color: var(--accent);
+    }
+
+    .card h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.3rem;
+      font-weight: 500;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      margin-bottom: 0.9rem;
+      font-style: italic;
+    }
+
+    .work {
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      font-size: 0.98rem;
+    }
+
+    .actions {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.55rem 0.95rem;
+      border-radius: 6px;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      background: transparent;
+      font-size: 0.95rem;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--accent-dim);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      color: #fff;
+      border-color: var(--accent-hover);
+    }
+
+    .footer-link {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    /* Teacher tabs */
+    .teacher-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+      justify-content: center;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.75rem;
+    }
+    .teacher-tabs [role="tab"] {
+      padding: 0.5rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: transparent;
+      color: var(--text-secondary);
+      font: inherit;
+      font-size: 0.95rem;
+      cursor: pointer;
+    }
+    .teacher-tabs [role="tab"]:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .teacher-tabs [role="tab"][aria-selected="true"] {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .teacher-panel {
+      display: none;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+    .teacher-panel[aria-hidden="false"] {
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      nav { padding: 1rem; }
+      .nav-links { gap: 1rem; }
+      main { padding: 2.4rem 1.2rem 3rem; }
+      .teacher-tabs { gap: 0.35rem; }
+      .teacher-tabs [role="tab"] { padding: 0.45rem 0.7rem; font-size: 0.9rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="index.html">The Living Way</a>
+      <ul class="nav-links">
+        <li><a href="public-knowledge/">Library</a></li>
+        <li><a href="teachers.html">Other teachers</a></li>
+        <li><a href="index.html#waitlist">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Teachers of The Living Way</h1>
+    <p class="intro">The main site centers on Yeshua (the Living Jesus). Here you can explore other guide voices.</p>
+
+    <div class="teacher-tabs" role="tablist" aria-label="Choose teacher">
+      <button type="button" role="tab" id="tab-yeshua" aria-selected="true" aria-controls="panel-yeshua" tabindex="0">Yeshua</button>
+      <button type="button" role="tab" id="tab-gotama" aria-selected="false" aria-controls="panel-gotama" tabindex="-1">Gotama</button>
+      <button type="button" role="tab" id="tab-laozi" aria-selected="false" aria-controls="panel-laozi" tabindex="-1">Laozi</button>
+      <button type="button" role="tab" id="tab-krishna" aria-selected="false" aria-controls="panel-krishna" tabindex="-1">Krishna</button>
+      <button type="button" role="tab" id="tab-einstein" aria-selected="false" aria-controls="panel-einstein" tabindex="-1">Einstein</button>
+      <button type="button" role="tab" id="tab-architect" aria-selected="false" aria-controls="panel-architect" tabindex="-1">Architect</button>
+      <button type="button" role="tab" id="tab-musashi" aria-selected="false" aria-controls="panel-musashi" tabindex="-1">Musashi</button>
+    </div>
+
+    <section class="teacher-panel" id="panel-yeshua" aria-hidden="false" aria-labelledby="tab-yeshua">
+      <article class="card">
+        <h2>Yeshua</h2>
+        <p class="subtitle">The Living Jesus</p>
+        <p class="work">The Living Way, Living Architecture, Living Suttas, Wisdom Gospels, Guide.</p>
+        <div class="actions">
+          <a class="btn" href="public-knowledge/#yeshua">Library: Yeshua</a>
+          <a class="btn" href="public-knowledge/wisdom_gospels.html">Wisdom Gospels</a>
+          <a class="btn btn-primary" href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" target="_blank" rel="noopener">Ask AI</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="teacher-panel" id="panel-gotama" aria-hidden="true" aria-labelledby="tab-gotama">
+      <article class="card">
+        <h2>Gotama</h2>
+        <p class="subtitle">The Living Buddha</p>
+        <p class="work">The Dhammapada of the Living Way.</p>
+        <div class="actions">
+          <a class="btn" href="public-knowledge/#gotama">Library</a>
+          <a class="btn" href="public-knowledge/Gotama/The_Dhammapada_of_the_Living_Way.md">Read Text</a>
+          <a class="btn" href="index.html#waitlist">Ask AI (coming soon)</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="teacher-panel" id="panel-laozi" aria-hidden="true" aria-labelledby="tab-laozi">
+      <article class="card">
+        <h2>Laozi</h2>
+        <p class="subtitle">The Unforced Leader</p>
+        <p class="work">The Unforced Leader (Tao Te Ching).</p>
+        <div class="actions">
+          <a class="btn" href="public-knowledge/#laozi">Library</a>
+          <a class="btn" href="public-knowledge/Laozi/The_Unforced_Leader_Tao_Te_Ching.md">Read Text</a>
+          <a class="btn" href="index.html#waitlist">Ask AI (coming soon)</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="teacher-panel" id="panel-krishna" aria-hidden="true" aria-labelledby="tab-krishna">
+      <article class="card">
+        <h2>Krishna</h2>
+        <p class="subtitle">The Charioteer</p>
+        <p class="work">The Gita of the Living Way.</p>
+        <div class="actions">
+          <a class="btn" href="public-knowledge/#krishna">Library</a>
+          <a class="btn" href="public-knowledge/Krishna/The_Gita_of_the_Living_Way.md">Read Text</a>
+          <a class="btn" href="index.html#waitlist">Ask AI (coming soon)</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="teacher-panel" id="panel-einstein" aria-hidden="true" aria-labelledby="tab-einstein">
+      <article class="card">
+        <h2>Einstein</h2>
+        <p class="subtitle">The Scientist</p>
+        <p class="work">The Unified Field Papers.</p>
+        <div class="actions">
+          <a class="btn" href="public-knowledge/#einstein">Library</a>
+          <a class="btn" href="public-knowledge/Einstein/The_Unified_Field_Papers.md">Read Text</a>
+          <a class="btn" href="index.html#waitlist">Ask AI (coming soon)</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="teacher-panel" id="panel-architect" aria-hidden="true" aria-labelledby="tab-architect">
+      <article class="card">
+        <h2>Architect</h2>
+        <p class="subtitle">The Designer</p>
+        <p class="work">The Manual of Simulation.</p>
+        <div class="actions">
+          <a class="btn" href="public-knowledge/#architect">Library</a>
+          <a class="btn" href="public-knowledge/Architect/The_Manual_of_Simulation.md">Read Text</a>
+          <a class="btn" href="index.html#waitlist">Ask AI (coming soon)</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="teacher-panel" id="panel-musashi" aria-hidden="true" aria-labelledby="tab-musashi">
+      <article class="card">
+        <h2>Musashi</h2>
+        <p class="subtitle">The Sword Master</p>
+        <p class="work">Guide voice in development.</p>
+        <div class="actions">
+          <a class="btn" href="public-knowledge/#musashi">Library</a>
+          <a class="btn" href="index.html#waitlist">Ask AI (coming soon)</a>
+        </div>
+      </article>
+    </section>
+
+    <p class="footer-link"><a class="btn" href="public-knowledge/">Browse library by teacher</a> · <a class="btn" href="index.html">Back to Yeshua (home)</a></p>
+  </main>
+
+  <script>
+    (function() {
+      var tablist = document.querySelector('.teacher-tabs');
+      if (!tablist) return;
+      var tabs = tablist.querySelectorAll('[role="tab"]');
+      var panels = document.querySelectorAll('.teacher-panel');
+      function select(id) {
+        var tabId = id && id.replace('#', '');
+        if (!tabId) tabId = 'yeshua';
+        tabs.forEach(function(t) {
+          var isSelected = t.id === 'tab-' + tabId;
+          t.setAttribute('aria-selected', isSelected);
+          t.setAttribute('tabindex', isSelected ? 0 : -1);
+        });
+        panels.forEach(function(p) {
+          var show = p.id === 'panel-' + tabId;
+          p.setAttribute('aria-hidden', !show);
+        });
+        if (history.replaceState) history.replaceState(null, '', '#' + tabId);
+      }
+      tabs.forEach(function(tab) {
+        tab.addEventListener('click', function() {
+          select(tab.getAttribute('aria-controls').replace('panel-', ''));
+        });
+      });
+      if (location.hash) select(location.hash);
+      window.addEventListener('hashchange', function() { select(location.hash); });
+    })();
+  </script>
+</body>
+</html>

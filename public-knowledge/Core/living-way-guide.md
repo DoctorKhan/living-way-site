@@ -2,18 +2,19 @@
 
 *(Based on the Gospels of Thomas & Mary)*
 
-## **Chapter 1 — The Religious Child, the Child of Light, and the Mature Seeker**
+## **Chapter 1 — The Outer Child, the Inner Child, and the Path of the Adult**
 
-Most people first meet faith as **the Religious Child**—the **Outer Child** stage of consciousness that learns through:
+Human religion, as commonly practiced, begins in **the Outer Child**.
+This is not an age but a stage of consciousness—one that learns through:
 
 * imitation,
 * obedience,
 * belief in authority,
 * and vivid imagination.
 
-In this stage, spirituality is mostly something handed down from outside—parents, churches, institutions. It is **borrowed**, not yet seen.
+Because most spiritual traditions are transmitted parent-to-child, they naturally shape themselves around what the undeveloped mind can grasp.
 
-Thus, childhood religion tends to emphasize:
+Thus, childhood religion emphasizes:
 
 ### **1. External Rules**
 
@@ -32,11 +33,11 @@ But it is **not the Way**.
 
 ---
 
-## ✦ The Child of Light
+## ✦ The Inner Child
 
-In the Gospel of Thomas and the Gospel of Mary, the “child” means something deeper.
+In the Gospel of Thomas and the Gospel of Mary, the “child” has a radically different meaning.
 
-It points to the **Inner Child of Light**:
+It refers to the **Inner Child**:
 
 * the undivided consciousness,
 * open, undefended, whole,
@@ -49,16 +50,16 @@ It is the **original unity of the soul before it clothed itself in division**.
 
 ---
 
-## ✦ The Mature Seeker of the Way
+## ✦ The Adult on the Way
 
-The Way is neither childish religion nor a retreat into a private Inner Child.
-It is the *maturing* from the Religious Child to the Child of Light, so that an adult life can be lived from this inner wholeness.
+The Way is not childish religion nor the naive Inner Child.
+It is the *maturation* from the Outer Child to the Inner Child, awakening as the **Single One**.
 
-In this sense:
+Thus:
 
-* The **Religious Child (Outer Child)** believes.
-* The **Mature Seeker of the Way (Adult of the Way)** knows.
-* The **Child of Light (Inner Child)** is the consciousness that emerges when division falls away.
+* The **Outer Child** believes.
+* The **Adult of the Way** knows.
+* The **Inner Child** is the consciousness that emerges when division falls away.
 
 The Way, then, is an **adult path**—a passage from borrowed belief to direct, living knowledge.
 
@@ -220,7 +221,7 @@ When a Power arises, say:
 * “I was bound, but I have not bound.”
 * “I am released from you. I am free.”
 
-This returns you to the **Child of Light**—the Inner Child of Light, whole, unbroken, free.
+This returns you to the **Inner Child**—whole, unbroken, free.
 
 ---
 
@@ -341,12 +342,13 @@ These re-created the “poverty” Jesus came to end.
 
 ---
 
-# ✦ **Conclusion — The Return to the Child of Light**
+# ✦ **Conclusion — The Return to the Inner Child**
 
-The Way of the Living Jesus is neither the obedience of the Religious Child (Outer Child)
+The Way of the Living Jesus is neither the obedience of the Outer Child
 nor the theology of Paul’s religion.
 
-It is the return to the **Child of Light**—the Inner Child of Light who is:
+It is the return to the **Inner Child**,
+the one who is:
 
 * whole,
 * undivided,

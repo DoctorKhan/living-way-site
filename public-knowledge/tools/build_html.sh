@@ -9,12 +9,6 @@ ORNAMENT_HTML='<div class="ornament">✦ ✦ ✦</div>'
 
 echo "--- Starting HTML Build ---"
 
-# Ensure pandoc is installed
-if ! command -v pandoc >/dev/null 2>&1; then
-    echo "Error: pandoc is not installed. Install with: brew install pandoc"
-    exit 1
-fi
-
 # Function to process TeX files
 process_tex() {
     local tex_file="$1"
@@ -73,16 +67,8 @@ done
 
 # Process the Guide (Markdown)
 if [ -f "living-way-guide.md" ]; then
-    guide_src="living-way-guide.md"
-elif [ -f "Core/living-way-guide.md" ]; then
-    guide_src="Core/living-way-guide.md"
-else
-    guide_src=""
-fi
-
-if [ -n "$guide_src" ]; then
-    echo "Converting $guide_src..."
-    pandoc "$guide_src" \
+    echo "Converting living-way-guide.md..."
+    pandoc living-way-guide.md \
         -o living_way_guide.html \
         --template="$TEMPLATE" \
         --metadata title="A Guide to The Way of the Living Jesus" \

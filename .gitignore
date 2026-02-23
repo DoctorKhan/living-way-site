@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Optional: local overrides (if you add any)
+.env
+.env.local
