@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  10 DEC 2025 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 MAR 2026 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -391,38 +391,31 @@ LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
 }]
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' will be
 (Font)              scaled to size 24.88pt on input line 100.
- (./The_Living_Way.toc
-
-[1
-
-
-]
-Underfull \vbox (badness 1320) has occurred while \output is active []
-
-
-
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 64.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 64.
-[2])
+ (./The_Living_Way.toc)
 \tf@toc=\write3
 \openout3 = `The_Living_Way.toc'.
 
 
 
-[3]
+[1
 
-[4
+
+]
+
+[2
 
 ]
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 103.
 
 
-[5]
+[3]
 
-[6]
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 158.
+LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 158.
+[4]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 171.
@@ -974,23 +967,23 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7313 strings out of 473190
- 130543 string characters out of 5715801
- 604842 words of memory out of 5000000
- 30324 multiletter control sequences out of 15000+600000
- 654095 words of font info for 172 fonts, out of 8000000 for 9000
+ 7296 strings out of 473190
+ 130215 string characters out of 5715801
+ 596849 words of memory out of 5000000
+ 30307 multiletter control sequences out of 15000+600000
+ 653041 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,69p,1203b,502s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,69p,1203b,405s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-
 Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ebgaramond/EBGa
 ramond-Italic.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ebgara
 mond/EBGaramond-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb>
-Output written on The_Living_Way.pdf (61 pages, 139242 bytes).
+Output written on The_Living_Way.pdf (59 pages, 135761 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 230 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 58881 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 57857 words of extra memory for PDF output out of 61914 (max. 10000000)
 

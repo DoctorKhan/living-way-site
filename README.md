@@ -10,7 +10,9 @@ This repo is the **public marketing site** for The Living Way: landing pages, wa
 | **living-way-knowledge** | **Source of truth** for public guide texts (Core/, Gotama/, Krishna/, Einstein/, Architect/, etc.). LaTeX and Markdown live here; you build PDF/HTML here. |
 | **living-way-app** | React Native / Expo app (mobile + web). Uses public content; private prompt overrides and notes live in its gitignored `private-knowledge/`. |
 
-**Content flow:** Edit and build texts in **living-way-knowledge**. Then run the sync script from **living-way-site** so the site’s `public-knowledge/` folder is updated. The **app** can reference the knowledge repo or its own copy; private material never goes in the site or the public knowledge repo.
+**Content flow:** Edit and build texts in **living-way-knowledge**. The site’s `public-knowledge/` is a copy of that repo; the **app** can reference the knowledge repo or its own copy. Private material never goes in the site or the public knowledge repo.
+
+**Why the live site can look out of date:** Pages like `read.html?doc=Laozi/...` serve from `public-knowledge/`. If you only push changes to **living-way-knowledge** and never sync into **living-way-site** and push, the live site keeps serving the old copy. See below for manual sync and **automated sync (recommended)**.
 
 ---
 
@@ -73,6 +75,22 @@ Or use the sync script directly: `./scripts/sync-public-knowledge.sh`. The **run
 - **`./run.sh build serve`** — Build knowledge, sync, then serve locally.
 
 This rsyncs from `../living-way-knowledge` into `public-knowledge/`, excluding `.git`, editor files, and LaTeX build artifacts (`.aux`, `.log`, `.toc`, etc.). The site then serves the latest public texts; private guide material stays in the app repo only.
+
+### Automated sync (recommended)
+
+A GitHub Action keeps the site up to date without manual sync + push:
+
+- **`.github/workflows/sync-knowledge.yml`** — On **workflow_dispatch** (run from the Actions tab) or on a **daily schedule**, it checks out **living-way-knowledge**, rsyncs into `public-knowledge/`, preserves the site’s Library `index.html`, then commits and pushes if anything changed. After that, GitHub Pages deploys the new content.
+
+To use it: run **Actions → Sync knowledge and deploy → Run workflow** whenever you want the live site to reflect the latest knowledge repo, or rely on the daily run.
+
+If **living-way-knowledge** is in another org or is private, add a repo secret **`KNOWLEDGE_REPO_TOKEN`** (a PAT with `repo` scope) so the workflow can clone it; otherwise it uses `GITHUB_TOKEN` (same-org public repo).
+
+### Other ways to organize the three repos
+
+- **Current:** Site holds a **sync copy** of knowledge; you run `./run.sh` (or the Action) to refresh it. Simple and keeps deployment a plain static push.
+- **Submodule:** You could make `public-knowledge` a git submodule pointing at **living-way-knowledge**. Updating the site would be `git submodule update --remote public-knowledge` then commit and push. The site’s custom Library index would need to live outside the submodule or be restored after update.
+- **Monorepo:** One repo with `site/`, `knowledge/`, `app/` and a single CI that builds knowledge and deploys the site. Fewer repos to manage, at the cost of a larger repo and shared CI config.
 
 ---
 

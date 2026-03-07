@@ -1,0 +1,58 @@
+# Sync public-knowledge from living-way-knowledge and deploy.
+# Run manually or on a schedule so the live site stays up to date without local sync + push.
+name: Sync knowledge and deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 04:00 UTC
+    - cron: '0 4 * * *'
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout site repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout knowledge repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/living-way-knowledge
+          path: knowledge-repo
+          token: ${{ secrets.KNOWLEDGE_REPO_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Preserve site Library index
+        run: |
+          cp public-knowledge/index.html /tmp/site-library-index.html || true
+
+      - name: Sync public-knowledge from knowledge repo
+        run: |
+          rsync -av --delete \
+            --exclude '.git/' \
+            --exclude '.vscode/' \
+            --exclude 'index.html' \
+            --exclude '*.aux' \
+            --exclude '*.log' \
+            --exclude '*.toc' \
+            --exclude '*.fls' \
+            --exclude '*.fdb_latexmk' \
+            --exclude '*.out' \
+            knowledge-repo/ public-knowledge/
+
+      - name: Restore site Library index
+        run: |
+          if [ -f /tmp/site-library-index.html ]; then
+            cp /tmp/site-library-index.html public-knowledge/index.html
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public-knowledge/
+          git diff --staged --quiet || (git commit -m "chore: sync public-knowledge from living-way-knowledge" && git push)
