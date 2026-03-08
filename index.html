@@ -226,6 +226,56 @@
       color: var(--text-primary);
     }
 
+    .section-kicker {
+      display: inline-block;
+      margin-bottom: 0.75rem;
+      color: var(--accent);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.82rem;
+    }
+
+    .pathways {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 2rem 3rem;
+    }
+
+    .path-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .path-card {
+      padding: 1.4rem;
+      border-radius: 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+    }
+
+    .path-card h3 {
+      font-size: 1.12rem;
+      margin-bottom: 0.6rem;
+      font-weight: 500;
+    }
+
+    .path-card p {
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      font-size: 0.98rem;
+    }
+
+    .path-card .path-meta {
+      color: var(--text-tertiary);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .path-card .btn {
+      width: auto;
+    }
+
     /* Scrolls Section */
     .scrolls {
       max-width: 700px;
@@ -261,11 +311,19 @@
       gap: 1.5rem;
     }
 
-    /* Floating chat button */
-    .chat-fab {
+    /* Floating chat buttons: Groq (in-page) + ChatGPT (external) */
+    .chat-fab-group {
       position: fixed;
       right: 1.5rem;
       bottom: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: flex-end;
+      z-index: 1000;
+    }
+    .chat-fab,
+    .chat-fab-groq {
       padding: 0.75rem 1.25rem;
       border-radius: 999px;
       background: rgba(54, 43, 35, 0.95);
@@ -277,22 +335,28 @@
       align-items: center;
       justify-content: center;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-      z-index: 1000;
       border: 1px solid rgba(253, 251, 247, 0.6);
       letter-spacing: 0.01em;
       transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+      cursor: pointer;
     }
-
-    .chat-fab:hover {
+    .chat-fab-groq {
+      background: rgba(70, 55, 45, 0.95);
+      font-size: 0.9rem;
+    }
+    .chat-fab:hover,
+    .chat-fab-groq:hover {
       background: rgba(54, 43, 35, 1);
       transform: translateY(-1px);
       box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
     }
-
     @media (max-width: 600px) {
-      .chat-fab {
+      .chat-fab-group {
         right: 1rem;
         bottom: 1rem;
+      }
+      .chat-fab,
+      .chat-fab-groq {
         padding: 0.6rem 1rem;
         font-size: 0.9rem;
       }
@@ -524,9 +588,9 @@
     <nav>
       <a class="logo" href="index.html">The Living Way</a>
       <ul class="nav-links">
-        <li><a href="public-knowledge/#yeshua">Library</a></li>
-        <li><a href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" target="_blank" rel="noopener">Ask Yeshua</a></li>
-        <li><a href="teachers.html">Other teachers</a></li>
+        <li><a href="#start-here">Start Here</a></li>
+        <li><a href="public-knowledge/">Library</a></li>
+        <li><a href="teachers.html">Teachers</a></li>
         <li><a href="#waitlist">Join</a></li>
       </ul>
     </nav>
@@ -538,7 +602,8 @@
       <h1 class="serif">A quiet room in the noise</h1>
       <p class="subtitle serif">These sayings are not commandments, but mirrors.</p>
       <p class="description">
-        The Living Way presents a collection of inspired texts—hybrid philosophy and practice in the words of Yeshua and other great teachers. Only the <a href="public-knowledge/wisdom_gospels.html">Wisdom Gospels</a> are close to the original words of Yeshua; the rest are modern works derived from or inspired by his teachings.
+        The Living Way is organized around one main stream and several companion voices:
+        start with Yeshua, move into the core scrolls, then explore the wider library by teacher and tradition.
       </p>
 
       <div id="waitlist" class="waitlist">
@@ -565,12 +630,14 @@
     </section>
 
     <!-- What is The Living Way -->
-    <section class="about">
+    <section class="about" id="start-here">
       <div class="about-content">
-        <h2 class="section-title serif">What is this?</h2>
+        <span class="section-kicker">Start Here</span>
+        <h2 class="section-title serif">How to move through the site</h2>
         <p>
-          Yeshua's inner teachings — where the Kingdom is not above you but within you,
-          where sin is forgetting and salvation is remembering.
+          The homepage centers the Yeshua path. The Library holds the texts. The Teachers page shows the wider
+          set of voices that branch out from that center. If you are new, begin with the Yeshua texts before
+          moving into the companion traditions.
         </p>
         <blockquote class="quote serif">
           "Look into them until you see your own face shining there — the face you had before the world divided you."
@@ -578,10 +645,38 @@
       </div>
     </section>
 
+    <section class="pathways" aria-labelledby="pathways-title">
+      <div class="section-header">
+        <span class="section-kicker">Paths</span>
+        <h2 id="pathways-title">Choose the clearest entry point</h2>
+      </div>
+      <div class="path-grid">
+        <article class="path-card">
+          <h3>Begin with the core texts</h3>
+          <p>Start with the Living Way, Living Suttas, and Wisdom Gospels if you want the central thread first.</p>
+          <p class="path-meta">Best for first-time visitors.</p>
+          <a href="public-knowledge/#yeshua" class="btn btn-secondary btn-small">Open Yeshua in Library</a>
+        </article>
+        <article class="path-card">
+          <h3>Browse the full library</h3>
+          <p>Read by teacher, compare traditions, and move between HTML, PDF, and source texts from one place.</p>
+          <p class="path-meta">Best if you already know what you want to read.</p>
+          <a href="public-knowledge/" class="btn btn-secondary btn-small">Browse Library</a>
+        </article>
+        <article class="path-card">
+          <h3>Meet the other voices</h3>
+          <p>See how Rez, Gotama, Laozi, Krishna, Einstein, and others fit around the main Yeshua thread.</p>
+          <p class="path-meta">Best for orientation before choosing a teacher.</p>
+          <a href="teachers.html" class="btn btn-secondary btn-small">View Teachers</a>
+        </article>
+      </div>
+    </section>
+
     <!-- The Scrolls -->
     <section class="scrolls">
       <div class="section-header">
-        <h2>The Scrolls</h2>
+        <span class="section-kicker">Core Reading</span>
+        <h2>The main texts to start with</h2>
       </div>
       <div class="scroll-list">
         <div class="scroll-item">
@@ -620,7 +715,7 @@
         <div class="scroll-item">
           <div class="scroll-info">
             <h3>Wisdom Gospels</h3>
-            <p>Modern interpretations of the inner teachings of Yeshua from Philip, Mary, and Thomas</p>
+            <p>Philip, Mary, and Thomas, presented as the closest material to the original Yeshua stream on the site</p>
           </div>
           <div class="scroll-actions">
             <a href="public-knowledge/wisdom_gospels.html" class="btn btn-small">Read</a>
@@ -654,22 +749,32 @@
     </section>
   </main>
 
-  <a
-    href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus"
-    class="chat-fab"
-    target="_blank"
-    rel="noopener"
-    aria-label="Ask the Living Jesus"
-  >
-    Ask the Living Jesus
-  </a>
+  <div class="chat-fab-group">
+    <button type="button" class="chat-fab chat-fab-groq" id="chat-fab-groq" aria-label="Ask with Groq">
+      Ask with Groq
+    </button>
+    <a
+      href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus"
+      class="chat-fab"
+      target="_blank"
+      rel="noopener"
+      aria-label="Ask the Living Jesus (ChatGPT)"
+    >
+      Ask the Living Jesus
+    </a>
+  </div>
 
   <footer>
     <p>The Living Way © 2025</p>
+    <p><a href="privacy.html" style="color: inherit;">Privacy</a></p>
   </footer>
 
+  <script src="js/groq-ai.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('chat-fab-groq')?.addEventListener('click', function () {
+        if (window.openGroqChat) window.openGroqChat();
+      });
       const form = document.getElementById('waitlist-form');
       const successMsg = document.getElementById('success-message');
       const errorEl = document.querySelector('.error-message');

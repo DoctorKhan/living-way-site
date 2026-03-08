@@ -35,6 +35,8 @@ living-way-site/
   waitlists/          # Campaign landing pages (same design system, different copy)
   public-knowledge/   # Synced from ../living-way-knowledge (see below)
   scripts/            # Sync and build helpers
+  api/                # Serverless Groq proxy (deploy with Vercel or similar)
+  js/groq-ai.js       # Frontend: Groq chat panel, parallel to ChatGPT link
 ```
 
 - **Root HTML** uses `css/`, `js/`, `images/` for assets.
@@ -67,9 +69,16 @@ After you change or rebuild content in `../living-way-knowledge`, run:
 ./run.sh
 ```
 
+For local preview with printed links, run:
+
+```bash
+pnpm run dev
+```
+
 Or use the sync script directly: `./scripts/sync-public-knowledge.sh`. The **run.sh** script at the repo root can do more:
 
 - **`./run.sh`** — Sync public-knowledge from the knowledge repo (no build, no server).
+- **`pnpm run dev`** — Sync, print local preview URLs, then serve the site locally.
 - **`./run.sh build`** — Build the knowledge repo (PDF + HTML) then sync, so the site has the latest built files.
 - **`./run.sh serve`** — Sync then start a local server at http://localhost:8000 to preview the site.
 - **`./run.sh build serve`** — Build knowledge, sync, then serve locally.
@@ -91,6 +100,46 @@ If **living-way-knowledge** is in another org or is private, add a repo secret *
 - **Current:** Site holds a **sync copy** of knowledge; you run `./run.sh` (or the Action) to refresh it. Simple and keeps deployment a plain static push.
 - **Submodule:** You could make `public-knowledge` a git submodule pointing at **living-way-knowledge**. Updating the site would be `git submodule update --remote public-knowledge` then commit and push. The site’s custom Library index would need to live outside the submodule or be restored after update.
 - **Monorepo:** One repo with `site/`, `knowledge/`, `app/` and a single CI that builds knowledge and deploys the site. Fewer repos to manage, at the cost of a larger repo and shared CI config.
+
+---
+
+## Groq AI (parallel to ChatGPT)
+
+The site offers **two AI entry points**: the existing **ChatGPT** custom GPT link (“Ask the Living Jesus”) and an **in-page Groq chat** (“Ask with Groq”) that uses your own API key via a serverless proxy. The API and frontend follow the same patterns as **dashboard** (`pages/api/llm.ts`) and **PostPal** (`pages/api/llm.js`).
+
+- **Homepage:** Floating buttons: “Ask with Groq” (opens chat panel) and “Ask the Living Jesus” (opens ChatGPT).
+- **Teachers page:** Each teacher has an “Ask with Groq” button; the panel uses a teacher-specific system prompt (Yeshua, Gotama, Laozi, Krishna, Einstein). The Yeshua card also keeps the “Ask AI (ChatGPT)” link.
+
+**API shape (aligned with dashboard / PostPal):**
+
+| Request | Response |
+|--------|----------|
+| `GET /api/groq-chat?status=1` | `{ groq: boolean }` — PostPal-style provider status |
+| `POST` with `{ prompt, systemInstruction?, modelType?, model? }` | `{ text }` — dashboard-style one-shot (like dashboard’s `callGroq`) |
+| `POST` with `{ messages, systemPrompt?, modelIndex? }` | Full Groq response — multi-turn chat |
+
+**Frontend (`js/groq-ai.js`):**
+
+- `getGroqStatus()` → GET status, returns `{ groq }` (use to hide Groq UI when API is not configured).
+- `callGroq(prompt, systemInstruction, { modelType?, model? })` → one-shot, returns text string (dashboard-style).
+- `askGroq(messages, { systemPrompt?, modelIndex? })` → chat-style, returns `{ content }` or `{ error }`.
+- `openGroqChat(teacherKey?)` → opens the in-page chat panel.
+
+**To enable Groq:**
+
+1. **Deploy the API** so the key stays server-side. The repo includes `api/groq-chat.js` (Vercel-style serverless). Deploy this repo to [Vercel](https://vercel.com) (or use the same `api/` logic in Netlify Functions / another provider). The static site can stay on GitHub Pages; only the API needs to run where you can set env vars.
+2. **Set environment variables** on the API host (same names as dashboard/PostPal where applicable):
+   - `GROQ_API_KEY` — required.
+   - `GROQ_MODELS` — optional; JSON array, e.g. `["llama-3.1-8b-instant","openai/gpt-oss-20b"]`.
+   - `GROQ_MODEL_DEFAULT_INDEX` — optional; index into that array (default `0`).
+   - Legacy: `GROQ_MODEL_SIMPLE`, `GROQ_MODEL`, `GROQ_MODEL_ADVANCED` (dashboard compat).
+3. **Point the frontend at the API** if it’s on a different origin. By default the script uses the same origin. If the API is elsewhere, set before loading the script:
+   ```html
+   <script>window.LIVING_WAY_GROQ_API = 'https://living-way-api.vercel.app';</script>
+   <script src="js/groq-ai.js"></script>
+   ```
+
+Local `.env` is for your own runs (e.g. local Vercel dev); production keys must be set in the hosting dashboard.
 
 ---
 

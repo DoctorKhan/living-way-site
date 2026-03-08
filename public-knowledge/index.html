@@ -52,6 +52,28 @@
             padding-bottom: 2rem;
             border-bottom: 1px solid rgba(0,0,0,0.06);
         }
+        .quickstart {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .quick-card {
+            padding: 1.1rem;
+            border: 1px solid rgba(0,0,0,0.08);
+            border-radius: 8px;
+            background: rgba(255,255,255,0.42);
+        }
+        .quick-card h2 {
+            font-size: 1.15rem;
+            font-weight: 500;
+            margin-bottom: 0.4rem;
+        }
+        .quick-card p {
+            color: var(--text-muted);
+            font-size: 0.96rem;
+            margin-bottom: 0.8rem;
+        }
         .teacher-section:last-of-type { border-bottom: 0; }
         .teacher-name { font-size: 1.5rem; font-weight: 500; margin-bottom: 0.25rem; }
         .teacher-subtitle { font-style: italic; color: var(--text-muted); font-size: 1rem; margin-bottom: 0.75rem; }
@@ -72,6 +94,7 @@
     <nav aria-label="Primary">
       <a class="logo" href="../index.html">The Living Way</a>
       <ul class="nav-links">
+        <li><a href="../index.html#start-here">Start Here</a></li>
         <li><a href="../teachers.html">Teachers</a></li>
         <li><a href="../index.html">Home</a></li>
         <li><a href="../index.html#waitlist">Join</a></li>
@@ -80,11 +103,30 @@
   </header>
   <main>
     <h1>Library by Teacher</h1>
-    <p class="intro">Texts and scrolls are grouped by teacher. Only the <a href="wisdom_gospels.html">Wisdom Gospels</a> are close to the original words of Yeshua; the rest are modern works inspired by or derived from these traditions.</p>
+    <p class="intro">This library is easiest to use if you read it in layers: begin with the Yeshua material, then move into companion voices, then use the source texts and treatises when you want the underlying structure. Only the <a href="wisdom_gospels.html">Wisdom Gospels</a> are presented here as closest to the original Yeshua stream; the rest are modern works inspired by or derived from these traditions.</p>
+
+    <section class="quickstart" aria-label="Suggested reading paths">
+      <article class="quick-card">
+        <h2>New here</h2>
+        <p>Start with the Yeshua section. It contains the main reading order and the clearest entry into the project.</p>
+        <a href="#yeshua" class="btn">Go to Yeshua</a>
+      </article>
+      <article class="quick-card">
+        <h2>Comparing traditions</h2>
+        <p>Use the companion voices sections for Buddhist, Taoist, Gita, and scientific parallels.</p>
+        <a href="#gotama" class="btn">Go to Companion Voices</a>
+      </article>
+      <article class="quick-card">
+        <h2>Looking for the framework</h2>
+        <p>Read the architecture and core treatises if you want the conceptual map behind the texts.</p>
+        <a href="#rez" class="btn">Go to Architecture</a>
+      </article>
+    </section>
 
     <section class="teacher-section" id="yeshua">
       <h2 class="teacher-name">Yeshua</h2>
       <p class="teacher-subtitle">The Living Jesus</p>
+      <p class="note">Primary path. If you are reading the library in order, begin here before moving to the other teachers.</p>
       <ul class="work-list">
         <li><a href="The_Living_Way.html">The Living Way</a> <span class="work-links">(<a href="The_Living_Way.html">Read</a> · <a href="The_Living_Way.pdf">PDF</a>)</span></li>
         <li><a href="The_Living_Suttas.html">The Living Suttas</a> <span class="work-links">(<a href="The_Living_Suttas.html">Read</a> · <a href="The_Living_Suttas.pdf">PDF</a>)</span></li>
@@ -99,6 +141,7 @@
     <section class="teacher-section" id="rez">
       <h2 class="teacher-name">Rez</h2>
       <p class="teacher-subtitle">The Living Architecture</p>
+      <p class="note">Framework path. This section is for the system underneath the teachings: map, simulation, and architecture.</p>
       <ul class="work-list">
         <li><a href="The_Living_Architecture.html">The Living Architecture</a> <span class="work-links">(<a href="The_Living_Architecture.html">Read</a> · <a href="The_Living_Architecture.pdf">PDF</a>)</span></li>
         <li><a href="read.html?doc=Core/Treatise_of_the_Living_Architecture.md">Treatise of the Living Architecture</a> (source)</li>
@@ -109,6 +152,7 @@
     <section class="teacher-section" id="gotama">
       <h2 class="teacher-name">Gotama</h2>
       <p class="teacher-subtitle">The Living Buddha</p>
+      <p class="note">Companion voice. Read this after the main Yeshua path if you want a Buddhist parallel.</p>
       <ul class="work-list">
         <li><a href="read.html?doc=Gotama/The_Dhammapada_of_the_Living_Way.md">The Dhammapada of the Living Way</a></li>
       </ul>
@@ -117,6 +161,7 @@
     <section class="teacher-section" id="laozi">
       <h2 class="teacher-name">Laozi</h2>
       <p class="teacher-subtitle">The Unforced Leader</p>
+      <p class="note">Companion voice. This section carries the Taoist stream and is best read as a parallel lens on the same contemplative core.</p>
       <ul class="work-list">
         <li><a href="read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md">The Unforced Leader (Tao Te Ching)</a></li>
       </ul>
@@ -125,6 +170,7 @@
     <section class="teacher-section" id="krishna">
       <h2 class="teacher-name">Krishna</h2>
       <p class="teacher-subtitle">The Charioteer</p>
+      <p class="note">Companion voice. Use this section if you want the Gita strand inside the same overall framework.</p>
       <ul class="work-list">
         <li><a href="read.html?doc=Krishna/The_Gita_of_the_Living_Way.md">The Gita of the Living Way</a></li>
       </ul>
@@ -133,6 +179,7 @@
     <section class="teacher-section" id="einstein">
       <h2 class="teacher-name">Einstein</h2>
       <p class="teacher-subtitle">The Scientist</p>
+      <p class="note">Companion voice. This is the bridge into the scientific and metaphysical register.</p>
       <ul class="work-list">
         <li><a href="read.html?doc=Einstein/The_Unified_Field_Papers.md">The Unified Field Papers</a></li>
       </ul>
@@ -141,6 +188,7 @@
     <section class="teacher-section" id="core">
       <h2 class="teacher-name">Core</h2>
       <p class="teacher-subtitle">Foundational treatises</p>
+      <p class="note">Source and scaffolding texts. These are useful when you want the underlying documents rather than the polished front-door readings.</p>
       <ul class="work-list">
         <li><a href="read.html?doc=Core/Treatise_of_the_Living_Architecture.md">Treatise of the Living Architecture</a></li>
         <li><a href="read.html?doc=Core/living-way-guide.md">Living Way Guide</a> (source)</li>

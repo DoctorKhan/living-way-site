@@ -1,0 +1,13 @@
+{
+  "name": "living-way-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "./run.sh dev",
+    "serve": "./run.sh serve",
+    "build": "./run.sh build",
+    "test": "node --test tests/api/groq-chat.test.mjs tests/groq-ai-client.test.mjs",
+    "test:api": "node --test tests/api/groq-chat.test.mjs",
+    "test:client": "node --test tests/groq-ai-client.test.mjs"
+  }
+}
