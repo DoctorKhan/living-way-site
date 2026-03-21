@@ -131,6 +131,10 @@
       border-color: var(--accent);
     }
 
+    .card[id^="card-"] {
+      scroll-margin-top: 5rem;
+    }
+
     .card h2 {
       font-size: 1.2rem;
       margin-bottom: 0.3rem;
@@ -208,6 +212,7 @@
       <a class="logo" href="index.html">The Living Way</a>
       <ul class="nav-links">
         <li><a href="index.html#start-here">Start Here</a></li>
+        <li><a href="paths.html">Paths</a></li>
         <li><a href="public-knowledge/">Library</a></li>
         <li><a href="index.html#waitlist">Join</a></li>
       </ul>
@@ -216,13 +221,13 @@
 
   <main>
     <h1>Teachers of The Living Way</h1>
-    <p class="intro">Yeshua is the center of the site. This page makes the surrounding voices visible at once, so it is easier to understand which teacher is primary, which texts are companion works, and what is still in development.</p>
+    <p class="intro">Yeshua is the center of the site. This page makes the surrounding voices visible at once, so it is easier to understand which teacher is primary, which texts are companion works, and what is still in development. <strong><a href="paths.html" style="color: var(--accent);">Reading paths by teacher</a></strong> — suggested orders if you’re coming from a particular tradition or view.</p>
 
     <section class="section" id="primary-guide">
       <h2>Primary guide</h2>
       <p class="section-copy">If you are deciding where to begin, start here. The Yeshua material anchors the rest of the project.</p>
       <div class="grid">
-        <article class="card">
+        <article class="card" id="card-yeshua">
         <h2>Yeshua</h2>
         <p class="subtitle">The Living Jesus</p>
         <p class="work">The Living Way, Living Suttas, Wisdom Gospels, Guide, and the main AI guide experience.</p>
@@ -240,7 +245,7 @@
       <h2>Companion voices</h2>
       <p class="section-copy">These voices widen the frame. They are easier to browse as a group than as hidden tabs because their role is comparative, not linear.</p>
       <div class="grid">
-        <article class="card">
+        <article class="card" id="card-rez">
         <h2>Rez</h2>
         <p class="subtitle">The Living Architecture</p>
         <p class="work">The Living Architecture, Treatise of the Living Architecture, The Manual of Simulation.</p>
@@ -251,7 +256,7 @@
           <a class="btn" href="public-knowledge/read.html?doc=Architect/The_Manual_of_Simulation.md">Manual of Simulation</a>
         </div>
         </article>
-        <article class="card">
+        <article class="card" id="card-gotama">
         <h2>Gotama</h2>
         <p class="subtitle">The Living Buddha</p>
         <p class="work">The Dhammapada of the Living Way.</p>
@@ -261,7 +266,7 @@
           <button type="button" class="btn groq-teacher-btn" data-groq-teacher="gotama">Ask with Groq</button>
         </div>
         </article>
-        <article class="card">
+        <article class="card" id="card-laozi">
         <h2>Laozi</h2>
         <p class="subtitle">The Unforced Leader</p>
         <p class="work">The Unforced Leader (Tao Te Ching).</p>
@@ -271,7 +276,7 @@
           <button type="button" class="btn groq-teacher-btn" data-groq-teacher="laozi">Ask with Groq</button>
         </div>
         </article>
-        <article class="card">
+        <article class="card" id="card-krishna">
         <h2>Krishna</h2>
         <p class="subtitle">The Charioteer</p>
         <p class="work">The Gita of the Living Way.</p>
@@ -281,7 +286,7 @@
           <button type="button" class="btn groq-teacher-btn" data-groq-teacher="krishna">Ask with Groq</button>
         </div>
         </article>
-        <article class="card">
+        <article class="card" id="card-einstein">
         <h2>Einstein</h2>
         <p class="subtitle">The Scientist</p>
         <p class="work">The Unified Field Papers.</p>
@@ -298,7 +303,7 @@
       <h2>In development</h2>
       <p class="section-copy">These voices are part of the intended map, but they are not yet full reading paths.</p>
       <div class="grid">
-        <article class="card">
+        <article class="card" id="card-musashi">
         <h2>Musashi</h2>
         <p class="subtitle">The Sword Master</p>
         <p class="work">Guide voice in development.</p>

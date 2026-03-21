@@ -19,6 +19,7 @@ show_help() {
   echo "  build     Build knowledge repo (PDF + HTML) first, then sync."
   echo "  serve     After sync, start local server at http://localhost:${PORT}"
   echo "  test      Run tests (API + Groq client contract)."
+  echo "  push-knowledge  Copy co-maintained Library files from public-knowledge/ → ../living-way-knowledge/"
   echo "  help      Show this help (also -h, --help)."
   echo ""
   echo "Examples:"
@@ -28,6 +29,7 @@ show_help() {
   echo "  $0 build        # build knowledge, then sync"
   echo "  $0 build serve  # build, sync, then serve locally"
   echo "  $0 test         # run test suite"
+  echo "  $0 push-knowledge  # after editing public-knowledge/index.html or read.html here"
   echo ""
 }
 
@@ -39,6 +41,11 @@ for arg in "$@"; do
     test)
       echo "==> Running tests..."
       (cd "$ROOT" && pnpm run test 2>/dev/null || npm run test 2>/dev/null || node --test tests/api/groq-chat.test.mjs tests/groq-ai-client.test.mjs)
+      exit $?
+      ;;
+    push*)
+      echo "==> Pushing co-maintained Library files to living-way-knowledge..."
+      "$ROOT/scripts/sync-to-knowledge.sh"
       exit $?
       ;;
     help|--help|-h)

@@ -21,6 +21,7 @@ This repo is the **public marketing site** for The Living Way: landing pages, wa
 ```text
 living-way-site/
   index.html          # Main homepage (Track I)
+  paths.html          # Reading paths by teacher / tradition (entry orders into the library)
   teachers.html       # Teachers / library entry
   privacy.html        # Privacy policy
   track-1.html        # Track I variant
@@ -61,7 +62,10 @@ The site is static HTML/CSS/JS and is deployed with **GitHub Pages**.
 
 ## Public knowledge sync
 
-The site’s **Library** and links to texts come from the `public-knowledge/` folder. That folder is **not** edited here; it is a copy of **living-way-knowledge**.
+The site’s **Library** and texts live under `public-knowledge/`. Most of that tree is copied **from** `../living-way-knowledge` (see below). A few files are **co-maintained** here and should be **pushed back** to the knowledge repo when you change them in this project:
+
+- **`public-knowledge/index.html`** — Library hub (Paths, quickstart, nav). Forward sync preserves this copy on the site; keep **living-way-knowledge** in sync with **`./run.sh push-knowledge`** (or `./scripts/sync-to-knowledge.sh`).
+- **`public-knowledge/read.html`** — Markdown reader; not excluded from forward rsync, so the knowledge repo should hold the same version or the next `./run.sh` will overwrite your site edits.
 
 After you change or rebuild content in `../living-way-knowledge`, run:
 
@@ -82,8 +86,9 @@ Or use the sync script directly: `./scripts/sync-public-knowledge.sh`. The **run
 - **`./run.sh build`** — Build the knowledge repo (PDF + HTML) then sync, so the site has the latest built files.
 - **`./run.sh serve`** — Sync then start a local server at http://localhost:8000 to preview the site.
 - **`./run.sh build serve`** — Build knowledge, sync, then serve locally.
+- **`./run.sh push-knowledge`** — Copy `index.html` and `read.html` from `public-knowledge/` **to** `../living-way-knowledge/` (run after editing those files here; then commit in the knowledge repo).
 
-This rsyncs from `../living-way-knowledge` into `public-knowledge/`, excluding `.git`, editor files, and LaTeX build artifacts (`.aux`, `.log`, `.toc`, etc.). The site then serves the latest public texts; private guide material stays in the app repo only.
+This rsyncs from `../living-way-knowledge` into `public-knowledge/`, excluding `.git`, editor files, and LaTeX build artifacts (`.aux`, `.log`, `.toc`, etc.). The site’s Library `index.html` is saved and restored around rsync so it is not deleted. The site then serves the latest public texts; private guide material stays in the app repo only.
 
 ### Automated sync (recommended)
 

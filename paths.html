@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reading paths by teacher | The Living Way</title>
+  <meta name="description" content="Choose a reading path by teacher or tradition: Yeshua, Gotama, Laozi, Krishna, Einstein, Rez, and more." />
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-start: #fdfbf7;
+      --bg-end: #e8e4d4;
+      --surface: rgba(255, 255, 255, 0.55);
+      --surface-hover: rgba(255, 255, 255, 0.78);
+      --border: rgba(140, 123, 108, 0.2);
+      --text-primary: #2c2c2c;
+      --text-secondary: #5a5a5a;
+      --accent: #8c7b6c;
+      --accent-hover: #6d5d4e;
+      --accent-dim: rgba(140, 123, 108, 0.1);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'EB Garamond', 'Georgia', serif;
+      background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
+      background-attachment: fixed;
+      color: var(--text-primary);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(253, 251, 247, 0.9);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.25rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .logo {
+      font-size: 1.1rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.25rem;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .nav-links a:hover { color: var(--accent); }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 2rem 4rem;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 2.85rem);
+      font-weight: 500;
+      margin-bottom: 0.75rem;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .intro {
+      max-width: 720px;
+      margin: 0 auto 1.5rem;
+      text-align: center;
+      color: var(--text-secondary);
+      font-size: 1.12rem;
+    }
+    .toc {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem 1rem;
+      margin: 2rem 0 2.5rem;
+      padding: 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    .toc a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.98rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .path-block {
+      margin-bottom: 2.75rem;
+      padding: 1.5rem 1.35rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      scroll-margin-top: 5rem;
+    }
+    .path-block:hover { background: var(--surface-hover); border-color: rgba(140, 123, 108, 0.35); }
+    .path-block h2 {
+      font-size: 1.45rem;
+      font-weight: 500;
+      margin-bottom: 0.25rem;
+    }
+    .path-audience {
+      font-style: italic;
+      color: var(--text-secondary);
+      margin-bottom: 0.85rem;
+      font-size: 1.02rem;
+    }
+    .path-teacher {
+      display: inline-block;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+    .path-steps {
+      margin: 0.75rem 0 1rem 1.25rem;
+      color: var(--text-secondary);
+    }
+    .path-steps li { margin-bottom: 0.45rem; }
+    .path-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 0.95rem;
+      border-radius: 6px;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      background: transparent;
+      font-size: 0.95rem;
+    }
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--accent-dim);
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      color: #fff;
+      border-color: var(--accent-hover);
+    }
+    .path-note {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      margin-top: 0.85rem;
+      padding-top: 0.85rem;
+      border-top: 1px solid rgba(0,0,0,0.06);
+    }
+    .footer-links {
+      text-align: center;
+      margin-top: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+    @media (max-width: 768px) {
+      nav { padding: 1rem; }
+      main { padding: 2.2rem 1.2rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="index.html">The Living Way</a>
+      <ul class="nav-links">
+        <li><a href="index.html#start-here">Start Here</a></li>
+        <li><a href="paths.html">Paths</a></li>
+        <li><a href="public-knowledge/">Library</a></li>
+        <li><a href="teachers.html">Teachers</a></li>
+        <li><a href="index.html#waitlist">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Reading paths by teacher</h1>
+    <p class="intro">
+      The library is one place; <strong>how you enter</strong> can follow the teacher or tradition you already trust.
+      Pick the path that matches your view—each one lists a suggested order, then links into the same texts everyone else reads.
+      Yeshua remains the project’s center; companion paths widen the frame without replacing that anchor.
+    </p>
+    <p class="intro" style="margin-top: -0.5rem;">
+      <strong>No belief is required.</strong> The through-line many readers share is simpler: sustained attention (meditation, contemplation) can change how you perceive and relate to experience.
+      What shifts is seeing, not a checklist of doctrines. The texts here can be read as invitations to look—not as claims you must sign before you start.
+    </p>
+
+    <nav class="toc" aria-label="Jump to a path">
+      <a href="#path-practice">Practice-first</a>
+      <a href="#path-yeshua">Yeshua</a>
+      <a href="#path-gotama">Gotama</a>
+      <a href="#path-laozi">Laozi</a>
+      <a href="#path-krishna">Krishna</a>
+      <a href="#path-einstein">Einstein</a>
+      <a href="#path-rez">Rez</a>
+      <a href="#path-core">Core</a>
+      <a href="#path-musashi">Musashi</a>
+    </nav>
+
+    <article class="path-block" id="path-practice">
+      <span class="path-teacher">No creed required</span>
+      <h2>Practice-first — skeptical, non-theist, or “show me in experience”</h2>
+      <p class="path-audience">You don’t want to adopt beliefs up front. You’re willing to sit, watch the mind, and let perception teach you what’s real—then use words as pointers, not pledges.</p>
+      <ol class="path-steps">
+        <li><strong>Meditation (or steady contemplation)</strong> — keep this primary; the site’s texts are companions to inquiry, not replacements for it.</li>
+        <li><strong>Rez / Living Architecture</strong> — read as a <em>model</em> of how experience can be mapped; test it against your own observation, not authority.</li>
+        <li><strong>Einstein (Unified Field Papers)</strong> — language that leans scientific; still read as metaphor until your own discernment says otherwise.</li>
+        <li><strong>Gotama or Laozi</strong> — optional; treat suttas or Tao lines as experiments in attention and ethics, not metaphysics you must accept.</li>
+        <li><strong>Yeshua (Living Way, Wisdom Gospels)</strong> — when you’re ready, as mirror-sayings: what verifies in life, not what you’re told to confess.</li>
+      </ol>
+      <div class="path-actions">
+        <a class="btn btn-primary" href="public-knowledge/#rez">Start with Architecture</a>
+        <a class="btn" href="public-knowledge/#einstein">Einstein in Library</a>
+        <a class="btn" href="public-knowledge/#gotama">Gotama</a>
+        <a class="btn" href="public-knowledge/#yeshua">Yeshua (when ready)</a>
+      </div>
+      <p class="path-note">This isn’t a separate “teacher” in the library—it’s a <strong>stance</strong>: practice shapes perception; beliefs stay voluntary.</p>
+    </article>
+
+    <article class="path-block" id="path-yeshua">
+      <span class="path-teacher">Primary path</span>
+      <h2>Yeshua — Christian, interfaith, or “Jesus before the creeds”</h2>
+      <p class="path-audience">You’re drawn to the sayings stream, wisdom gospels, or a quiet room with Yeshua at the center.</p>
+      <ol class="path-steps">
+        <li><strong>The Living Way</strong> — 81 sayings as a Tao for the Children of Light.</li>
+        <li><strong>Wisdom Gospels</strong> — Philip, Mary, Thomas (closest material to the original stream on this site).</li>
+        <li><strong>The Living Suttas</strong> — parallel in form; then the Guide or Syncretic Christ essay if you want context.</li>
+      </ol>
+      <div class="path-actions">
+        <a class="btn btn-primary" href="public-knowledge/#yeshua">Open Yeshua in Library</a>
+        <a class="btn" href="teachers.html#card-yeshua">Teacher card &amp; AI</a>
+        <a class="btn" href="public-knowledge/The_Living_Way.html">The Living Way</a>
+      </div>
+    </article>
+
+    <article class="path-block" id="path-gotama">
+      <span class="path-teacher">Companion path</span>
+      <h2>Gotama — Buddhist or Dhamma-first</h2>
+      <p class="path-audience">You think in terms of awakening, the eightfold path, or suttas—and you want this project’s Buddhist voice first.</p>
+      <ol class="path-steps">
+        <li><strong>The Dhammapada of the Living Way</strong> — your main text in this library.</li>
+        <li>Optional: skim <strong>Yeshua</strong> in the library when you’re curious how the two streams speak to each other.</li>
+        <li><strong>Living Suttas</strong> — bridges form and tone with the wider site.</li>
+      </ol>
+      <div class="path-actions">
+        <a class="btn btn-primary" href="public-knowledge/#gotama">Gotama in Library</a>
+        <a class="btn" href="public-knowledge/read.html?doc=Gotama/The_Dhammapada_of_the_Living_Way.md">Read Dhammapada</a>
+        <a class="btn" href="teachers.html#card-gotama">Teacher card</a>
+      </div>
+      <p class="path-note">Companion voices are meant to compare, not to skip the center forever—when you’re ready, Yeshua’s section is the project’s front door.</p>
+    </article>
+
+    <article class="path-block" id="path-laozi">
+      <span class="path-teacher">Companion path</span>
+      <h2>Laozi — Taoist, wu wei, or Eastern non-forcing</h2>
+      <p class="path-audience">You resonate with the Tao Te Ching, paradox, and unforced leadership.</p>
+      <ol class="path-steps">
+        <li><strong>The Unforced Leader (Tao Te Ching)</strong> — full text in the reader.</li>
+        <li><strong>The Living Way</strong> — many readers feel a Tao-like rhythm; try it as a second lens.</li>
+        <li><strong>Rez / Architecture</strong> — if you want the “map” behind simulation and forgetting.</li>
+      </ol>
+      <div class="path-actions">
+        <a class="btn btn-primary" href="public-knowledge/#laozi">Laozi in Library</a>
+        <a class="btn" href="public-knowledge/read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md">Read Tao text</a>
+        <a class="btn" href="teachers.html#card-laozi">Teacher card</a>
+      </div>
+    </article>
+
+    <article class="path-block" id="path-krishna">
+      <span class="path-teacher">Companion path</span>
+      <h2>Krishna — Bhakti, Gita, or karma yoga</h2>
+      <p class="path-audience">You enter through the charioteer, duty-without-clinging, or devotion.</p>
+      <ol class="path-steps">
+        <li><strong>The Gita of the Living Way</strong> — this site’s Gita strand.</li>
+        <li><strong>Yeshua section</strong> — when you want the parallel “sayings” center of the project.</li>
+        <li><strong>Einstein</strong> — optional, if you like field language next to devotion.</li>
+      </ol>
+      <div class="path-actions">
+        <a class="btn btn-primary" href="public-knowledge/#krishna">Krishna in Library</a>
+        <a class="btn" href="public-knowledge/read.html?doc=Krishna/The_Gita_of_the_Living_Way.md">Read Gita text</a>
+        <a class="btn" href="teachers.html#card-krishna">Teacher card</a>
+      </div>
+    </article>
+
+    <article class="path-block" id="path-einstein">
+      <span class="path-teacher">Companion path</span>
+      <h2>Einstein — science, unity, and “field” metaphysics</h2>
+      <p class="path-audience">You’re more comfortable with physics metaphors than scripture first.</p>
+      <ol class="path-steps">
+        <li><strong>The Unified Field Papers</strong> — bridge from science register into the same contemplative map.</li>
+        <li><strong>Treatise / Architecture</strong> — if you want explicit structure after the papers.</li>
+        <li><strong>Yeshua</strong> — when you’re ready for the sayings center.</li>
+      </ol>
+      <div class="path-actions">
+        <a class="btn btn-primary" href="public-knowledge/#einstein">Einstein in Library</a>
+        <a class="btn" href="public-knowledge/read.html?doc=Einstein/The_Unified_Field_Papers.md">Read papers</a>
+        <a class="btn" href="teachers.html#card-einstein">Teacher card</a>
+      </div>
+    </article>
+
+    <article class="path-block" id="path-rez">
+      <span class="path-teacher">Framework path</span>
+      <h2>Rez — systems, simulation, and architecture</h2>
+      <p class="path-audience">You want the map first: forgetting, layers, manual mode—before poetry.</p>
+      <ol class="path-steps">
+        <li><strong>The Living Architecture</strong> — HTML or PDF.</li>
+        <li><strong>Treatise of the Living Architecture</strong> — source markdown in the reader.</li>
+        <li><strong>Manual of Simulation</strong> — tight operational lens.</li>
+      </ol>
+      <div class="path-actions">
+        <a class="btn btn-primary" href="public-knowledge/#rez">Rez in Library</a>
+        <a class="btn" href="public-knowledge/The_Living_Architecture.html">Living Architecture</a>
+        <a class="btn" href="teachers.html#card-rez">Teacher card</a>
+      </div>
+      <p class="path-note">After the map, many readers go to <strong>Yeshua</strong> for the devotional center—or pick a companion teacher that matches their temperament.</p>
+    </article>
+
+    <article class="path-block" id="path-core">
+      <span class="path-teacher">Source path</span>
+      <h2>Core — treatises and guide sources</h2>
+      <p class="path-audience">You want markdown sources and scaffolding, not only polished HTML doors.</p>
+      <ol class="path-steps">
+        <li><strong>Treatise of the Living Architecture</strong></li>
+        <li><strong>Living Way Guide</strong> (source)</li>
+        <li>Return to teacher sections for published HTML/PDF when you want the reading experience.</li>
+      </ol>
+      <div class="path-actions">
+        <a class="btn btn-primary" href="public-knowledge/#core">Core in Library</a>
+        <a class="btn" href="public-knowledge/read.html?doc=Core/Treatise_of_the_Living_Architecture.md">Treatise</a>
+        <a class="btn" href="public-knowledge/read.html?doc=Core/living-way-guide.md">Guide (source)</a>
+      </div>
+    </article>
+
+    <article class="path-block" id="path-musashi">
+      <span class="path-teacher">In development</span>
+      <h2>Musashi — discipline and the sword</h2>
+      <p class="path-audience">Placeholder for the sword-master voice; library section exists for orientation.</p>
+      <div class="path-actions">
+        <a class="btn" href="public-knowledge/#musashi">Musashi in Library</a>
+        <a class="btn" href="teachers.html#card-musashi">Teacher card</a>
+      </div>
+    </article>
+
+    <div class="footer-links">
+      <a class="btn btn-primary" href="public-knowledge/">Full library (all teachers)</a>
+      <a class="btn" href="teachers.html">All teachers on one page</a>
+      <a class="btn" href="index.html">Home</a>
+    </div>
+  </main>
+</body>
+</html>
