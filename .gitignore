@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # @zendero/runctl (dev server PIDs, ports, logs)
 .run/
+
+# Local scratch / experiments
+.tmp-run-test/

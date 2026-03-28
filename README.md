@@ -6,7 +6,7 @@ This repo is the **public marketing site** for The Living Way: landing pages, wa
 
 | Repo | Role |
 |------|------|
-| **living-way-site** (this repo) | Static marketing site: homepage, teachers page, waitlist/campaign pages, and a copy of the public texts. Deployed e.g. via GitHub Pages. |
+| **living-way-site** (this repo) | Static marketing site: homepage, Voices page, waitlist/campaign pages, and a copy of the public texts. Deployed e.g. via GitHub Pages. |
 | **living-way-knowledge** | **Source of truth** for public guide texts (Core/, Gotama/, Krishna/, Einstein/, Architect/, etc.). LaTeX and Markdown live here; you build PDF/HTML here. |
 | **living-way-app** | React Native / Expo app (mobile + web). Uses public content; private prompt overrides and notes live in its gitignored `private-knowledge/`. |
 
@@ -21,8 +21,8 @@ This repo is the **public marketing site** for The Living Way: landing pages, wa
 ```text
 living-way-site/
   index.html          # Main homepage (Track I)
-  paths.html          # Reading paths by teacher / tradition (entry orders into the library)
-  teachers.html       # Teachers / library entry
+  paths.html          # Reading paths by voice / tradition (entry orders into the library)
+  teachers.html       # Voices / library entry
   privacy.html        # Privacy policy
   track-1.html        # Track I variant
   track-2.html        # Track II variant
@@ -76,25 +76,29 @@ After you change or rebuild content in `../living-way-knowledge`, run:
 For local preview with printed links, run:
 
 ```bash
-pnpm run dev
+./run.sh dev
 ```
 
 Or use the sync script directly: `./scripts/sync-public-knowledge.sh`. The **run.sh** script at the repo root can do more:
 
 - **`./run.sh`** — Sync public-knowledge from the knowledge repo (no build, no server).
-- **`pnpm run dev`** — Sync, print local preview URLs, then serve the site locally.
+- **`./run.sh dev`** — Sync, then start the local preview. It prefers `runctl` when available and falls back to a foreground Python server otherwise.
 - **`./run.sh build`** — Build the knowledge repo (PDF + HTML) then sync, so the site has the latest built files.
-- **`./run.sh serve`** — Sync then start a local server at http://localhost:8000 to preview the site.
+- **`./run.sh serve`** — Same as `dev`.
+- **`./run.sh open`** — Start the preview if needed, then open it in the browser.
+- **`./run.sh stop`** — Stop the local preview.
+- **`./run.sh status`** — Show local preview status.
+- **`./run.sh gc`** — Clean stale `runctl` port claims.
 - **`./run.sh build serve`** — Build knowledge, sync, then serve locally.
 - **`./run.sh push-knowledge`** — Copy `index.html` and `read.html` from `public-knowledge/` **to** `../living-way-knowledge/` (run after editing those files here; then commit in the knowledge repo).
 
-This rsyncs from `../living-way-knowledge` into `public-knowledge/`, excluding `.git`, editor files, and LaTeX build artifacts (`.aux`, `.log`, `.toc`, etc.). The site’s Library `index.html` is saved and restored around rsync so it is not deleted. The site then serves the latest public texts; private guide material stays in the app repo only.
+This rsyncs from `../living-way-knowledge` into `public-knowledge/`, excluding `.git`, editor files, and LaTeX build artifacts (`.aux`, `.log`, `.toc`, etc.). The site then serves the latest public texts; private guide material stays in the app repo only.
 
 ### Automated sync (recommended)
 
 A GitHub Action keeps the site up to date without manual sync + push:
 
-- **`.github/workflows/sync-knowledge.yml`** — On **workflow_dispatch** (run from the Actions tab) or on a **daily schedule**, it checks out **living-way-knowledge**, rsyncs into `public-knowledge/`, preserves the site’s Library `index.html`, then commits and pushes if anything changed. After that, GitHub Pages deploys the new content.
+- **`.github/workflows/sync-knowledge.yml`** — On **workflow_dispatch** (run from the Actions tab) or on a **daily schedule**, it checks out **living-way-knowledge**, rsyncs into `public-knowledge/`, then commits and pushes if anything changed. After that, GitHub Pages deploys the new content.
 
 To use it: run **Actions → Sync knowledge and deploy → Run workflow** whenever you want the live site to reflect the latest knowledge repo, or rely on the daily run.
 
@@ -113,7 +117,7 @@ If **living-way-knowledge** is in another org or is private, add a repo secret *
 The site offers **two AI entry points**: the existing **ChatGPT** custom GPT link (“Ask the Living Jesus”) and an **in-page Groq chat** (“Ask with Groq”) that uses your own API key via a serverless proxy. The API and frontend follow the same patterns as **dashboard** (`pages/api/llm.ts`) and **PostPal** (`pages/api/llm.js`).
 
 - **Homepage:** Floating buttons: “Ask with Groq” (opens chat panel) and “Ask the Living Jesus” (opens ChatGPT).
-- **Teachers page:** Each teacher has an “Ask with Groq” button; the panel uses a teacher-specific system prompt (Yeshua, Gotama, Laozi, Krishna, Einstein). The Yeshua card also keeps the “Ask AI (ChatGPT)” link.
+- **Voices page (`teachers.html`):** Each voice has an “Ask with Groq” button; the panel uses a voice-specific system prompt (Yeshua, Gotama, Laozi, Krishna, Einstein). The Yeshua card also keeps the “Ask AI (ChatGPT)” link.
 
 **API shape (aligned with dashboard / PostPal):**
 
@@ -197,7 +201,7 @@ The site has several public-facing landing pages that share the same design syst
 ### Other pages
 
 - **`waitlists/general.html`** — General Living Way waitlist (same system, neutral copy).
-- **`teachers.html`** — Entry to the teacher list and links into `public-knowledge/`.
+- **`teachers.html`** — Entry to the Voices list and links into `public-knowledge/`.
 - **`privacy.html`** — Privacy policy.
 
 ---

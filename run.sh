@@ -9,6 +9,12 @@ DO_SERVE=false
 PORT="${PORT:-8000}"
 RUNCTL_BIN="$ROOT/node_modules/.bin/runctl"
 
+have_runctl() {
+  [[ -x "$RUNCTL_BIN" ]] && return 0
+  (cd "$ROOT" && pnpm exec runctl version >/dev/null 2>&1) && return 0
+  command -v runctl >/dev/null 2>&1
+}
+
 open_site_url() {
   local url="$1"
   if command -v open >/dev/null 2>&1; then
@@ -41,8 +47,12 @@ wait_for_local_http() {
 runctl_cmd() {
   if [[ -x "$RUNCTL_BIN" ]]; then
     (cd "$ROOT" && "$RUNCTL_BIN" "$@")
-  else
+  elif (cd "$ROOT" && pnpm exec runctl version >/dev/null 2>&1); then
     (cd "$ROOT" && pnpm exec runctl "$@")
+  elif command -v runctl >/dev/null 2>&1; then
+    (cd "$ROOT" && runctl "$@")
+  else
+    return 127
   fi
 }
 
@@ -137,10 +147,10 @@ echo "==> Syncing public-knowledge from ../living-way-knowledge..."
 
 # 3. Optionally serve the site locally
 if "$DO_SERVE"; then
-  if [[ -x "$RUNCTL_BIN" ]]; then
+  if have_runctl; then
     echo "==> Local preview (runctl — server runs in background)"
-    echo "    Stop: pnpm exec runctl stop"
-    echo "    Status: pnpm exec runctl status"
+    echo "    Stop: run stop   or   pnpm exec runctl stop"
+    echo "    Status: run status   or   pnpm exec runctl status"
     echo "    Logs: $ROOT/.run/logs/"
     runctl_cmd start "$ROOT" --script dev:server
     if [[ -f "$ROOT/.run/ports.env" ]]; then
