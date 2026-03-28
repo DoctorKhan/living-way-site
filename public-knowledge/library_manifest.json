@@ -1,0 +1,111 @@
+{
+  "contractVersion": 2,
+  "series": {
+    "name": "The Living Way",
+    "indexPath": "index.html"
+  },
+  "works": [
+    {
+      "id": "yeshua-book",
+      "kind": "md",
+      "title": "The Hidden Wisdom of Yeshua",
+      "section": "yeshua",
+      "voice": "Yeshua",
+      "sourcePath": "The_Living_Way.md",
+      "publicBase": "The_Living_Way",
+      "formats": {
+        "html": {
+          "publicPath": "The_Living_Way.html",
+          "stablePath": "works/yeshua-book.html"
+        },
+        "pdf": {
+          "publicPath": "The_Living_Way.pdf",
+          "stablePath": "works/yeshua-book.pdf"
+        }
+      }
+    },
+    {
+      "id": "awakening-book",
+      "kind": "md",
+      "title": "The Wisdom of Awakening",
+      "section": "yeshua",
+      "voice": "Yeshua",
+      "sourcePath": "The_Living_Suttas.md",
+      "publicBase": "The_Living_Suttas",
+      "formats": {
+        "html": {
+          "publicPath": "The_Living_Suttas.html",
+          "stablePath": "works/awakening-book.html"
+        },
+        "pdf": {
+          "publicPath": "The_Living_Suttas.pdf",
+          "stablePath": "works/awakening-book.pdf"
+        }
+      }
+    },
+    {
+      "id": "architecture-book",
+      "kind": "md",
+      "title": "The Hidden Architecture",
+      "section": "architect",
+      "voice": "Architect",
+      "sourcePath": "The_Living_Architecture.md",
+      "publicBase": "The_Living_Architecture",
+      "formats": {
+        "html": {
+          "publicPath": "The_Living_Architecture.html",
+          "stablePath": "works/architecture-book.html"
+        },
+        "pdf": {
+          "publicPath": "The_Living_Architecture.pdf",
+          "stablePath": "works/architecture-book.pdf"
+        }
+      }
+    },
+    {
+      "id": "living-jesus-guide",
+      "kind": "md",
+      "title": "A Guide to The Way of the Living Jesus",
+      "section": "yeshua",
+      "voice": "Yeshua",
+      "sourcePath": "Core/living-way-guide.md",
+      "publicBase": "living_way_guide",
+      "formats": {
+        "html": {
+          "publicPath": "living_way_guide.html",
+          "stablePath": "works/living-jesus-guide.html"
+        }
+      }
+    },
+    {
+      "id": "wisdom-gospels",
+      "kind": "static-html",
+      "title": "Wisdom Gospels",
+      "section": "yeshua",
+      "voice": "Yeshua",
+      "sourcePath": "wisdom_gospels.html",
+      "publicBase": "wisdom_gospels",
+      "formats": {
+        "html": {
+          "publicPath": "wisdom_gospels.html",
+          "stablePath": "works/wisdom-gospels.html"
+        }
+      }
+    },
+    {
+      "id": "syncretic-christ",
+      "kind": "static-html",
+      "title": "The Syncretic Christ",
+      "section": "yeshua",
+      "voice": "Yeshua",
+      "sourcePath": "syncretic_construct_christ.html",
+      "publicBase": "syncretic_construct_christ",
+      "formats": {
+        "html": {
+          "publicPath": "syncretic_construct_christ.html",
+          "stablePath": "works/syncretic-christ.html"
+        }
+      }
+    }
+  ]
+}

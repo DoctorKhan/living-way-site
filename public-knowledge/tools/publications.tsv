@@ -1,0 +1,7 @@
+id	kind	source	public_base	title	section	voice	formats
+yeshua-book	md	The_Living_Way.md	The_Living_Way	The Hidden Wisdom of Yeshua	yeshua	Yeshua	html,tex,pdf
+awakening-book	md	The_Living_Suttas.md	The_Living_Suttas	The Wisdom of Awakening	yeshua	Yeshua	html,tex,pdf
+architecture-book	md	The_Living_Architecture.md	The_Living_Architecture	The Hidden Architecture	architect	Architect	html,tex,pdf
+living-jesus-guide	md	Core/living-way-guide.md	living_way_guide	A Guide to The Way of the Living Jesus	yeshua	Yeshua	html	
+wisdom-gospels	static-html	wisdom_gospels.html	wisdom_gospels	Wisdom Gospels	yeshua	Yeshua	html	
+syncretic-christ	static-html	syncretic_construct_christ.html	syncretic_construct_christ	The Syncretic Christ	yeshua	Yeshua	html	

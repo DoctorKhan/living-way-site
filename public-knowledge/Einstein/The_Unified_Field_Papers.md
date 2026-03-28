@@ -1,5 +1,13 @@
 # The Unified Field Papers of the Living Way
 
+> In this library, Einstein names **science as a path**: **humility**, **testing your ideas**, and **not believing every thought** just because it feels urgent or true—alongside **Kabat-Zinn** (embodied observation). **Neuroscience** belongs in the same lineage: it maps the **illusions** baked into perception and narrative—prediction, confabulation, bias—so you can meet your own mind with curiosity instead of credulity. **Architect** texts carry the **system synthesis** of the whole map.
+
+The sections that follow are cast in his voice to show how **physics and wonder** can train the same virtues as contemplation: attention to what is real, refusal of lazy certainty, and room for the mysterious without superstition.
+
+### Science, thought, and the brain’s artifice
+
+The same path extends to those who study the **nervous system**: not to reduce the sacred to chemistry, but to notice how often **certainty is a feeling**, not a proof—how the brain **fills in** gaps, **confirms** its priors, and calls the result “obvious.” To walk this way is to treat inner weather like weather: observe, check, revise—**never worship the first story**.
+
 ## I. The Optical Delusion of Consciousness
 A human being is a part of the whole called by us universe, a part limited in time and space. He experiences himself, his thoughts and feeling as something separated from the rest, a kind of optical delusion of his consciousness. This delusion is a kind of prison for us, restricting us to our personal desires and to affection for a few persons nearest to us. Our task must be to free ourselves from this prison by widening our circle of compassion to embrace all living creatures and the whole of nature in its beauty.
 
