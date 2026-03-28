@@ -20,7 +20,7 @@ living-way-knowledge/
   Gotama/
   Krishna/                  # Gita + related Hindu Sanskrit sources (see below)
   Einstein/                 # Empirical path: science as path (evidence, wonder, belief-optional)
-  Mindfulness/                # Empirical path: mindfulness as observation (belief-optional)
+  Mindfulness/              # Empirical path: mindfulness as observation (belief-optional)
   Architect/                # System synthesis: integrated map (simulation, forgetting, return)
   Musashi/                  # Warrior path: discipline, timing, void (Living Way originals)
 
@@ -57,7 +57,7 @@ The public **Library by Voice** page orders material so readers can see **two co
 
 | Kind | Folders / section | Role |
 |------|-------------------|------|
-| **Empirical paths** | `Einstein/`, `Mindfulness/` | **Science as path**: humility, testing ideas, skepticism toward first thoughts; neuroscience as study of **perceptual and cognitive illusion**—plus **embodied observation** (Mindfulness)—**without** requiring creed first. |
+| **Empirical paths** | `Einstein/`, `Mindfulness/` | **Science as path**: humility, testing ideas, skepticism toward first thoughts; neuroscience as study of **perceptual and cognitive illusion**—plus **embodied observation** through mindfulness practice—**without** requiring creed first. |
 | **System synthesis** | `Core/` treatise + scrolls, `Architect/` | How traditions and metaphors fit together as **one system**. |
 | **Tradition paths** | `Gotama/`, `Laozi/`, `Krishna/`, … | Named lineages in their own languages and images. |
 | **Warrior path** | `Musashi/` | Discipline, timing, emptiness—**attention** as training; Living Way originals after Musashi’s **spirit**, not classical translations. |
@@ -152,11 +152,11 @@ Laozi/
 
 #### `Mindfulness/` (mindfulness inquiry · empirical path)
 
-Use **`Mindfulness/`** for Living Way framing of **belief-optional, body-first** inquiry aligned with Jon Mindfulness’s public teaching (e.g. MBSR’s posture: observe experience directly without requiring metaphysics first). Do **not** paste copyrighted excerpts here; link to official materials externally when needed.
+Use **`Mindfulness/`** for Living Way framing of **belief-optional, body-first** inquiry. The emphasis is simple: observe breath, body, feeling, and mind directly without requiring metaphysics first. Keep the tone practical, grounded, and experience-led.
 
 | File | Role |
 |------|------|
-| `The_Mindfulness_Inquiry_Path_of_the_Living_Way.md` | Primary Mindfulness-path framing for the library |
+| `The_Mindfulness_Path_of_the_Living_Way.md` | Primary mindfulness-path framing for the library |
 
 Update **`index.html`** if you add works here, then sync **`tools/sync-public-knowledge.sh`**.
 

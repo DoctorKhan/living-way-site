@@ -11,7 +11,7 @@ living-way-knowledge/
   Gotama/
   Krishna/                 # Gita, Madālasā lullaby, Śiva-saṅkalpa Suktam, etc.
   Einstein/                # Empirical path: science as path (humility, test ideas, neuroscience & illusion)
-  Mindfulness/               # Empirical path: mindfulness inquiry (Living Way framing)
+  Mindfulness/             # Empirical path: mindfulness inquiry (Living Way framing)
   Architect/               # System synthesis: integrated map
   Musashi/                 # Warrior path (discipline, timing, void)
 
