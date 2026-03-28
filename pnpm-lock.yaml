@@ -1,0 +1,24 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@zendero/runctl':
+        specifier: ^0.1.1
+        version: 0.1.4
+
+packages:
+
+  '@zendero/runctl@0.1.4':
+    resolution: {integrity: sha512-qe4yzJySF6r8ZXHhzXnpe/N1b6Yr8cx95fL8sWBxgMbAOk7v4KXTIDyoMN4ECtGnalyCbC+5s7bNC0BbzDmSkA==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+snapshots:
+
+  '@zendero/runctl@0.1.4': {}

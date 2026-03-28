@@ -5,9 +5,13 @@
   "scripts": {
     "dev": "./run.sh dev",
     "serve": "./run.sh serve",
+    "dev:server": "bash scripts/dev-server.sh",
     "build": "./run.sh build",
     "test": "node --test tests/api/groq-chat.test.mjs tests/groq-ai-client.test.mjs",
     "test:api": "node --test tests/api/groq-chat.test.mjs",
     "test:client": "node --test tests/groq-ai-client.test.mjs"
+  },
+  "devDependencies": {
+    "@zendero/runctl": "^0.1.1"
   }
 }

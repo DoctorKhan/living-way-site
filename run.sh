@@ -147,12 +147,22 @@ echo "==> Syncing public-knowledge from ../living-way-knowledge..."
 
 # 3. Optionally serve the site locally
 if "$DO_SERVE"; then
-  if have_runctl; then
+  RUN_LIB="$ROOT/node_modules/@zendero/runctl/lib/run-lib.sh"
+  if [[ -f "$RUN_LIB" ]]; then
+    # Global `runctl start` runs with nounset; macOS bash 3.2 chokes on empty dev_extra[@].
+    # Source run-lib here with set +u, then use run_start_package_dev (same as the CLI).
     echo "==> Local preview (runctl — server runs in background)"
     echo "    Stop: run stop   or   pnpm exec runctl stop"
     echo "    Status: run status   or   pnpm exec runctl status"
     echo "    Logs: $ROOT/.run/logs/"
-    runctl_cmd start "$ROOT" --script dev:server
+    set +u
+    # shellcheck source=/dev/null
+    source "$RUN_LIB"
+    run_project_init "$ROOT"
+    export RUNCTL_PM_RUN_SCRIPT=dev:server
+    export RUNCTL_SKIP_PREDEV=1
+    run_with_lock run_start_package_dev web "${PORT:-8000}" || { set -u; exit 1; }
+    set -u
     if [[ -f "$ROOT/.run/ports.env" ]]; then
       # shellcheck source=/dev/null
       set -a && source "$ROOT/.run/ports.env" && set +a
@@ -167,7 +177,45 @@ if "$DO_SERVE"; then
     fi
     echo "==> Opening site in browser..."
     runctl_cmd open "$ROOT" || open_site_url "http://127.0.0.1:${PORT:-8000}/"
-  else
+  elif have_runctl; then
+    echo "==> Local preview (runctl CLI — install project runctl for macOS: pnpm install)"
+    echo "    Stop: run stop   or   pnpm exec runctl stop"
+    echo "    Status: run status   or   pnpm exec runctl status"
+    echo "    Logs: $ROOT/.run/logs/"
+    runctl_cmd start "$ROOT" --script dev:server || {
+      echo "==> runctl start failed (try: pnpm install). Falling back to Python server." >&2
+      DO_SERVE_VIA_PYTHON=1
+    }
+    if [[ "${DO_SERVE_VIA_PYTHON:-}" != 1 ]]; then
+      if [[ -f "$ROOT/.run/ports.env" ]]; then
+        # shellcheck source=/dev/null
+        set -a && source "$ROOT/.run/ports.env" && set +a
+      fi
+      echo "    Home:    http://localhost:${PORT:-8000}/"
+      echo "    Library: http://localhost:${PORT:-8000}/public-knowledge/"
+      echo "    Reader:  http://localhost:${PORT:-8000}/public-knowledge/read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"
+      if ! wait_for_local_http "127.0.0.1" "${PORT:-8000}" 20; then
+        echo "==> Preview failed to respond on http://127.0.0.1:${PORT:-8000}/" >&2
+        echo "    Check logs: $ROOT/.run/logs/web.log" >&2
+        exit 1
+      fi
+      echo "==> Opening site in browser..."
+      runctl_cmd open "$ROOT" || open_site_url "http://127.0.0.1:${PORT:-8000}/"
+    fi
+  fi
+  if [[ "${DO_SERVE_VIA_PYTHON:-}" == 1 ]]; then
+    echo "==> Local preview (Python)"
+    echo "    Home:    http://localhost:${PORT}"
+    echo "    Library: http://localhost:${PORT}/public-knowledge/"
+    (sleep 0.5; open_site_url "http://127.0.0.1:${PORT}/") &
+    if command -v python3 &>/dev/null; then
+      (cd "$ROOT" && python3 -m http.server "$PORT" --bind 127.0.0.1)
+    else
+      echo "No python3 found." >&2
+      exit 1
+    fi
+    exit 0
+  elif ! [[ -f "$RUN_LIB" ]] && ! have_runctl; then
     echo "==> Local preview"
     echo "    Home:    http://localhost:${PORT}"
     echo "    Library: http://localhost:${PORT}/public-knowledge/"
