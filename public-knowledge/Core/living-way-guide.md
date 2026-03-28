@@ -2,6 +2,8 @@
 
 *(Based on the Gospels of Thomas & Mary)*
 
+> **Source of record:** This file is the canonical authoring source. Styled HTML is generated at the repo root as `living_way_guide.html` by `tools/build_html.sh` (run `./run.sh` or `./run.sh build-only`). The same Markdown opens in the library via `read.html?doc=Core/living-way-guide.md`.
+
 ## **Chapter 1 — The Outer Child, the Inner Child, and the Path of the Adult**
 
 Human religion, as commonly practiced, begins in **the Outer Child**.

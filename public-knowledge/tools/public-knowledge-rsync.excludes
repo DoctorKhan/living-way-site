@@ -1,0 +1,11 @@
+# Used by tools/sync-public-knowledge.sh — one rsync(1) exclude pattern per line.
+# Lines starting with # are ignored by rsync.
+
+.git/
+.vscode/
+*.aux
+*.log
+*.toc
+*.fls
+*.fdb_latexmk
+*.out

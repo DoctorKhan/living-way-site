@@ -1,4 +1,30 @@
-# **THE GITA OF THE LIVING WAY**
+# **THE KRISHNA PATH OF THE LIVING WAY**
+
+### *An Anthology of the Gita Strand and Related Sanskrit Texts*
+
+---
+
+This anthology gathers the Krishna-path materials of the Living Way into one book.
+
+It does **not** claim that every text here is literally part of the *Bhagavad Gita*.
+Rather, it presents a **Krishna-path anthology**:
+
+- the Living Way Gita as the main interpretive teaching
+- Madalasa's non-dual lullaby as an allied voice of awakened identity
+- the Shiva-sankalpa hymn as a Vedic prayer for an auspicious mind
+- the Atma-Samharana / Pranagnihotra mantras as a practice of dissolving the faculties back into Brahman
+
+Together they form one pathway through:
+
+- action without attachment
+- remembrance of the indestructible Self
+- purification of mind
+- dissolution of egoic ownership
+- peace in Brahman
+
+---
+
+# **BOOK I. THE GITA OF THE LIVING WAY**
 
 ### *The Battlefield, The Actor, and The Indestructible Self*
 
@@ -7,7 +33,7 @@
 # **I. The Nature of the Battlefield (The World)**
 
 My friend, you stand on a battlefield, but you mistake it for a home.
-The world is *Kurukshetra*—the Field of Action.
+The world is *Kurukshetra*--the Field of Action.
 It is designed for conflict, for friction, for the clash of forces.
 
 Do not ask for the battlefield to be a garden.
@@ -101,7 +127,7 @@ and no longer ruled by attachment, fear, or anger.
 
 ### **The Process of Self-Control**
 
-> *yadā saṃharate cāyaṃ kūrmo'ṅgānīva sarvaśaḥ |*
+> *yadā saṃharate cāyaṃ kūrmo'aṅgānīva sarvaśaḥ |*
 > *indriyāṇīndriyārthebhyastasya prajñā pratiṣṭhitā ||*
 
 Like a tortoise withdrawing its limbs,
@@ -187,3 +213,175 @@ Turn to Me.
 When the battle is too loud, drop your weapons and climb into the Chariot.
 I am driving. You are only the passenger.
 Rest in Me, and you will not fall.
+
+---
+
+# **BOOK II. MADALASA'S LULLABY**
+
+### *A Song of the Unborn Self*
+
+**Source stream:** *Markandeya Purana*, Madalasa cycle
+
+---
+
+## The Refrain
+
+**Sanskrit:** शुद्धोऽसि बुद्धोऽसि निरञ्जनोऽसि  
+संसारमाया परिवर्जितोऽसि  
+संसारस्वप्नं त्यज मोहनिद्रां  
+मदालसोल्लापमुवाच पुत्रम्
+
+**Transliteration:** *Suddhosi buddhosi niranjanosi* · *Samsaramaya parivarjitosi* · *Samsarasvapnam tyaja mohanidram* · *Madalasollapam uvaca putram*
+
+**Translation:** You are ever pure, you are awakened, you are spotless. You are free from the maya of samsara. Abandon the dream of samsara and the sleep of delusion. Thus Madalasa addressed her son.
+
+---
+
+## Four teachings
+
+### **1. You are not your name**
+
+You are pure, child.
+The name is a construct,
+and the body of five elements is not your true identity.
+
+### **2. You are not the sound of your weeping**
+
+What seems like "your" distress
+belongs to the movement of qualities in the senses.
+The elements play through the instrument.
+
+### **3. You do not increase or decrease**
+
+The body grows and weakens through food, water, and time,
+but the Self does not expand or diminish with it.
+
+### **4. The body is a garment**
+
+Do not fall into delusion because the garment wears down.
+The embodied form is bound by action,
+but the Self is deeper than the garment.
+
+---
+
+# **BOOK III. SHIVA-SANKALPA SUKTAM**
+
+### *A Vedic Prayer for the Auspicious Mind*
+
+**Refrain:** *Tan me manah sivasankalpam astu* -- "May that mind of mine be of auspicious resolve."
+
+---
+
+## Key movement
+
+This hymn gathers attention around the mind:
+
+- the far-going mind in waking and sleep
+- the mind that performs sacrifice and ordered action
+- the mind as discernment and inner light
+- the mind that holds past, present, and future
+- the mind as the woven center of sacred knowledge
+- the mind as charioteer, guiding the human being from the heart
+
+The prayer is simple:
+May the mind itself become whole, auspicious, and rightly turned.
+
+---
+
+# **BOOK IV. ATMA-SAMHARANA / PRANAGNIHOTRA**
+
+### *Returning the Faculties into the Heart and Brahman*
+
+**Source stream:** *Mahanarayana Upanishad*, sec. 66
+
+---
+
+## Core refrain and structure
+
+Each movement follows the same inward sequence:
+
+1. A faculty or aspect of embodied life is established in its inner seat.
+2. That inner seat is established in "me."
+3. "I" am established in the Immortal.
+4. The Immortal is established in Brahman.
+
+This is a practice of dissolution, recollection, and return.
+
+### **Speech**
+
+May my Speech be established in my Mind.
+My Mind in my Heart.
+My Heart in Me.
+I in the Immortal.
+The Immortal in Brahman.
+
+### **Breath**
+
+May Vayu be established in my Breath.
+My Breath in my Heart.
+My Heart in Me.
+I in the Immortal.
+The Immortal in Brahman.
+
+### **Sight**
+
+May the Sun be established in my Eyes.
+My Eyes in my Heart.
+My Heart in Me.
+I in the Immortal.
+The Immortal in Brahman.
+
+### **Mind**
+
+May the Moon be established in my Mind.
+My Mind in my Heart.
+My Heart in Me.
+I in the Immortal.
+The Immortal in Brahman.
+
+### **Hearing**
+
+May the Directions be established in my Hearing.
+My Hearing in my Heart.
+My Heart in Me.
+I in the Immortal.
+The Immortal in Brahman.
+
+### **Body**
+
+May the Earth be established in my Body.
+My Body in my Heart.
+My Heart in Me.
+I in the Immortal.
+The Immortal in Brahman.
+
+### **Vitality**
+
+May the herbs and trees be established in my hair.
+My hair in my Heart.
+My Heart in Me.
+I in the Immortal.
+The Immortal in Brahman.
+
+### **Self**
+
+May my Self be established in the Supreme Self.
+The Self in my Heart.
+My Heart in Me.
+I in the Immortal.
+The Immortal in Brahman.
+
+---
+
+## Closing vision
+
+Taken together, these Krishna-path texts move through one arc:
+
+- the battlefield of life
+- remembrance of the indestructible Self
+- purification of mind
+- release of ownership
+- return to Brahman
+
+This anthology is therefore not only a set of teachings.
+It is a pathway of recollection.

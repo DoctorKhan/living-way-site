@@ -31,8 +31,19 @@ process_tex() {
 	    perl -0pe 's/^\s*\\ornament\s*$/'"$ORNAMENT_MARKER"'/mg' "$tex_file" | \
 	    perl -0pe 's/\\+\s*\n\s*\n/\n\n/g' > "$temp_tex"
     
-    # Derive title from filename (replace underscores with spaces)
-    local title="${base_name//_/ }"
+    # Prefer curated public titles over raw filenames for anthologies.
+    local title
+    case "$base_name" in
+        The_Living_Way)
+            title="The Yeshuan Sayings"
+            ;;
+        The_Living_Suttas)
+            title="The Book of Awakening"
+            ;;
+        *)
+            title="${base_name//_/ }"
+            ;;
+    esac
     
     # 2. Run Pandoc
     pandoc "$temp_tex" \
@@ -65,10 +76,11 @@ for f in *.tex; do
 	process_tex "$f"
 done
 
-# Process the Guide (Markdown)
-if [ -f "living-way-guide.md" ]; then
-    echo "Converting living-way-guide.md..."
-    pandoc living-way-guide.md \
+# Process the Guide (Markdown) — canonical source is Core/living-way-guide.md
+GUIDE_MD="Core/living-way-guide.md"
+if [ -f "$GUIDE_MD" ]; then
+    echo "Converting $GUIDE_MD..."
+    pandoc "$GUIDE_MD" \
         -o living_way_guide.html \
         --template="$TEMPLATE" \
         --metadata title="A Guide to The Way of the Living Jesus" \

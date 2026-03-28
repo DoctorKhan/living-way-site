@@ -20,6 +20,18 @@
 \usepackage{parskip}
 \usepackage{amssymb}
 \usepackage{emptypage} % Prevents page numbers/headers on blank pages
+\usepackage[hidelinks]{hyperref}
+
+\hypersetup{
+  pdftitle={The Book of Awakening},
+  pdfauthor={Rez Khan},
+  pdfsubject={Suttas of the Living Buddha},
+  pdfkeywords={Rez Khan, The Living Way, awakening, suttas, Buddha},
+  pdfcreator={LaTeX with hyperref}
+}
+\pdfinfo{
+  /Copyright (Copyright 2025 Rez Khan. All rights reserved.)
+}
 
 % --- 1. CHAPTER STYLING (The "Books") ---
 	\titleformat{\chapter}[display]
@@ -79,6 +91,21 @@
     {\small Transcribed for the One Who Seeks to See}
     \vspace{1cm}
 \end{titlepage}
+
+% --- COPYRIGHT PAGE ---
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+    \small
+    Copyright \copyright\ 2025 by Rez Khan \\
+    All rights reserved. \\
+    \vspace{0.5cm}
+    \textit{The Book of Awakening} \\
+    First Edition
+\end{center}
+\vspace{1cm}
+\newpage
 
 \frontmatter
 \tableofcontents

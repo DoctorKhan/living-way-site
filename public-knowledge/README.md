@@ -1,59 +1,73 @@
 # Living Way Knowledge (public texts)
 
-Canonical source for **public** guide texts and scrolls used by the marketing site and the app.
+Canonical source for **public** Living Way texts used by the marketing site and the app.
 
 ## Directory layout
 
 ```text
 living-way-knowledge/
-  Core/                    # Core treatises and guide
-  Gotama/                   # Living Buddha / Dhammapada
-  Krishna/                  # Gita of the Living Way
-  Einstein/                 # Unified Field Papers
-  Architect/                # Manual of Simulation
-  Yeshua/                   # (add when used)
-  Musashi/                  # (add when used)
+  Core/                    # Shared doctrine, guide texts, cross-tradition content
+  Laozi/                   # One folder per voice / path / tradition
+  Gotama/
+  Krishna/                 # Gita, Madālasā lullaby, Śiva-saṅkalpa Suktam, etc.
+  Einstein/
+  Architect/
 
-  *.tex                     # LaTeX sources → PDF + HTML
-  *.md                      # Markdown (e.g. living-way-guide.md, tao-te-ching-*)
-  index.html                # Simple index of texts (standalone)
-  living_way_guide.html     # Built from Core/living-way-guide.md
+  *.tex                    # Curated publication / anthology sources
+  *.html                   # Generated HTML outputs served by the site sync
+  *.pdf                    # Generated PDF outputs served by the site sync
+  index.html               # Shared library shell
+  read.html                # Shared markdown reader
 
-  tools/                    # build_html.sh, etc.
-  templates/                # HTML templates for Pandoc
+  tools/                   # Build helpers + `sync-public-knowledge.sh` / `public-knowledge-rsync.excludes`
+  templates/               # Pandoc templates
 ```
 
-- **Source:** `Core/`, persona folders (`Gotama/`, `Krishna/`, …), root `.tex` and `.md`.
-- **Build outputs:** `*.html` and `*.pdf` from `run.sh` / `tools/build_html.sh` and `pdflatex`. LaTeX intermediates (`.aux`, `.log`, `.toc`, …) are gitignored.
+- **Canonical source texts:** `Core/` and the guide folders (`Laozi/`, `Gotama/`, `Krishna/`, ...). The styled guide page **`living_way_guide.html`** is generated from **`Core/living-way-guide.md`** (same as the `read.html?doc=…` source).
+- **Publication sources:** root `.tex` files for curated compilations.
+- **Generated outputs:** root `*.html` and `*.pdf` from `run.sh` / `tools/build_html.sh` and `pdflatex`.
 
-See **GUIDE_ORGANIZATION.md** for persona-pack rules and where private content lives (in `living-way-app/private-knowledge/`, not here).
+See [GUIDE_ORGANIZATION.md](GUIDE_ORGANIZATION.md) for the canonical content model, public/private boundaries, and integration rules for `../living-way-site` and `../living-way-app`.
 
-## Build
+## Build and sync
 
 ```bash
-./run.sh
+./run.sh                    # incremental PDF/HTML (only if sources newer), then sync
+./run.sh incremental        # same as default
+./run.sh rebuild            # force full PDF + HTML build, then sync
+./run.sh build-only         # incremental build only (no sync)
+./run.sh build-only force   # full build only (no sync)
+./run.sh sync               # sync only (no LaTeX/HTML; e.g. after editing Markdown only)
 ```
 
-- Compiles `The_Living_Way.tex`, `The_Living_Suttas.tex`, `The_Living_Architecture.tex` to PDF.
-- Runs `tools/build_html.sh` to generate HTML from `.tex` and the guide Markdown.
+- **Incremental:** Runs `pdflatex` only for a `.tex` whose `.pdf` is missing or older than the `.tex`. Runs **`tools/build_html.sh`** only if a root `.tex`, `templates/guide_template.html`, `tools/build_html.sh`, or **`Core/living-way-guide.md`** is newer than the matching `.html` (or HTML is missing).
+- **Forced:** `./run.sh rebuild` (or `force`) rebuilds all three PDFs and the full HTML set regardless of mtimes.
+- If `../living-way-site` and/or `../living-way-app` exist, the default path still runs **`tools/sync-public-knowledge.sh`** so Markdown and other edits reach consumers even when LaTeX/HTML were skipped.
 
-## Sync to site
+## Sync to site and app (manual)
 
-The marketing site keeps a copy of this repo in `public-knowledge/`:
+**Canonical rsync** is implemented once in **`tools/sync-public-knowledge.sh`**, with exclude patterns in **`tools/public-knowledge-rsync.excludes`**.
 
 ```bash
-# From living-way-site/
+# Site (from living-way-site/)
 ./scripts/sync-public-knowledge.sh
+
+# App (from living-way-app/)
+./scripts/sync-public-knowledge.sh
+# or: ./run.sh sync-knowledge
+
+# Direct (from this repo — any destination)
+./tools/sync-public-knowledge.sh /path/to/public-knowledge/
 ```
 
-Run after changing content or rebuilding HTML/PDF so the site serves the latest.
+Run after changing canonical content, **`index.html`** / **`read.html`**, or rebuilding HTML/PDF so consumers serve the latest. The sync copies the whole knowledge tree, including the library index.
 
 ## Deployment
 
 This repo is **not deployed by itself** in the main workflow. Content is consumed by:
 
-1. **Marketing site** — Synced into **living-way-site**’s `public-knowledge/` via the script above; the site is deployed with GitHub Pages (see living-way-site README).
-2. **App** — The app reads public content from the knowledge repo or its own copy; no separate “deploy” of this repo is required.
+1. **Marketing site** — Synced into **living-way-site**’s `public-knowledge/`; treat that copy as publishing output, not the primary authoring location.
+2. **App** — The app consumes this repo’s public content and keeps any private overlays in its own gitignored locations; no separate deploy of this repo is required.
 
 **Optional: GitHub Pages for a standalone library**  
 If you want a separate URL that serves only this repo (e.g. a preview or standalone library), enable GitHub Pages in this repo: **Settings → Pages → Source: Deploy from a branch** (e.g. `main`, `/ (root)`). The root contains `index.html` and the built `.html`/`.pdf` files. Ensure you run `./run.sh` and commit the built files (or use a CI job to build and deploy) so the Pages site is up to date.
