@@ -7,7 +7,7 @@ This repo is the **public marketing site** for The Living Way: landing pages, wa
 | Repo | Role |
 |------|------|
 | **living-way-site** (this repo) | Static marketing site: homepage, Voices page, waitlist/campaign pages, and a copy of the public texts. Deployed e.g. via GitHub Pages. |
-| **living-way-knowledge** | **Source of truth** for public guide texts (Core/, Gotama/, Krishna/, Einstein/, Architect/, etc.). LaTeX and Markdown live here; you build PDF/HTML here. |
+| **living-way-knowledge** | **Source of truth** for public guide texts (Core/, Gotama/, Krishna/, Einstein/, Mindfulness/, Architect/, etc.). LaTeX and Markdown live here; you build PDF/HTML here. |
 | **living-way-app** | React Native / Expo app (mobile + web). Uses public content; private prompt overrides and notes live in its gitignored `private-knowledge/`. |
 
 **Content flow:** Edit and build texts in **living-way-knowledge**. The site’s `public-knowledge/` is a copy of that repo; the **app** can reference the knowledge repo or its own copy. Private material never goes in the site or the public knowledge repo.

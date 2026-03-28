@@ -1,6 +1,6 @@
 # The Unified Field Papers of the Living Way
 
-> In this library, Einstein names **science as a path**: **humility**, **testing your ideas**, and **not believing every thought** just because it feels urgent or true—alongside **Kabat-Zinn** (embodied observation). **Neuroscience** belongs in the same lineage: it maps the **illusions** baked into perception and narrative—prediction, confabulation, bias—so you can meet your own mind with curiosity instead of credulity. **Architect** texts carry the **system synthesis** of the whole map.
+> In this library, Einstein names **science as a path**: **humility**, **testing your ideas**, and **not believing every thought** just because it feels urgent or true—alongside **Mindfulness** (embodied observation). **Neuroscience** belongs in the same lineage: it maps the **illusions** baked into perception and narrative—prediction, confabulation, bias—so you can meet your own mind with curiosity instead of credulity. **Architect** texts carry the **system synthesis** of the whole map.
 
 The sections that follow are cast in his voice to show how **physics and wonder** can train the same virtues as contemplation: attention to what is real, refusal of lazy certainty, and room for the mysterious without superstition.
 

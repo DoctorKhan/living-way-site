@@ -20,7 +20,7 @@ living-way-knowledge/
   Gotama/
   Krishna/                  # Gita + related Hindu Sanskrit sources (see below)
   Einstein/                 # Empirical path: science as path (evidence, wonder, belief-optional)
-  KabatZinn/                # Empirical path: mindfulness as observation (belief-optional)
+  Mindfulness/                # Empirical path: mindfulness as observation (belief-optional)
   Architect/                # System synthesis: integrated map (simulation, forgetting, return)
   Musashi/                  # Warrior path: discipline, timing, void (Living Way originals)
 
@@ -57,7 +57,7 @@ The public **Library by Voice** page orders material so readers can see **two co
 
 | Kind | Folders / section | Role |
 |------|-------------------|------|
-| **Empirical paths** | `Einstein/`, `KabatZinn/` | **Science as path**: humility, testing ideas, skepticism toward first thoughts; neuroscience as study of **perceptual and cognitive illusion**—plus **embodied observation** (Kabat-Zinn)—**without** requiring creed first. |
+| **Empirical paths** | `Einstein/`, `Mindfulness/` | **Science as path**: humility, testing ideas, skepticism toward first thoughts; neuroscience as study of **perceptual and cognitive illusion**—plus **embodied observation** (Mindfulness)—**without** requiring creed first. |
 | **System synthesis** | `Core/` treatise + scrolls, `Architect/` | How traditions and metaphors fit together as **one system**. |
 | **Tradition paths** | `Gotama/`, `Laozi/`, `Krishna/`, … | Named lineages in their own languages and images. |
 | **Warrior path** | `Musashi/` | Discipline, timing, emptiness—**attention** as training; Living Way originals after Musashi’s **spirit**, not classical translations. |
@@ -104,7 +104,7 @@ living-way-knowledge/
   Krishna/                 # Gita / bhakti / dharma pathway texts
   Laozi/                   # Taoist pathway texts
   Einstein/                # Empirical: science as path (belief-optional)
-  KabatZinn/               # Empirical: mindfulness inquiry (belief-optional)
+  Mindfulness/               # Empirical: mindfulness inquiry (belief-optional)
   Architect/               # System synthesis: integrated structural map
   Musashi/                 # Warrior path: discipline, timing, void (Living Way originals)
 ```
@@ -137,7 +137,7 @@ Each voice or tradition gets one top-level folder:
 - `Gotama/`
 - `Krishna/`
 - `Einstein/`
-- `KabatZinn/`
+- `Mindfulness/`
 - `Architect/`
 - `Musashi/`
 
@@ -150,13 +150,13 @@ Laozi/
   The_Unforced_Leader_Tao_Te_Ching.md
 ```
 
-#### `KabatZinn/` (mindfulness inquiry · empirical path)
+#### `Mindfulness/` (mindfulness inquiry · empirical path)
 
-Use **`KabatZinn/`** for Living Way framing of **belief-optional, body-first** inquiry aligned with Jon Kabat-Zinn’s public teaching (e.g. MBSR’s posture: observe experience directly without requiring metaphysics first). Do **not** paste copyrighted excerpts here; link to official materials externally when needed.
+Use **`Mindfulness/`** for Living Way framing of **belief-optional, body-first** inquiry aligned with Jon Mindfulness’s public teaching (e.g. MBSR’s posture: observe experience directly without requiring metaphysics first). Do **not** paste copyrighted excerpts here; link to official materials externally when needed.
 
 | File | Role |
 |------|------|
-| `The_Mindfulness_Inquiry_Path_of_the_Living_Way.md` | Primary Kabat-Zinn-path framing for the library |
+| `The_Mindfulness_Inquiry_Path_of_the_Living_Way.md` | Primary Mindfulness-path framing for the library |
 
 Update **`index.html`** if you add works here, then sync **`tools/sync-public-knowledge.sh`**.
 

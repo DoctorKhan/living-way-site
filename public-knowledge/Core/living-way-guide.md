@@ -3,6 +3,8 @@
 *(Based on the Gospels of Thomas & Mary)*
 
 > **Source of record:** This file is the canonical authoring source. Styled HTML is generated at the repo root as `living_way_guide.html` by `tools/build_html.sh` (run `./run.sh` or `./run.sh build-only`). The same Markdown opens in the library via `read.html?doc=Core/living-way-guide.md`.
+>
+> **Canonical companion texts:** For a canon-only Yeshuan reading, see `Yeshua/The_Canonical_Way_of_Jesus.md`. For a poetic canonical retelling, see `Yeshua/The_Gospel_of_the_Living_One.md`. For a passage shelf, see `Yeshua/Canonical_Sayings_Index.md`.
 
 ## **Chapter 1 — The Outer Child, the Inner Child, and the Path of the Adult**
 
@@ -109,6 +111,21 @@ Jesus is “Living” because he reveals *Life itself* within you.
 
 His purpose is not to die for you
 but to **awaken you so you will “not taste death.”**
+
+### ✦ Jesus and the Messianic Title
+
+In the early sayings tradition, Jesus does not present himself as an object of worship.
+He speaks as a revealer, a guide, and a living example of what the human being can become when united with the Source.
+
+Where later theology centers the title **Messiah** or **Christ**,
+the older voice often prefers the language of the **Son of Man**:
+the true human, the awakened one, the image of what is possible in you.
+
+In this reading, Jesus does not come announcing,
+"I am the figure you must worship."
+He points away from outer titles and toward inner recognition.
+The issue is not accepting a messianic claim,
+but becoming what he reveals.
 
 ---
 
@@ -264,6 +281,14 @@ The two paths are not the same.
 
 Paul never met Jesus in life.
 His theology comes from a vision interpreted through Jewish sacrifice and Roman concepts of authority.
+
+From this came the institutional turn.
+The movement of inner awakening became, in Pauline hands and in the communities shaped by his letters, the seed of a new church:
+a body organized around proclamation, doctrine, authorized teachers, and saving belief.
+
+The Jesus of the sayings tradition announces the Kingdom within and calls people to wake up.
+The Christ of Paul becomes a cosmic savior whose death and resurrection are the center of the drama.
+This is the shift from the religion **of** Jesus to the religion **about** Jesus.
 
 Thus the great inversion:
 
