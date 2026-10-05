@@ -32,7 +32,7 @@
   <text x="600" y="385" font-family="Georgia, serif" font-size="26" fill="#5a5a5a" text-anchor="middle" font-style="italic">"These sayings are not commandments, but mirrors."</text>
 
   <!-- Subtitle -->
-  <text x="600" y="460" font-family="Georgia, serif" font-size="20" fill="#7a7a7a" text-anchor="middle">The 81 Sayings of Yeshua the Living One</text>
+  <text x="600" y="460" font-family="Georgia, serif" font-size="20" fill="#7a7a7a" text-anchor="middle">Sayings of Yeshua the Living One</text>
 
   <!-- Bottom accent line -->
   <rect x="500" y="530" width="200" height="1" fill="#8c7b6c" opacity="0.4"/>

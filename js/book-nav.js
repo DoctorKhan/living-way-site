@@ -2,7 +2,7 @@
  * Book navigation for library book pages, built from the page's own headings:
  * - a contents list: a sticky sidebar on wide screens, a pull-out panel elsewhere
  * - a title filter, and the current section highlighted while reading
- * For The Living Way only (numbered sayings 1-81):
+ * For The Living Way only (its sayings, numbered in order):
  * - saying numbers beside each title (drawn with CSS, so titles stay clean)
  * - previous / next links after each saying
  * - "continue where you left off", remembered on this device
@@ -46,10 +46,7 @@
         g.items.forEach(function (h) { sayings.push(h); h.dataset.num = sayings.length; });
       }
     });
-    if (sayings.length !== 81) {
-      sayings.forEach(function (h) { delete h.dataset.num; });
-      sayings = [];
-    }
+
   }
 
   // --- Contents panel -----------------------------------------------------
