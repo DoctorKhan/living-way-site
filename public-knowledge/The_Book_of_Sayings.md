@@ -160,7 +160,7 @@ It was first spoken after a sponsored worker injured Nia at the repair dock. The
 
 ## VI. When the crowd gathers
 
-Other people are excited.
+Everyone else is certain.
 
 I alone don’t know.
 
