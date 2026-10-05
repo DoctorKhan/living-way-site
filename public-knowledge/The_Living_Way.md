@@ -458,16 +458,17 @@ Only those who walk this way come to the Father.
 Take off your sandals.  
 This ground is holy.
 
-A flame is here.  
+A flame lies here.  
 Your breath fans it,  
-the same breath that moved in your ancestors.
+the same that moved in your ancestors.
 
 Joy and grief feed the fire,  
-yet the one who knows them is not burned.  
-Thus it burns, unconsumed.
+yet the one who knows them is not burned.
 
-A name carved in wood is consumed;  
-this name knows itself:  
+The knower's name is not carved in wood;  
+it burns, unconsumed.
+
+The eternal one names itself:  
 *I am that I am.*
 
 ## Profit and Loss
@@ -1144,7 +1145,7 @@ $\cdot$ $\odot$ $\cdot$
 - The Way of Non-Violence: Tao Te Ching 30, 68; Matthew 26:52; Matthew 5:9.
 - The Healing of the Ear: Tao Te Ching 31; Luke 22:50--51.
 - The Way, the Truth: Tao Te Ching 32; John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7; Tathāgata (the Buddha's name for himself, "one who has gone thus"), echoed in "those who walk this way."
-- The Eternal Name: Exodus 3:2--6, 3:14 (Moses at the burning bush); John 8:58 ("before Abraham was, I am"); Thomas 3 ("when you know yourselves, then you will be known"); Tao Te Ching 1 (the name that can be named); Genesis 1:2 (the breath moving); so'ham, "That I am," the breath mantra of Advaita (compare Nisargadatta, *I Am That*).
+- The Eternal Name: Exodus 3:2--6, 3:14 (Moses at the burning bush); John 8:58 ("before Abraham was, I am"); Thunder, Perfect Mind ("the speaking of my own name"); Tao Te Ching 1 (the name that can be named); Genesis 1:2 (the breath moving); so'ham, "That I am," the breath mantra of Advaita (compare Nisargadatta, *I Am That*).
 - Profit and Loss: Tao Te Ching 33; Mark 8:36.
 - The Great River: Tao Te Ching 34; Odes of Solomon 6.
 - The Face of Peace: Tao Te Ching 35; John 14:27.
