@@ -19,6 +19,14 @@ Edition 3.0
 *They are not ancient texts. Each of the eighty-one follows*  
 *the matching chapter of the Tao Te Ching;*  
 *sources and echoes are listed at the end.*
+
+Read one saying slowly. Carry it into your day. Return to it through
+what you encounter.
+
+For practices to accompany the sayings, see
+[The Wisdom of Awakening](The_Living_Suttas.html). For the underlying
+map of forgetting and remembering, see
+[The Hidden Architecture](The_Living_Architecture.html).
 :::
 
 # Preface
@@ -487,8 +495,9 @@ and the Living Source is seen through them.
 
 Hold fast to the image of the Living One  
 and all beings come to rest in your presence.  
-Peace is not the absence of conflict;  
-it is the recognition that conflict was a dream.  
+Peace begins when you see  
+that the one you oppose  
+is more than your quarrel.  
 The awakened do not persuade---they radiate.
 
 ## The Paradox of Power
@@ -595,9 +604,7 @@ and an empty field will feed you.
 
 The cup most full appears most empty.  
 The path most straight appears crooked.  
-The hand most skilled trembles.  
-Why? Because the world sees only surfaces,  
-and the Real dwells beneath the seen.  
+The hand most skilled holds lightly.  
 The awakened make peace with paradox  
 and so are not deceived by appearances.
 
@@ -792,7 +799,8 @@ Do the great work through small acts.
 Respond to hatred with peace.  
 Untie the knot while it is loose.  
 Tend the vine while it is young.  
-The one who refuses to harm cannot be harmed.
+Let the wound end with you;  
+do not send it on.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
