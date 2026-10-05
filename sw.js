@@ -8,7 +8,7 @@
  *
  * Bump VERSION when the precache list changes.
  */
-const VERSION = "2026-10-05";
+const VERSION = "2026-10-05b";
 const STATIC_CACHE = `lw-static-${VERSION}`;
 const PAGES_CACHE = "lw-pages";
 const FONT_HOSTS = ["fonts.googleapis.com", "fonts.gstatic.com"];
@@ -21,6 +21,8 @@ const PRECACHE = [
   "/public-knowledge/The_Living_Way.html",
   "/css/experience.css",
   "/js/pwa.js",
+  "/js/site-nav.js",
+  "/css/site-nav.css",
   "/js/sayings-share.js",
   "/images/logo.svg",
   "/images/icon-192.png",
