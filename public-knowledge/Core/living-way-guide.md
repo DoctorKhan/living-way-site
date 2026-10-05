@@ -1,16 +1,18 @@
 # ✦ **A Guide to The Way of the Living Jesus**
 
-*(Drawn from the Gospels of Thomas, Mary, and Philip)*
+*(Drawn from the Gospels of Thomas, Mary, and Philip, and the Tao Te Ching)*
 
-> **Companion texts:** To read only the four canonical Gospels, see [The Canonical Way of Jesus](read.html?doc=Yeshua/The_Canonical_Way_of_Jesus.md). For a poetic retelling, see [The Gospel of the Living One](read.html?doc=Yeshua/The_Gospel_of_the_Living_One.md). For a shelf of passages by theme, see the [Canonical Sayings Index](read.html?doc=Yeshua/Canonical_Sayings_Index.md).
+> **Companion texts:** This guide accompanies [The Living Way](The_Living_Way.html), the eighty-one sayings at the center of this library. To read only the four canonical Gospels, see [The Canonical Way of Jesus](read.html?doc=Yeshua/The_Canonical_Way_of_Jesus.md). For a poetic retelling, see [The Gospel of the Living One](read.html?doc=Yeshua/The_Gospel_of_the_Living_One.md). For a shelf of passages by theme, see the [Canonical Sayings Index](read.html?doc=Yeshua/Canonical_Sayings_Index.md).
 
 ## **How to Use This Guide**
 
 This is a guide to practice, not a creed. Nothing here asks you to leave a church, join one, or believe anything in advance.
 
+*The Living Way* gives the sayings. This guide gives the ground beneath them and the practices that go with them. Where a saying from *The Living Way* speaks to a section, its number is given, so you can read the two side by side.
+
 Read one chapter. Try its practice for a week. Keep what proves true in your own life and set the rest down.
 
-Quotations from Thomas, Mary, and Philip are the author's own renderings of the ancient texts. Thomas is cited by saying number; Mary by page of the Berlin Codex.
+Quotations from Thomas, Mary, Philip, and the Tao Te Ching are the author's own renderings of the ancient texts. Thomas is cited by saying number, Mary by page of the Berlin Codex, and the Tao Te Ching by chapter.
 
 ---
 
@@ -33,6 +35,11 @@ The map:
 
 An early Greek copy of this saying adds a last step: *and having reigned, they will rest.*
 
+The Tao Te Ching names the same movement in four words:
+
+> "Returning is the movement of the Way."
+> — Tao Te Ching 40
+
 These are not ranks to be awarded. They are seasons, and most people pass through them many times.
 
 ### ✦ Seek
@@ -53,7 +60,7 @@ The trouble turns, slowly, into wonder. What threatened you begins to look like 
 
 ### ✦ Reign and Rest
 
-To "reign over the All" is not to rule others. It is to no longer be ruled by fear, craving, and the opinions of the crowd. What remains is rest: not idleness, but a settledness that does not depend on circumstances.
+To "reign over the All" is not to rule others. It is to no longer be ruled by fear, craving, and the opinions of the crowd. What remains is rest: not idleness, but a settledness that does not depend on circumstances. This is the return the Tao speaks of: not going back in time, but coming home to the Source you never left (*The Living Way*, 40, "The Return").
 
 > "If they ask you, 'What is the sign of your Father in you?'
 > say to them, 'It is movement and rest.'"
@@ -61,9 +68,9 @@ To "reign over the All" is not to rule others. It is to no longer be ruled by fe
 
 ---
 
-# **Chapter 2 — The Living Father and Your Origin**
+# **Chapter 2 — The Source, the Father, and the Mother**
 
-These gospels say less about *who* God is than about *where* God is found.
+These texts say less about *who* God is than about *where* God is found.
 
 ### ✦ Not in the Sky
 
@@ -78,24 +85,75 @@ These gospels say less about *who* God is than about *where* God is found.
 > you live in poverty, and you are that poverty."
 > — Thomas 3
 
-The Kingdom is not a place you are sent to later. It is a way of seeing that is available now, inside you and spread out around you:
-
 > "The Kingdom of the Father is spread out upon the earth,
 > and people do not see it."
 > — Thomas 113
 
-### ✦ Where You Come From
+### ✦ One Source, Two Hands
+
+*The Living Way* speaks of a single Source that cannot be named, and of two ways it is known:
+
+> The Source gives birth to the Father and the Mother.
+> The Two give birth to the Many.
+> The Many return to the One.
+> — *The Living Way*, 42, "The Birth of the Two"
+
+The Father and the Mother are not two gods. They are the two hands of the One Source: the Light that originates, and the Wisdom that receives, holds, and gives birth. Neither is complete without the other.
+
+### ✦ The Father of Light
 
 > "If they say to you, 'Where have you come from?'
 > say to them, 'We came from the light,
 > the place where the light came into being by itself.'"
 > — Thomas 50
 
-This is not flattery. It is a claim about what you are beneath your roles, your history, and your fears: something that came from the light and has never stopped belonging to it.
+The Father is the Light you came from: unborn, unbroken, and without wrath (*The Living Way*, 4, "The Father of Light"). This is not flattery. It is a claim about what you are beneath your roles, your history, and your fears.
 
-### ✦ The Living and the Dead
+### ✦ The Mother of Wisdom
 
-Thomas uses "living" and "dead" as images. To be *living* is to be awake to this origin. To be *dead* is to be wholly absorbed in the surface of things: possessions, reputation, and the endless traffic of wanting. Jesus is called "the Living One" because he is awake, and because he wakes others.
+The older stream of the tradition also knew the divine as Mother.
+
+In the Hebrew scriptures, Wisdom speaks as a woman who was present before creation:
+
+> "When he established the heavens, I was there…
+> I was beside him like a master worker,
+> and I was his delight day by day,
+> rejoicing before him always."
+> — Proverbs 8:27, 30
+
+Jesus himself is remembered as one of Wisdom's children:
+
+> "Wisdom is vindicated by all her children."
+> — Luke 7:35
+
+The word for Spirit, *ruach* in Hebrew and *ruḥa* in the Syriac of the early Eastern churches, is usually feminine. One early Jewish-Christian gospel, known only from quotations, has Jesus speak of "my mother, the Holy Spirit." Thomas has Jesus say that his true Mother gave him life (Thomas 101). And the Gospel of Philip mocks the idea that Mary conceived by the Holy Spirit, asking, "When did a woman ever conceive by a woman?" Its author assumed, as many early Christians did, that the Spirit is feminine.
+
+The Tao Te Ching calls the same reality the Mother of all things:
+
+> "The world has a beginning,
+> and it is the Mother of the world.
+> Find the Mother, and you will know her children.
+> Know the children, then return and hold to the Mother,
+> and to the end of your life you will come to no harm."
+> — Tao Te Ching 52
+
+In *The Living Way*, the Mother is the Silence that births the All (25, "The Womb of Silence"), the River that pours itself into every vessel (34, "The Great River"), and the home the soul returns to, where the powers can no longer wound it (52, "Return to the Mother").
+
+If the Father is the Light you came from, the Mother is the Silence you rest in.
+
+### ✦ The Two Made One
+
+The goal of the Way is not to choose between them, but to see their union. The Gospel of Philip calls this the **bridal chamber**:
+
+> "If anyone becomes a child of the bridal chamber, they will receive the light.
+> If they do not receive it while they are here,
+> they will not receive it in the other place."
+> — Gospel of Philip
+
+The Preface of *The Living Way* says it in two lines:
+
+> There the two are made one,
+> and the one is shown to be none.
 
 ### ✦ The Teacher Who Points Within
 
@@ -118,7 +176,7 @@ The question these texts put to you is not *"Will you accept a claim about him?"
 
 # **Chapter 3 — The Practices of the Way**
 
-The Way is learned by doing. These five practices are the heart of this guide. Begin with the first, and add the next only when the one before has become familiar.
+The Way is learned by doing. These seven practices are the heart of this guide. Begin with the first, and add the next only when the one before has become familiar. For more practices in the voice of Gotama, see [The Wisdom of Awakening](The_Living_Suttas.html).
 
 ---
 
@@ -135,9 +193,32 @@ The Way is learned by doing. These five practices are the heart of this guide. B
 
 This is the "poverty" of Thomas 3 turning into its opposite: you begin to know yourself.
 
+*In The Living Way:* 3, "The Poverty of the Unknowing"; 32, "The Way, the Truth."
+
 ---
 
-## ✦ Practice 2 — Make the Two One
+## ✦ Practice 2 — Return to the Mother
+
+The first practice asks. This one receives.
+
+> "The spirit of the valley never dies.
+> It is called the hidden Mother.
+> The gate of the hidden Mother
+> is the root of heaven and earth."
+> — Tao Te Ching 6
+
+1. Sit as before. Stop asking anything.
+2. Let the breath be breathed, without managing it. Let sounds arrive, without naming them.
+3. Feel yourself held: by the ground, by the air, by the silence around the sounds.
+4. Rest there like a valley that receives the rain. There is nothing to achieve.
+
+When the powers return, come back here. In *The Living Way*, the one who returns to the Womb of Light is "no longer wounded by the powers" (52).
+
+*In The Living Way:* 25, "The Womb of Silence"; 52, "Return to the Mother."
+
+---
+
+## ✦ Practice 3 — Make the Two One
 
 > "When you make the two one,
 > and make the inside like the outside and the outside like the inside,
@@ -150,9 +231,11 @@ This is the "poverty" of Thomas 3 turning into its opposite: you begin to know y
 3. Ask: *"What holds both?"*
 4. Rest in that. Thomas calls the one who lives from there the **Single One**: not alone, but undivided.
 
+*In The Living Way:* 2, "The Two Become One"; 28, "The Fertile Soil."
+
 ---
 
-## ✦ Practice 3 — Name the Powers
+## ✦ Practice 4 — Name the Powers
 
 The Gospel of Mary describes the soul rising past **powers** that try to hold it. In the surviving pages they are **Desire**, **Ignorance**, and **Wrath**. Wrath appears in seven forms:
 
@@ -175,9 +258,11 @@ In this reading, sin is less a debt you owe than a confusion you live in: taking
 
 **The practice:** when you notice craving, confusion, or anger, name it plainly and add, *"This is a power, not my self."* Watch what happens to its grip once it has been named.
 
+*In The Living Way:* 5, "The Powers Question the Soul"; 7, "The Unforced Kingdom."
+
 ---
 
-## ✦ Practice 4 — Answer the Powers
+## ✦ Practice 5 — Answer the Powers
 
 When Desire tries to hold the rising soul, saying it belongs to it, the soul answers:
 
@@ -193,13 +278,31 @@ And at the last power:
 > and ignorance has died."
 > — Mary 16
 
-**The practice:** when a power returns, and it will, answer it in your own words, gently and without contempt: *"I see you. You are something I wear. You are not me."* Then return to Practice 1.
+**The practice:** when a power returns, and it will, answer it in your own words, gently and without contempt: *"I see you. You are something I wear. You are not me."* Then return to the Mother, in Practice 2.
 
 This is not triumph over an enemy. It is recognition. What is recognized loses the power to rule.
 
+*In The Living Way:* 5, "The Powers Question the Soul"; 13, "The Unbinding."
+
 ---
 
-## ✦ Practice 5 — Bring Forth What Is Within You
+## ✦ Practice 6 — The Way of Water
+
+The Way does not force.
+
+> "The highest good is like water.
+> Water benefits all things and does not compete.
+> It settles in the low places people despise,
+> and so it is close to the Way."
+> — Tao Te Ching 8
+
+**The practice:** when you meet resistance, in a person, a task, or yourself, pause before you push. Ask: *"What would water do here?"* Water does not stop moving, and it does not fight. It finds the low way around, and in time it wears down stone. Take the lower seat. Say less. Let the situation show you its shape before you act on it.
+
+*In The Living Way:* 8, "The Servant at the Feast"; 43, "The Gentle Overcomes"; 78, "The Stone and the Corner."
+
+---
+
+## ✦ Practice 7 — Bring Forth What Is Within You
 
 The Way is inward, but it is not private.
 
@@ -210,6 +313,8 @@ The Way is inward, but it is not private.
 > — Thomas 70
 
 **The practice:** once a day, act from what you have seen in stillness. Speak the true thing you have been avoiding. Give what you have been holding back. Do the small task you know is yours. Then notice whether what you brought forth leaves you more alive or less.
+
+*In The Living Way:* 63, "The Small Actions"; 81, "The Completion."
 
 ---
 
@@ -227,8 +332,11 @@ Some images and how this guide reads them:
 * **The lion** is the appetite that devours (Thomas 7).
 * **Poverty** is not knowing yourself (Thomas 3).
 * **The garment** is the self you wear and mistake for yourself (Thomas 37; Mary 15).
+* **The Mother** is Wisdom, Silence, and the receiving ground of all things (Proverbs 8; Tao Te Ching 52).
+* **Water** is the strength of what does not force (Tao Te Ching 8, 78).
+* **The bridal chamber** is the union in which the two are made one (Gospel of Philip).
 
-**How to read:** take one saying a day. Read it slowly, three times. Ask where in your own life it is pointing. Do not force a single meaning. Thomas promises that the meaning is *found*, not handed over.
+**How to read:** take one saying a day from *The Living Way*. Read it slowly, three times. Ask where in your own life it is pointing. Do not force a single meaning. Thomas promises that the meaning is *found*, not handed over. The Sources and Echoes at the end of *The Living Way* show where each saying comes from.
 
 ---
 
@@ -247,7 +355,7 @@ The **letters of Paul** are the earliest Christian writings we have, from the 50
 
 The **sayings gospels**, Thomas above all, center on something else: knowing yourself, seeing the Kingdom now, and waking up. Scholars disagree about their dates. Thomas may contain some very early sayings alongside later material; Mary and Philip are usually dated to the second and third centuries.
 
-Over the centuries, the church built mostly on the first emphasis. The sayings stream was set aside, and these gospels were nearly lost until manuscripts surfaced in Egypt: Mary in a codex that reached Berlin in 1896, and Thomas and Philip at Nag Hammadi in 1945.
+Over the centuries, the church built mostly on the first emphasis. The sayings stream was set aside, the feminine language for God's Wisdom and Spirit faded in the West, and these gospels were nearly lost until manuscripts surfaced in Egypt: Mary in a codex that reached Berlin in 1896, and Thomas and Philip at Nag Hammadi in 1945.
 
 | The religion *of* Jesus (sayings stream) | The religion *about* Jesus (later emphasis) |
 | ---------------------------------------- | ------------------------------------------- |
@@ -266,13 +374,13 @@ The Gospel of Mary shows this tension in a single scene. After Mary shares her v
 
 The question it raises is a question about authority: does it come from inner seeing, or from position? The Way answers with Mary.
 
-For the history of how the image of Christ was shaped by the cultures around it, see the essay [The Syncretic Christ](syncretic_construct_christ.html).
+For the history of how the image of Christ was shaped by the cultures around it, see the essay [The Syncretic Christ](syncretic_construct_christ.html). For the larger map of forgetting and remembering behind these teachings, see [The Hidden Architecture](The_Living_Architecture.html).
 
 ---
 
 # ✦ **Conclusion — Movement and Rest**
 
-The Way of the Living Jesus is not a new set of beliefs to replace the old ones. It is a path you walk: seeking, finding, being troubled, marveling, and coming to rest.
+The Way of the Living Jesus is not a new set of beliefs to replace the old ones. It is a path you walk: seeking, finding, being troubled, marveling, and coming to rest, from the Light of the Father into the Silence of the Mother, until the two are made one.
 
 > "Those who say they will first die and then rise are mistaken.
 > If they do not receive the resurrection while they are alive,
