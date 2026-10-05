@@ -276,17 +276,6 @@ body.home-experience {
   box-shadow: 0 12px 40px rgba(46, 52, 42, 0.04);
 }
 
-.door-card::after {
-  position: absolute;
-  right: -3rem;
-  bottom: -5rem;
-  width: 13rem;
-  height: 13rem;
-  border: 1px solid rgba(178, 138, 82, 0.22);
-  border-radius: 50%;
-  content: "";
-}
-
 .door-number {
   margin-bottom: 4.5rem;
   color: var(--lw-gold);
