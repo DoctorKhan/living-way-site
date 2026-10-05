@@ -3,7 +3,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
-KNOWLEDGE="${ROOT}/../living-way-knowledge"
+KNOWLEDGE="${ROOT}/../knowledge"
 DO_BUILD=false
 DO_SERVE=false
 PORT="${PORT:-8000}"
@@ -62,7 +62,7 @@ show_help() {
   echo "Usage: $0 [dev|serve|open|build|stop|status|gc|ports|test|push-knowledge|help]"
   echo ""
   echo "Options:"
-  echo "  (none)    Sync public-knowledge from ../living-way-knowledge only."
+  echo "  (none)    Sync public-knowledge from ../knowledge only."
   echo "  dev       Alias for serve. Sync, then start local server via runctl when available."
   echo "  build     Build knowledge repo (PDF + HTML) first, then sync."
   echo "  serve     After sync, start local server."
@@ -72,7 +72,7 @@ show_help() {
   echo "  gc        Clean stale runctl port claims."
   echo "  ports     List runctl port claims."
   echo "  test      Run tests (API + Groq client contract)."
-  echo "  push-knowledge  Copy co-maintained Library files from public-knowledge/ → ../living-way-knowledge/"
+  echo "  push-knowledge  Copy co-maintained Library files from public-knowledge/ → ../knowledge/"
   echo "  help      Show this help (also -h, --help)."
   echo ""
   echo "Examples:"
@@ -120,7 +120,7 @@ for arg in "$@"; do
       exit $?
       ;;
     push*)
-      echo "==> Pushing co-maintained Library files to living-way-knowledge..."
+      echo "==> Pushing co-maintained Library files to knowledge/..."
       "$ROOT/scripts/sync-to-knowledge.sh"
       exit $?
       ;;
@@ -141,8 +141,8 @@ if "$DO_BUILD"; then
   fi
 fi
 
-# 2. Sync public-knowledge from living-way-knowledge (always)
-echo "==> Syncing public-knowledge from ../living-way-knowledge..."
+# 2. Sync public-knowledge from knowledge/ (always)
+echo "==> Syncing public-knowledge from ../knowledge..."
 "$ROOT/scripts/sync-public-knowledge.sh"
 
 # 3. Optionally serve the site locally

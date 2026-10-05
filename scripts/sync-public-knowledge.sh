@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-SRC="$ROOT/../living-way-knowledge/"
+SRC="$ROOT/../knowledge/"
 DEST="$ROOT/public-knowledge/"
 
 # Site keeps its own Library index (organized by teacher); do not overwrite or delete it.

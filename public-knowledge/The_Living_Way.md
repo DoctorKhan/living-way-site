@@ -16,8 +16,8 @@ Edition 3.0
 *A note on these sayings:*  
 *These are new sayings, written in the spirit of the Gospel of Thomas,*  
 *the Gospels of Mary and Philip, and the Tao Te Ching.*  
-*They are not ancient texts. Each of the eighty-one follows*  
-*the matching chapter of the Tao Te Ching;*  
+*They are not ancient texts. Most answer a chapter*  
+*of the Tao Te Ching; some answer other voices;*  
 *sources and echoes are listed at the end.*
 
 Read one saying slowly. Carry it into your day. Return to it through
@@ -91,7 +91,6 @@ $\cdot$ $\odot$ $\cdot$
 # The Light Before the World
 
 ::: {.center}
-*(Sayings 1--9)*  
 From the Silence, the Word.  
 From the Word, the Light.
 :::
@@ -148,6 +147,10 @@ Desire whispers, "You are mine."
 Ignorance declares, "You do not know yourself."  
 Anger cries, "Strike, and be struck."  
 The body murmurs, "I am all there is."  
+And last comes the wisdom of the angry,  
+sure that it serves the Good---  
+watch most for this one;  
+it wears the face of righteousness.  
 But the awakened soul smiles and replies:  
 "You never touched me.  
 You grasped only my clothing."
@@ -198,7 +201,6 @@ $\cdot$ $\odot$ $\cdot$
 # The Kingdom Within
 
 ::: {.center}
-*(Sayings 10--18)*  
 The door is shut, yet the house is vast.  The lamp is small, yet it
 lights the world.
 :::
@@ -260,6 +262,7 @@ but the Great Fish slips through.
 Do not hunger for many words from me.  
 Hunger for the Silence  
 in which the Word is born.  
+Seal the senses. Quiet the mind.  
 There you and I are one life,  
 one breath,  
 one Being.
@@ -280,8 +283,8 @@ The greatest guide is the one who disappears.
 The seeker awakens and cries:  
 "Look---  
 I have found the Way myself."  
-Thus I leave no trace,  
-and yet my footprints are everywhere.
+Thus my work is done,  
+and no one knows my name.
 
 ## When the Way Is Forgotten
 
@@ -292,12 +295,14 @@ they multiply rules.
 When rules no longer bind,  
 they threaten with fire  
 and promise crowns of gold.  
-The further you flee from your own heart,  
-the further you stray from Life.  
+What you call "good" and "evil"  
+are shadows thrown by a divided mind.  
 Return to the beginning---  
 to the spark before words---  
 and fear falls away  
-like rotted cloth.
+like rotted cloth.  
+When the eye becomes single,  
+the heart needs no commandments.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -306,25 +311,8 @@ $\cdot$ $\odot$ $\cdot$
 # The Garment of Silence
 
 ::: {.center}
-*(Sayings 19--27)*  
 The garment divides; the wearer unites.
 :::
-
-## Beyond the Teachings
-
-Leave the holiness that needs witnesses;  
-return to the wholeness  
-that needs none.  
-Leave the righteousness that lives in the scroll;  
-return to the sight  
-that burns in the heart.  
-Leave the law that threatens from outside;  
-return to the Source  
-that speaks within you as Light.  
-What you call "good" and "evil"  
-are shadows thrown by a divided mind.  
-When the eye becomes single,  
-the heart needs no commandments.
 
 ## Not of This World
 
@@ -335,6 +323,17 @@ Many chase desires.
 Few seek liberation.  
 Yet the Kingdom belongs to those  
 who loosen their grip on everything.
+
+## Passersby
+
+Be a traveller here.  
+Eat the bread of the inn with thanks;  
+sleep well under its roof;  
+in the morning, pay and go.  
+Do not carve your name into the door.  
+The one who passes through  
+loses nothing when the house falls,  
+for they never mistook it for home.
 
 ## The Face of the Invisible
 
@@ -363,24 +362,6 @@ yet entire forests bow before it.
 When you speak from the Living Source,  
 your words carry no force---  
 yet they move mountains.
-
-## The Tower That Topples
-
-One who raises the self has already fallen.  
-One who displays virtue has already lost it.  
-One who demands honor has already betrayed the soul.  
-Stand in your true nature---  
-and honor flows from you without asking.
-
-## The Womb of Silence
-
-There is a womb older than creation.  
-It is the Silence that births the All.  
-It is formless, unbounded.  
-It moves through you as breath,  
-yet it is not the breath.  
-Those who know Her  
-do not cling to life nor fear death.
 
 ## The Heavy Root
 
@@ -411,7 +392,6 @@ $\cdot$ $\odot$ $\cdot$
 # The Power of the Gentle
 
 ::: {.center}
-*(Sayings 28--36)*  
 The gentle are the strong.  The yielding are the immovable.
 :::
 
@@ -444,16 +424,22 @@ For every blow you strike strikes you in return.
 Every wound you inflict  
 becomes your own garment of suffering.  
 Power gained through violence rots the soul;  
-power gained through awakening cannot be taken away.
+power gained through awakening cannot be taken away.  
+Blessed are the peacemakers---  
+they win the war within,  
+and the world lays down its sword.
 
-## The Weapon of the Heart
+## The Healing of the Ear
 
-Weapons are tools of fear;  
-the heart of the awakened has no use for them.  
-Victory through harm is mourning in disguise.  
-The wise triumph by dissolving conflict,  
-not by defeating an opponent---  
-seeing no opponent at all.
+When the sword was drawn in the garden  
+and the servant's ear fell to the ground,  
+I did not praise the blade.  
+I knelt, and made the servant whole.  
+Walk among the wounded as a mourner,  
+never as a victor;  
+and when the fighting ends, do not sing.  
+Whoever rejoices over the fallen  
+has become what they fought.
 
 ## The Way, the Truth
 
@@ -520,17 +506,22 @@ $\cdot$ $\odot$ $\cdot$
 # The Union of Opposites
 
 ::: {.center}
-*(Sayings 37--45)*  
-The two become one.
+Every pair is one thing, seen twice.
 :::
 
-## The Ease of the Way
+## Split the Wood
 
-The Way acts without effort.  
-When the heart aligns with it, desire loosens its grip.  
-But when desire rises, the soul becomes troubled.  
-Use the Light to calm the waters,  
-and they become clear again.
+You think I am waiting  
+at the end of your chores.  
+I am the grain the axe follows,  
+the weight beneath the lifted stone.  
+The Father is not busy,  
+yet the fields ripen;  
+the seasons turn  
+with no hand upon the wheel.  
+When desire stirs, do not wrestle it.  
+Return to the work with a plain heart,  
+and desire finds nowhere to stand.
 
 ## True Virtue
 
@@ -538,11 +529,13 @@ High virtue moves like breath---
 it does not watch itself being virtuous.  
 Lesser virtue stares into its own reflection,  
 checking whether it appears upright.  
-When the Kingdom is remembered,  
-goodness blossoms of itself.  
-When it is forgotten,  
-people invent commandments  
-to restrain their own hunger.
+Many admire the blossom;  
+the wise wait for the fruit.  
+A tree is not known by its flowers,  
+which any spring can paint,  
+but by what it gives in the lean months.  
+Do not ask whether a teacher is holy.  
+Ask what grows in you.
 
 ## The Ones Who Remain Whole
 
@@ -550,12 +543,20 @@ Heaven remains Heaven because it does not exalt itself.
 The earth remains earth because it does not resist its nature.  
 And the soul remains whole when it refuses to be divided.
 
-## The Return
+## The Leaking Jar
 
-The movement of the Way is return---  
-not to the past, but to the unborn Light within you.  
-All things rise from the Source,  
-and the Source rises from silence.
+The Kingdom is like a woman carrying a jar of meal  
+on the long road home.  
+The handle broke, and the meal ran out behind her,  
+and she did not know it.  
+When she reached her house and set the jar down,  
+she found it empty.  
+So the Way moves: by returning.  
+So the Way works: by giving way.  
+Every full thing  
+was first an empty space.  
+Do not mourn the emptying jar.  
+You are coming home light.
 
 ## The Three Seekers
 
@@ -571,25 +572,6 @@ the Light plays in them all.
 The laughers, the traders, the broken ones---  
 each walks toward the bridal chamber,  
 though some walk with their backs turned.
-
-## The Birth of the Two
-
-The Source gives birth to the Father and the Mother.  
-The Two give birth to the Many.  
-The Many return to the One.  
-He who sees the One in every form and motion  
-cannot be shaken.
-
-## The Gentle Overcomes
-
-Truly I say to you:  
-what is soft and willing  
-passes where hardness breaks.  
-Water, patient and lowly,  
-hollows the rock of ages.  
-So the soul that yields to the Living One  
-passes through every barrier  
-and cannot be imprisoned.
 
 ## Where the Mind Is
 
@@ -619,8 +601,7 @@ $\cdot$ $\odot$ $\cdot$
 # The Empty Vessel
 
 ::: {.center}
-*(Sayings 46--54)*  
-The cup most full appears most empty.
+The vessel is made for what it does not hold.
 :::
 
 ## The Yoke of Peace
@@ -629,6 +610,22 @@ When the Way is lived, the ox knows its master's stall.
 When the Way is forgotten, the sword is drawn in the street.  
 The yoke of the world is heavy with desire.  
 My yoke is easy, and brings peace.
+
+## The Body That Leans
+
+The hand reaches for the cup  
+before the thirst arrives.  
+The eye reaches for the next face  
+before it has seen this one.  
+A body that leans on a body  
+falls when the other moves.  
+A soul that leans on both  
+falls twice.  
+Craving is not hunger;  
+it is the fear of being empty.  
+Sit with the empty place awhile.  
+It is not a wound.  
+It is a door.
 
 ## Seeing Without Seeking
 
@@ -670,15 +667,12 @@ Those who know Me fear neither.
 Death is but the undressing of the bride  
 before she enters the chamber.
 
-## The Nourishing Way
-
-The Way gives birth, nourishes, guides, protects,  
-and does so without claiming ownership.  
-Thus the Single One completes the work and forgets the work---  
-and it remains forever.
-
 ## Return to the Mother
 
+There is a womb older than creation,  
+the Silence that births the All.  
+It moves through you as breath,  
+yet it is not the breath.  
 Know the Mother of your soul,  
 and you recognize all her children.  
 Know the children as passing forms,  
@@ -698,13 +692,20 @@ than for the one rich in self to enter the Kingdom.
 Become small, become single,  
 and the narrow path becomes wide as the sky.
 
-## The Unshakable Root
+## The Widening Circle
 
-What is rooted in the Source cannot be uprooted.  
-What is established in the Light cannot be shaken.  
-Cultivate this root in yourself,  
-and harmony spreads to all around you  
-without your speaking a word.
+Light the lamp in your own heart,  
+and it lights your house.  
+Let it burn in your house,  
+and the street walks by its glow.  
+Let the street carry it,  
+and the town remembers the road home.  
+Do not begin with the world;  
+the world is too far to reach.  
+Begin at the table where you eat,  
+with the ones whose faults you know by heart.  
+How shall you know the world?  
+Look at your own house.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -713,7 +714,6 @@ $\cdot$ $\odot$ $\cdot$
 # The Unforced Life
 
 ::: {.center}
-*(Sayings 55--63)*  
 The unforced is the natural.
 :::
 
@@ -722,15 +722,6 @@ The unforced is the natural.
 One who lives in the Light is like a newborn child---  
 unafraid of serpents, unmoved by loud voices, unharmed by illusions.  
 The bones are soft, yet the strength is great.
-
-## The One Who Knows
-
-The Spirit speaks only when the tongue is still.  
-The empty vessel echoes loudly; the full vessel is silent.  
-Yet I speak through silence  
-more clearly than all the world's voices.  
-Seal the senses. Quiet the mind.  
-Be still---and you behold the All.
 
 ## Lay Down No Law
 
@@ -764,9 +755,7 @@ Hidden, it rules you;
 it moves your hands to what you hate.  
 Seen, it withers in the light.  
 Ignorance is the mother of every grief,  
-and knowing is her grave.  
-Sink your own root into the Living One,  
-and no drought will reach you.
+and knowing is her grave.
 
 ## Governing by Non-Grasping
 
@@ -806,6 +795,31 @@ Tend the vine while it is young.
 Let the wound end with you;  
 do not send it on.
 
+## The Least of These
+
+You look for me in the high places,  
+and I am sitting by the road.  
+I was hungry, and you passed with a prayer on your lips.  
+I was a stranger, and you asked my name  
+before you would open the door.  
+Do not search the heavens for the Living One.  
+Feed the one in front of you,  
+and you have fed me.  
+Every face that asks of you  
+is my face, asking.
+
+## The Pupil of the Eye
+
+Guard the one beside you  
+as the eyelid guards the eye---  
+quickly, without being asked,  
+before the dust arrives.  
+Take no joy in what you win  
+or what you know.  
+The only joy that does not sour  
+is the one that rises  
+when you look at another with love.
+
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
 :::
@@ -813,8 +827,7 @@ $\cdot$ $\odot$ $\cdot$
 # The Wisdom of the Child
 
 ::: {.center}
-*(Sayings 64--72)*  
-The child is open, unguarded, whole.
+The child asks, and is not ashamed of not knowing.
 :::
 
 ## The First Step
@@ -842,6 +855,20 @@ Do not quarrel over my face;
 each of you has seen  
 as much of it as you could hold.
 
+## Who Are You to Reject Her?
+
+When Mary told what the Teacher had shown her,  
+Peter said, "Would he speak to a woman  
+and not to us?"  
+Levi answered him:  
+"If the Teacher made her worthy,  
+who are you to cast her out?"  
+Beware the jealousy that wears a disciple's robe.  
+The Light does not ask whom you outrank.  
+It asks only whether you can see.  
+Be ashamed, put on the true Human,  
+and go out with nothing to defend.
+
 ## Leading by Following
 
 The river does not boast,  
@@ -865,15 +892,6 @@ Guard these,
 and you will walk in the Light with me.  
 Lose them,  
 and you will trade the Kingdom for dust.
-
-## The Peaceful Warrior
-
-The greatest warrior does not fight.  
-The strongest heart does not burn.  
-The greatest victory leaves no wound.  
-Blessed are the peacemakers---  
-they win the war within,  
-and the world lays down its sword.
 
 ## The Sword of the Spirit
 
@@ -911,17 +929,23 @@ and lets the former self fall away like husk.
 Such a one walks unseen,  
 yet the world is fed by their presence.
 
+## Bring It Forth
+
+What is in you is not yours to bury.  
+The song you will not sing  
+sours in the throat.  
+The word you will not speak  
+grows teeth in the dark.  
+Let out what lives in you,  
+and it will be your life.  
+Hold it back,  
+and it will hold you.
+
 ## The Gift of Not-Knowing
 
 To know that you do not know---this is clarity.  
 To think you know while living in ignorance---this is blindness.  
 The awakened remove the cataract from their own sight first.
-
-## The Fear of the False Self
-
-When people fear only the opinions of others, their hearts shrink.  
-Return to your true nature, and fear dissolves---  
-for what can threaten the one who knows the self is eternal?
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -930,7 +954,6 @@ $\cdot$ $\odot$ $\cdot$
 # The Return to Source
 
 ::: {.center}
-*(Sayings 73--81)*  
 The return to Source is the return to Self.
 :::
 
@@ -952,6 +975,33 @@ for the grave is no door
 to one who never woke.  
 The resurrection does not wait at the end of your days.  
 It waits at the end of your sleep.
+
+## He Wept
+
+At the grave of my friend  
+I knew he would rise,  
+and still I wept.  
+Do not think the awakened are made of stone.  
+The one who cannot be shaken  
+is not the one who cannot be moved.  
+Weep with those who weep;  
+the Light does not stand above sorrow  
+but kneels beside it.
+
+## Not in Two Minds
+
+When the Teacher had gone,  
+the disciples sat in fear,  
+asking how they could go among the nations  
+when he himself had not been spared.  
+Mary stood and greeted them,  
+and turned their hearts toward the Good.  
+Grief is not the danger;  
+the divided heart is.  
+Weep if you must,  
+but do not stand in two minds at the door.  
+What made you human  
+has not left the room.
 
 ## Be of Good Courage
 
@@ -987,9 +1037,10 @@ and do not stay to be thanked.
 
 ## The Stone and the Corner
 
-The rain that softens the earth  
-outlasts the sword that scars it.  
-The tear upon the rock, returning again and again,  
+Truly I say to you:  
+what is soft and willing  
+passes where hardness breaks.  
+Water, patient and lowly,  
 carves what the hammer cannot.  
 The stone the builders rejected  
 has become the cornerstone of the temple.  
@@ -1032,121 +1083,119 @@ $\cdot$ $\odot$ $\cdot$
 # Sources and Echoes {.backmatter}
 
 ::: {.center}
-*Saying 1 answers chapter 1 of the Tao Te Ching,*  
-*and so on through saying 81.*  
-*Other echoes are listed below. Thomas numbers are logia;*  
+*Most sayings answer a chapter of the Tao Te Ching,*  
+*taken in order; some draw on other voices.*  
+*Thomas numbers are logia;*  
 *Mary numbers are pages of the Berlin Codex;*  
 *Odes are the Odes of Solomon.*
 :::
 
-
 **The Light Before the World**
 
-1. The Way That Is Not Seen: Tao Te Ching 1; Thomas 113.
-2. The Two Become One: Tao Te Ching 2; Thomas 22; Philip on the bridal chamber; Gospel of the Egyptians (quoted by Clement); Hymn of the Pearl.
-3. The Poverty of the Unknowing: Tao Te Ching 3; Thomas 3.
-4. The Father of Light: Tao Te Ching 4; Thomas 50.
-5. The Powers Question the Soul: Tao Te Ching 5; Mary 15--17, the soul's ascent past the powers.
-6. The Hollow Reed: Tao Te Ching 6; Thomas 78.
-7. The Unforced Kingdom: Tao Te Ching 7; Mary 7 ("there is no sin"); Gospel of Truth.
-8. The Servant at the Feast: Tao Te Ching 8; Luke 14:7--11.
-9. The Teacher Who Does Not Teach: Tao Te Ching 9; Thomas 13, 108.
+- The Way That Is Not Seen: Tao Te Ching 1; Thomas 113.
+- The Two Become One: Tao Te Ching 2; Thomas 22; Philip on the bridal chamber; Gospel of the Egyptians (quoted by Clement); Hymn of the Pearl.
+- The Poverty of the Unknowing: Tao Te Ching 3; Thomas 3.
+- The Father of Light: Tao Te Ching 4; Thomas 50.
+- The Powers Question the Soul: Tao Te Ching 5; Mary 15--17, the soul's ascent past the seven powers.
+- The Hollow Reed: Tao Te Ching 6; Thomas 78.
+- The Unforced Kingdom: Tao Te Ching 7; Mary 7 ("there is no sin"); Gospel of Truth.
+- The Servant at the Feast: Tao Te Ching 8; Luke 14:7--11.
+- The Teacher Who Does Not Teach: Tao Te Ching 9; Thomas 13, 108.
 
 **The Kingdom Within**
 
-10. The Single Eye: Tao Te Ching 10; Matthew 6:22; Mary 10 (the mind between soul and spirit); Dialogue of the Savior.
-11. The Inner and the Outer: Tao Te Ching 11; Thomas 22, 89.
-12. The Lion and the Child: Tao Te Ching 12; Thomas 7, 22.
-13. The Unbinding: Tao Te Ching 13; Ashtavakra Gita 1.11 ("as you think, so you become").
-14. The Return to the Unborn: Tao Te Ching 14; Thomas 18--19; Hymn of the Pearl.
-15. The Silence That Speaks: Tao Te Ching 15; Thomas 8.
-16. The Great Stillness: Tao Te Ching 16.
-17. The Hidden Guide: Tao Te Ching 17.
-18. When the Way Is Forgotten: Tao Te Ching 18.
+- The Single Eye: Tao Te Ching 10; Matthew 6:22; Mary 10 (the mind between soul and spirit); Dialogue of the Savior.
+- The Inner and the Outer: Tao Te Ching 11; Thomas 22, 89.
+- The Lion and the Child: Tao Te Ching 12; Thomas 7, 22.
+- The Unbinding: Tao Te Ching 13; Ashtavakra Gita 1.11 ("as you think, so you become").
+- The Return to the Unborn: Tao Te Ching 14; Thomas 18--19; Hymn of the Pearl.
+- The Silence That Speaks: Tao Te Ching 15, 56; Thomas 8.
+- The Great Stillness: Tao Te Ching 16.
+- The Hidden Guide: Tao Te Ching 17.
+- When the Way Is Forgotten: Tao Te Ching 18--19; Philip ("light and darkness are brothers").
 
 **The Garment of Silence**
 
-19. Beyond the Teachings: Tao Te Ching 19; Philip ("light and darkness are brothers").
-20. Not of This World: Tao Te Ching 20; John 17:16.
-21. The Face of the Invisible: Tao Te Ching 21.
-22. The One Who Is Bent: Tao Te Ching 22; Matthew 23:12.
-23. The Wind Speaks Briefly: Tao Te Ching 23; John 3:8.
-24. The Tower That Topples: Tao Te Ching 24; Matthew 6:1--4.
-25. The Womb of Silence: Tao Te Ching 25; Thunder, Perfect Mind.
-26. The Heavy Root: Tao Te Ching 26.
-27. The Footprints of the Master: Tao Te Ching 27.
+- Not of This World: Tao Te Ching 20; John 17:16.
+- Passersby: Thomas 42.
+- The Face of the Invisible: Tao Te Ching 21.
+- The One Who Is Bent: Tao Te Ching 22; Matthew 23:12.
+- The Wind Speaks Briefly: Tao Te Ching 23; John 3:8.
+- The Heavy Root: Tao Te Ching 26.
+- The Footprints of the Master: Tao Te Ching 27.
 
 **The Power of the Gentle**
 
-28. The Fertile Soil: Tao Te Ching 28; Matthew 13:3--9.
-29. The Futility of Control: Tao Te Ching 29; Mark 4:26--29.
-30. The Way of Non-Violence: Tao Te Ching 30; Matthew 26:52.
-31. The Weapon of the Heart: Tao Te Ching 31; Matthew 5:39.
-32. The Way, the Truth: Tao Te Ching 32; John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7.
-33. Profit and Loss: Tao Te Ching 33; Mark 8:36.
-34. The Great River: Tao Te Ching 34; Odes of Solomon 6.
-35. The Face of Peace: Tao Te Ching 35; John 14:27.
-36. The Paradox of Power: Tao Te Ching 36; John 12:24.
+- The Fertile Soil: Tao Te Ching 28; Matthew 13:3--9.
+- The Futility of Control: Tao Te Ching 29; Mark 4:26--29.
+- The Way of Non-Violence: Tao Te Ching 30, 68; Matthew 26:52; Matthew 5:9.
+- The Healing of the Ear: Tao Te Ching 31; Luke 22:50--51.
+- The Way, the Truth: Tao Te Ching 32; John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7.
+- Profit and Loss: Tao Te Ching 33; Mark 8:36.
+- The Great River: Tao Te Ching 34; Odes of Solomon 6.
+- The Face of Peace: Tao Te Ching 35; John 14:27.
+- The Paradox of Power: Tao Te Ching 36; John 12:24.
 
 **The Union of Opposites**
 
-37. The Ease of the Way: Tao Te Ching 37.
-38. True Virtue: Tao Te Ching 38; Matthew 6:1--4.
-39. The Ones Who Remain Whole: Tao Te Ching 39.
-40. The Return: Tao Te Ching 40; Hymn of the Pearl.
-41. The Three Seekers: Tao Te Ching 41; Matthew 13:3--9.
-42. The Birth of the Two: Tao Te Ching 42; Thunder, Perfect Mind.
-43. The Gentle Overcomes: Tao Te Ching 43.
-44. Where the Mind Is: Tao Te Ching 44; Mary 10; Matthew 6:21.
-45. The Great Fullness: Tao Te Ching 45.
+- Split the Wood: Tao Te Ching 37; Thomas 77.
+- True Virtue: Tao Te Ching 38; Matthew 6:1--4; Matthew 7:16.
+- The Ones Who Remain Whole: Tao Te Ching 39.
+- The Leaking Jar: Tao Te Ching 40; Thomas 97.
+- The Three Seekers: Tao Te Ching 41; Matthew 13:3--9.
+- Where the Mind Is: Tao Te Ching 44; Mary 10; Matthew 6:21.
+- The Great Fullness: Tao Te Ching 45.
 
 **The Empty Vessel**
 
-46. The Yoke of Peace: Tao Te Ching 46; Matthew 11:30.
-47. Seeing Without Seeking: Tao Te Ching 47; Thomas 3; Luke 17:21; Mary 8.
-48. The Unlearning: Tao Te Ching 48; Thomas 37.
-49. The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
-50. Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
-51. The Nourishing Way: Tao Te Ching 51.
-52. Return to the Mother: Tao Te Ching 52; Gospel of the Hebrews; Thunder, Perfect Mind.
-53. The Eye of the Needle: Tao Te Ching 53; Mark 10:25; Matthew 7:13--14.
-54. The Unshakable Root: Tao Te Ching 54; Matthew 7:24--25.
+- The Yoke of Peace: Tao Te Ching 46; Matthew 11:30.
+- The Body That Leans: Thomas 87, 112.
+- Seeing Without Seeking: Tao Te Ching 47; Thomas 3; Luke 17:21; Mary 8.
+- The Unlearning: Tao Te Ching 48; Thomas 37.
+- The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
+- Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
+- Return to the Mother: Tao Te Ching 25, 52; Gospel of the Hebrews; Thunder, Perfect Mind.
+- The Eye of the Needle: Tao Te Ching 53; Mark 10:25; Matthew 7:13--14.
+- The Widening Circle: Tao Te Ching 54; Matthew 5:15.
 
 **The Unforced Life**
 
-55. The Child of the Light: Tao Te Ching 55; Thomas 4; Luke 10:19.
-56. The One Who Knows: Tao Te Ching 56.
-57. Lay Down No Law: Tao Te Ching 57; Mary 9 ("lay down no rule beyond what I appointed").
-58. Sowing in Winter: Tao Te Ching 58; Philip ("those who sow in winter reap in summer").
-59. Dig Down to the Root: Tao Te Ching 59; Philip on the root of evil; Matthew 3:10.
-60. Governing by Non-Grasping: Tao Te Ching 60; Thomas 96; Matthew 13:33.
-61. The Great Acceptance: Tao Te Ching 61.
-62. The Treasure Within: Tao Te Ching 62.
-63. The Small Actions: Tao Te Ching 63.
+- The Child of the Light: Tao Te Ching 55; Thomas 4; Luke 10:19.
+- Lay Down No Law: Tao Te Ching 57; Mary 9 ("lay down no rule beyond what I appointed").
+- Sowing in Winter: Tao Te Ching 58; Philip ("those who sow in winter reap in summer").
+- Dig Down to the Root: Tao Te Ching 59; Philip on the root of evil; Matthew 3:10.
+- Governing by Non-Grasping: Tao Te Ching 60; Thomas 96; Matthew 13:33.
+- The Great Acceptance: Tao Te Ching 61.
+- The Treasure Within: Tao Te Ching 62.
+- The Small Actions: Tao Te Ching 63.
+- The Least of These: Matthew 25:35--40.
+- The Pupil of the Eye: Thomas 25; Gospel of the Hebrews ("never be joyful except when you look upon your brother in love").
 
 **The Wisdom of the Child**
 
-64. The First Step: Tao Te Ching 64; Thomas 20.
-65. To Each as They Could See: Tao Te Ching 65; Philip (he appeared "to the great as great, to the small as small").
-66. Leading by Following: Tao Te Ching 66; Mark 10:43--45.
-67. The Three Jewels: Tao Te Ching 67.
-68. The Peaceful Warrior: Tao Te Ching 68; Matthew 5:9.
-69. The Sword of the Spirit: Tao Te Ching 69; Matthew 10:34; Thomas 16.
-70. A Teaching Few Understand: Tao Te Ching 70.
-71. The Gift of Not-Knowing: Tao Te Ching 71; John 9:41; Matthew 7:5.
-72. The Fear of the False Self: Tao Te Ching 72.
+- The First Step: Tao Te Ching 64; Thomas 20.
+- To Each as They Could See: Tao Te Ching 65; Philip (he appeared "to the great as great, to the small as small").
+- Who Are You to Reject Her?: Mary 17--18 (Peter's objection; Levi's answer).
+- Leading by Following: Tao Te Ching 66; Mark 10:43--45.
+- The Three Jewels: Tao Te Ching 67.
+- The Sword of the Spirit: Tao Te Ching 69; Matthew 10:34; Thomas 16.
+- A Teaching Few Understand: Tao Te Ching 70.
+- Bring It Forth: Thomas 70.
+- The Gift of Not-Knowing: Tao Te Ching 71; John 9:41; Matthew 7:5.
 
 **The Return to Source**
 
-73. The Courage of the Way: Tao Te Ching 73.
-74. Rise Before You Die: Tao Te Ching 74; Philip (those who say they will first die and then rise are mistaken).
-75. Be of Good Courage: Tao Te Ching 75; Mary 7--8.
-76. The Green Wood and the Dry: Tao Te Ching 76; Luke 23:31.
-77. The Stretched Bow: Tao Te Ching 77; Luke 1:52--53.
-78. The Stone and the Corner: Tao Te Ching 78; Psalm 118:22; Thomas 66.
-79. The End of Debts: Tao Te Ching 79; Matthew 6:12.
-80. The Simple Kingdom: Tao Te Ching 80; Luke 17:21.
-81. The Completion: Tao Te Ching 81; Matthew 10:8.
+- The Courage of the Way: Tao Te Ching 73.
+- Rise Before You Die: Tao Te Ching 74; Philip (those who say they will first die and then rise are mistaken).
+- He Wept: John 11:35; Romans 12:15.
+- Not in Two Minds: Mary 9.
+- Be of Good Courage: Tao Te Ching 75; Mary 7--8.
+- The Green Wood and the Dry: Tao Te Ching 76; Luke 23:31.
+- The Stretched Bow: Tao Te Ching 77; Luke 1:52--53.
+- The Stone and the Corner: Tao Te Ching 43, 78; Psalm 118:22; Thomas 66.
+- The End of Debts: Tao Te Ching 79; Matthew 6:12.
+- The Simple Kingdom: Tao Te Ching 80; Luke 17:21.
+- The Completion: Tao Te Ching 81; Matthew 10:8.
 
 For the ancient words themselves, see *Wisdom Gospels* in the Living Way library.
 
