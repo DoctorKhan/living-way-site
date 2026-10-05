@@ -457,15 +457,19 @@ seeing no opponent at all.
 
 ## The Way, the Truth
 
-People ask, "Show us the path."  
-I tell them: **I am the Way.**  
-People ask, "Show us the doctrine."  
-I tell them: **I am the Truth.**  
-People ask, "Show us immortality."  
-I tell them: **I am the Living One.**  
-The Way is not a map; it is the Single One walking.  
-No one comes to the Father of Light  
-except by becoming what I am.
+They ask me, "Show us the way."  
+I answer: *I am.*  
+They ask, "Show us the truth."  
+I answer: *I am.*  
+They ask, "Show us the life that does not die."  
+I answer: *I am.*  
+They look at me, and miss it.  
+Before you give your name,  
+before you say "I am this" or "I am that,"  
+say only: *I am.*  
+That is the Way, the Truth, and the Life.  
+No one comes to the Father  
+except through me.
 
 ## Profit and Loss
 
@@ -1078,7 +1082,7 @@ $\cdot$ $\odot$ $\cdot$
 29. The Futility of Control: Tao Te Ching 29; Mark 4:26--29.
 30. The Way of Non-Violence: Tao Te Ching 30; Matthew 26:52.
 31. The Weapon of the Heart: Tao Te Ching 31; Matthew 5:39.
-32. The Way, the Truth: Tao Te Ching 32; John 14:6. The gospel line is often heard as a claim about a figure alone; here it also names the sense of being, the "I am" beneath the story. To investigate that presence ("What is this I?" before name and role) is the path. In Advaita Vedānta, a parallel discipline is *ātma-vichāra* (self-inquiry): different idiom, one movement toward what was never absent. Its most direct statement is the Ashtavakra Gita (1.3, 1.7).
+32. The Way, the Truth: Tao Te Ching 32; John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7.
 33. Profit and Loss: Tao Te Ching 33; Mark 8:36.
 34. The Great River: Tao Te Ching 34; Odes of Solomon 6.
 35. The Face of Peace: Tao Te Ching 35; John 14:27.
