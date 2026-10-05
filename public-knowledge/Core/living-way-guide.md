@@ -160,7 +160,7 @@ In the Nag Hammadi poem *Thunder, Perfect Mind*, Wisdom speaks for herself:
 > and the word of many forms."
 > — Thunder, Perfect Mind
 
-The Tao Te Ching calls the same reality the Mother of all things:
+The Tao Te Ching also speaks of the Mother, but in its own way:
 
 > "The world has a beginning,
 > and it is the Mother of the world.
@@ -168,6 +168,14 @@ The Tao Te Ching calls the same reality the Mother of all things:
 > Know the children, then return and hold to the Mother,
 > and to the end of your life you will come to no harm."
 > — Tao Te Ching 52
+
+These are two strands, and they are not quite the same.
+
+In the **Tao Te Ching**, the Mother is the Source itself, seen as the one that gives birth. She has no partner: there is no Father in the Tao Te Ching. She has no will and no voice. She is known through stillness, lowness, and emptiness, the way a valley receives the rain.
+
+In the **Wisdom tradition**, the Mother stands beside the Father. She speaks, calls in the streets, invites, delights, and teaches. She is known through relationship: by being taught, invited, and loved.
+
+*The Living Way* holds both. From the Tao it takes her images: the womb, the silence, the valley, the river, the return. From Wisdom it takes her name and her voice, the Mother who "gathers you to Herself" (Preface). It also places her, with the Father, as one of the two hands of a nameless Source, where the Tao sets her closer to the Source itself. The Tao's Mother is the ground; Wisdom is the voice. The Mother of *The Living Way* is both.
 
 In *The Living Way*, the Mother is the Silence that births the All (25, "The Womb of Silence"), the River that pours itself into every vessel (34, "The Great River"), and the home the soul returns to, where the powers can no longer wound it (52, "Return to the Mother").
 
