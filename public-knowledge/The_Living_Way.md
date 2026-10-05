@@ -1053,7 +1053,7 @@ $\cdot$ $\odot$ $\cdot$
 10. The Single Eye: Tao Te Ching 10; Matthew 6:22; Mary 10 (the mind between soul and spirit); Dialogue of the Savior.
 11. The Inner and the Outer: Tao Te Ching 11; Thomas 22, 89.
 12. The Lion and the Child: Tao Te Ching 12; Thomas 7, 22.
-13. The Unbinding: Tao Te Ching 13.
+13. The Unbinding: Tao Te Ching 13; Ashtavakra Gita 1.11 ("as you think, so you become").
 14. The Return to the Unborn: Tao Te Ching 14; Thomas 18--19; Hymn of the Pearl.
 15. The Silence That Speaks: Tao Te Ching 15; Thomas 8.
 16. The Great Stillness: Tao Te Ching 16.
@@ -1078,7 +1078,7 @@ $\cdot$ $\odot$ $\cdot$
 29. The Futility of Control: Tao Te Ching 29; Mark 4:26--29.
 30. The Way of Non-Violence: Tao Te Ching 30; Matthew 26:52.
 31. The Weapon of the Heart: Tao Te Ching 31; Matthew 5:39.
-32. The Way, the Truth: Tao Te Ching 32; John 14:6. The gospel line is often heard as a claim about a figure alone; here it also names the sense of being, the "I am" beneath the story. To investigate that presence ("What is this I?" before name and role) is the path. In Advaita Vedānta, a parallel discipline is *ātma-vichāra* (self-inquiry): different idiom, one movement toward what was never absent.
+32. The Way, the Truth: Tao Te Ching 32; John 14:6. The gospel line is often heard as a claim about a figure alone; here it also names the sense of being, the "I am" beneath the story. To investigate that presence ("What is this I?" before name and role) is the path. In Advaita Vedānta, a parallel discipline is *ātma-vichāra* (self-inquiry): different idiom, one movement toward what was never absent. Its most direct statement is the Ashtavakra Gita (1.3, 1.7).
 33. Profit and Loss: Tao Te Ching 33; Mark 8:36.
 34. The Great River: Tao Te Ching 34; Odes of Solomon 6.
 35. The Face of Peace: Tao Te Ching 35; John 14:27.

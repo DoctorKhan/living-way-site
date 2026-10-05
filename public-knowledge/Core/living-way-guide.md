@@ -184,7 +184,7 @@ The question these texts put to you is not *"Will you accept a claim about him?"
 
 # **Chapter 3 — The Practices of the Way**
 
-The Way is learned by doing. These seven practices are the heart of this guide. Begin with the first, and add the next only when the one before has become familiar. For more practices in the voice of Gotama, see [The Wisdom of Awakening](The_Living_Suttas.html).
+The Way is learned by doing. These practices do not make you free. They shift where you stand, so you can see that you already are. These seven practices are the heart of this guide. Begin with the first, and add the next only when the one before has become familiar. For more practices in the voice of Gotama, see [The Wisdom of Awakening](The_Living_Suttas.html).
 
 ---
 
@@ -200,6 +200,8 @@ The Way is learned by doing. These seven practices are the heart of this guide. 
 4. Rest in the awareness that is noticing. It was here before the thought, and it will be here after it.
 
 This is the "poverty" of Thomas 3 turning into its opposite: you begin to know yourself.
+
+The Ashtavakra Gita gives this practice in a single line: "You are not earth, nor water, nor fire, nor air, nor space. To be free, know yourself as the witness of all these: awareness itself" (1.3). See [The Ashtavakra Gita](read.html?doc=Krishna/The_Ashtavakra_Gita_Sanskrit_and_Translation.md).
 
 *In The Living Way:* 3, "The Poverty of the Unknowing"; 32, "The Way, the Truth."
 
