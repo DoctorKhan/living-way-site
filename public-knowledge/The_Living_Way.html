@@ -29,10 +29,6 @@
             background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
             color: var(--text-main);
             min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 2rem;
             line-height: 1.6;
         }
 
@@ -46,8 +42,7 @@
             box-shadow: 0 20px 40px rgba(0,0,0,0.04);
             border-radius: 8px;
             backdrop-filter: blur(5px);
-            margin-top: 2rem;
-            margin-bottom: 2rem;
+            margin: 2.5rem auto;
         }
 
         h1, h2, h3 {
@@ -149,7 +144,7 @@
         }
 
         @media (max-width: 600px) {
-            .container { padding: 2rem 1.5rem; }
+            .container { margin: 0.75rem auto 2rem; padding: 1.6rem 1.1rem; width: calc(100% - 1rem); }
             h1 { font-size: 2rem; }
         }
     </style>
@@ -166,12 +161,27 @@
     <meta property="og:type" content="book">
     <meta property="og:image" content="https://thelivingway.app/images/og-image.png">
     <script src="/js/sayings-share.js" defer></script>
+    <link rel="stylesheet" href="/css/site-nav.css">
+    <script src="/js/site-nav.js" defer></script>
     <script src="/js/pwa.js" defer></script>
     <!-- /lw-pwa -->
 </head>
 <body>
+  <header class="lw-header">
+    <nav class="lw-nav" aria-label="Main">
+      <a class="lw-brand" href="/"><span class="lw-mark" aria-hidden="true">◇</span>The Living Way</a>
+      <button class="lw-menu-btn" type="button" aria-expanded="false" aria-controls="lw-menu"><span class="lw-menu-icon" aria-hidden="true"></span>Menu</button>
+      <ul class="lw-links" id="lw-menu">
+        <li><a href="/public-knowledge/The_Living_Way.html" data-nav="read">Read</a></li>
+        <li><a href="/#path" data-nav="path">The path</a></li>
+        <li><a href="/paths.html" data-nav="voices">Other voices</a></li>
+        <li><a href="/public-knowledge/" data-nav="library">Library</a></li>
+        <li><button type="button" class="lw-install" data-install-app hidden>Install app</button></li>
+      </ul>
+    </nav>
+    <p class="lw-install-hint" data-install-hint hidden role="status"></p>
+  </header>
     <div class="container">
-        <a href="index.html" class="back-link">← Back to Home</a>
         
         <div class="titlepage">
         <p><span class="smallcaps">The Hidden Wisdom</span><br />

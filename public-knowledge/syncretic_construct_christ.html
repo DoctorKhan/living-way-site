@@ -74,18 +74,32 @@
       h1 { font-size: 1.6rem; }
     }
   </style>
+  <!-- lw-pwa -->
+  <meta name="theme-color" content="#f6f2e8">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Living Way">
+  <link rel="stylesheet" href="/css/site-nav.css">
+  <script src="/js/site-nav.js" defer></script>
+  <script src="/js/pwa.js" defer></script>
+  <!-- /lw-pwa -->
 </head>
 <body>
-  <header>
-    <nav aria-label="Primary">
-      <a class="logo" href="../index.html">The Living Way</a>
-      <ul class="nav-links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../index.html#waitlist">Join</a></li>
-        <li><a href="../index.html#about">About</a></li>
-        <li><a href="index.html">Library</a></li>
+  <header class="lw-header">
+    <nav class="lw-nav" aria-label="Main">
+      <a class="lw-brand" href="/"><span class="lw-mark" aria-hidden="true">◇</span>The Living Way</a>
+      <button class="lw-menu-btn" type="button" aria-expanded="false" aria-controls="lw-menu"><span class="lw-menu-icon" aria-hidden="true"></span>Menu</button>
+      <ul class="lw-links" id="lw-menu">
+        <li><a href="/public-knowledge/The_Living_Way.html" data-nav="read">Read</a></li>
+        <li><a href="/#path" data-nav="path">The path</a></li>
+        <li><a href="/paths.html" data-nav="voices">Other voices</a></li>
+        <li><a href="/public-knowledge/" data-nav="library">Library</a></li>
+        <li><button type="button" class="lw-install" data-install-app hidden>Install app</button></li>
       </ul>
     </nav>
+    <p class="lw-install-hint" data-install-hint hidden role="status"></p>
   </header>
 	  <div class="container">
 	    <h1>The Syncretic Construct of the Christ</h1>
