@@ -8,7 +8,7 @@
  *
  * Bump VERSION when the precache list changes.
  */
-const VERSION = "2026-10-04b";
+const VERSION = "2026-10-05";
 const STATIC_CACHE = `lw-static-${VERSION}`;
 const PAGES_CACHE = "lw-pages";
 const FONT_HOSTS = ["fonts.googleapis.com", "fonts.gstatic.com"];
@@ -63,7 +63,9 @@ function isCacheableAsset(url) {
 async function networkFirstPage(request) {
   const cache = await caches.open(PAGES_CACHE);
   try {
-    const response = await fetch(request);
+    // Revalidate with the server so a fresh deploy shows up immediately,
+    // instead of the browser reusing its HTTP-cached copy (max-age=600).
+    const response = await fetch(request, { cache: "no-cache" });
     if (response.ok) cache.put(request, response.clone());
     return response;
   } catch {
