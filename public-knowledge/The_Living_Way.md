@@ -580,16 +580,16 @@ and cannot be imprisoned.
 
 ## Where the Mind Is
 
-Fame or life---which is dearer to you?  
-Mary asked me, "When one sees a vision,  
-is it seen with the soul or with the spirit?"  
-I told her: with neither.  
-It is seen by the mind that stands between them.  
-Where the mind rests, there is the treasure.  
-Set it on what passes,  
-and you will be poor in a palace.  
-Set it on the Light,  
-and you will be rich in an empty field.
+Mary asked, "Lord, with what does one see you---  
+with the soul, or with the spirit?"  
+I answered: with neither.  
+There is an eye between them,  
+and where that eye rests,  
+there your treasure lies.  
+Rest it on a name,  
+and you will starve in a palace.  
+Rest it on the Light,  
+and an empty field will feed you.
 
 ## The Great Fullness
 
@@ -723,40 +723,39 @@ Be still---and you behold the All.
 
 ## Lay Down No Law
 
-When I am gone, do not build fences around my words.  
-Lay down no rule beyond what I have shown you,  
-and give no law as the lawgivers do,  
-lest you be bound by it.  
-The more prohibitions you make,  
-the more cleverly hearts learn to hide.  
+When I am gone,  
+build no fence around my words.  
+Lay down no law but the one I gave you,  
+lest the law you make  
+become the cell you keep.  
+The more you forbid,  
+the more the heart learns to hide.  
 Cleanse the spring,  
-and the water flowing outward becomes sweet.  
-The Way is kept by those who walk it,  
-not by those who guard it.
+and every stream runs sweet.
 
 ## Sowing in Winter
 
-Those who sow in winter reap in summer.  
-The world is the winter;  
+Sow in winter,  
+and you will reap in summer.  
+This world is the winter;  
 the Kingdom is the summer.  
-Misfortune hides a harvest,  
-and good fortune hides a frost.  
-So sow now, while the ground is hard  
-and nothing seems to answer.  
-The one who waits for summer to begin  
-will find no harvest there.
+Under the frost the harvest sleeps,  
+and under the harvest, the frost.  
+Do not wait for warmer days to plant.  
+The seed you keep from the cold  
+will never see the sun.
 
 ## Dig Down to the Root
 
-Do not prune the branches of your sorrow;  
-dig down to its root.  
-While the root is hidden, it is strong in you---  
-it makes you do what you do not want.  
-Once it is seen, it withers.  
-Ignorance is the mother of every evil;  
-knowing is its end.  
-Then spend nothing on what is gone,  
-and the deep root will feed you without end.
+Do not prune the branches of your sorrow.  
+Dig down to the root.  
+Hidden, it rules you;  
+it moves your hands to what you hate.  
+Seen, it withers in the light.  
+Ignorance is the mother of every grief,  
+and knowing is her grave.  
+Sink your own root into the Living One,  
+and no drought will reach you.
 
 ## Governing by Non-Grasping
 
@@ -819,14 +818,17 @@ from the step you take today.
 
 ## To Each as They Could See
 
-I did not appear as I am,  
-but as each one could bear to see me:  
-to the great as great,  
-to the small as small.  
-I did not come to make you clever,  
-but to make you simple enough to see.  
-So do not quarrel over my face.  
-Each of you saw what you were ready to see.
+I did not come as I am.  
+I came as each could bear to see me:  
+to the great I was great,  
+to the small I was small,  
+to the angels an angel,  
+and to the hungry, bread.  
+I came not to make you clever,  
+but simple enough to see.  
+Do not quarrel over my face;  
+each of you has seen  
+as much of it as you could hold.
 
 ## Leading by Following
 
@@ -855,15 +857,16 @@ and you will trade the Kingdom for dust.
 ## The Peaceful Warrior
 
 The greatest warrior does not fight.  
-The strongest heart is not stirred to anger.  
-The greatest victory leaves no wounds.  
-Blessed are the peacemakers;  
-they master themselves, and the world is mastered.
+The strongest heart does not burn.  
+The greatest victory leaves no wound.  
+Blessed are the peacemakers---  
+they win the war within,  
+and the world lays down its sword.
 
 ## The Sword of the Spirit
 
-There is no greater misfortune than to misjudge your opponent---  
-and your opponent is your own sleeping self.  
+Do not mistake your enemy.  
+Your enemy is the sleeper in you.  
 I did not come to bring the sleep of comfort,  
 but the sword of awakening.  
 Do you think this sword wounds flesh?  
@@ -928,25 +931,27 @@ and power that does not dominate.
 
 ## Rise Before You Die
 
-Why threaten with death  
-those who have already risen?  
-Some say, "First I will die, and then I will rise."  
-They have mistaken the road.  
-If you do not rise while you breathe,  
-you will not rise when breath is gone.  
-The resurrection is not waiting at the end of your days.  
-It is waiting at the end of your sleep.
+How can death frighten  
+one who has already risen?  
+Those who say, "First I will die, and then I will rise,"  
+walk the road backward.  
+Rise while there is breath in you,  
+for the grave is no door  
+to one who never woke.  
+The resurrection does not wait at the end of your days.  
+It waits at the end of your sleep.
 
 ## Be of Good Courage
 
-Clinging to what passes  
-breeds a passion against your own nature,  
-and the whole body is troubled.  
-People suffer because they grasp at too much,  
-and fear death because they cling to life.  
-Therefore I tell you: be of good courage.  
-The Single One lives lightly, needing little,  
-carrying no burden, fearing no loss.
+What clings to the passing  
+is torn when the passing goes.  
+From the clinging comes the fever,  
+and from the fever, a trembling in the whole body.  
+A fist holds no water;  
+a cupped hand is full.  
+People grasp at life so hard  
+they forget to live it.  
+Open your hand, and be of good courage.
 
 ## The Green Wood and the Dry
 
@@ -958,14 +963,15 @@ The one who remains supple cannot be broken.
 
 ## The Stretched Bow
 
-The Father's way is like the stretching of a bow:  
-the high is brought down, the low is lifted up.  
-He takes from those who have too much  
-and gives to those who lack.  
-The world's way is the opposite---  
-it takes from the poor to feed the full.  
-So the Single One gives to the needy  
-and does not claim the virtue.
+The Father's way is like a bow drawn back:  
+what is high, he lowers;  
+what is low, he lifts.  
+He empties the full to fill the empty.  
+The world's way runs the other way---  
+it takes from the hungry  
+to feed the full.  
+Give as the bow gives,  
+and do not stay to be thanked.
 
 ## The Stone and the Corner
 
