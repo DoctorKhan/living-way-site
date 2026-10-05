@@ -71,29 +71,43 @@
         .work-list li { margin-bottom: 0.6rem; }
         .work-list a { color: var(--text-main); text-decoration: none; }
         .work-list a:hover { text-decoration: underline; color: var(--accent); }
-        .work-links { font-size: 0.9rem; margin-left: 1rem; }
-        .work-links a { color: var(--text-muted); margin-right: 0.75rem; }
+        .work-links { font-size: 0.9rem; margin-left: 0.35rem; white-space: nowrap; }
+        .work-links a { color: var(--text-muted); }
         .btn { display: inline-block; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; border: 1px solid var(--accent); color: var(--accent); font-size: 0.9rem; margin-top: 0.5rem; }
         .btn:hover { background: rgba(140, 123, 108, 0.1); }
         .note { font-size: 0.95rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 0.75rem; }
         @media (max-width: 600px) { nav { flex-wrap: wrap; } .nav-links { gap: 0.75rem; } }
     </style>
+    <!-- lw-pwa -->
+    <meta name="theme-color" content="#f6f2e8">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Living Way">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="stylesheet" href="/css/site-nav.css">
+    <script src="/js/site-nav.js" defer></script>
+    <script src="/js/pwa.js" defer></script>
+    <!-- /lw-pwa -->
 </head>
 <body>
-  <header>
-    <nav aria-label="Primary">
-      <a class="logo" href="../index.html">The Living Way</a>
-      <ul class="nav-links">
-        <li><a href="../index.html#start-here">Start Here</a></li>
-        <li><a href="../paths.html">Paths</a></li>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../index.html#waitlist">Join</a></li>
+  <header class="lw-header">
+    <nav class="lw-nav" aria-label="Main">
+      <a class="lw-brand" href="/"><span class="lw-mark" aria-hidden="true">◇</span>The Living Way</a>
+      <button class="lw-menu-btn" type="button" aria-expanded="false" aria-controls="lw-menu"><span class="lw-menu-icon" aria-hidden="true"></span>Menu</button>
+      <ul class="lw-links" id="lw-menu">
+        <li><a href="/public-knowledge/The_Living_Way.html" data-nav="read">Read</a></li>
+        <li><a href="/#path" data-nav="path">The path</a></li>
+        <li><a href="/paths.html" data-nav="voices">Other voices</a></li>
+        <li><a href="/public-knowledge/" data-nav="library">Library</a></li>
+        <li><button type="button" class="lw-install" data-install-app hidden>Install app</button></li>
       </ul>
     </nav>
+    <p class="lw-install-hint" data-install-hint hidden role="status"></p>
   </header>
   <main>
     <h1>Library by Voice</h1>
-    <p class="intro">Every public text of the Living Way, shelved by voice. This page is the shelf itself; if you are unsure where to begin, <a href="../paths.html">choose a reading path</a> and it will suggest an order.</p>
+    <p class="intro">Every public text of the Living Way, shelved by voice. If you are unsure where to begin, begin with <a href="The_Living_Way.html"><strong>The Living Way</strong></a> itself, or <a href="../paths.html">choose another way in</a>.</p>
 
     <section class="voice-group" aria-labelledby="group-traditions">
       <h2 class="group-title" id="group-traditions">Tradition paths</h2>
@@ -103,7 +117,7 @@
         <h3 class="teacher-name">Yeshua</h3>
         <p class="teacher-subtitle">Yeshuan Path — the most developed shelf in the library</p>
         <ul class="work-list">
-          <li><a href="works/yeshua-book.html">The Hidden Wisdom of Yeshua</a> <span class="work-links">(<a href="works/yeshua-book.html">Read</a> · <a href="works/yeshua-book.pdf">PDF</a>)</span></li>
+          <li><a href="The_Living_Way.html"><strong>The Living Way</strong></a> (The Hidden Wisdom of Yeshua: 81 sayings; start here) <span class="work-links">(<a href="The_Living_Way.html">Read</a> · <a href="The_Living_Way.pdf">PDF</a>)</span></li>
           <li><a href="works/awakening-book.html">The Wisdom of Awakening</a> <span class="work-links">(<a href="works/awakening-book.html">Read</a> · <a href="works/awakening-book.pdf">PDF</a>)</span></li>
           <li><a href="works/wisdom-gospels.html">Wisdom Gospels</a> (Philip, Mary, Thomas — closest to original words)</li>
           <li><a href="works/living-jesus-guide.html">A Guide to the Way of the Living Jesus</a></li>
@@ -121,14 +135,6 @@
         <p class="teacher-subtitle">Buddhist Path — mindfulness, suffering, and awakening</p>
         <ul class="work-list">
           <li><a href="read.html?doc=Gotama/The_Dhammapada_of_the_Living_Way.md">The Dhammapada of the Living Way</a></li>
-        </ul>
-      </section>
-
-      <section class="teacher-section" id="zen">
-        <h3 class="teacher-name">Zen</h3>
-        <p class="teacher-subtitle">Everyday mind — direct pointing, don't-know, work as practice</p>
-        <ul class="work-list">
-          <li><a href="read.html?doc=Zen/The_Everyday_Mind_of_the_Living_Way.md">The Everyday Mind of the Living Way</a></li>
         </ul>
       </section>
 
@@ -171,7 +177,6 @@
         <p class="teacher-subtitle">Embodied observation — breath, body, and mind as direct evidence</p>
         <ul class="work-list">
           <li><a href="read.html?doc=Mindfulness/The_Mindfulness_Path_of_the_Living_Way.md">The Mindfulness Path of the Living Way</a></li>
-          <li><a href="read.html?doc=Mindfulness/The_Lay_Verses_of_the_Living_Way.md">The Lay Verses of the Living Way</a> <span class="work-links">household · unbranded</span></li>
         </ul>
       </section>
     </section>
@@ -210,6 +215,19 @@
         <ul class="work-list">
           <li><a href="read.html?doc=Musashi/The_Warrior_Path_of_the_Living_Way.md">The Warrior Path of the Living Way</a></li>
           <li><a href="read.html?doc=Musashi/The_Twenty-One_Precepts_of_the_Living_Way.md">The Twenty-One Precepts of the Living Way</a></li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="voice-group" aria-labelledby="group-household">
+      <h2 class="group-title" id="group-household">Household path</h2>
+      <p class="group-note">Sayings for kitchens, clinics, boats, and work sheds — the practice of keeping the doors open.</p>
+
+      <section class="teacher-section" id="household">
+        <h3 class="teacher-name">Household</h3>
+        <p class="teacher-subtitle">A household anthology for the people who keep the doors open</p>
+        <ul class="work-list">
+          <li><a href="The_Book_of_Sayings.html">The Book of Sayings</a> <span class="work-links">(<a href="The_Book_of_Sayings.html">Read</a> · <a href="The_Book_of_Sayings.pdf">PDF</a>)</span></li>
         </ul>
       </section>
     </section>
