@@ -280,8 +280,8 @@ The greatest guide is the one who disappears.
 The seeker awakens and cries:  
 "Look---  
 I have found the Way myself."  
-Thus I leave no trace,  
-and yet my footprints are everywhere.
+Thus my work is done,  
+and no one knows my name.
 
 ## When the Way Is Forgotten
 
