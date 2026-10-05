@@ -1,0 +1,228 @@
+/* Book navigation: contents sidebar / panel, saying numbers, prev-next, continue. */
+.container h1[id],
+.container h2[id] { scroll-margin-top: 84px; }
+
+/* Saying numbers (The Living Way) */
+.container h2[data-num]::before {
+  content: attr(data-num);
+  display: inline-block;
+  min-width: 2.1em;
+  margin-right: 0.35em;
+  color: #b28a52;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.55em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  vertical-align: 0.35em;
+}
+
+/* Contents list (shared by sidebar and panel) */
+.lw-toc {
+  font-family: 'EB Garamond', Garamond, Georgia, serif;
+  color: #1f2924;
+  line-height: 1.3;
+  z-index: 900;
+}
+.lw-toc * { box-sizing: border-box; }
+.lw-toc-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.6rem; }
+.lw-toc-title {
+  margin: 0;
+  color: #526a5a;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.lw-toc-close {
+  display: none;
+  width: 40px; height: 40px;
+  border: 0; border-radius: 50%;
+  background: transparent; color: #1f2924;
+  font-size: 1.6rem; line-height: 1; cursor: pointer;
+}
+.lw-toc-filter {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(31, 41, 36, 0.16);
+  border-radius: 10px;
+  background: #fffdf8;
+  color: #1f2924;
+  font: inherit;
+  font-size: 1rem;
+}
+.lw-toc ol { list-style: none; margin: 0; padding: 0; }
+.lw-toc li { margin: 0; padding: 0; }
+.lw-toc li[hidden] { display: none; }
+.lw-toc a {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.32rem 0.55rem;
+  border-radius: 8px;
+  color: #3d4741;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.lw-toc a:hover { background: rgba(82, 106, 90, 0.08); color: #1f2924; }
+.lw-toc a[aria-current] { background: rgba(178, 138, 82, 0.14); color: #1f2924; font-weight: 600; }
+.lw-toc-num {
+  flex: none;
+  min-width: 1.6rem;
+  color: #b28a52;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.72rem;
+  font-weight: 400;
+}
+.lw-toc-single a { font-weight: 500; }
+.lw-toc-book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 0.55rem;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #1f2924;
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+.lw-toc-book:hover { background: rgba(82, 106, 90, 0.08); }
+.lw-toc-chev { width: 8px; height: 8px; border-right: 1.5px solid #8b9189; border-bottom: 1.5px solid #8b9189; transform: rotate(-45deg); transition: transform 0.2s; flex: none; margin-left: 0.5rem; }
+.lw-toc-group.is-open .lw-toc-chev { transform: rotate(45deg); }
+.lw-toc-items { display: none; padding: 0 0 0.4rem 0.4rem !important; }
+.lw-toc-group.is-open .lw-toc-items { display: block; }
+.lw-toc-intro { color: #667068 !important; font-style: italic; }
+.lw-toc-empty { margin: 0.5rem; color: #667068; font-style: italic; }
+
+/* Toggle button and backdrop (narrow screens) */
+.lw-toc-toggle {
+  position: fixed;
+  left: 1rem;
+  bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  z-index: 950;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0 1rem;
+  border: 1px solid rgba(31, 41, 36, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 253, 248, 0.96);
+  box-shadow: 0 8px 24px rgba(31, 41, 36, 0.14);
+  color: #1f2924;
+  font-family: 'EB Garamond', Garamond, Georgia, serif;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.lw-toc-toggle-icon,
+.lw-toc-toggle-icon::before,
+.lw-toc-toggle-icon::after { display: block; width: 14px; height: 1.5px; background: currentColor; }
+.lw-toc-toggle-icon { position: relative; }
+.lw-toc-toggle-icon::before,
+.lw-toc-toggle-icon::after { position: absolute; left: 0; content: ""; }
+.lw-toc-toggle-icon::before { top: -4.5px; }
+.lw-toc-toggle-icon::after { top: 4.5px; width: 9px; }
+.lw-toc-backdrop {
+  position: fixed; inset: 0; z-index: 1005;
+  background: rgba(31, 41, 36, 0.28);
+  opacity: 0; pointer-events: none; transition: opacity 0.2s;
+}
+
+/* Narrow: pull-out panel */
+@media (max-width: 1199px) {
+  .lw-toc {
+    position: fixed;
+    top: 0; bottom: 0; left: 0;
+    z-index: 1010;
+    width: min(88vw, 360px);
+    padding: calc(0.8rem + env(safe-area-inset-top, 0px)) 0.9rem 1.5rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background: #f6f2e8;
+    box-shadow: 12px 0 40px rgba(31, 41, 36, 0.16);
+    transform: translateX(-105%);
+    transition: transform 0.25s ease;
+    visibility: hidden;
+  }
+  .lw-toc-close { display: inline-block; }
+  body.lw-toc-open .lw-toc { transform: none; visibility: visible; }
+  body.lw-toc-open .lw-toc-backdrop { opacity: 1; pointer-events: auto; }
+  body.lw-toc-open { overflow: hidden; }
+  .lw-toc a { padding: 0.55rem 0.6rem; font-size: 1.08rem; }
+}
+
+/* Wide: sticky sidebar beside the reading column */
+@media (min-width: 1200px) {
+  .lw-toc {
+    position: fixed;
+    top: 76px;
+    bottom: 1.2rem;
+    left: max(1rem, calc((100vw - 800px) / 2 - 330px));
+    width: 290px;
+    padding: 1rem 0.8rem 1.2rem;
+    overflow-y: auto;
+    border: 1px solid rgba(31, 41, 36, 0.08);
+    border-radius: 14px;
+    background: rgba(255, 253, 248, 0.55);
+    scrollbar-width: thin;
+  }
+  .lw-toc-toggle, .lw-toc-backdrop { display: none; }
+  body.lw-has-toc .container { margin-left: max(320px, calc((100vw - 800px) / 2)); }
+}
+
+/* Previous / next after each saying */
+.lw-saynav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.4rem 0 0.4rem;
+  font-size: 0.95rem;
+}
+.lw-saynav a { color: #8c7b6c; text-decoration: none; max-width: 48%; }
+.lw-saynav a:hover { color: #344a3c; text-decoration: underline; }
+.lw-saynav .lw-next { margin-left: auto; text-align: right; }
+
+/* Continue where you left off */
+.lw-continue {
+  position: fixed;
+  top: 72px;
+  left: 50%;
+  z-index: 960;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: min(560px, calc(100% - 2rem));
+  padding: 0.6rem 0.6rem 0.6rem 1rem;
+  border: 1px solid rgba(31, 41, 36, 0.12);
+  border-radius: 14px;
+  background: #fffdf8;
+  box-shadow: 0 12px 34px rgba(31, 41, 36, 0.14);
+  color: #1f2924;
+  font-family: 'EB Garamond', Garamond, Georgia, serif;
+  font-size: 1rem;
+  transform: translateX(-50%);
+}
+.lw-continue span { flex: 1; min-width: 0; }
+.lw-continue-go {
+  flex: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  background: #344a3c;
+  color: #fffdf8 !important;
+  text-decoration: none;
+}
+.lw-continue-x { flex: none; width: 36px; height: 36px; border: 0; border-radius: 50%; background: transparent; font-size: 1.4rem; cursor: pointer; color: #667068; }
+
+@media print { .lw-toc, .lw-toc-toggle, .lw-toc-backdrop, .lw-saynav, .lw-continue { display: none !important; } }
+@media (prefers-reduced-motion: reduce) { .lw-toc, .lw-toc-chev { transition: none; } }
+
+/* Keep the install invitation clear of the Contents button on narrow screens. */
+@media (max-width: 1199px) {
+  body.lw-has-toc .lw-install-banner { bottom: calc(4.6rem + env(safe-area-inset-bottom, 0px)); }
+}
