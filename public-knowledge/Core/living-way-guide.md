@@ -2,9 +2,7 @@
 
 *(Based on the Gospels of Thomas & Mary)*
 
-> **Source of record:** This file is the canonical authoring source. Styled HTML is generated at the repo root as `living_way_guide.html` by `tools/build_html.sh` (run `./run.sh` or `./run.sh build-only`). The same Markdown opens in the library via `read.html?doc=Core/living-way-guide.md`.
->
-> **Canonical companion texts:** For a canon-only Yeshuan reading, see `Yeshua/The_Canonical_Way_of_Jesus.md`. For a poetic canonical retelling, see `Yeshua/The_Gospel_of_the_Living_One.md`. For a passage shelf, see `Yeshua/Canonical_Sayings_Index.md`.
+> **Companion texts:** To read only the four canonical Gospels, see [The Canonical Way of Jesus](read.html?doc=Yeshua/The_Canonical_Way_of_Jesus.md). For a poetic retelling, see [The Gospel of the Living One](read.html?doc=Yeshua/The_Gospel_of_the_Living_One.md). For a shelf of passages by theme, see the [Canonical Sayings Index](read.html?doc=Yeshua/Canonical_Sayings_Index.md).
 
 ## **Chapter 1 — The Outer Child, the Inner Child, and the Path of the Adult**
 
