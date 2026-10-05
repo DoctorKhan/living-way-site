@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Book of Sayings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-start: #fdfbf7;
+            --bg-end: #e8e4d4;
+            --text-main: #2c2c2c;
+            --text-muted: #5a5a5a;
+            --accent: #8c7b6c;
+            --btn-dark: #2c2c2c;
+            --btn-light: #f5f3e8;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'EB Garamond', 'Garamond', serif;
+            background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+        .container {
+            text-align: left;
+            max-width: 800px;
+            width: 100%;
+            padding: 4rem 3rem;
+            background-color: rgba(255, 255, 255, 0.45);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.04);
+            border-radius: 8px;
+            backdrop-filter: blur(5px);
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        h1, h2, h3 {
+            color: #1a1a1a;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            border-bottom: 1px solid rgba(140, 123, 108, 0.3);
+            padding-bottom: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            color: var(--accent);
+            margin-top: 2rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.15rem;
+        }
+
+        ul, ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            font-size: 1.15rem;
+        }
+
+        blockquote {
+            border-left: 3px solid var(--accent);
+            padding-left: 1.5rem;
+            font-style: italic;
+            color: var(--text-muted);
+            margin: 2rem 0;
+            background: rgba(255,255,255,0.3);
+            padding: 1rem 1.5rem;
+            border-radius: 0 4px 4px 0;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        a:hover {
+            border-color: var(--accent);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #d4d0c0;
+            margin: 3rem auto;
+            width: 50%;
+            opacity: 0.6;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+        
+        th, td {
+            padding: 1rem;
+            border: 1px solid rgba(140, 123, 108, 0.3);
+            text-align: left;
+        }
+        
+        th {
+            background-color: rgba(140, 123, 108, 0.1);
+            font-weight: 600;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 2rem 1.5rem; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+    <!-- lw-pwa -->
+    <meta name="theme-color" content="#f6f2e8">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Living Way">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="icon" href="/images/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <meta property="og:site_name" content="The Living Way">
+    <meta property="og:type" content="book">
+    <meta property="og:image" content="https://thelivingway.app/images/og-image.png">
+    <script src="/js/sayings-share.js" defer></script>
+    <script src="/js/pwa.js" defer></script>
+    <!-- /lw-pwa -->
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <h1 id="the-book-of-sayings">The Book of Sayings</h1>
+        <h3
+        id="a-household-anthology-for-the-people-who-keep-the-doors-open">A
+        household anthology for the people who keep the doors open</h3>
+        <p>These pages were gathered from kitchens, boats, clinics, work
+        sheds, cloisters, and court copies. Some lines are old. Some
+        were made yesterday. Several have been altered by people who
+        wanted a crowd to obey them.</p>
+        <p>No prophet owns this book. No house owns the lines. Use a
+        saying when it helps you do the next necessary thing. Set it
+        down when it turns a person into a rule.</p>
+        <h2 id="how-a-saying-survives">How a saying survives</h2>
+        <p>A useful saying has a mouth, a place, a use, and a cost.</p>
+        <p>“I carry rice” belongs to Suresh on a boat. It is good
+        against hero worship. It does not steer the boat.</p>
+        <p>“Hospitality has a ceiling” belongs to Mei at a crowded
+        hearth. It protects the people already inside. It can also
+        become an excuse for closing the door.</p>
+        <p>“Let’s test it” belongs to Eli after a claim has hurt
+        someone. It asks for evidence. It does not tell the injured
+        person to wait quietly.</p>
+        <p>“No miracles owed” belongs to Somchai at the clinic. It keeps
+        a healer human. It does not excuse a missed dose.</p>
+        <p>The line is never the whole answer. Look at the hands using
+        it.</p>
+        <h2 id="i.-before-you-act">I. Before you act</h2>
+        <p>Hold the cup. Do not drink yet.</p>
+        <p>Heat has a number if you stay.</p>
+        <p>Name what rose in you. Leave the name there for a breath.</p>
+        <p>It rose in me. It is not me.</p>
+        <p>This felt real. I may still be wrong.</p>
+        <p>Let’s test it.</p>
+        <p>The body can report a danger. The body can also remember
+        one.</p>
+        <p>When a person says, “My fear is proof,” ask what the fear
+        made them do.</p>
+        <p>When a person says, “My calm is proof,” ask what they
+        measured.</p>
+        <h3 id="a-line-people-argue-over">A line people argue over</h3>
+        <p><strong>The map is not the territory.</strong></p>
+        <p>The harbor crews use it when a clearance sheet sends a boat
+        toward a closed gate. The clinic clerks use it when a record
+        says a patient has already left. A court uses it when it wants
+        the paper to win.</p>
+        <p>Walk to the gate. Touch the lock. Ask who is waiting on the
+        other side.</p>
+        <h2 id="ii.-at-the-threshold">II. At the threshold</h2>
+        <p>Feed before you file.</p>
+        <p>Ask before you take the story.</p>
+        <p>A guest is a guest. A guest is not a deposit toward your
+        certainty.</p>
+        <p>Hospitality has a ceiling.</p>
+        <p>Write the number on the wall where everyone can see it.</p>
+        <p>If there is one bed, say one bed. If there are four bowls,
+        count four bowls. A promise that hides its limit becomes a trap
+        for the person who believed it.</p>
+        <h3 id="from-the-harbor-mouths">From the harbor mouths</h3>
+        <p>“I don’t carry heroes on this boat. I carry rice.” — Suresh,
+        harbor pilot</p>
+        <p>“Bangla carries you further than English inside.” — Mei,
+        kitchen keeper</p>
+        <p>“A guest may leave before the meal is finished.” —
+        threshold-house rule, author unknown</p>
+        <p>“The living man outweighs the wedding ring on the table.” —
+        Hassan, witness</p>
+        <p>The last line is used by people who want to protect a person
+        from an inherited claim. It has also been used to break
+        promises. Ask who was promised what.</p>
+        <h2 id="iii.-in-the-clinic">III. In the clinic</h2>
+        <p>Wash your hands before you touch the chart.</p>
+        <p>The clinic treats the body before it decides what the body
+        means.</p>
+        <p>No miracles owed.</p>
+        <p>No cure without a person who can say stop.</p>
+        <p>No measurement without the person affected.</p>
+        <p>The mark on the door is for finding help. It is not a mark of
+        ownership.</p>
+        <h3 id="somchais-line">Somchai’s line</h3>
+        <p>“I am the son of a man. He sold fruit. He is dead. I am not a
+        son of anyone who owes you miracles.”</p>
+        <p>The line is copied in clinic rooms. A later administrator
+        shortened it to <strong>SON OF NO ONE OWES</strong> and printed
+        it on a clearance badge. The badge was removed after patients
+        began treating it as a rank.</p>
+        <h3 id="the-disputed-clinic-line">The disputed clinic line</h3>
+        <p><strong>First do no harm.</strong></p>
+        <p>Some keepers mean: do not begin a treatment you cannot
+        stop.</p>
+        <p>Some administrators mean: do nothing until the paperwork is
+        perfect.</p>
+        <p>The old nurses add: <strong>A delay has a body
+        too.</strong></p>
+        <p>Record the delay beside the treatment. Record who waited.</p>
+        <h2 id="iv.-under-command">IV. Under command</h2>
+        <p>I carry rice.</p>
+        <p>A crown needs an end written on it.</p>
+        <p>The person who gives the order carries the body.</p>
+        <p>No authority without review.</p>
+        <p>No review without the person who paid the cost.</p>
+        <p>An emergency order must say what it is for, who may refuse
+        it, and when it ends.</p>
+        <h3 id="the-line-the-posters-prefer">The line the posters
+        prefer</h3>
+        <p><strong>If the room needs you, stay.</strong></p>
+        <p>Commanders like this line. It makes departure sound like
+        betrayal.</p>
+        <p>The household version is shorter:</p>
+        <p><strong>Leave while leaving is still allowed.</strong></p>
+        <p>The second line does not settle the matter. A patient may
+        need the commander for another hour. The commander still owes
+        the room an exit plan.</p>
+        <h2 id="v.-after-harm">V. After harm</h2>
+        <p>Name the dead before the lesson.</p>
+        <p>The clean record can hide a dirty hand.</p>
+        <p>A correction is not an apology.</p>
+        <p>An apology is not repair.</p>
+        <p>Forgive the past. Do not rehire it.</p>
+        <p>When a person says the loss was necessary, ask whose hands
+        carried it.</p>
+        <p>When a person says nobody could have known, find the page
+        that was ignored.</p>
+        <h3 id="a-saying-from-the-receiving-corridor">A saying from the
+        receiving corridor</h3>
+        <p><strong>The door opened. The harm still entered.</strong></p>
+        <p>It was first spoken after a sponsored worker injured Nia at
+        the repair dock. The line does not condemn welcome. It names the
+        work welcome requires: limits, training, witnesses, and a way to
+        stop.</p>
+        <h2 id="vi.-when-the-crowd-gathers">VI. When the crowd
+        gathers</h2>
+        <p>Other people are excited.</p>
+        <p>I alone don’t know.</p>
+        <p>The crowd wants a face. Give it a question.</p>
+        <p>The crowd wants a title. Give it a task.</p>
+        <p>The crowd wants a miracle. Give it the bill.</p>
+        <h3 id="parade-fragment">Parade fragment</h3>
+        <p><strong>Leader:</strong> What do we know?</p>
+        <p><strong>All:</strong> What we have measured.</p>
+        <p><strong>Leader:</strong> What do we not know?</p>
+        <p><strong>All:</strong> Why we are here.</p>
+        <p><strong>Leader:</strong> What do we do now?</p>
+        <p><strong>All:</strong> Check the door. Feed the people. Ask
+        again.</p>
+        <p>The fragment is not an answer to the old question. It is a
+        way to keep the question from becoming someone’s crown.</p>
+        <h2 id="vii.-work-after-the-argument">VII. Work after the
+        argument</h2>
+        <p>Wash the bowl.</p>
+        <p>Put the tools back.</p>
+        <p>Sweep the floor you are standing on.</p>
+        <p>Leave the door usable.</p>
+        <p>Do not perform tomorrow’s repair while today’s water is still
+        on the floor.</p>
+        <h3 id="from-the-cloister">From the cloister</h3>
+        <p>Paid work before praise.</p>
+        <p>Room before rank.</p>
+        <p>Training before trust.</p>
+        <p>The right to leave belongs in the first agreement.</p>
+        <p>The cloister copied these lines onto a wall. A recruiter
+        painted over <strong>right to leave</strong>. The residents
+        scraped those words back out with spoons.</p>
+        <h2 id="viii.-fragments-people-carry">VIII. Fragments people
+        carry</h2>
+        <p>“Information is freight. Silence is ballast. Tell the one who
+        must carry it before the wave hits.” — Wren</p>
+        <p>“Data walks. Paper crosses borders. The bund holds.” —
+        Hanh</p>
+        <p>“Clean?” — Asha, before accepting a package</p>
+        <p>“I’ll meet you in the flow.” — street farewell</p>
+        <p>“A family remembers whom it has lost. An engine records what
+        the loss purchased.” — Eli</p>
+        <p>“The next honest task is still here.” — keeper’s note,
+        unsigned</p>
+        <p>These lines travel because they fit in a pocket. They do not
+        travel with their original circumstances. Carry the circumstance
+        when you can.</p>
+        <h2 id="ix.-pocket-twelve">IX. Pocket Twelve</h2>
+        <p>Print one line per card. Post one line per day. Say one under
+        load.</p>
+        <ol type="1">
+        <li><strong>Let’s test it.</strong> — when certainty is being
+        sold.</li>
+        <li><strong>It rose in me. It is not me.</strong> — when a
+        feeling claims the whole person.</li>
+        <li><strong>I alone don’t know.</strong> — when the room wants a
+        clever answer.</li>
+        <li><strong>I carry rice.</strong> — when someone wants a
+        hero.</li>
+        <li><strong>Feed before you file.</strong> — when paperwork
+        comes before the meal.</li>
+        <li><strong>The map is not the territory.</strong> — when the
+        file disagrees with the ground.</li>
+        <li><strong>Hospitality has a ceiling.</strong> — when the door
+        needs a number.</li>
+        <li><strong>No miracles owed.</strong> — when a healer is being
+        named sacred.</li>
+        <li><strong>Name the dead before the lesson.</strong> — when an
+        institution calls harm necessary.</li>
+        <li><strong>A crown needs an end.</strong> — when emergency
+        power feels comfortable.</li>
+        <li><strong>Wash the bowl.</strong> — after the argument.</li>
+        <li><strong>Leave the door usable.</strong> — before you
+        leave.</li>
+        </ol>
+        <h2 id="how-to-use-the-book">How to use the book</h2>
+        <p>Choose a line that belongs to the work in front of you. Say
+        who taught it if you know. Say that you may be wrong if you do
+        not.</p>
+        <p>Do not use a saying to end an argument that still has a
+        person waiting in it. Do not use a clinic line to avoid
+        treatment. Do not use a household line to claim a household. Do
+        not use a question as a substitute for the next honest task.</p>
+        <p>When the crowd leaves, count the bowls. When the record
+        changes, keep the old page. When the authority ends, check
+        whether the room can still act.</p>
+        <p>The full litanies remain separate. This book keeps the
+        fragments that ordinary people can carry.</p>
+        
+        <div style="text-align: center; margin-top: 4rem; opacity: 0.6; font-size: 0.9rem;">
+            <p>The Living Way Library</p>
+        </div>
+    </div>
+</body>
+</html>

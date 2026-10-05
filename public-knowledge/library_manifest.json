@@ -106,6 +106,25 @@
           "stablePath": "works/syncretic-christ.html"
         }
       }
+    },
+    {
+      "id": "book-of-sayings",
+      "kind": "md",
+      "title": "The Book of Sayings",
+      "section": "household",
+      "voice": "Household",
+      "sourcePath": "The_Book_of_Sayings.md",
+      "publicBase": "The_Book_of_Sayings",
+      "formats": {
+        "html": {
+          "publicPath": "The_Book_of_Sayings.html",
+          "stablePath": "works/book-of-sayings.html"
+        },
+        "pdf": {
+          "publicPath": "The_Book_of_Sayings.pdf",
+          "stablePath": "works/book-of-sayings.pdf"
+        }
+      }
     }
   ]
 }
