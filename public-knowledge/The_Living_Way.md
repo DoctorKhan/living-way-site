@@ -1031,29 +1031,30 @@ $\cdot$ $\odot$ $\cdot$
 *Saying 1 answers chapter 1 of the Tao Te Ching,*  
 *and so on through saying 81.*  
 *Other echoes are listed below. Thomas numbers are logia;*  
-*Mary numbers are pages of the Berlin Codex.*
+*Mary numbers are pages of the Berlin Codex;*  
+*Odes are the Odes of Solomon.*
 :::
 
 
 **The Light Before the World**
 
 1. The Way That Is Not Seen: Tao Te Ching 1; Thomas 113.
-2. The Two Become One: Tao Te Ching 2; Thomas 22; Philip on the bridal chamber.
+2. The Two Become One: Tao Te Ching 2; Thomas 22; Philip on the bridal chamber; Gospel of the Egyptians (quoted by Clement); Hymn of the Pearl.
 3. The Poverty of the Unknowing: Tao Te Ching 3; Thomas 3.
 4. The Father of Light: Tao Te Ching 4; Thomas 50.
 5. The Powers Question the Soul: Tao Te Ching 5; Mary 15--17, the soul's ascent past the powers.
 6. The Hollow Reed: Tao Te Ching 6; Thomas 78.
-7. The Unforced Kingdom: Tao Te Ching 7; Mary 7 ("there is no sin").
+7. The Unforced Kingdom: Tao Te Ching 7; Mary 7 ("there is no sin"); Gospel of Truth.
 8. The Servant at the Feast: Tao Te Ching 8; Luke 14:7--11.
 9. The Teacher Who Does Not Teach: Tao Te Ching 9; Thomas 13, 108.
 
 **The Kingdom Within**
 
-10. The Single Eye: Tao Te Ching 10; Matthew 6:22; Mary 10 (the mind between soul and spirit).
+10. The Single Eye: Tao Te Ching 10; Matthew 6:22; Mary 10 (the mind between soul and spirit); Dialogue of the Savior.
 11. The Inner and the Outer: Tao Te Ching 11; Thomas 22, 89.
 12. The Lion and the Child: Tao Te Ching 12; Thomas 7, 22.
 13. The Unbinding: Tao Te Ching 13.
-14. The Return to the Unborn: Tao Te Ching 14; Thomas 18--19.
+14. The Return to the Unborn: Tao Te Ching 14; Thomas 18--19; Hymn of the Pearl.
 15. The Silence That Speaks: Tao Te Ching 15; Thomas 8.
 16. The Great Stillness: Tao Te Ching 16.
 17. The Hidden Guide: Tao Te Ching 17.
@@ -1067,7 +1068,7 @@ $\cdot$ $\odot$ $\cdot$
 22. The One Who Is Bent: Tao Te Ching 22; Matthew 23:12.
 23. The Wind Speaks Briefly: Tao Te Ching 23; John 3:8.
 24. The Tower That Topples: Tao Te Ching 24; Matthew 6:1--4.
-25. The Womb of Silence: Tao Te Ching 25.
+25. The Womb of Silence: Tao Te Ching 25; Thunder, Perfect Mind.
 26. The Heavy Root: Tao Te Ching 26.
 27. The Footprints of the Master: Tao Te Ching 27.
 
@@ -1079,7 +1080,7 @@ $\cdot$ $\odot$ $\cdot$
 31. The Weapon of the Heart: Tao Te Ching 31; Matthew 5:39.
 32. The Way, the Truth: Tao Te Ching 32; John 14:6. The gospel line is often heard as a claim about a figure alone; here it also names the sense of being, the "I am" beneath the story. To investigate that presence ("What is this I?" before name and role) is the path. In Advaita Vedānta, a parallel discipline is *ātma-vichāra* (self-inquiry): different idiom, one movement toward what was never absent.
 33. Profit and Loss: Tao Te Ching 33; Mark 8:36.
-34. The Great River: Tao Te Ching 34.
+34. The Great River: Tao Te Ching 34; Odes of Solomon 6.
 35. The Face of Peace: Tao Te Ching 35; John 14:27.
 36. The Paradox of Power: Tao Te Ching 36; John 12:24.
 
@@ -1088,9 +1089,9 @@ $\cdot$ $\odot$ $\cdot$
 37. The Ease of the Way: Tao Te Ching 37.
 38. True Virtue: Tao Te Ching 38; Matthew 6:1--4.
 39. The Ones Who Remain Whole: Tao Te Ching 39.
-40. The Return: Tao Te Ching 40.
+40. The Return: Tao Te Ching 40; Hymn of the Pearl.
 41. The Three Seekers: Tao Te Ching 41; Matthew 13:3--9.
-42. The Birth of the Two: Tao Te Ching 42.
+42. The Birth of the Two: Tao Te Ching 42; Thunder, Perfect Mind.
 43. The Gentle Overcomes: Tao Te Ching 43.
 44. Where the Mind Is: Tao Te Ching 44; Mary 10; Matthew 6:21.
 45. The Great Fullness: Tao Te Ching 45.
@@ -1103,7 +1104,7 @@ $\cdot$ $\odot$ $\cdot$
 49. The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
 50. Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
 51. The Nourishing Way: Tao Te Ching 51.
-52. Return to the Mother: Tao Te Ching 52.
+52. Return to the Mother: Tao Te Ching 52; Gospel of the Hebrews; Thunder, Perfect Mind.
 53. The Eye of the Needle: Tao Te Ching 53; Mark 10:25; Matthew 7:13--14.
 54. The Unshakable Root: Tao Te Ching 54; Matthew 7:24--25.
 

@@ -33,7 +33,7 @@ The map:
 > and they will reign over the All."
 > — Thomas 2
 
-An early Greek copy of this saying adds a last step: *and having reigned, they will rest.*
+An early Greek copy of this saying adds a last step: *and having reigned, they will rest.* The Gospel of the Hebrews, quoted by Clement of Alexandria, gives the same saying with the same ending. The Way does not end in power. It ends in rest.
 
 The Tao Te Ching names the same movement in four words:
 
@@ -126,7 +126,15 @@ Jesus himself is remembered as one of Wisdom's children:
 > "Wisdom is vindicated by all her children."
 > — Luke 7:35
 
-The word for Spirit, *ruach* in Hebrew and *ruḥa* in the Syriac of the early Eastern churches, is usually feminine. One early Jewish-Christian gospel, known only from quotations, has Jesus speak of "my mother, the Holy Spirit." Thomas has Jesus say that his true Mother gave him life (Thomas 101). And the Gospel of Philip mocks the idea that Mary conceived by the Holy Spirit, asking, "When did a woman ever conceive by a woman?" Its author assumed, as many early Christians did, that the Spirit is feminine.
+The word for Spirit, *ruach* in Hebrew and *ruḥa* in the Syriac of the early Eastern churches, is usually feminine. The Gospel of the Hebrews, an early Jewish-Christian gospel known only from quotations, has Jesus speak of "my mother, the Holy Spirit," and at his baptism the Spirit says to him, "You are my rest." Thomas has Jesus say that his true Mother gave him life (Thomas 101). And the Gospel of Philip mocks the idea that Mary conceived by the Holy Spirit, asking, "When did a woman ever conceive by a woman?" Its author assumed, as many early Christians did, that the Spirit is feminine. The Odes of Solomon, the earliest Christian hymnbook, go further and picture the Spirit as the one who nourishes the world like a mother.
+
+In the Nag Hammadi poem *Thunder, Perfect Mind*, Wisdom speaks for herself:
+
+> "I am the silence that cannot be grasped,
+> and the thought that is remembered often.
+> I am the voice of many sounds,
+> and the word of many forms."
+> — Thunder, Perfect Mind
 
 The Tao Te Ching calls the same reality the Mother of all things:
 
@@ -331,10 +339,12 @@ Some images and how this guide reads them:
 * **The child** is the undivided self, before the split between inside and outside (Thomas 4, 22, 37).
 * **The lion** is the appetite that devours (Thomas 7).
 * **Poverty** is not knowing yourself (Thomas 3).
-* **The garment** is the self you wear and mistake for yourself (Thomas 37; Mary 15).
+* **The garment** is the self you wear and mistake for yourself (Thomas 37; Mary 15). In the Hymn of the Pearl, the prince who forgot himself returns home to find his robe, and sees in it his own whole image.
 * **The Mother** is Wisdom, Silence, and the receiving ground of all things (Proverbs 8; Tao Te Ching 52).
 * **Water** is the strength of what does not force (Tao Te Ching 8, 78).
 * **The bridal chamber** is the union in which the two are made one (Gospel of Philip).
+
+For more of these texts, with plain-English notes, see [Wisdom Gospels](wisdom_gospels.html).
 
 **How to read:** take one saying a day from *The Living Way*. Read it slowly, three times. Ask where in your own life it is pointing. Do not force a single meaning. Thomas promises that the meaning is *found*, not handed over. The Sources and Echoes at the end of *The Living Way* show where each saying comes from.
 
