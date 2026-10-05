@@ -1174,7 +1174,9 @@ scroll, Father and Mother are the two hands of the One Source.
 
 **The Way (Tao):** The flow of the Universe; the unnameable Source that
 orders all things without force. In this scroll, it is identified with
-the Kingdom of Heaven spread upon the earth.
+the Kingdom of Heaven spread upon the earth. The same word named the first followers of Jesus, who called their life *the Way* (Greek *hodos*, Hebrew *derekh*, Aramaic *ʾurḥā*) before they were called Christians (Acts 9:2; 11:26).
+
+**Living:** Awake to the Source. Thomas calls Jesus "the living Jesus" and God "the living Father." To be living is to have come alive to one's origin; the dead are those wholly absorbed in the surface of things. The Letter to the Hebrews speaks of "a new and living way" (10:20), in Syriac *ʾurḥā d-ḥayyē*, "a way of life."
 
 # Colophon
 

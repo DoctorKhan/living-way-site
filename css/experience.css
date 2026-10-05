@@ -548,3 +548,6 @@ body.home-experience {
   .hero-quote { font-size: 1.05rem; }
   .book-contents { padding: 1.3rem; }
 }
+
+.hero-name { max-width: 560px; margin-top: 1.4rem; line-height: 1.6; }
+.hero-name a { color: var(--lw-moss-dark); text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }

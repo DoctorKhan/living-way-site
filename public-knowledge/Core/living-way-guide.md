@@ -16,6 +16,30 @@ Quotations from Thomas, Mary, Philip, and the Tao Te Ching are the author's own 
 
 ---
 
+## **Why "The Living Way"**
+
+### ✦ The Way
+
+Before anyone was called a Christian, the followers of Jesus called their life simply *the Way*. The Book of Acts uses the name again and again (9:2; 19:9; 19:23; 22:4; 24:14), and only later says, "The disciples were first called Christians in Antioch" (11:26).
+
+The word is old and plain. In Greek it is *hodos*, a road. Behind it stands the Hebrew *derekh*: "Prepare the way of the Lord" (Isaiah 40:3). In Aramaic, the language Jesus spoke, it is *ʾurḥā* (ܐܘܪܚܐ). The Syriac Gospels, written in a language close to his own, have him say:
+
+> *ʾEnā ʾenā ʾurḥā w-šrārā w-ḥayyē.*
+> "I am the way, and the truth, and the life."
+> — John 14:6, Syriac Peshitta
+
+And in China, centuries earlier, the same word named the deepest thing of all: *Tao*, the Way. *Hodos*, *derekh*, *ʾurḥā*, *Tao*: one word in four languages. That is why *The Living Way* can call itself a Tao for the Children of Light.
+
+### ✦ Living
+
+The Gospel of Thomas begins: "These are the hidden sayings that the living Jesus spoke." It speaks of "the living Father" and "the Living One," and Jesus offers "living water" (John 4:10). In these texts, *living* means awake: alive to the Source you came from.
+
+The phrase itself is in the New Testament. The Letter to the Hebrews speaks of "a new and living way" opened for us "through the veil" (10:20). The Syriac renders it *ʾurḥā d-ḥayyē*, "a way of life," using the same two words Jesus uses of himself in John 14:6: the way, and the life.
+
+So *the Living Way* means two things at once: a way that is alive, not fixed in doctrine, and a way of becoming alive.
+
+---
+
 # **Chapter 1 — The Map of the Way**
 
 The Gospel of Thomas opens with a promise and a map.
