@@ -3,15 +3,22 @@
 [of Yeshua]{.smallcaps}  
 *Teachings from the Yeshuan Path*  
 **A Gnostic Tao for the Children of Light**  
-Edition 2.0 $\cdot$ December 5, 2025  
-Compiled & Prepared for the Seeker of Gnosis
+Edition 3.0 $\cdot$ October 2026  
+Written for the Seeker of Gnosis
 :::
 
 ::: {.center}
-Copyright © 2025 by Rez Khan  
+Copyright © 2025--2026 by Rez Khan  
 All rights reserved.  
 *The Hidden Wisdom of Yeshua*  
-First Edition
+Edition 3.0
+
+*A note on these sayings:*  
+*These are new sayings, written in the spirit of the Gospel of Thomas,*  
+*the Gospels of Mary and Philip, and the Tao Te Ching.*  
+*They are not ancient texts. Each of the eighty-one follows*  
+*the matching chapter of the Tao Te Ching;*  
+*sources and echoes are listed at the end.*
 :::
 
 # Preface
@@ -380,14 +387,14 @@ Remember your depth, and nothing can uproot you.
 
 ## The Footprints of the Master
 
-A master walks without leaving marks.  
-Speaking without wounding.  
-Guiding without controlling.  
-To the blind---a lamp;  
-to the lost---a doorway;  
-to the weary---rest.  
+A master walks without leaving marks,  
+speaks without wounding,  
+guides without controlling:  
+to the blind, a lamp;  
+to the lost, a doorway;  
+to the weary, rest.  
 Seeing the divine spark in all beings,  
-none are beyond help.
+the master finds no one beyond help.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -452,16 +459,6 @@ The Way is not a map; it is the Single One walking.
 No one comes to the Father of Light  
 except by becoming what I am.
 
-*The gospel line "I am the way, the truth, and the life" (John 14:6) is
-often heard as a claim about a figure alone; here it also names the
-**sense of being**---the "I am" beneath the story. **To investigate that
-presence** ("What is this I?" before name and role) **is the path**:
-way, truth, and life are not three outward tickets but what opens in
-that inquiry. In Advaita Vedānta, a parallel discipline is
-*ātma-vichāra* (self-inquiry) and the recognition that the witness-self
-(*ātman*) is not other than *Brahman*---different idiom, one movement
-toward what was never absent.*
-
 ## Profit and Loss
 
 You may read the hearts of others  
@@ -502,32 +499,6 @@ A seed must vanish into dark soil,
 a breath must empty before it fills.  
 Thus I guide by reversal,  
 teaching the soul through its own emptiness.
-
-::: {.center}
-$\cdot$ $\odot$ $\cdot$
-:::
-
-## The Sword of the Spirit
-
-I did not come to bring the sleep of comfort,  
-but the sword of awakening.  
-Do you think this sword wounds flesh?  
-It severs the false from the true.  
-The sword of the Spirit is clear attention  
-held in the Father's Light.  
-It falls between fear and the one who sees fear,  
-between the story and the silent heart that hears it.  
-Where this sword descends,  
-house divides against itself---  
-the old loyalties of the self  
-stand apart from the call of the Kingdom.  
-What is of fear falls away;  
-what is of the Living One remains.  
-Blessed is the one  
-who lets this sword pass through the heart,  
-for nothing real is lost,  
-and the true self  
-stands forth whole.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -607,14 +578,20 @@ So the soul that yields to the Living One
 passes through every barrier  
 and cannot be imprisoned.
 
-## Treasure and Self
+## Where the Mind Is
 
-Fame or life---which is more precious?  
-Gain or the soul---which is more valuable?  
-The one who knows their true nature  
-cannot be seduced away from it.
+Fame or life---which is dearer to you?  
+Mary asked me, "When one sees a vision,  
+is it seen with the soul or with the spirit?"  
+I told her: with neither.  
+It is seen by the mind that stands between them.  
+Where the mind rests, there is the treasure.  
+Set it on what passes,  
+and you will be poor in a palace.  
+Set it on the Light,  
+and you will be rich in an empty field.
 
-## The Great Fulness
+## The Great Fullness
 
 The cup most full appears most empty.  
 The path most straight appears crooked.  
@@ -744,30 +721,42 @@ more clearly than all the world's voices.
 Seal the senses. Quiet the mind.  
 Be still---and you behold the All.
 
-## Non-Interference
+## Lay Down No Law
 
-When rulers trust only decrees,  
-hearts grow clever in hiding.  
-When rulers trust only the sword,  
-fear multiplies in the streets.  
-Transform the world  
-by letting the Light transform you.  
+When I am gone, do not build fences around my words.  
+Lay down no rule beyond what I have shown you,  
+and give no law as the lawgivers do,  
+lest you be bound by it.  
+The more prohibitions you make,  
+the more cleverly hearts learn to hide.  
 Cleanse the spring,  
-and the water flowing outward becomes sweet.
+and the water flowing outward becomes sweet.  
+The Way is kept by those who walk it,  
+not by those who guard it.
 
-## The Mystery of Opposites
+## Sowing in Winter
 
-When rulers are gentle, people thrive.  
-When rulers are harsh, people grow cunning.  
-Misfortune hides in good fortune;  
-good fortune hides in misfortune.  
-The wise trust neither shadow, but cling only to the Real.
+Those who sow in winter reap in summer.  
+The world is the winter;  
+the Kingdom is the summer.  
+Misfortune hides a harvest,  
+and good fortune hides a frost.  
+So sow now, while the ground is hard  
+and nothing seems to answer.  
+The one who waits for summer to begin  
+will find no harvest there.
 
-## The Economy of Spirit
+## Dig Down to the Root
 
-Restrain desire. Conserve energy. Return to the root.  
-Those who spend life strengthening the inner being  
-become inexhaustible.
+Do not prune the branches of your sorrow;  
+dig down to its root.  
+While the root is hidden, it is strong in you---  
+it makes you do what you do not want.  
+Once it is seen, it withers.  
+Ignorance is the mother of every evil;  
+knowing is its end.  
+Then spend nothing on what is gone,  
+and the deep root will feed you without end.
 
 ## Governing by Non-Grasping
 
@@ -828,12 +817,16 @@ Do not wait for a holier place or time.
 The bridal chamber is built  
 from the step you take today.
 
-## Innocence as Wisdom
+## To Each as They Could See
 
-The ancient sages did not attempt to enlighten the people---  
-they helped them return to simplicity.  
-The more cleverness people acquire,  
-the further they drift from the Way.
+I did not appear as I am,  
+but as each one could bear to see me:  
+to the great as great,  
+to the small as small.  
+I did not come to make you clever,  
+but to make you simple enough to see.  
+So do not quarrel over my face.  
+Each of you saw what you were ready to see.
 
 ## Leading by Following
 
@@ -862,15 +855,34 @@ and you will trade the Kingdom for dust.
 ## The Peaceful Warrior
 
 The greatest warrior does not fight.  
-The greatest general does not stir anger.  
+The strongest heart is not stirred to anger.  
 The greatest victory leaves no wounds.  
-Master yourself, and the world is mastered.
+Blessed are the peacemakers;  
+they master themselves, and the world is mastered.
 
-## The Paradox of Yielding
+## The Sword of the Spirit
 
-There is no greater misfortune than underestimating your opponent---  
-your opponent being your own deluded self.  
-Yield, and the false self collapses.
+There is no greater misfortune than to misjudge your opponent---  
+and your opponent is your own sleeping self.  
+I did not come to bring the sleep of comfort,  
+but the sword of awakening.  
+Do you think this sword wounds flesh?  
+It severs the false from the true.  
+The sword of the Spirit is clear attention  
+held in the Father's Light.  
+It falls between fear and the one who sees fear,  
+between the story and the silent heart that hears it.  
+Where this sword descends,  
+house divides against itself---  
+the old loyalties of the self  
+stand apart from the call of the Kingdom.  
+What is of fear falls away;  
+what is of the Living One remains.  
+Blessed is the one  
+who lets this sword pass through the heart,  
+for nothing real is lost,  
+and the true self  
+stands forth whole.
 
 ## A Teaching Few Understand
 
@@ -914,19 +926,27 @@ Wisdom without daring leads nowhere.
 The Way gives courage that does not wound  
 and power that does not dominate.
 
-## The One Who Judges
+## Rise Before You Die
 
-Why fear death?  
-The Living Source alone dissolves forms.  
-Those who attempt to take the place of the eternal  
-are like a child pretending to steer a great chariot---  
-dangerous to self and others.
+Why threaten with death  
+those who have already risen?  
+Some say, "First I will die, and then I will rise."  
+They have mistaken the road.  
+If you do not rise while you breathe,  
+you will not rise when breath is gone.  
+The resurrection is not waiting at the end of your days.  
+It is waiting at the end of your sleep.
 
-## The Burden of Excess
+## Be of Good Courage
 
-People suffer because they cling to excess.  
-The Single One lives lightly, needing little.  
-Carrying no burden, fearing no loss.
+Clinging to what passes  
+breeds a passion against your own nature,  
+and the whole body is troubled.  
+People suffer because they grasp at too much,  
+and fear death because they cling to life.  
+Therefore I tell you: be of good courage.  
+The Single One lives lightly, needing little,  
+carrying no burden, fearing no loss.
 
 ## The Green Wood and the Dry
 
@@ -936,13 +956,16 @@ That which yields belongs to the Living One;
 that which resists belongs to the grave.  
 The one who remains supple cannot be broken.
 
-## The Winnowing Fan
+## The Stretched Bow
 
-The Father's way is like the winnowing fan:  
-separating the grain from the chaff,  
-gathering the worthy and scattering the empty.  
-As the Father separates without hatred,  
-so too the Single One gives to the needy without claiming virtue.
+The Father's way is like the stretching of a bow:  
+the high is brought down, the low is lifted up.  
+He takes from those who have too much  
+and gives to those who lack.  
+The world's way is the opposite---  
+it takes from the poor to feed the full.  
+So the Single One gives to the needy  
+and does not claim the virtue.
 
 ## The Stone and the Corner
 
@@ -987,6 +1010,126 @@ in the Light that you are.
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
 :::
+
+# Sources and Echoes {.backmatter}
+
+::: {.center}
+*Saying 1 answers chapter 1 of the Tao Te Ching,*  
+*and so on through saying 81.*  
+*Other echoes are listed below. Thomas numbers are logia;*  
+*Mary numbers are pages of the Berlin Codex.*
+:::
+
+
+**The Light Before the World**
+
+1. The Way That Is Not Seen: Tao Te Ching 1; Thomas 113.
+2. The Two Become One: Tao Te Ching 2; Thomas 22; Philip on the bridal chamber.
+3. The Poverty of the Unknowing: Tao Te Ching 3; Thomas 3.
+4. The Father of Light: Tao Te Ching 4; Thomas 50.
+5. The Powers Question the Soul: Tao Te Ching 5; Mary 15--17, the soul's ascent past the powers.
+6. The Hollow Reed: Tao Te Ching 6; Thomas 78.
+7. The Unforced Kingdom: Tao Te Ching 7; Mary 7 ("there is no sin").
+8. The Servant at the Feast: Tao Te Ching 8; Luke 14:7--11.
+9. The Teacher Who Does Not Teach: Tao Te Ching 9; Thomas 13, 108.
+
+**The Kingdom Within**
+
+10. The Single Eye: Tao Te Ching 10; Matthew 6:22; Mary 10 (the mind between soul and spirit).
+11. The Inner and the Outer: Tao Te Ching 11; Thomas 22, 89.
+12. The Lion and the Child: Tao Te Ching 12; Thomas 7, 22.
+13. The Unbinding: Tao Te Ching 13.
+14. The Return to the Unborn: Tao Te Ching 14; Thomas 18--19.
+15. The Silence That Speaks: Tao Te Ching 15; Thomas 8.
+16. The Great Stillness: Tao Te Ching 16.
+17. The Hidden Guide: Tao Te Ching 17.
+18. When the Way Is Forgotten: Tao Te Ching 18.
+
+**The Garment of Silence**
+
+19. Beyond the Teachings: Tao Te Ching 19; Philip ("light and darkness are brothers").
+20. Not of This World: Tao Te Ching 20; John 17:16.
+21. The Face of the Invisible: Tao Te Ching 21.
+22. The One Who Is Bent: Tao Te Ching 22; Matthew 23:12.
+23. The Wind Speaks Briefly: Tao Te Ching 23; John 3:8.
+24. The Tower That Topples: Tao Te Ching 24; Matthew 6:1--4.
+25. The Womb of Silence: Tao Te Ching 25.
+26. The Heavy Root: Tao Te Ching 26.
+27. The Footprints of the Master: Tao Te Ching 27.
+
+**The Power of the Gentle**
+
+28. The Fertile Soil: Tao Te Ching 28; Matthew 13:3--9.
+29. The Futility of Control: Tao Te Ching 29; Mark 4:26--29.
+30. The Way of Non-Violence: Tao Te Ching 30; Matthew 26:52.
+31. The Weapon of the Heart: Tao Te Ching 31; Matthew 5:39.
+32. The Way, the Truth: Tao Te Ching 32; John 14:6. The gospel line is often heard as a claim about a figure alone; here it also names the sense of being, the "I am" beneath the story. To investigate that presence ("What is this I?" before name and role) is the path. In Advaita Vedānta, a parallel discipline is *ātma-vichāra* (self-inquiry): different idiom, one movement toward what was never absent.
+33. Profit and Loss: Tao Te Ching 33; Mark 8:36.
+34. The Great River: Tao Te Ching 34.
+35. The Face of Peace: Tao Te Ching 35; John 14:27.
+36. The Paradox of Power: Tao Te Ching 36; John 12:24.
+
+**The Union of Opposites**
+
+37. The Ease of the Way: Tao Te Ching 37.
+38. True Virtue: Tao Te Ching 38; Matthew 6:1--4.
+39. The Ones Who Remain Whole: Tao Te Ching 39.
+40. The Return: Tao Te Ching 40.
+41. The Three Seekers: Tao Te Ching 41; Matthew 13:3--9.
+42. The Birth of the Two: Tao Te Ching 42.
+43. The Gentle Overcomes: Tao Te Ching 43.
+44. Where the Mind Is: Tao Te Ching 44; Mary 10; Matthew 6:21.
+45. The Great Fullness: Tao Te Ching 45.
+
+**The Empty Vessel**
+
+46. The Yoke of Peace: Tao Te Ching 46; Matthew 11:30.
+47. Seeing Without Seeking: Tao Te Ching 47; Thomas 3; Luke 17:21; Mary 8.
+48. The Unlearning: Tao Te Ching 48; Thomas 37.
+49. The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
+50. Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
+51. The Nourishing Way: Tao Te Ching 51.
+52. Return to the Mother: Tao Te Ching 52.
+53. The Eye of the Needle: Tao Te Ching 53; Mark 10:25; Matthew 7:13--14.
+54. The Unshakable Root: Tao Te Ching 54; Matthew 7:24--25.
+
+**The Unforced Life**
+
+55. The Child of the Light: Tao Te Ching 55; Thomas 4; Luke 10:19.
+56. The One Who Knows: Tao Te Ching 56.
+57. Lay Down No Law: Tao Te Ching 57; Mary 9 ("lay down no rule beyond what I appointed").
+58. Sowing in Winter: Tao Te Ching 58; Philip ("those who sow in winter reap in summer").
+59. Dig Down to the Root: Tao Te Ching 59; Philip on the root of evil; Matthew 3:10.
+60. Governing by Non-Grasping: Tao Te Ching 60; Thomas 96; Matthew 13:33.
+61. The Great Acceptance: Tao Te Ching 61.
+62. The Treasure Within: Tao Te Ching 62.
+63. The Small Actions: Tao Te Ching 63.
+
+**The Wisdom of the Child**
+
+64. The First Step: Tao Te Ching 64; Thomas 20.
+65. To Each as They Could See: Tao Te Ching 65; Philip (he appeared "to the great as great, to the small as small").
+66. Leading by Following: Tao Te Ching 66; Mark 10:43--45.
+67. The Three Jewels: Tao Te Ching 67.
+68. The Peaceful Warrior: Tao Te Ching 68; Matthew 5:9.
+69. The Sword of the Spirit: Tao Te Ching 69; Matthew 10:34; Thomas 16.
+70. A Teaching Few Understand: Tao Te Ching 70.
+71. The Gift of Not-Knowing: Tao Te Ching 71; John 9:41; Matthew 7:5.
+72. The Fear of the False Self: Tao Te Ching 72.
+
+**The Return to Source**
+
+73. The Courage of the Way: Tao Te Ching 73.
+74. Rise Before You Die: Tao Te Ching 74; Philip (those who say they will first die and then rise are mistaken).
+75. Be of Good Courage: Tao Te Ching 75; Mary 7--8.
+76. The Green Wood and the Dry: Tao Te Ching 76; Luke 23:31.
+77. The Stretched Bow: Tao Te Ching 77; Luke 1:52--53.
+78. The Stone and the Corner: Tao Te Ching 78; Psalm 118:22; Thomas 66.
+79. The End of Debts: Tao Te Ching 79; Matthew 6:12.
+80. The Simple Kingdom: Tao Te Ching 80; Luke 17:21.
+81. The Completion: Tao Te Ching 81; Matthew 10:8.
+
+For the ancient words themselves, see *Wisdom Gospels* in the Living Way library.
 
 # Glossary of the Inner Kingdom
 
