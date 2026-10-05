@@ -1126,7 +1126,7 @@ $\cdot$ $\odot$ $\cdot$
 - The Futility of Control: Tao Te Ching 29; Mark 4:26--29.
 - The Way of Non-Violence: Tao Te Ching 30, 68; Matthew 26:52; Matthew 5:9.
 - The Healing of the Ear: Tao Te Ching 31; Luke 22:50--51.
-- The Way, the Truth: Tao Te Ching 32; John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7.
+- The Way, the Truth: Tao Te Ching 32; John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7; Tathāgata (the Buddha's name for himself, "one who has gone thus"), echoed in "those who walk this way."
 - Profit and Loss: Tao Te Ching 33; Mark 8:36.
 - The Great River: Tao Te Ching 34; Odes of Solomon 6.
 - The Face of Peace: Tao Te Ching 35; John 14:27.
