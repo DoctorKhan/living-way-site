@@ -46,37 +46,27 @@
         .nav-links a:hover { color: var(--accent); }
         main { max-width: 800px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
         h1 { font-size: 2.2rem; font-weight: 500; margin-bottom: 0.5rem; }
-        .intro { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 2rem; }
+        .intro { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 2.5rem; }
+        .intro a { color: var(--accent); }
+        .voice-group { margin-bottom: 3rem; }
+        .group-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+            margin-bottom: 0.25rem;
+        }
+        .group-note { color: var(--text-muted); font-size: 0.98rem; margin-bottom: 1.25rem; }
         .teacher-section {
-            margin-bottom: 2.5rem;
-            padding-bottom: 2rem;
+            margin-bottom: 1.75rem;
+            padding-bottom: 1.5rem;
             border-bottom: 1px solid rgba(0,0,0,0.06);
+            scroll-margin-top: 4rem;
         }
-        .quickstart {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
-        .quick-card {
-            padding: 1.1rem;
-            border: 1px solid rgba(0,0,0,0.08);
-            border-radius: 8px;
-            background: rgba(255,255,255,0.42);
-        }
-        .quick-card h2 {
-            font-size: 1.15rem;
-            font-weight: 500;
-            margin-bottom: 0.4rem;
-        }
-        .quick-card p {
-            color: var(--text-muted);
-            font-size: 0.96rem;
-            margin-bottom: 0.8rem;
-        }
-        .teacher-section:last-of-type { border-bottom: 0; }
-        .teacher-name { font-size: 1.5rem; font-weight: 500; margin-bottom: 0.25rem; }
-        .teacher-subtitle { font-style: italic; color: var(--text-muted); font-size: 1rem; margin-bottom: 0.75rem; }
+        .voice-group .teacher-section:last-of-type { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+        .teacher-name { font-size: 1.35rem; font-weight: 500; margin-bottom: 0.15rem; }
+        .teacher-subtitle { font-style: italic; color: var(--text-muted); font-size: 0.98rem; margin-bottom: 0.6rem; }
         .work-list { list-style: none; }
         .work-list li { margin-bottom: 0.6rem; }
         .work-list a { color: var(--text-main); text-decoration: none; }
@@ -85,18 +75,27 @@
         .work-links a { color: var(--text-muted); margin-right: 0.75rem; }
         .btn { display: inline-block; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; border: 1px solid var(--accent); color: var(--accent); font-size: 0.9rem; margin-top: 0.5rem; }
         .btn:hover { background: rgba(140, 123, 108, 0.1); }
-        .note { font-size: 0.95rem; color: var(--text-muted); margin-top: 1rem; margin-bottom: 1.5rem; }
+        .note { font-size: 0.95rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 0.75rem; }
         @media (max-width: 600px) { nav { flex-wrap: wrap; } .nav-links { gap: 0.75rem; } }
     </style>
+    <!-- lw-pwa -->
+    <meta name="theme-color" content="#f6f2e8">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Living Way">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <script src="/js/pwa.js" defer></script>
+    <!-- /lw-pwa -->
 </head>
 <body>
   <header>
     <nav aria-label="Primary">
       <a class="logo" href="../index.html">The Living Way</a>
       <ul class="nav-links">
-        <li><a href="../index.html#start-here">Start Here</a></li>
-        <li><a href="../paths.html">Paths</a></li>
-        <li><a href="../teachers.html">Voices</a></li>
+        <li><a href="The_Living_Way.html">Read</a></li>
+        <li><a href="../index.html#path">The path</a></li>
+        <li><a href="../paths.html">Other voices</a></li>
         <li><a href="../index.html">Home</a></li>
         <li><a href="../index.html#waitlist">Join</a></li>
       </ul>
@@ -104,135 +103,118 @@
   </header>
   <main>
     <h1>Library by Voice</h1>
-    <p class="intro">Two kinds of door sit side by side here. <strong>Empirical paths</strong>—Einstein teaches <strong>science as a path</strong>: stay humble, <strong>test your ideas</strong>, and do not <strong>believe every thought</strong> the moment it appears (a discipline that <strong>neuroscience</strong> sharpens, by mapping how much of experience is inference and illusion). Mindfulness grounds <strong>observation in the body</strong>—without asking you to adopt a creed first. The <strong>Architect</strong> path holds the <strong>synthesis</strong>: how the traditions and metaphors fit together as one system. You can also read in layers, or <strong><a href="../paths.html" style="color: var(--accent);">pick a path by voice</a></strong> (including a <a href="../paths.html#path-practice" style="color: var(--accent);">practice-first, no-creed</a> order). The <a href="wisdom_gospels.html">Wisdom Gospels</a> are closest to the original Yeshua stream; the rest are Living Way texts and companion works from other pathways.</p>
+    <p class="intro">Every public text of the Living Way, shelved by voice. If you are unsure where to begin, begin with <a href="The_Living_Way.html"><strong>The Living Way</strong></a> itself, or <a href="../paths.html">choose another way in</a>.</p>
 
-    <section class="quickstart" aria-label="Suggested reading paths">
-      <article class="quick-card">
-        <h2>Path by your view</h2>
-        <p>Guided reading orders for Yeshua, Gotama, Laozi, Krishna, Einstein, Mindfulness, Architect, Foundations, and Musashi.</p>
-        <a href="../paths.html" class="btn">Open reading paths</a>
-      </article>
-      <article class="quick-card">
-        <h2>New here</h2>
-        <p>Start with the Yeshuan path if you want the most developed Yeshua-stream entry into the library.</p>
-        <a href="#yeshua" class="btn">Go to Yeshua</a>
-      </article>
-      <article class="quick-card">
-        <h2>Empirical first</h2>
-        <p>Einstein (humility, tested ideas, suspicion of “certain” thoughts—plus neuroscience on illusion) and Mindfulness (observation in the body)—look before you believe.</p>
-        <a href="#einstein" class="btn">Go to empirical paths</a>
-      </article>
-      <article class="quick-card">
-        <h2>Traditions in parallel</h2>
-        <p>Buddhist, Tao, and Gita paths appear below alongside the empirical and synthesis sections.</p>
-        <a href="#gotama" class="btn">Go to companion voices</a>
-      </article>
-      <article class="quick-card">
-        <h2>System map</h2>
-        <p>The Architect synthesizes the whole as one framework—simulation, forgetting, return—plus foundations when you want shared scaffolding.</p>
-        <a href="#architect" class="btn">Go to Architect</a>
-      </article>
+    <section class="voice-group" aria-labelledby="group-traditions">
+      <h2 class="group-title" id="group-traditions">Tradition paths</h2>
+      <p class="group-note">Named lineages, each speaking in its own language and images.</p>
+
+      <section class="teacher-section" id="yeshua">
+        <h3 class="teacher-name">Yeshua</h3>
+        <p class="teacher-subtitle">Yeshuan Path — the most developed shelf in the library</p>
+        <ul class="work-list">
+          <li><a href="The_Living_Way.html"><strong>The Living Way</strong></a> (The Hidden Wisdom of Yeshua: 81 sayings; start here) <span class="work-links">(<a href="The_Living_Way.html">Read</a> · <a href="The_Living_Way.pdf">PDF</a>)</span></li>
+          <li><a href="works/awakening-book.html">The Wisdom of Awakening</a> <span class="work-links">(<a href="works/awakening-book.html">Read</a> · <a href="works/awakening-book.pdf">PDF</a>)</span></li>
+          <li><a href="works/wisdom-gospels.html">Wisdom Gospels</a> (Philip, Mary, Thomas — closest to original words)</li>
+          <li><a href="works/living-jesus-guide.html">A Guide to the Way of the Living Jesus</a></li>
+          <li><a href="read.html?doc=Yeshua/The_Gospel_of_the_Living_One.md">The Gospel of the Living One</a> (poetic narrative from canonical themes)</li>
+          <li><a href="read.html?doc=Yeshua/The_Canonical_Way_of_Jesus.md">The Canonical Way of Jesus</a> (Matthew, Mark, Luke, and John only)</li>
+          <li><a href="read.html?doc=Yeshua/Canonical_Sayings_Index.md">Canonical Sayings Index</a> (themes and passages)</li>
+          <li><a href="works/syncretic-christ.html">The Syncretic Christ</a> (essay)</li>
+        </ul>
+        <p class="note">These scrolls lean toward the early “religion of Yeshua”—inner transformation and direct knowing—more than later doctrine.</p>
+        <a href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" class="btn" target="_blank" rel="noopener">Ask the Living Jesus (AI)</a>
+      </section>
+
+      <section class="teacher-section" id="gotama">
+        <h3 class="teacher-name">Gotama</h3>
+        <p class="teacher-subtitle">Buddhist Path — mindfulness, suffering, and awakening</p>
+        <ul class="work-list">
+          <li><a href="read.html?doc=Gotama/The_Dhammapada_of_the_Living_Way.md">The Dhammapada of the Living Way</a></li>
+        </ul>
+      </section>
+
+      <section class="teacher-section" id="laozi">
+        <h3 class="teacher-name">Laozi</h3>
+        <p class="teacher-subtitle">Tao Path — non-forcing, paradox, uncarved simplicity</p>
+        <ul class="work-list">
+          <li><a href="read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md">The Unforced Leader (Tao Te Ching)</a></li>
+        </ul>
+      </section>
+
+      <section class="teacher-section" id="krishna">
+        <h3 class="teacher-name">Krishna</h3>
+        <p class="teacher-subtitle">Gita Path — start with the anthology, then the source texts</p>
+        <ul class="work-list">
+          <li><a href="read.html?doc=Krishna/The_Krishna_Path_of_the_Living_Way.md">The Krishna Path of the Living Way</a></li>
+          <li><a href="read.html?doc=Krishna/The_Gita_of_the_Living_Way.md">The Gita of the Living Way</a></li>
+          <li><a href="read.html?doc=Krishna/Madalas_Lullaby_Sanskrit_and_Translation.md">Madālasā’s lullaby</a> (*Mārkaṇḍeya Purāṇa* ch. 25 — Sanskrit &amp; translation)</li>
+          <li><a href="read.html?doc=Krishna/Shiva_Sankalpa_Suktam_Sanskrit_and_Translation.md">Śiva-saṅkalpa Suktam</a> (Yajurveda / Śiva-saṅkalpa Upaniṣad — six mantras)</li>
+          <li><a href="read.html?doc=Krishna/Atma_Samharana_Pranaagnihotra_Mantras_Sanskrit_and_Translation.md">Ātma-Saṃharaṇa / Prāṇāgnihotra Mantras</a> (Mahānārāyaṇa Upaniṣad, sec. 66 — Sanskrit &amp; translation)</li>
+        </ul>
+      </section>
     </section>
 
-    <section class="teacher-section" id="yeshua">
-      <h2 class="teacher-name">Yeshua</h2>
-      <p class="teacher-subtitle">Yeshuan Path</p>
-      <p class="note">One major door into the library. Start here if you want the Yeshua stream first, then branch outward into the other voices.</p>
-      <ul class="work-list">
-        <li><a href="works/yeshua-book.html">The Hidden Wisdom of Yeshua</a> <span class="work-links">(<a href="works/yeshua-book.html">Read</a> · <a href="works/yeshua-book.pdf">PDF</a>)</span></li>
-        <li><a href="works/awakening-book.html">The Wisdom of Awakening</a> <span class="work-links">(<a href="works/awakening-book.html">Read</a> · <a href="works/awakening-book.pdf">PDF</a>)</span></li>
-        <li><a href="works/wisdom-gospels.html">Wisdom Gospels</a> (Philip, Mary, Thomas — closest to original words)</li>
-        <li><a href="works/living-jesus-guide.html">A Guide to the Way of the Living Jesus</a></li>
-        <li><a href="read.html?doc=Yeshua/The_Gospel_of_the_Living_One.md">The Gospel of the Living One</a> (poetic narrative from canonical themes)</li>
-        <li><a href="read.html?doc=Yeshua/The_Canonical_Way_of_Jesus.md">The Canonical Way of Jesus</a> (Matthew, Mark, Luke, and John only)</li>
-        <li><a href="read.html?doc=Yeshua/Canonical_Sayings_Index.md">Canonical Sayings Index</a> (themes and passages)</li>
-        <li><a href="works/syncretic-christ.html">The Syncretic Christ</a> (essay)</li>
-      </ul>
-      <p class="note">These scrolls lean toward the early “religion of Yeshua”—inner transformation and direct knowing—more than later doctrine. They are not written to attack church Christianity, but to uncover the deeper stream beneath it.</p>
-      <a href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" class="btn" target="_blank" rel="noopener">Ask the Living Jesus (AI)</a>
+    <section class="voice-group" aria-labelledby="group-empirical">
+      <h2 class="group-title" id="group-empirical">Empirical paths</h2>
+      <p class="group-note">Look before you believe: test ideas, observe directly, no creed required first.</p>
+
+      <section class="teacher-section" id="einstein">
+        <h3 class="teacher-name">Einstein</h3>
+        <p class="teacher-subtitle">Science as path — humility, tested ideas, suspicion of “certain” thoughts</p>
+        <ul class="work-list">
+          <li><a href="read.html?doc=Einstein/The_Unified_Field_Papers.md">The Unified Field Papers</a></li>
+        </ul>
+      </section>
+
+      <section class="teacher-section" id="mindfulness">
+        <h3 class="teacher-name">Mindfulness</h3>
+        <p class="teacher-subtitle">Embodied observation — breath, body, and mind as direct evidence</p>
+        <ul class="work-list">
+          <li><a href="read.html?doc=Mindfulness/The_Mindfulness_Path_of_the_Living_Way.md">The Mindfulness Path of the Living Way</a></li>
+        </ul>
+      </section>
     </section>
 
-    <section class="teacher-section" id="einstein">
-      <h2 class="teacher-name">Einstein</h2>
-      <p class="teacher-subtitle">Science as path</p>
-      <p class="note"><strong>Science taught as a way of life</strong>: humility before what is real; <strong>testing</strong> what you think you know; refusing to treat the mind’s first draft as gospel. Modern <strong>neuroscience</strong> is an ally here—it shows how much of “what we see” is construction, prediction, and story, and how certainty itself can mislead. Wonder stays; only laziness and self-deception go. Pair with Mindfulness when you want the same discipline in the body.</p>
-      <ul class="work-list">
-        <li><a href="read.html?doc=Einstein/The_Unified_Field_Papers.md">The Unified Field Papers</a></li>
-      </ul>
+    <section class="voice-group" aria-labelledby="group-synthesis">
+      <h2 class="group-title" id="group-synthesis">System synthesis</h2>
+      <p class="group-note">How the voices and metaphors fit together as one system.</p>
+
+      <section class="teacher-section" id="architect">
+        <h3 class="teacher-name">Architect</h3>
+        <p class="teacher-subtitle">The integrated map — simulation, forgetting, design, and return</p>
+        <ul class="work-list">
+          <li><a href="works/architecture-book.html">The Hidden Architecture</a> <span class="work-links">(<a href="works/architecture-book.html">Read</a> · <a href="works/architecture-book.pdf">PDF</a>)</span></li>
+          <li><a href="read.html?doc=Core/Treatise_of_the_Living_Architecture.md">Treatise of the Living Architecture</a> (source)</li>
+          <li><a href="read.html?doc=Architect/The_Manual_of_Simulation.md">The Manual of Simulation</a></li>
+        </ul>
+      </section>
+
+      <section class="teacher-section" id="foundations">
+        <h3 class="teacher-name">Foundations</h3>
+        <p class="teacher-subtitle">Shared source and scaffolding texts, not tied to one voice</p>
+        <ul class="work-list">
+          <li><a href="read.html?doc=Core/Treatise_of_the_Living_Architecture.md">Treatise of the Living Architecture</a></li>
+          <li><a href="read.html?doc=Core/living-way-guide.md">Living Way Guide</a> (source)</li>
+        </ul>
+      </section>
     </section>
 
-    <section class="teacher-section" id="mindfulness">
-      <h2 class="teacher-name">Mindfulness</h2>
-      <p class="teacher-subtitle">Empirical path · embodied observation</p>
-      <p class="note">Embodied observation without creed: attention to breath, body, and mind as <strong>direct evidence</strong>. This folder gives Living Way framing for a broad mindfulness posture rather than one named brand or teacher.</p>
-      <ul class="work-list">
-        <li><a href="read.html?doc=Mindfulness/The_Mindfulness_Path_of_the_Living_Way.md">The Mindfulness Path of the Living Way</a></li>
-      </ul>
+    <section class="voice-group" aria-labelledby="group-warrior">
+      <h2 class="group-title" id="group-warrior">Warrior path</h2>
+      <p class="group-note">Discipline, timing, and emptiness — attention as training.</p>
+
+      <section class="teacher-section" id="musashi">
+        <h3 class="teacher-name">Musashi</h3>
+        <p class="teacher-subtitle">Living Way originals after the spirit of Musashi, not classical translations</p>
+        <ul class="work-list">
+          <li><a href="read.html?doc=Musashi/The_Warrior_Path_of_the_Living_Way.md">The Warrior Path of the Living Way</a></li>
+          <li><a href="read.html?doc=Musashi/The_Twenty-One_Precepts_of_the_Living_Way.md">The Twenty-One Precepts of the Living Way</a></li>
+        </ul>
+      </section>
     </section>
 
-    <section class="teacher-section" id="architect">
-      <h2 class="teacher-name">Architect</h2>
-      <p class="teacher-subtitle">System synthesis</p>
-      <p class="note">The <strong>integrated map</strong>: how the voices and metaphors fit together as one system—simulation, forgetting, design, and return. Read this when you want the whole diagram, not only a single tradition’s language.</p>
-      <ul class="work-list">
-        <li><a href="works/architecture-book.html">The Hidden Architecture</a> <span class="work-links">(<a href="works/architecture-book.html">Read</a> · <a href="works/architecture-book.pdf">PDF</a>)</span></li>
-        <li><a href="read.html?doc=Core/Treatise_of_the_Living_Architecture.md">Treatise of the Living Architecture</a> (source)</li>
-        <li><a href="read.html?doc=Architect/The_Manual_of_Simulation.md">The Manual of Simulation</a></li>
-      </ul>
-    </section>
-
-    <section class="teacher-section" id="gotama">
-      <h2 class="teacher-name">Gotama</h2>
-      <p class="teacher-subtitle">Buddhist Path</p>
-      <p class="note">A Buddhist door into the same library, centered on mindfulness, suffering, and awakening.</p>
-      <ul class="work-list">
-        <li><a href="read.html?doc=Gotama/The_Dhammapada_of_the_Living_Way.md">The Dhammapada of the Living Way</a></li>
-      </ul>
-    </section>
-
-    <section class="teacher-section" id="laozi">
-      <h2 class="teacher-name">Laozi</h2>
-      <p class="teacher-subtitle">Tao Path</p>
-      <p class="note">A Taoist door into the library, centered on non-forcing, paradox, and uncarved simplicity.</p>
-      <ul class="work-list">
-        <li><a href="read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md">The Unforced Leader (Tao Te Ching)</a></li>
-      </ul>
-    </section>
-
-    <section class="teacher-section" id="krishna">
-      <h2 class="teacher-name">Krishna</h2>
-      <p class="teacher-subtitle">Gita Path</p>
-      <p class="note">Krishna-path anthology. Start with the curated Living Way anthology below, then use the individual source texts as companion works and references.</p>
-      <ul class="work-list">
-        <li><a href="read.html?doc=Krishna/The_Krishna_Path_of_the_Living_Way.md">The Krishna Path of the Living Way</a></li>
-        <li><a href="read.html?doc=Krishna/The_Gita_of_the_Living_Way.md">The Gita of the Living Way</a></li>
-        <li><a href="read.html?doc=Krishna/Madalas_Lullaby_Sanskrit_and_Translation.md">Madālasā’s lullaby</a> (*Mārkaṇḍeya Purāṇa* ch. 25 — Sanskrit &amp; translation)</li>
-        <li><a href="read.html?doc=Krishna/Shiva_Sankalpa_Suktam_Sanskrit_and_Translation.md">Śiva-saṅkalpa Suktam</a> (Yajurveda / Śiva-saṅkalpa Upaniṣad — six mantras)</li>
-        <li><a href="read.html?doc=Krishna/Atma_Samharana_Pranaagnihotra_Mantras_Sanskrit_and_Translation.md">Ātma-Saṃharaṇa / Prāṇāgnihotra Mantras</a> (Mahānārāyaṇa Upaniṣad, sec. 66 — Sanskrit &amp; translation)</li>
-      </ul>
-    </section>
-
-    <section class="teacher-section" id="foundations">
-      <h2 class="teacher-name">Foundations</h2>
-      <p class="teacher-subtitle">Shared texts</p>
-      <p class="note">Source and scaffolding texts. Use these when you want the shared framework rather than a specific voice-led entry.</p>
-      <ul class="work-list">
-        <li><a href="read.html?doc=Core/Treatise_of_the_Living_Architecture.md">Treatise of the Living Architecture</a></li>
-        <li><a href="read.html?doc=Core/living-way-guide.md">Living Way Guide</a> (source)</li>
-      </ul>
-    </section>
-
-    <section class="teacher-section" id="musashi">
-      <h2 class="teacher-name">Musashi</h2>
-      <p class="teacher-subtitle">Warrior Path</p>
-      <p class="note">Discipline, timing, and <strong>emptiness</strong>—attention as sword, reactivity as foe. Original Living Way texts after the <strong>spirit</strong> of Musashi (Five Books + precepts), not a translation of classical works.</p>
-      <ul class="work-list">
-        <li><a href="read.html?doc=Musashi/The_Warrior_Path_of_the_Living_Way.md">The Warrior Path of the Living Way</a></li>
-        <li><a href="read.html?doc=Musashi/The_Twenty-One_Precepts_of_the_Living_Way.md">The Twenty-One Precepts of the Living Way</a></li>
-      </ul>
-    </section>
-
-    <p style="margin-top: 2rem;"><a href="../teachers.html" class="btn">View Voices page</a> · <a href="../index.html" class="btn">Back to Home</a></p>
+    <p style="margin-top: 2rem;"><a href="../paths.html" class="btn">Choose a reading path</a> · <a href="../index.html" class="btn">Back to Home</a></p>
   </main>
 </body>
 </html>

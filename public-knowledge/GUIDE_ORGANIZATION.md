@@ -47,7 +47,7 @@ living-way-knowledge/
 
 ### Same layout on the marketing site
 
-`living-way-site/public-knowledge/` is an **exact mirror** of this repository’s root: `tools/sync-public-knowledge.sh` runs `rsync -av --delete` from here into that folder, honoring only `tools/public-knowledge-rsync.excludes`. Paths line up one-for-one (for example `Core/living-way-guide.md` here is `public-knowledge/Core/living-way-guide.md` on the site). There is no extra nesting or alternate shape—`public-knowledge/` is the knowledge repo root, copied.
+`living-way-site/public-knowledge/` is a mirror of this repository’s root: `tools/sync-public-knowledge.sh` runs `rsync -av --delete --delete-excluded` from here into that folder, honoring `tools/public-knowledge-rsync.excludes` (which strips repo internals — `tools/`, `templates/`, the repo docs, `run.sh` — and all LaTeX sources and intermediates). Paths line up one-for-one for everything public (for example `Core/living-way-guide.md` here is `public-knowledge/Core/living-way-guide.md` on the site). There is no extra nesting or alternate shape—`public-knowledge/` is the knowledge repo root, copied minus the excludes. Note: `living-way-app/public-knowledge` is a **symlink** back to this repo, so the sync script deliberately skips it (see the guard in `tools/sync-public-knowledge.sh`).
 
 ## What Goes Where
 

@@ -27,7 +27,16 @@ fi
 DEST="$1"
 mkdir -p "$DEST"
 
-rsync -av --delete \
+# Refuse to sync into the knowledge repo itself (e.g. a consumer's
+# public-knowledge that is a symlink back here) — --delete-excluded
+# would strip repo internals from the canonical source.
+DEST_REAL="$(cd "$DEST" && pwd -P)"
+if [[ "$DEST_REAL" == "$KNOWLEDGE_ROOT" || "$DEST_REAL" == "$KNOWLEDGE_ROOT"/* ]]; then
+  echo "SKIP: $DEST resolves inside the knowledge repo ($DEST_REAL); nothing to sync." >&2
+  exit 0
+fi
+
+rsync -av --delete --delete-excluded \
   --exclude-from="$EXCLUDE_FILE" \
   "$KNOWLEDGE_ROOT/" \
   "$DEST"

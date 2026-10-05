@@ -26,10 +26,9 @@ living-way-knowledge/
   templates/               # Pandoc templates
 ```
 
-On **living-way-site**, the same tree appears as **`public-knowledge/`** (full rsync of this repo’s root). Paths under `public-knowledge/` match paths here.
+On **living-way-site**, the same tree appears as **`public-knowledge/`** (rsync of this repo’s root, minus repo internals and LaTeX sources — see `tools/public-knowledge-rsync.excludes`). Paths under `public-knowledge/` match paths here.
 
 - **Canonical source texts:** `Core/` and the guide folders (`Laozi/`, `Gotama/`, `Krishna/`, ...). The styled guide page **`living_way_guide.html`** is generated from **`Core/living-way-guide.md`** (same as the `read.html?doc=…` source).
-- **Canonical publication sources:** Markdown files declared in `tools/publications.tsv`.
 - **Canonical publication sources:** Markdown files declared in `tools/publications.tsv`.
 - **Generated print editions:** root `.tex` files for selected books, produced from Markdown during `run.sh`.
 - **Generated outputs:** root `*.html` and `*.pdf` from `run.sh`, `tools/build_html.sh`, Pandoc, and `pdflatex`.

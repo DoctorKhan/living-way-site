@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reading paths by voice | The Living Way</title>
-  <meta name="description" content="Choose a reading path by voice or tradition: Yeshua, Gotama, Laozi, Krishna, Einstein, Mindfulness, Rez, and more." />
+  <title>Paths | The Living Way</title>
+  <meta name="description" content="Choose a path by voice or tradition — Yeshua, Gotama, Laozi, Krishna, Einstein, Mindfulness, Architect, Musashi — each with a suggested reading order into the same library." />
   <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
   <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png" />
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
@@ -155,10 +155,15 @@
       background: transparent;
       font-size: 0.95rem;
     }
-    .btn:hover {
+    .btn:hover,
+    button.btn:hover {
       border-color: var(--accent);
       color: var(--accent);
       background: var(--accent-dim);
+    }
+    button.btn {
+      cursor: pointer;
+      font-family: inherit;
     }
     .btn-primary {
       background: var(--accent);
@@ -189,44 +194,73 @@
       nav { padding: 1rem; }
       main { padding: 2.2rem 1.2rem 3rem; }
     }
+    .groq-teacher-btn { display: none; }
+    .other-voices-title { margin-top: 3.5rem; }
   </style>
+    <!-- lw-pwa -->
+    <meta name="theme-color" content="#f6f2e8">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Living Way">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <script src="/js/pwa.js" defer></script>
+    <!-- /lw-pwa -->
 </head>
 <body>
   <header>
     <nav>
       <a class="logo" href="index.html">The Living Way</a>
       <ul class="nav-links">
-        <li><a href="index.html#start-here">Start Here</a></li>
-        <li><a href="paths.html">Paths</a></li>
+        <li><a href="public-knowledge/The_Living_Way.html">Read</a></li>
+        <li><a href="index.html#path">The path</a></li>
+        <li><a href="paths.html">Other voices</a></li>
         <li><a href="public-knowledge/">Library</a></li>
-        <li><a href="teachers.html">Voices</a></li>
         <li><a href="index.html#waitlist">Join</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h1>Reading paths by voice</h1>
+    <h1>The path, and other ways in</h1>
     <p class="intro">
-      This page is for <strong>order</strong>, not for browsing. Pick the path that matches your background, temperament, or tradition, and it will suggest where to start and what to read next.
-      Every path leads into the same library. Yeshua remains the project’s center; companion paths widen the frame without replacing that anchor.
-    </p>
-    <p class="intro" style="margin-top: -0.5rem;">
-      <strong>No belief is required.</strong> The through-line many readers share is simpler: sustained attention can change how experience is perceived. These paths are reading sequences, not creeds.
-      If you want a side-by-side map of the major presences, use the <a href="teachers.html" style="color: var(--accent);">Voices</a> page instead.
+      The main path is <a href="public-knowledge/The_Living_Way.html" style="color: var(--accent);">The Living Way</a>. Every other path below is a different door into the same <a href="public-knowledge/" style="color: var(--accent);">library</a>, with a suggested order of reading.
+      <strong>No belief is required.</strong> These are reading sequences, not creeds.
     </p>
 
     <nav class="toc" aria-label="Jump to a path">
+      <a href="#path-yeshua"><strong>The Living Way</strong></a>
       <a href="#path-practice">Practice-first</a>
-      <a href="#path-yeshua">Yeshua</a>
       <a href="#path-gotama">Gotama</a>
       <a href="#path-laozi">Laozi</a>
       <a href="#path-krishna">Krishna</a>
       <a href="#path-einstein">Einstein</a>
-      <a href="#path-rez">Rez</a>
-      <a href="#path-core">Core</a>
+      <a href="#path-mindfulness">Mindfulness</a>
+      <a href="#path-architect">Architect</a>
+      <a href="#path-foundations">Foundations</a>
       <a href="#path-musashi">Musashi</a>
     </nav>
+
+    <article class="path-block" id="path-yeshua">
+      <span class="path-teacher">The main path · The Living Way</span>
+      <h2>The Living Way — the sayings of Yeshua</h2>
+      <p class="path-audience">Start here unless another voice is calling you. The Living Way is the center of the site: 81 sayings in nine books, for Christians, interfaith readers, and anyone drawn to “Jesus before the creeds.”</p>
+      <ol class="path-steps">
+        <li><strong>The Living Way</strong> (The Hidden Wisdom of Yeshua): 81 sayings, a Tao for the Children of Light. One a day.</li>
+        <li><strong>Wisdom Gospels</strong> — Philip, Mary, Thomas (closest material to the original stream on this site).</li>
+        <li><strong>The Wisdom of Awakening</strong> — parallel in form; then the Guide or Syncretic Christ essay if you want context.</li>
+      </ol>
+      <div class="path-actions">
+        <a class="btn btn-primary" href="public-knowledge/The_Living_Way.html">Read The Living Way</a>
+        <a class="btn" href="public-knowledge/#yeshua">Yeshua shelf in Library</a>
+        <a class="btn" href="public-knowledge/works/wisdom-gospels.html">Wisdom Gospels</a>
+        <button type="button" class="btn groq-teacher-btn" data-groq-teacher="yeshua">Ask with Groq</button>
+        <a class="btn" href="https://chatgpt.com/g/g-692713a365548191927bd25f333f161b-the-living-jesus" target="_blank" rel="noopener">Ask AI (ChatGPT)</a>
+      </div>
+    </article>
+
+    <h2 class="other-voices-title" id="other-voices">Other voices of the same Way</h2>
+    <p class="intro">If Yeshua’s language isn’t yours yet, begin with one of these. Each teaches the same return in its own words, and each leads back to The Living Way when you’re ready.</p>
 
     <article class="path-block" id="path-practice">
       <span class="path-teacher">No creed required</span>
@@ -234,121 +268,121 @@
       <p class="path-audience">You don’t want to adopt beliefs up front. You’re willing to sit, watch the mind, and let perception teach you what’s real—then use words as pointers, not pledges.</p>
       <ol class="path-steps">
         <li><strong>Meditation (or steady contemplation)</strong> — keep this primary; the site’s texts are companions to inquiry, not replacements for it.</li>
-        <li><strong>Rez / Living Architecture</strong> — read as a <em>model</em> of how experience can be mapped; test it against your own observation, not authority.</li>
-        <li><strong>Einstein (Unified Field Papers)</strong> — language that leans scientific; still read as metaphor until your own discernment says otherwise.</li>
+        <li><strong>The Hidden Architecture</strong> — read as a <em>model</em> of how experience can be mapped; test it against your own observation, not authority.</li>
+        <li><strong>Einstein (The Unified Field Papers)</strong> — language that leans scientific; still read as metaphor until your own discernment says otherwise.</li>
         <li><strong>Gotama or Laozi</strong> — optional; treat suttas or Tao lines as experiments in attention and ethics, not metaphysics you must accept.</li>
-        <li><strong>Yeshua (Living Way, Wisdom Gospels)</strong> — when you’re ready, as mirror-sayings: what verifies in life, not what you’re told to confess.</li>
+        <li><strong>Yeshua (The Hidden Wisdom of Yeshua, Wisdom Gospels)</strong> — when you’re ready, as mirror-sayings: what verifies in life, not what you’re told to confess.</li>
       </ol>
       <div class="path-actions">
-        <a class="btn btn-primary" href="public-knowledge/#rez">Start with Architecture</a>
+        <a class="btn btn-primary" href="public-knowledge/#architect">Start with the Architect</a>
         <a class="btn" href="public-knowledge/#einstein">Einstein in Library</a>
-        <a class="btn" href="public-knowledge/#gotama">Gotama</a>
+        <a class="btn" href="public-knowledge/#mindfulness">Mindfulness</a>
         <a class="btn" href="public-knowledge/#yeshua">Yeshua (when ready)</a>
       </div>
       <p class="path-note">This is not a separate library voice. It is a <strong>stance</strong>: practice first, claims second.</p>
     </article>
 
-    <article class="path-block" id="path-yeshua">
-      <span class="path-teacher">Primary path</span>
-      <h2>Yeshua — Christian, interfaith, or “Jesus before the creeds”</h2>
-      <p class="path-audience">You’re drawn to the sayings stream, wisdom gospels, or a quiet room with Yeshua at the center.</p>
-      <ol class="path-steps">
-        <li><strong>The Living Way</strong> — 81 sayings as a Tao for the Children of Light.</li>
-        <li><strong>Wisdom Gospels</strong> — Philip, Mary, Thomas (closest material to the original stream on this site).</li>
-        <li><strong>The Living Suttas</strong> — parallel in form; then the Guide or Syncretic Christ essay if you want context.</li>
-      </ol>
-      <div class="path-actions">
-        <a class="btn btn-primary" href="public-knowledge/#yeshua">Open Yeshua in Library</a>
-        <a class="btn" href="teachers.html#card-yeshua">Voice card &amp; AI</a>
-        <a class="btn" href="public-knowledge/The_Living_Way.html">The Living Way</a>
-      </div>
-    </article>
-
     <article class="path-block" id="path-gotama">
-      <span class="path-teacher">Companion path</span>
+      <span class="path-teacher">Companion path · The Living Buddha</span>
       <h2>Gotama — Buddhist or Dhamma-first</h2>
       <p class="path-audience">You think in terms of awakening, the eightfold path, or suttas—and you want this project’s Buddhist voice first.</p>
       <ol class="path-steps">
         <li><strong>The Dhammapada of the Living Way</strong> — your main text in this library.</li>
         <li>Optional: skim <strong>Yeshua</strong> in the library when you’re curious how the two streams speak to each other.</li>
-        <li><strong>Living Suttas</strong> — bridges form and tone with the wider site.</li>
+        <li><strong>The Wisdom of Awakening</strong> — bridges form and tone with the wider site.</li>
       </ol>
       <div class="path-actions">
         <a class="btn btn-primary" href="public-knowledge/#gotama">Gotama in Library</a>
         <a class="btn" href="public-knowledge/read.html?doc=Gotama/The_Dhammapada_of_the_Living_Way.md">Read Dhammapada</a>
-        <a class="btn" href="teachers.html#card-gotama">Voice card</a>
+        <button type="button" class="btn groq-teacher-btn" data-groq-teacher="gotama">Ask with Groq</button>
       </div>
       <p class="path-note">Companion voices are for comparison and widening, not for losing the center forever. When useful, return to Yeshua as the project’s front door.</p>
     </article>
 
     <article class="path-block" id="path-laozi">
-      <span class="path-teacher">Companion path</span>
+      <span class="path-teacher">Companion path · The Unforced Leader</span>
       <h2>Laozi — Taoist, wu wei, or Eastern non-forcing</h2>
       <p class="path-audience">You resonate with the Tao Te Ching, paradox, and unforced leadership.</p>
       <ol class="path-steps">
         <li><strong>The Unforced Leader (Tao Te Ching)</strong> — full text in the reader.</li>
-        <li><strong>The Living Way</strong> — many readers feel a Tao-like rhythm; try it as a second lens.</li>
-        <li><strong>Rez / Architecture</strong> — if you want the “map” behind simulation and forgetting.</li>
+        <li><strong>The Hidden Wisdom of Yeshua</strong> — many readers feel a Tao-like rhythm; try it as a second lens.</li>
+        <li><strong>The Hidden Architecture</strong> — if you want the “map” behind simulation and forgetting.</li>
       </ol>
       <div class="path-actions">
         <a class="btn btn-primary" href="public-knowledge/#laozi">Laozi in Library</a>
         <a class="btn" href="public-knowledge/read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md">Read Tao text</a>
-        <a class="btn" href="teachers.html#card-laozi">Voice card</a>
+        <button type="button" class="btn groq-teacher-btn" data-groq-teacher="laozi">Ask with Groq</button>
       </div>
     </article>
 
     <article class="path-block" id="path-krishna">
-      <span class="path-teacher">Companion path</span>
+      <span class="path-teacher">Companion path · The Charioteer</span>
       <h2>Krishna — Bhakti, Gita, or karma yoga</h2>
       <p class="path-audience">You enter through the charioteer, duty-without-clinging, or devotion.</p>
       <ol class="path-steps">
-        <li><strong>The Gita of the Living Way</strong> — this site’s Gita strand.</li>
+        <li><strong>The Krishna Path of the Living Way</strong> — the curated anthology; start here.</li>
+        <li><strong>The Gita of the Living Way</strong> — this site’s Gita strand, plus the Sanskrit source texts alongside it.</li>
         <li><strong>Yeshua section</strong> — when you want the parallel “sayings” center of the project.</li>
-        <li><strong>Einstein</strong> — optional, if you like field language next to devotion.</li>
       </ol>
       <div class="path-actions">
         <a class="btn btn-primary" href="public-knowledge/#krishna">Krishna in Library</a>
-        <a class="btn" href="public-knowledge/read.html?doc=Krishna/The_Gita_of_the_Living_Way.md">Read Gita text</a>
-        <a class="btn" href="teachers.html#card-krishna">Voice card</a>
+        <a class="btn" href="public-knowledge/read.html?doc=Krishna/The_Krishna_Path_of_the_Living_Way.md">Read the anthology</a>
+        <button type="button" class="btn groq-teacher-btn" data-groq-teacher="krishna">Ask with Groq</button>
       </div>
     </article>
 
     <article class="path-block" id="path-einstein">
-      <span class="path-teacher">Companion path</span>
+      <span class="path-teacher">Empirical path · The Scientist</span>
       <h2>Einstein — science, unity, and “field” metaphysics</h2>
       <p class="path-audience">You’re more comfortable with physics metaphors than scripture first.</p>
       <ol class="path-steps">
         <li><strong>The Unified Field Papers</strong> — bridge from science register into the same contemplative map.</li>
-        <li><strong>Treatise / Architecture</strong> — if you want explicit structure after the papers.</li>
+        <li><strong>The Hidden Architecture</strong> — if you want explicit structure after the papers.</li>
         <li><strong>Yeshua</strong> — when you’re ready for the sayings center.</li>
       </ol>
       <div class="path-actions">
         <a class="btn btn-primary" href="public-knowledge/#einstein">Einstein in Library</a>
         <a class="btn" href="public-knowledge/read.html?doc=Einstein/The_Unified_Field_Papers.md">Read papers</a>
-        <a class="btn" href="teachers.html#card-einstein">Voice card</a>
+        <button type="button" class="btn groq-teacher-btn" data-groq-teacher="einstein">Ask with Groq</button>
       </div>
     </article>
 
-    <article class="path-block" id="path-rez">
-      <span class="path-teacher">Framework path</span>
-      <h2>Rez — systems, simulation, and architecture</h2>
-      <p class="path-audience">You want the map first: forgetting, layers, manual mode—before poetry.</p>
+    <article class="path-block" id="path-mindfulness">
+      <span class="path-teacher">Empirical path · Embodied observation</span>
+      <h2>Mindfulness — attention to breath, body, and mind</h2>
+      <p class="path-audience">You want observation in the body before any framework: breath, feeling, and mind as direct evidence.</p>
       <ol class="path-steps">
-        <li><strong>The Living Architecture</strong> — HTML or PDF.</li>
-        <li><strong>Treatise of the Living Architecture</strong> — source markdown in the reader.</li>
-        <li><strong>Manual of Simulation</strong> — tight operational lens.</li>
+        <li><strong>The Mindfulness Path of the Living Way</strong> — the primary mindfulness framing in this library.</li>
+        <li><strong>Gotama</strong> — the Dhammapada deepens the same discipline in a named lineage.</li>
+        <li><strong>Einstein</strong> — the same skepticism toward first thoughts, in a scientific register.</li>
       </ol>
       <div class="path-actions">
-        <a class="btn btn-primary" href="public-knowledge/#rez">Rez in Library</a>
-        <a class="btn" href="public-knowledge/The_Living_Architecture.html">Living Architecture</a>
-        <a class="btn" href="teachers.html#card-rez">Voice card</a>
+        <a class="btn btn-primary" href="public-knowledge/#mindfulness">Mindfulness in Library</a>
+        <a class="btn" href="public-knowledge/read.html?doc=Mindfulness/The_Mindfulness_Path_of_the_Living_Way.md">Read Text</a>
       </div>
-      <p class="path-note">After the map, many readers go to <strong>Yeshua</strong> for the devotional center—or pick a companion teacher that matches their temperament.</p>
     </article>
 
-    <article class="path-block" id="path-core">
-      <span class="path-teacher">Source path</span>
-      <h2>Core — treatises and guide sources</h2>
+    <article class="path-block" id="path-architect">
+      <span class="path-teacher">Framework path · The Living Architecture</span>
+      <h2>Architect — systems, simulation, and architecture</h2>
+      <p class="path-audience">You want the map first: forgetting, layers, manual mode—before poetry.</p>
+      <ol class="path-steps">
+        <li><strong>The Hidden Architecture</strong> — HTML or PDF.</li>
+        <li><strong>Treatise of the Living Architecture</strong> — source markdown in the reader.</li>
+        <li><strong>The Manual of Simulation</strong> — tight operational lens.</li>
+      </ol>
+      <div class="path-actions">
+        <a class="btn btn-primary" href="public-knowledge/#architect">Architect in Library</a>
+        <a class="btn" href="public-knowledge/works/architecture-book.html">The Hidden Architecture</a>
+        <a class="btn" href="public-knowledge/works/architecture-book.pdf">PDF</a>
+        <a class="btn" href="public-knowledge/read.html?doc=Architect/The_Manual_of_Simulation.md">Manual of Simulation</a>
+      </div>
+      <p class="path-note">After the map, many readers go to <strong>Yeshua</strong> for the devotional center—or pick a companion voice that matches their temperament.</p>
+    </article>
+
+    <article class="path-block" id="path-foundations">
+      <span class="path-teacher">Source path · Shared texts</span>
+      <h2>Foundations — treatises and guide sources</h2>
       <p class="path-audience">You want markdown sources and scaffolding, not only polished HTML doors.</p>
       <ol class="path-steps">
         <li><strong>Treatise of the Living Architecture</strong></li>
@@ -356,29 +390,37 @@
         <li>Return to voice sections or the library when you want the more polished reading experience.</li>
       </ol>
       <div class="path-actions">
-        <a class="btn btn-primary" href="public-knowledge/#core">Core in Library</a>
+        <a class="btn btn-primary" href="public-knowledge/#foundations">Foundations in Library</a>
         <a class="btn" href="public-knowledge/read.html?doc=Core/Treatise_of_the_Living_Architecture.md">Treatise</a>
         <a class="btn" href="public-knowledge/read.html?doc=Core/living-way-guide.md">Guide (source)</a>
       </div>
     </article>
 
     <article class="path-block" id="path-musashi">
-      <span class="path-teacher">Warrior path</span>
+      <span class="path-teacher">Warrior path · The Sword Master</span>
       <h2>Musashi — discipline and the sword</h2>
       <p class="path-audience">Original Living Way texts after the spirit of Miyamoto Musashi—discipline, timing, emptiness—not classical translations.</p>
       <div class="path-actions">
         <a class="btn btn-primary" href="public-knowledge/#musashi">Musashi in Library</a>
         <a class="btn" href="public-knowledge/read.html?doc=Musashi/The_Warrior_Path_of_the_Living_Way.md">Warrior Path</a>
         <a class="btn" href="public-knowledge/read.html?doc=Musashi/The_Twenty-One_Precepts_of_the_Living_Way.md">Twenty-One Precepts</a>
-        <a class="btn" href="teachers.html#card-musashi">Voice card</a>
+        <button type="button" class="btn groq-teacher-btn" data-groq-teacher="musashi">Ask with Groq</button>
       </div>
     </article>
 
     <div class="footer-links">
       <a class="btn btn-primary" href="public-knowledge/">Full library (all voices)</a>
-      <a class="btn" href="teachers.html">All voices on one page</a>
       <a class="btn" href="index.html">Home</a>
     </div>
   </main>
+  <script src="js/groq-ai.js"></script>
+  <script>
+    document.querySelectorAll('.groq-teacher-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var teacher = this.getAttribute('data-groq-teacher') || 'yeshua';
+        if (window.openGroqChat) window.openGroqChat(teacher);
+      });
+    });
+  </script>
 </body>
 </html>
