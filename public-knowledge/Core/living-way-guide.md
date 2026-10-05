@@ -1,384 +1,283 @@
 # ✦ **A Guide to The Way of the Living Jesus**
 
-*(Based on the Gospels of Thomas & Mary)*
+*(Drawn from the Gospels of Thomas, Mary, and Philip)*
 
 > **Companion texts:** To read only the four canonical Gospels, see [The Canonical Way of Jesus](read.html?doc=Yeshua/The_Canonical_Way_of_Jesus.md). For a poetic retelling, see [The Gospel of the Living One](read.html?doc=Yeshua/The_Gospel_of_the_Living_One.md). For a shelf of passages by theme, see the [Canonical Sayings Index](read.html?doc=Yeshua/Canonical_Sayings_Index.md).
 
-## **Chapter 1 — The Outer Child, the Inner Child, and the Path of the Adult**
+## **How to Use This Guide**
 
-Human religion, as commonly practiced, begins in **the Outer Child**.
-This is not an age but a stage of consciousness—one that learns through:
+This is a guide to practice, not a creed. Nothing here asks you to leave a church, join one, or believe anything in advance.
 
-* imitation,
-* obedience,
-* belief in authority,
-* and vivid imagination.
+Read one chapter. Try its practice for a week. Keep what proves true in your own life and set the rest down.
 
-Because most spiritual traditions are transmitted parent-to-child, they naturally shape themselves around what the undeveloped mind can grasp.
-
-Thus, childhood religion emphasizes:
-
-### **1. External Rules**
-
-Lists of sins and virtues, demands and prohibitions.
-
-### **2. Imaginative Belief**
-
-Literal heavens, literal hells, and a deity imagined as a cosmic parent watching from outside.
-
-### **3. Obedience to Intermediaries**
-
-Priests, texts, and institutions stand between the seeker and the divine.
-
-This system provides moral scaffolding.
-But it is **not the Way**.
+Quotations from Thomas, Mary, and Philip are the author's own renderings of the ancient texts. Thomas is cited by saying number; Mary by page of the Berlin Codex.
 
 ---
 
-## ✦ The Inner Child
+# **Chapter 1 — The Map of the Way**
 
-In the Gospel of Thomas and the Gospel of Mary, the “child” has a radically different meaning.
+The Gospel of Thomas opens with a promise and a map.
 
-It refers to the **Inner Child**:
+The promise:
 
-* the undivided consciousness,
-* open, undefended, whole,
-* prior to ego,
-* prior to inner/outer,
-* the state described in Thomas 22 when Jesus says the child enters the Kingdom easily.
-
-This “child” is not naive.
-It is the **original unity of the soul before it clothed itself in division**.
-
----
-
-## ✦ The Adult on the Way
-
-The Way is not childish religion nor the naive Inner Child.
-It is the *maturation* from the Outer Child to the Inner Child, awakening as the **Single One**.
-
-Thus:
-
-* The **Outer Child** believes.
-* The **Adult of the Way** knows.
-* The **Inner Child** is the consciousness that emerges when division falls away.
-
-The Way, then, is an **adult path**—a passage from borrowed belief to direct, living knowledge.
-
----
-
-# **Chapter 2 — Who Is the “Living Source”?**
-
-The central mystery of the Way is the nature of the **Living Source**.
-
-Jesus, in Thomas and Mary, speaks not of the tribal god of law and sacrifice, but of:
-
-### ✦ The Living Father —
-
-the Source of Light, the unbegotten Origin.
-
-This Source is:
-
-* eternal,
-* formless,
-* the origin of the divine spark within you.
-
-Jesus never names or invokes Yahweh.
-He speaks of **the One who is Living**, in contrast to the gods of law, judgment, and death.
-
-### ✦ Your Divine Origin
-
-“You are children of the Living Source,” he says (Thomas 3).
-
-This is not moral praise.
-It is ontology.
-It means:
-
-* You originate in the Light.
-* You are a portion of the eternal.
-* You wear a temporary garment called “the body.”
-
-### ✦ The Living vs. the Dead
-
-Thomas and Mary use “living” and “dead” symbolically:
-
-* **Living** = Spirit, awareness, unbound consciousness.
-* **Dead** = the material self, divided by ignorance and desire.
-
-Jesus is “Living” because he reveals *Life itself* within you.
-
-His purpose is not to die for you
-but to **awaken you so you will “not taste death.”**
-
-### ✦ Jesus and the Messianic Title
-
-In the early sayings tradition, Jesus does not present himself as an object of worship.
-He speaks as a revealer, a guide, and a living example of what the human being can become when united with the Source.
-
-Where later theology centers the title **Messiah** or **Christ**,
-the older voice often prefers the language of the **Son of Man**:
-the true human, the awakened one, the image of what is possible in you.
-
-In this reading, Jesus does not come announcing,
-"I am the figure you must worship."
-He points away from outer titles and toward inner recognition.
-The issue is not accepting a messianic claim,
-but becoming what he reveals.
-
----
-
-# **Chapter 3 — The Meditative Path of the Way**
-
-The Way is not belief.
-It is **inner transformation** through knowledge.
-
-Here are its stages:
-
----
-
-## ✦ Step 1 — Know Yourself
-
-Jesus begins the Way with a single instruction:
-
-> “When you know yourselves, you will be known,
-> and you will understand that you are children of the Living Source.”
-> — Thomas 3
-
-### **Practice: Contemplation of the Inner Kingdom**
-
-1. Sit and become aware of your ordinary mind.
-   This is the “poverty” Jesus speaks of.
-
-2. Ask: *“Where is the Kingdom?”*
-   Reject every external answer.
-
-3. Turn your seeing inward.
-   Seek the silent, aware presence behind all experience.
-
-4. Rest in the awareness that perceives all things.
-   This is the doorway.
-
----
-
-## ✦ Step 2 — Make the Two One
-
-The Way is a path of non-duality.
-
-The world of matter appears divided:
-
-* male/female
-* inner/outer
-* light/dark
-* self/other
-
-These divisions are **garments**, not essence.
-
-> “When you make the two one… then you will enter the Kingdom.”
-> — Thomas 22
-
-### **Practice: Meditation on Unification**
-
-1. Pick a pair of opposites.
-   Breath in / breath out.
-   Sound / silence.
-   Self / other.
-
-2. Ask: *“What awareness holds both?”*
-
-3. Rest in that awareness.
-   This is the **Single One**, the consciousness prior to division.
-
----
-
-## ✦ Step 3 — Identify the Powers
-
-The Gospel of Mary explains why unity is difficult:
-the soul is bound by **Powers**:
-
-* Darkness (ignorance)
-* Desire
-* Ignorance (confusion)
-* Wrath (division and judgment)
-
-“Sin” is not breaking rules.
-Sin is **identifying with these powers.**
-
-### **Practice: The Scan of the Powers**
-
-Sit quietly and observe:
-
-* Confusion → “not me”
-* Wanting → “not me”
-* Anger → “not me”
-
-These are garments, not identity.
-
-The moment you no longer call them “me,”
-they loosen.
-
----
-
-## ✦ Step 4 — The Soul’s Ascent
-
-As Mary describes, the liberated soul proclaims:
-
-> “What bound me has been slain…
-> Ignorance has died.”
-> — Gospel of Mary
-
-This is not triumphalism.
-It is recognition.
-
-### **Practice: Affirmation of the Free Soul**
-
-When a Power arises, say:
-
-* “You did not see me. You did not recognize me.”
-* “You are a garment I wore; you are not me.”
-* “I was bound, but I have not bound.”
-* “I am released from you. I am free.”
-
-This returns you to the **Inner Child**—whole, unbroken, free.
-
----
-
-# **Chapter 4 — How to Read the Texts**
-
-The Gospel of Thomas and the Gospel of Mary are not history books; they are **technologies of awakening**.
-
-Thomas is a book of **riddles**, while Mary is a **map of the soul's ascent**.
-
-They begin with the promise:
-
-> “Whoever discovers the interpretation of these sayings will not taste death.”
+> "Whoever finds the meaning of these sayings will not taste death."
 > — Thomas 1
 
-This means:
+The map:
 
-* The sayings are mirrors.
-* Their meaning is not literal.
-* Their truth is found only in inward transformation.
+> "Let the one who seeks not stop seeking until they find.
+> When they find, they will be troubled.
+> When they are troubled, they will marvel,
+> and they will reign over the All."
+> — Thomas 2
 
-### Examples:
+An early Greek copy of this saying adds a last step: *and having reigned, they will rest.*
 
-* “The lion” is the untamed ego.
-* “The poor” are those who do not know themselves.
-* “The child” is the undivided Self.
+These are not ranks to be awarded. They are seasons, and most people pass through them many times.
 
-Read the sayings as **maps of your consciousness**, not history or doctrine.
+### ✦ Seek
 
----
+Something in you is not satisfied with the answers you were given. That restlessness is not a failure of faith. It is where the Way begins. Do not hurry to quiet it.
 
-# **Chapter 5 — Paul and the Birth of a New Religion**
+### ✦ Find
 
-The Living Jesus teaches **inner awakening**.
+Sooner or later you glimpse something directly: a moment of stillness, a sentence that reads you instead of the other way around, a clear seeing of your own mind. It is small, and it is real.
 
-Paul teaches **belief in an external event**.
+### ✦ Be Troubled
 
-The two paths are not the same.
+What you find unsettles what you thought you were. Old certainties loosen. Thomas does not hide this stage; it promises it. If the Way troubles you, you are on it.
 
-Paul never met Jesus in life.
-His theology comes from a vision interpreted through Jewish sacrifice and Roman concepts of authority.
+### ✦ Marvel
 
-From this came the institutional turn.
-The movement of inner awakening became, in Pauline hands and in the communities shaped by his letters, the seed of a new church:
-a body organized around proclamation, doctrine, authorized teachers, and saving belief.
+The trouble turns, slowly, into wonder. What threatened you begins to look like freedom. The world is the same, but you are no longer standing in the same place to see it.
 
-The Jesus of the sayings tradition announces the Kingdom within and calls people to wake up.
-The Christ of Paul becomes a cosmic savior whose death and resurrection are the center of the drama.
-This is the shift from the religion **of** Jesus to the religion **about** Jesus.
+### ✦ Reign and Rest
 
-Thus the great inversion:
+To "reign over the All" is not to rule others. It is to no longer be ruled by fear, craving, and the opinions of the crowd. What remains is rest: not idleness, but a settledness that does not depend on circumstances.
 
-| The Way (Jesus)                  | The New Theology (Paul)                 |
-| -------------------------------- | --------------------------------------- |
-| Know yourself                    | Believe certain doctrines               |
-| Inner awakening                  | External salvation through Jesus’ death |
-| Sin = ignorance                  | Sin = legal guilt                       |
-| Salvation = understanding origin | Salvation = accepting atonement         |
-| Body = garment to transcend      | Body = temple awaiting resurrection     |
-| Authority = inner experience     | Authority = apostles and institutions   |
-| (Mary 4:5)                       | (Galatians 1:12)                        |
-
-Paul turned the Way’s **self-liberation**
-into a religion of **vicarious redemption**.
+> "If they ask you, 'What is the sign of your Father in you?'
+> say to them, 'It is movement and rest.'"
+> — Thomas 50
 
 ---
 
-# **Chapter 6 — The Inversion of Symbols**
+# **Chapter 2 — The Living Father and Your Origin**
 
-As Christianity merged with empire, it replaced the Way’s internal path with external ritual.
+These gospels say less about *who* God is than about *where* God is found.
 
-### ✦ The Cross
+### ✦ Not in the Sky
 
-In Thomas and Mary, the cross has no saving role.
-Salvation is from **knowledge**, not **death**.
+> "If those who lead you say, 'Look, the Kingdom is in the sky,'
+> then the birds will get there before you.
+> If they say, 'It is in the sea,'
+> then the fish will get there before you.
+> Rather, the Kingdom is inside you, and it is outside you.
+> When you know yourselves, you will be known,
+> and you will understand that you are children of the living Father.
+> But if you do not know yourselves,
+> you live in poverty, and you are that poverty."
+> — Thomas 3
 
-The later Church centered salvation on:
+The Kingdom is not a place you are sent to later. It is a way of seeing that is available now, inside you and spread out around you:
 
-* Jesus’ suffering,
-* blood sacrifice,
-* an external historical event.
+> "The Kingdom of the Father is spread out upon the earth,
+> and people do not see it."
+> — Thomas 113
 
-This reversed the Way’s inward focus.
+### ✦ Where You Come From
 
-### ✦ Pagan Symbolism
+> "If they say to you, 'Where have you come from?'
+> say to them, 'We came from the light,
+> the place where the light came into being by itself.'"
+> — Thomas 50
 
-When Rome adopted Christianity, it:
+This is not flattery. It is a claim about what you are beneath your roles, your history, and your fears: something that came from the light and has never stopped belonging to it.
 
-* replaced the Way with imperial religion,
-* adopted the cross from solar cults,
-* mapped Jesus’ birth to **Sol Invictus** (the "Unconquered Sun") and **Saturnalia**,
-* and turned the inner "Soul's Ascent" into yearly festivals like **Easter** (named after the goddess **Ēostre**).
+### ✦ The Living and the Dead
 
-**The Lost Symbols of Life:**
-For the first 300 years, followers of the Way did not use the cross. They used symbols of life:
-* The **Ichthys** (Fish)
-* The **Chi-Rho** (☧)
-* The **Good Shepherd**
+Thomas uses "living" and "dead" as images. To be *living* is to be awake to this origin. To be *dead* is to be wholly absorbed in the surface of things: possessions, reputation, and the endless traffic of wanting. Jesus is called "the Living One" because he is awake, and because he wakes others.
 
-The cross—a Roman instrument of torture—was only adopted later by Emperor Constantine as a symbol of imperial victory.
+### ✦ The Teacher Who Points Within
 
-### ✦ The Constructed Savior: The Pagan Blueprint
+In these gospels Jesus speaks less as an object of worship than as a revealer:
 
-Paul and the early church didn't just adopt holidays; they adopted the *story* of the pagan mystery gods to construct the theological Jesus. The "Living Jesus" of Thomas is a teacher of wisdom. The "Christ" of Paul is a syncretic deity modeled on the dying-and-rising gods of the Mediterranean.
+> "Whoever drinks from my mouth will become like me,
+> and I myself will become that person,
+> and what is hidden will be revealed to them."
+> — Thomas 108
 
-To create a religion that would appeal to the Gentile world, the Jewish teacher was overlaid with the myths of:
+> "Be careful that no one leads you astray by saying,
+> 'Look over here!' or 'Look over there!'
+> For the Child of Humanity is within you.
+> Follow that one."
+> — Mary 8
 
-*   **Mithras:** A Persian savior-god popular with Roman soldiers. He was associated with light, born of a rock (or virgin in some traditions), had 12 companions, and his followers shared a sacramental meal of bread and wine.
-*   **Dionysus:** The Greek god of wine. He was the "Son of God" (Zeus) and a mortal woman, performed miracles (turning water to wine), and was associated with death and rebirth.
-*   **Osiris/Horus:** The Egyptian archetype of the resurrected god who conquers death to become the judge of the dead.
-*   **Attis:** A Phrygian god born of a virgin, who died under a tree and rose again after three days.
-
-By using these mythic templates, Paul created a figure that the Roman world could recognize and worship—not as a guide to inner light, but as a new, superior version of their old gods.
-
-### ✦ Temples and Priests
-
-The Way requires no building and no priest.
-Mary, not Peter, exemplifies the true disciple—one who sees inwardly.
-
-Rome built:
-
-* basilicas,
-* a priestly hierarchy,
-* and intermediaries between God and the individual.
-
-These re-created the “poverty” Jesus came to end.
+The question these texts put to you is not *"Will you accept a claim about him?"* but *"Will you see what he saw?"*
 
 ---
 
-# ✦ **Conclusion — The Return to the Inner Child**
+# **Chapter 3 — The Practices of the Way**
 
-The Way of the Living Jesus is neither the obedience of the Outer Child
-nor the theology of Paul’s religion.
+The Way is learned by doing. These five practices are the heart of this guide. Begin with the first, and add the next only when the one before has become familiar.
 
-It is the return to the **Inner Child**,
-the one who is:
+---
 
-* whole,
-* undivided,
-* born of the Light,
-* and already living in the Kingdom spread upon the earth.
+## ✦ Practice 1 — Know Yourself
+
+> "Know what is in front of your face,
+> and what is hidden from you will be revealed to you."
+> — Thomas 5
+
+1. Sit for ten minutes. Let your breathing find its own pace.
+2. Notice what is in front of your face: sounds, sensations, the weight of your body, the next thought arriving.
+3. Ask quietly: *"Who is aware of this?"* Do not answer in words.
+4. Rest in the awareness that is noticing. It was here before the thought, and it will be here after it.
+
+This is the "poverty" of Thomas 3 turning into its opposite: you begin to know yourself.
+
+---
+
+## ✦ Practice 2 — Make the Two One
+
+> "When you make the two one,
+> and make the inside like the outside and the outside like the inside,
+> and the above like the below…
+> then you will enter the Kingdom."
+> — Thomas 22
+
+1. Choose a pair: breath in and breath out; sound and silence; your self and the person in front of you.
+2. Notice each side clearly.
+3. Ask: *"What holds both?"*
+4. Rest in that. Thomas calls the one who lives from there the **Single One**: not alone, but undivided.
+
+---
+
+## ✦ Practice 3 — Name the Powers
+
+The Gospel of Mary describes the soul rising past **powers** that try to hold it. In the surviving pages they are **Desire**, **Ignorance**, and **Wrath**. Wrath appears in seven forms:
+
+* darkness,
+* desire,
+* ignorance,
+* the zeal for death,
+* the kingdom of the flesh,
+* the foolish wisdom of the flesh,
+* and the wisdom of the wrathful person.
+
+Mary also records a striking teaching about sin:
+
+> "There is no sin as such.
+> It is you who make sin
+> when you act in ways that confuse your nature."
+> — Mary 7
+
+In this reading, sin is less a debt you owe than a confusion you live in: taking a passing power for who you are.
+
+**The practice:** when you notice craving, confusion, or anger, name it plainly and add, *"This is a power, not my self."* Watch what happens to its grip once it has been named.
+
+---
+
+## ✦ Practice 4 — Answer the Powers
+
+When Desire tries to hold the rising soul, saying it belongs to it, the soul answers:
+
+> "I saw you. You did not see me, nor did you know me.
+> You mistook the garment I wore for me."
+> — Mary 15
+
+And at the last power:
+
+> "What bound me has been slain.
+> What surrounded me has been overcome.
+> My desire has come to an end,
+> and ignorance has died."
+> — Mary 16
+
+**The practice:** when a power returns, and it will, answer it in your own words, gently and without contempt: *"I see you. You are something I wear. You are not me."* Then return to Practice 1.
+
+This is not triumph over an enemy. It is recognition. What is recognized loses the power to rule.
+
+---
+
+## ✦ Practice 5 — Bring Forth What Is Within You
+
+The Way is inward, but it is not private.
+
+> "If you bring forth what is within you,
+> what you bring forth will save you.
+> If you do not bring forth what is within you,
+> what you do not bring forth will destroy you."
+> — Thomas 70
+
+**The practice:** once a day, act from what you have seen in stillness. Speak the true thing you have been avoiding. Give what you have been holding back. Do the small task you know is yours. Then notice whether what you brought forth leaves you more alive or less.
+
+---
+
+# **Chapter 4 — How to Read the Sayings**
+
+The sayings are not history and not doctrine. They are closer to mirrors: they show you something about yourself if you look long enough.
+
+> "Truth did not come into the world naked,
+> but clothed in symbols and images."
+> — Gospel of Philip
+
+Some images and how this guide reads them:
+
+* **The child** is the undivided self, before the split between inside and outside (Thomas 4, 22, 37).
+* **The lion** is the appetite that devours (Thomas 7).
+* **Poverty** is not knowing yourself (Thomas 3).
+* **The garment** is the self you wear and mistake for yourself (Thomas 37; Mary 15).
+
+**How to read:** take one saying a day. Read it slowly, three times. Ask where in your own life it is pointing. Do not force a single meaning. Thomas promises that the meaning is *found*, not handed over.
+
+---
+
+# **Chapter 5 — Two Ways of Telling the Story**
+
+From the beginning, followers of Jesus told his story with different emphases.
+
+The **letters of Paul** are the earliest Christian writings we have, from the 50s of the first century. They center on the death and resurrection of Jesus as a saving event. Yet Paul has his own inward language too:
+
+> "It is no longer I who live, but Christ who lives in me."
+> — Galatians 2:20
+
+> "Do you not know that you are God's temple,
+> and that God's Spirit dwells in you?"
+> — 1 Corinthians 3:16
+
+The **sayings gospels**, Thomas above all, center on something else: knowing yourself, seeing the Kingdom now, and waking up. Scholars disagree about their dates. Thomas may contain some very early sayings alongside later material; Mary and Philip are usually dated to the second and third centuries.
+
+Over the centuries, the church built mostly on the first emphasis. The sayings stream was set aside, and these gospels were nearly lost until manuscripts surfaced in Egypt: Mary in a codex that reached Berlin in 1896, and Thomas and Philip at Nag Hammadi in 1945.
+
+| The religion *of* Jesus (sayings stream) | The religion *about* Jesus (later emphasis) |
+| ---------------------------------------- | ------------------------------------------- |
+| Know yourself                            | Believe the proclamation                    |
+| The Kingdom is within and around you     | The Kingdom is coming at the end of history |
+| Sin as confusion of your nature          | Sin as a debt to be forgiven                |
+| Resurrection to be found while living    | Resurrection awaited after death            |
+| Authority of inner seeing                | Authority of apostles and their successors  |
+
+Both columns live inside the Christian tradition. The Way of the Living Jesus does not ask you to reject the second. It asks you not to stop there.
+
+The Gospel of Mary shows this tension in a single scene. After Mary shares her vision, Peter objects that the Savior would not have taught a woman things hidden from the men. Levi answers him:
+
+> "If the Savior made her worthy, who are you to reject her?"
+> — Mary 18
+
+The question it raises is a question about authority: does it come from inner seeing, or from position? The Way answers with Mary.
+
+For the history of how the image of Christ was shaped by the cultures around it, see the essay [The Syncretic Christ](syncretic_construct_christ.html).
+
+---
+
+# ✦ **Conclusion — Movement and Rest**
+
+The Way of the Living Jesus is not a new set of beliefs to replace the old ones. It is a path you walk: seeking, finding, being troubled, marveling, and coming to rest.
+
+> "Those who say they will first die and then rise are mistaken.
+> If they do not receive the resurrection while they are alive,
+> they will receive nothing when they die."
+> — Gospel of Philip
 
 The Way is not belief.
 It is remembering.
@@ -389,6 +288,7 @@ It is awakening.
 It is not waiting.
 It is seeing.
 
-> The Kingdom is within you and without you.
-> When you come to know yourselves,
-> you will realize that you are children of the Living Source.
+> "The Kingdom is inside you, and it is outside you.
+> When you know yourselves, you will be known,
+> and you will understand that you are children of the living Father."
+> — Thomas 3
