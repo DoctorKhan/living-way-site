@@ -448,14 +448,10 @@ I answer: *I am.*
 They ask, "Show us the truth."  
 I answer: *I am.*  
 They ask, "Show us the life that does not die."  
-I answer: *I am.*  
-They look at me, and miss it.  
-Before you give your name,  
-before you say "I am this" or "I am that,"  
-say only: *I am.*  
-That is the Way, the Truth, and the Life.  
-No one comes to the Father  
-except through me.
+I answer: *I am.*
+
+*I am* the Way, the Truth, and the Life.  
+Only those who walk this way come to the Father.
 
 ## Profit and Loss
 
