@@ -458,14 +458,15 @@ Only those who walk this way come to the Father.
 Take off your sandals.  
 This ground is holy.
 
-Your breath fans the flame,  
+A flame is here.  
+Your breath fans it,  
 the same breath that moved in your ancestors.
 
 Joy and grief feed the fire,  
 yet the one who knows them is not burned.  
 Thus it burns, unconsumed.
 
-While a name carved in wood will wear away,  
+A name carved in wood is consumed;  
 this name knows itself:  
 *I am that I am.*
 
