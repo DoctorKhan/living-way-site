@@ -203,9 +203,9 @@
       nav.className = 'lw-saynav';
       nav.setAttribute('aria-label', 'Saying ' + (i + 1));
       nav.innerHTML =
-        (prev ? '<a class="lw-prev" href="#' + prev.id + '">← ' + (i) + ' · ' + titleOf(prev) + '</a>' : '<span></span>') +
-        (next ? '<a class="lw-next" href="#' + next.id + '">' + (i + 2) + ' · ' + titleOf(next) + ' →</a>'
-              : '<a class="lw-next" href="#sources-and-echoes">Sources and Echoes →</a>');
+        (prev ? '<a class="lw-prev" href="#' + prev.id + '"><span aria-hidden="true">←</span><span class="lw-sn-t">' + (i) + ' · ' + titleOf(prev) + '</span></a>' : '<span></span>') +
+        (next ? '<a class="lw-next" href="#' + next.id + '"><span class="lw-sn-t">' + (i + 2) + ' · ' + titleOf(next) + '</span><span aria-hidden="true">→</span></a>'
+              : '<a class="lw-next" href="#sources-and-echoes"><span class="lw-sn-t">Sources and Echoes</span><span aria-hidden="true">→</span></a>');
       container.insertBefore(nav, end);
     });
 
@@ -228,6 +228,33 @@
       }, { passive: true });
     }
   }
+
+  // Verse: wrap each line between <br>s so long lines get a hanging indent.
+  Array.prototype.forEach.call(container.children, function (p) {
+    if (p.tagName !== 'P' || !p.querySelector('br')) return;
+    var lines = [], line = document.createElement('span');
+    Array.prototype.slice.call(p.childNodes).forEach(function (n) {
+      if (n.nodeName === 'BR') { lines.push(line); line = document.createElement('span'); }
+      else line.appendChild(n);
+    });
+    lines.push(line);
+    p.textContent = '';
+    lines.forEach(function (l) {
+      if (!l.textContent.trim()) return;
+      l.className = 'lw-line';
+      p.appendChild(l);
+    });
+    p.classList.add('lw-verse');
+  });
+
+  // Contents button steps aside while scrolling down, returns on scroll up.
+  var lastY = window.scrollY;
+  window.addEventListener('scroll', function () {
+    var y = window.scrollY;
+    if (Math.abs(y - lastY) < 8) return;
+    toggle.classList.toggle('is-hidden', y > lastY && y > 240);
+    lastY = y;
+  }, { passive: true });
 
   // Wait a beat so the share script and layout settle, then mark the start point.
   setTimeout(function () { highlight(true); }, 0);

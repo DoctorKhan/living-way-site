@@ -185,6 +185,7 @@
   font-size: 0.95rem;
 }
 .lw-saynav a { color: #8c7b6c; text-decoration: none; max-width: 48%; }
+.lw-saynav a > span[aria-hidden] { flex: none; }
 .lw-saynav a:hover { color: #344a3c; text-decoration: underline; }
 .lw-saynav .lw-next { margin-left: auto; text-align: right; }
 
@@ -225,4 +226,34 @@
 /* Keep the install invitation clear of the Contents button on narrow screens. */
 @media (max-width: 1199px) {
   body.lw-has-toc .lw-install-banner { bottom: calc(4.6rem + env(safe-area-inset-bottom, 0px)); }
+}
+
+/* Verse: a line that has to wrap continues indented beneath itself,
+   so a wrapped line never reads as a new line of the poem. */
+.container p.lw-verse .lw-line {
+  display: block;
+  padding-left: 1.3em;
+  text-indent: -1.3em;
+}
+
+/* Contents button: step aside while reading downward. */
+.lw-toc-toggle { transition: transform 0.25s ease, opacity 0.25s ease; }
+.lw-toc-toggle.is-hidden { transform: translateY(160%); opacity: 0; pointer-events: none; }
+
+@media (max-width: 600px) {
+  .container h2[id] { font-size: 1.5rem; line-height: 1.25; }
+  .container h2[data-num]::before {
+    display: block;
+    min-width: 0;
+    margin: 0 0 0.25rem;
+    font-size: 0.8rem;
+    vertical-align: 0;
+  }
+  .container > p { font-size: 1.08rem; }
+  .lw-saynav { gap: 0.75rem; font-size: 0.92rem; }
+  .lw-saynav a { display: flex; gap: 0.3em; min-width: 0; white-space: nowrap; }
+  .lw-saynav .lw-sn-t { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .container h1 { font-size: 1.8rem; }
+  .container blockquote { margin-left: 0; margin-right: 0; padding-left: 1rem; padding-right: 0.25rem; }
+  body.lw-has-toc .container { padding-bottom: 5rem; }
 }

@@ -2,7 +2,7 @@
 
 *(Drawn from the Gospels of Thomas, Mary, and Philip, and the Tao Te Ching)*
 
-> **Companion texts:** This guide accompanies [The Living Way](The_Living_Way.html), the eighty-one sayings at the center of this library. To read only the four canonical Gospels, see [The Canonical Way of Jesus](read.html?doc=Yeshua/The_Canonical_Way_of_Jesus.md). For a poetic retelling, see [The Gospel of the Living One](read.html?doc=Yeshua/The_Gospel_of_the_Living_One.md). For a shelf of passages by theme, see the [Canonical Sayings Index](read.html?doc=Yeshua/Canonical_Sayings_Index.md).
+> **Companion texts:** This guide accompanies [The Living Way](The_Living_Way.html), the sayings at the center of this library. To read only the four canonical Gospels, see [The Canonical Way of Jesus](read.html?doc=Yeshua/The_Canonical_Way_of_Jesus.md). For a poetic retelling, see [The Gospel of the Living One](read.html?doc=Yeshua/The_Gospel_of_the_Living_One.md). For a shelf of passages by theme, see the [Canonical Sayings Index](read.html?doc=Yeshua/Canonical_Sayings_Index.md).
 
 ## **How to Use This Guide**
 

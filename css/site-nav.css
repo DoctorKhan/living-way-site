@@ -219,3 +219,8 @@ header.lw-header {
 .lw-install-banner .lw-ib-later { border: 1px solid rgba(31, 41, 36, 0.18); background: transparent; color: #1f2924; }
 @media print { .lw-header, .lw-install-banner { display: none; } }
 @media (prefers-reduced-motion: reduce) { .lw-install-banner { animation: none; } }
+
+/* Typography on every page: balanced headings, no one-word last lines. */
+h1, h2, h3, h4, .lw-ib-title,
+.eyebrow, .section-kicker, .book-meta { text-wrap: balance; }
+p, li, blockquote { text-wrap: pretty; }
