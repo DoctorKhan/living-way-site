@@ -649,8 +649,8 @@ Without leaving your house,
 you may behold the world within you.  
 Without straining your sight,  
 you may know the One who sees.  
-The more you chase what is outside,  
-the more you forsake the Treasure within.
+But the eye does not see itself;  
+be the seeing, and the search is over.
 
 ## The Unlearning
 
@@ -1165,7 +1165,7 @@ $\cdot$ $\odot$ $\cdot$
 
 - The Yoke of Peace: Tao Te Ching 46; Matthew 11:30.
 - The Body That Leans: Thomas 87, 112.
-- Seeing Without Seeking: Tao Te Ching 47; Thomas 3; Luke 17:21; Mary 8.
+- Seeing Without Seeking: Tao Te Ching 47; Thomas 3; Luke 17:21; Mary 8; Brihadaranyaka Upanishad 3.4.2 ("you cannot see the seer of seeing").
 - The Unlearning: Tao Te Ching 48; Thomas 37.
 - The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
 - Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
