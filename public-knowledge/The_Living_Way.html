@@ -77,6 +77,40 @@
             text-decoration: none;
         }
         .saying-source a:hover, a.source-back:hover { text-decoration: underline; }
+        .source-excerpt {
+            margin: 0.6rem 0 1.4rem;
+            padding: 0.9rem 1.1rem;
+            border-left: 3px solid var(--accent);
+            background: rgba(140, 123, 108, 0.08);
+            border-radius: 0 6px 6px 0;
+            font-size: 1rem;
+        }
+        .source-excerpt-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-variant: small-caps;
+            letter-spacing: 0.04em;
+            color: var(--accent);
+            margin-bottom: 0.4rem;
+        }
+        .source-excerpt-close {
+            background: none;
+            border: 0;
+            font-size: 1.3rem;
+            line-height: 1;
+            color: var(--text-muted, #6b6b6b);
+            cursor: pointer;
+            padding: 0 0.2rem;
+        }
+        .source-excerpt-body p { margin: 0 0 0.6rem; }
+        .source-excerpt-credit {
+            margin: 0.3rem 0 0;
+            font-size: 0.8rem;
+            font-style: italic;
+            color: var(--text-muted, #6b6b6b);
+        }
+        .source-excerpt-credit a { color: inherit; }
 
         h3 {
             font-size: 1.4rem;
@@ -192,6 +226,7 @@ of Yeshua, a Tao for the Children of Light, written in the spirit of
 Thomas, Mary, Philip, and the Tao Te Ching.">
     <meta name="twitter:image" content="https://thelivingway.app/images/og-image.png">
     <script src="/js/sayings-share.js" defer></script>
+    <script src="/js/source-excerpts.js" defer></script>
     <link rel="stylesheet" href="/css/site-nav.css">
     <script src="/js/site-nav.js" defer></script>
     <link rel="stylesheet" href="/css/book-nav.css">
@@ -309,8 +344,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         find the Source<br />
         from which all seeing springs.</p>
         <div class="saying-source">
-        <p><a href="#src-the-way-that-is-not-seen">Tao Te Ching 1 ·
-        Thomas 113</a></p>
+        <p><a href="#src-the-way-that-is-not-seen" class="source-ref"
+        data-ref="Tao Te Ching 1">Tao Te Ching 1</a> · <a
+        href="#src-the-way-that-is-not-seen" class="source-ref"
+        data-ref="Thomas 113">Thomas 113</a></p>
         </div>
         <h2 id="the-two-become-one">The Two Become One</h2>
         <p>The world is born of the cut in two—<br />
@@ -323,8 +360,18 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         as the One who is not born.<br />
         Then the bridal chamber opens in your depths.</p>
         <div class="saying-source">
-        <p><a href="#src-the-two-become-one">Tao Te Ching 2 · Thomas 22
-        · Philip · Gospel of the Egyptians · Hymn of the Pearl</a></p>
+        <p><a href="#src-the-two-become-one" class="source-ref"
+        data-ref="Tao Te Ching 2">Tao Te Ching 2</a> · <a
+        href="#src-the-two-become-one" class="source-ref"
+        data-ref="Thomas 22">Thomas 22</a> · <a
+        href="#src-the-two-become-one" class="source-ref"
+        data-ref="Philip · The Two Become One">Philip</a> · <a
+        href="#src-the-two-become-one" class="source-ref"
+        data-ref="Gospel of the Egyptians · The Two Become One">Gospel
+        of the Egyptians</a> · <a href="#src-the-two-become-one"
+        class="source-ref"
+        data-ref="Hymn of the Pearl · The Two Become One">Hymn of the
+        Pearl</a></p>
         </div>
         <h2 id="the-poverty-of-the-unknowing">The Poverty of the
         Unknowing</h2>
@@ -337,8 +384,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         no longer hoards teachings in a scroll.<br />
         Their very being becomes the scroll.</p>
         <div class="saying-source">
-        <p><a href="#src-the-poverty-of-the-unknowing">Tao Te Ching 3 ·
-        Thomas 3</a></p>
+        <p><a href="#src-the-poverty-of-the-unknowing"
+        class="source-ref" data-ref="Tao Te Ching 3">Tao Te Ching 3</a>
+        · <a href="#src-the-poverty-of-the-unknowing" class="source-ref"
+        data-ref="Thomas 3">Thomas 3</a></p>
         </div>
         <h2 id="the-father-of-light">The Father of Light</h2>
         <p>There is a Light that gives birth to itself—<br />
@@ -350,8 +399,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Only the garments of the soul<br />
         weave darkness.</p>
         <div class="saying-source">
-        <p><a href="#src-the-father-of-light">Tao Te Ching 4 · Thomas
-        50</a></p>
+        <p><a href="#src-the-father-of-light" class="source-ref"
+        data-ref="Tao Te Ching 4">Tao Te Ching 4</a> · <a
+        href="#src-the-father-of-light" class="source-ref"
+        data-ref="Thomas 50">Thomas 50</a></p>
         </div>
         <h2 id="the-powers-question-the-soul">The Powers Question the
         Soul</h2>
@@ -367,8 +418,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         “You never touched me.<br />
         You grasped only my clothing.”</p>
         <div class="saying-source">
-        <p><a href="#src-the-powers-question-the-soul">Tao Te Ching 5 ·
-        Mary 15–17</a></p>
+        <p><a href="#src-the-powers-question-the-soul"
+        class="source-ref" data-ref="Tao Te Ching 5">Tao Te Ching 5</a>
+        · <a href="#src-the-powers-question-the-soul" class="source-ref"
+        data-ref="Mary 15–17">Mary 15–17</a></p>
         </div>
         <h2 id="the-hollow-reed">The Hollow Reed</h2>
         <p>The false self is a wall of stone—<br />
@@ -378,8 +431,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         When you are empty,<br />
         even the storm becomes a song.</p>
         <div class="saying-source">
-        <p><a href="#src-the-hollow-reed">Tao Te Ching 6 · Thomas
-        78</a></p>
+        <p><a href="#src-the-hollow-reed" class="source-ref"
+        data-ref="Tao Te Ching 6">Tao Te Ching 6</a> · <a
+        href="#src-the-hollow-reed" class="source-ref"
+        data-ref="Thomas 78">Thomas 78</a></p>
         </div>
         <h2 id="the-unforced-kingdom">The Unforced Kingdom</h2>
         <p>The Kingdom comes by neither effort nor delay.<br />
@@ -390,8 +445,13 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         What you call “sin” is forgetting.<br />
         What you call “salvation” is remembering.</p>
         <div class="saying-source">
-        <p><a href="#src-the-unforced-kingdom">Tao Te Ching 7 · Mary 7 ·
-        Gospel of Truth</a></p>
+        <p><a href="#src-the-unforced-kingdom" class="source-ref"
+        data-ref="Tao Te Ching 7">Tao Te Ching 7</a> · <a
+        href="#src-the-unforced-kingdom" class="source-ref"
+        data-ref="Mary 7">Mary 7</a> · <a
+        href="#src-the-unforced-kingdom" class="source-ref"
+        data-ref="Gospel of Truth · The Unforced Kingdom">Gospel of
+        Truth</a></p>
         </div>
         <h2 id="the-servant-at-the-feast">The Servant at the Feast</h2>
         <p>Be as the servant who seeks the lowest place at the
@@ -404,8 +464,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Humility is not making the self small;<br />
         it is seeing that the self is a shadow.</p>
         <div class="saying-source">
-        <p><a href="#src-the-servant-at-the-feast">Tao Te Ching 8 · Luke
-        14:7–11</a></p>
+        <p><a href="#src-the-servant-at-the-feast" class="source-ref"
+        data-ref="Tao Te Ching 8">Tao Te Ching 8</a> · <a
+        href="#src-the-servant-at-the-feast" class="source-ref"
+        data-ref="Luke 14:7–11">Luke 14:7–11</a></p>
         </div>
         <h2 id="the-teacher-who-does-not-teach">The Teacher Who Does Not
         Teach</h2>
@@ -416,8 +478,11 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         I give you questions—<br />
         that you may become what I am.</p>
         <div class="saying-source">
-        <p><a href="#src-the-teacher-who-does-not-teach">Tao Te Ching 9
-        · Thomas 13, 108</a></p>
+        <p><a href="#src-the-teacher-who-does-not-teach"
+        class="source-ref" data-ref="Tao Te Ching 9">Tao Te Ching 9</a>
+        · <a href="#src-the-teacher-who-does-not-teach"
+        class="source-ref" data-ref="Thomas 13, 108">Thomas 13,
+        108</a></p>
         </div>
         <div class="ornament">✦ ✦ ✦</div>
         <h1 id="the-kingdom-within">The Kingdom Within</h1>
@@ -435,8 +500,15 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Guard this lamp,<br />
         and the night cannot touch you.</p>
         <div class="saying-source">
-        <p><a href="#src-the-single-eye">Tao Te Ching 10 · Matthew 6:22
-        · Mary 10 · Dialogue of the Savior</a></p>
+        <p><a href="#src-the-single-eye" class="source-ref"
+        data-ref="Tao Te Ching 10">Tao Te Ching 10</a> · <a
+        href="#src-the-single-eye" class="source-ref"
+        data-ref="Matthew 6:22">Matthew 6:22</a> · <a
+        href="#src-the-single-eye" class="source-ref"
+        data-ref="Mary 10">Mary 10</a> · <a href="#src-the-single-eye"
+        class="source-ref"
+        data-ref="Dialogue of the Savior · The Single Eye">Dialogue of
+        the Savior</a></p>
         </div>
         <h2 id="the-inner-and-the-outer">The Inner and the Outer</h2>
         <p>The cup is precious for its emptiness.<br />
@@ -446,8 +518,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         When they reflect without distortion,<br />
         the All is revealed.</p>
         <div class="saying-source">
-        <p><a href="#src-the-inner-and-the-outer">Tao Te Ching 11 ·
-        Thomas 22, 89</a></p>
+        <p><a href="#src-the-inner-and-the-outer" class="source-ref"
+        data-ref="Tao Te Ching 11">Tao Te Ching 11</a> · <a
+        href="#src-the-inner-and-the-outer" class="source-ref"
+        data-ref="Thomas 22, 89">Thomas 22, 89</a></p>
         </div>
         <h2 id="the-lion-and-the-child">The Lion and the Child</h2>
         <p>The world teaches you to be a lion—<br />
@@ -458,8 +532,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         There is no image of self to defend.<br />
         Therefore the child steps into the Kingdom easily.</p>
         <div class="saying-source">
-        <p><a href="#src-the-lion-and-the-child">Tao Te Ching 12 ·
-        Thomas 7, 22</a></p>
+        <p><a href="#src-the-lion-and-the-child" class="source-ref"
+        data-ref="Tao Te Ching 12">Tao Te Ching 12</a> · <a
+        href="#src-the-lion-and-the-child" class="source-ref"
+        data-ref="Thomas 7, 22">Thomas 7, 22</a></p>
         </div>
         <h2 id="the-unbinding">The Unbinding</h2>
         <p>What binds you is not outside you.<br />
@@ -469,8 +545,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Awaken, and you will laugh—<br />
         for there were never any gates.</p>
         <div class="saying-source">
-        <p><a href="#src-the-unbinding">Tao Te Ching 13 · Ashtavakra
-        Gita 1.11</a></p>
+        <p><a href="#src-the-unbinding" class="source-ref"
+        data-ref="Tao Te Ching 13">Tao Te Ching 13</a> · <a
+        href="#src-the-unbinding" class="source-ref"
+        data-ref="Ashtavakra Gita 1.11">Ashtavakra Gita 1.11</a></p>
         </div>
         <h2 id="the-return-to-the-unborn">The Return to the Unborn</h2>
         <p>Before you were a form, you were the Breath.<br />
@@ -481,8 +559,13 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         it is to remember the place<br />
         that has never moved.</p>
         <div class="saying-source">
-        <p><a href="#src-the-return-to-the-unborn">Tao Te Ching 14 ·
-        Thomas 18–19 · Hymn of the Pearl</a></p>
+        <p><a href="#src-the-return-to-the-unborn" class="source-ref"
+        data-ref="Tao Te Ching 14">Tao Te Ching 14</a> · <a
+        href="#src-the-return-to-the-unborn" class="source-ref"
+        data-ref="Thomas 18–19">Thomas 18–19</a> · <a
+        href="#src-the-return-to-the-unborn" class="source-ref"
+        data-ref="Hymn of the Pearl · The Return to the Unborn">Hymn of
+        the Pearl</a></p>
         </div>
         <h2 id="the-silence-that-speaks">The Silence That Speaks</h2>
         <p>Words are nets thrown into the sea.<br />
@@ -496,8 +579,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         one breath,<br />
         one Being.</p>
         <div class="saying-source">
-        <p><a href="#src-the-silence-that-speaks">Tao Te Ching 15, 56 ·
-        Thomas 8</a></p>
+        <p><a href="#src-the-silence-that-speaks" class="source-ref"
+        data-ref="Tao Te Ching 15, 56">Tao Te Ching 15, 56</a> · <a
+        href="#src-the-silence-that-speaks" class="source-ref"
+        data-ref="Thomas 8">Thomas 8</a></p>
         </div>
         <h2 id="the-great-stillness">The Great Stillness</h2>
         <p>Empty yourself of what you think you are.<br />
@@ -508,7 +593,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         the Light of the Living Source<br />
         shines through without effort.</p>
         <div class="saying-source">
-        <p><a href="#src-the-great-stillness">Tao Te Ching 16</a></p>
+        <p><a href="#src-the-great-stillness" class="source-ref"
+        data-ref="Tao Te Ching 16">Tao Te Ching 16</a></p>
         </div>
         <h2 id="the-hidden-guide">The Hidden Guide</h2>
         <p>The greatest guide is the one who disappears.<br />
@@ -518,7 +604,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Thus my work is done,<br />
         and no one knows my name.</p>
         <div class="saying-source">
-        <p><a href="#src-the-hidden-guide">Tao Te Ching 17</a></p>
+        <p><a href="#src-the-hidden-guide" class="source-ref"
+        data-ref="Tao Te Ching 17">Tao Te Ching 17</a></p>
         </div>
         <h2 id="when-the-way-is-forgotten">When the Way Is
         Forgotten</h2>
@@ -538,8 +625,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         When the eye becomes single,<br />
         the heart needs no commandments.</p>
         <div class="saying-source">
-        <p><a href="#src-when-the-way-is-forgotten">Tao Te Ching 18–19 ·
-        Philip</a></p>
+        <p><a href="#src-when-the-way-is-forgotten" class="source-ref"
+        data-ref="Tao Te Ching 18–19">Tao Te Ching 18–19</a> · <a
+        href="#src-when-the-way-is-forgotten" class="source-ref"
+        data-ref="Philip · When the Way Is Forgotten">Philip</a></p>
         </div>
         <div class="ornament">✦ ✦ ✦</div>
         <h1 id="the-garment-of-silence">The Garment of Silence</h1>
@@ -555,8 +644,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Yet the Kingdom belongs to those<br />
         who loosen their grip on everything.</p>
         <div class="saying-source">
-        <p><a href="#src-not-of-this-world">Tao Te Ching 20 · John
-        17:16</a></p>
+        <p><a href="#src-not-of-this-world" class="source-ref"
+        data-ref="Tao Te Ching 20">Tao Te Ching 20</a> · <a
+        href="#src-not-of-this-world" class="source-ref"
+        data-ref="John 17:16">John 17:16</a></p>
         </div>
         <h2 id="passersby">Passersby</h2>
         <p>Be a traveller here.<br />
@@ -568,7 +659,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         loses nothing when the house falls,<br />
         for they never mistook it for home.</p>
         <div class="saying-source">
-        <p><a href="#src-passersby">Thomas 42</a></p>
+        <p><a href="#src-passersby" class="source-ref"
+        data-ref="Thomas 42">Thomas 42</a></p>
         </div>
         <h2 id="the-face-of-the-invisible">The Face of the
         Invisible</h2>
@@ -580,8 +672,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         yet it shines through your own face<br />
         when you remember who you are.</p>
         <div class="saying-source">
-        <p><a href="#src-the-face-of-the-invisible">Tao Te Ching
-        21</a></p>
+        <p><a href="#src-the-face-of-the-invisible" class="source-ref"
+        data-ref="Tao Te Ching 21">Tao Te Ching 21</a></p>
         </div>
         <h2 id="the-one-who-is-bent">The One Who Is Bent</h2>
         <p>If you wish to be whole, let yourself be broken.<br />
@@ -591,8 +683,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         I raise only the one<br />
         who has laid the self down.</p>
         <div class="saying-source">
-        <p><a href="#src-the-one-who-is-bent">Tao Te Ching 22 · Matthew
-        23:12</a></p>
+        <p><a href="#src-the-one-who-is-bent" class="source-ref"
+        data-ref="Tao Te Ching 22">Tao Te Ching 22</a> · <a
+        href="#src-the-one-who-is-bent" class="source-ref"
+        data-ref="Matthew 23:12">Matthew 23:12</a></p>
         </div>
         <h2 id="the-wind-speaks-briefly">The Wind Speaks Briefly</h2>
         <p>Speak only what is true, and your words will be few.<br />
@@ -602,8 +696,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         your words carry no force—<br />
         yet they move mountains.</p>
         <div class="saying-source">
-        <p><a href="#src-the-wind-speaks-briefly">Tao Te Ching 23 · John
-        3:8</a></p>
+        <p><a href="#src-the-wind-speaks-briefly" class="source-ref"
+        data-ref="Tao Te Ching 23">Tao Te Ching 23</a> · <a
+        href="#src-the-wind-speaks-briefly" class="source-ref"
+        data-ref="John 3:8">John 3:8</a></p>
         </div>
         <h2 id="the-heavy-root">The Heavy Root</h2>
         <p>The root of the tree is unseen,<br />
@@ -615,7 +711,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         desire, fear, anger, ignorance.<br />
         Remember your depth, and nothing can uproot you.</p>
         <div class="saying-source">
-        <p><a href="#src-the-heavy-root">Tao Te Ching 26</a></p>
+        <p><a href="#src-the-heavy-root" class="source-ref"
+        data-ref="Tao Te Ching 26">Tao Te Ching 26</a></p>
         </div>
         <h2 id="the-footprints-of-the-master">The Footprints of the
         Master</h2>
@@ -628,7 +725,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Seeing the divine spark in all beings,<br />
         the master finds no one beyond help.</p>
         <div class="saying-source">
-        <p><a href="#src-the-footprints-of-the-master">Tao Te Ching
+        <p><a href="#src-the-footprints-of-the-master"
+        class="source-ref" data-ref="Tao Te Ching 27">Tao Te Ching
         27</a></p>
         </div>
         <div class="ornament">✦ ✦ ✦</div>
@@ -645,8 +743,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Thus you become the place<br />
         where the two become one.</p>
         <div class="saying-source">
-        <p><a href="#src-the-fertile-soil">Tao Te Ching 28 · Matthew
-        13:3–9</a></p>
+        <p><a href="#src-the-fertile-soil" class="source-ref"
+        data-ref="Tao Te Ching 28">Tao Te Ching 28</a> · <a
+        href="#src-the-fertile-soil" class="source-ref"
+        data-ref="Matthew 13:3–9">Matthew 13:3–9</a></p>
         </div>
         <h2 id="the-futility-of-control">The Futility of Control</h2>
         <p>Those who attempt to seize the Kingdom<br />
@@ -658,8 +758,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         But the one who serves the hidden life in all things<br />
         finds the harvest rising of itself.</p>
         <div class="saying-source">
-        <p><a href="#src-the-futility-of-control">Tao Te Ching 29 · Mark
-        4:26–29</a></p>
+        <p><a href="#src-the-futility-of-control" class="source-ref"
+        data-ref="Tao Te Ching 29">Tao Te Ching 29</a> · <a
+        href="#src-the-futility-of-control" class="source-ref"
+        data-ref="Mark 4:26–29">Mark 4:26–29</a></p>
         </div>
         <h2 id="the-way-of-non-violence">The Way of Non-Violence</h2>
         <p>Those who walk in the Way do not harm.<br />
@@ -674,8 +776,12 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         they win the war within,<br />
         and the world lays down its sword.</p>
         <div class="saying-source">
-        <p><a href="#src-the-way-of-non-violence">Tao Te Ching 30, 68 ·
-        Matthew 26:52 · Matthew 5:9</a></p>
+        <p><a href="#src-the-way-of-non-violence" class="source-ref"
+        data-ref="Tao Te Ching 30, 68">Tao Te Ching 30, 68</a> · <a
+        href="#src-the-way-of-non-violence" class="source-ref"
+        data-ref="Matthew 26:52">Matthew 26:52</a> · <a
+        href="#src-the-way-of-non-violence" class="source-ref"
+        data-ref="Matthew 5:9">Matthew 5:9</a></p>
         </div>
         <h2 id="the-healing-of-the-ear">The Healing of the Ear</h2>
         <p>When the sword was drawn in the garden<br />
@@ -688,8 +794,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Whoever rejoices over the fallen<br />
         has become what they fought.</p>
         <div class="saying-source">
-        <p><a href="#src-the-healing-of-the-ear">Tao Te Ching 31 · Luke
-        22:50–51</a></p>
+        <p><a href="#src-the-healing-of-the-ear" class="source-ref"
+        data-ref="Tao Te Ching 31">Tao Te Ching 31</a> · <a
+        href="#src-the-healing-of-the-ear" class="source-ref"
+        data-ref="Luke 22:50–51">Luke 22:50–51</a></p>
         </div>
         <h2 id="the-way-the-truth">The Way, the Truth</h2>
         <p>They ask me, “Show us the way.”<br />
@@ -701,8 +809,14 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         <p><em>I am</em> the Way, the Truth, and the Life.<br />
         Only those who walk this way come to the Father.</p>
         <div class="saying-source">
-        <p><a href="#src-the-way-the-truth">Tao Te Ching 32 · John 14:6
-        · Ashtavakra Gita 1.3, 1.7 · Tathāgata</a></p>
+        <p><a href="#src-the-way-the-truth" class="source-ref"
+        data-ref="Tao Te Ching 32">Tao Te Ching 32</a> · <a
+        href="#src-the-way-the-truth" class="source-ref"
+        data-ref="John 14:6">John 14:6</a> · <a
+        href="#src-the-way-the-truth" class="source-ref"
+        data-ref="Ashtavakra Gita 1.3, 1.7">Ashtavakra Gita 1.3, 1.7</a>
+        · <a href="#src-the-way-the-truth" class="source-ref"
+        data-ref="Tathāgata">Tathāgata</a></p>
         </div>
         <h2 id="the-eternal-name">The Eternal Name</h2>
         <p>Take off your sandals.<br />
@@ -717,9 +831,16 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         <p>The eternal one names itself:<br />
         <em>I am that I am.</em></p>
         <div class="saying-source">
-        <p><a href="#src-the-eternal-name">Exodus 3:2–6, 3:14 · John
-        8:58 · Thunder, Perfect Mind · Tao Te Ching 1 · Genesis
-        1:2</a></p>
+        <p><a href="#src-the-eternal-name" class="source-ref"
+        data-ref="Exodus 3:2–6, 3:14">Exodus 3:2–6, 3:14</a> · <a
+        href="#src-the-eternal-name" class="source-ref"
+        data-ref="John 8:58">John 8:58</a> · <a
+        href="#src-the-eternal-name" class="source-ref"
+        data-ref="Thunder, Perfect Mind · The Eternal Name">Thunder,
+        Perfect Mind</a> · <a href="#src-the-eternal-name"
+        class="source-ref" data-ref="Tao Te Ching 1">Tao Te Ching 1</a>
+        · <a href="#src-the-eternal-name" class="source-ref"
+        data-ref="Genesis 1:2">Genesis 1:2</a></p>
         </div>
         <h2 id="profit-and-loss">Profit and Loss</h2>
         <p>You may read the hearts of others<br />
@@ -732,8 +853,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         things<br />
         if you lose the One who beholds them?</p>
         <div class="saying-source">
-        <p><a href="#src-profit-and-loss">Tao Te Ching 33 · Mark
-        8:36</a></p>
+        <p><a href="#src-profit-and-loss" class="source-ref"
+        data-ref="Tao Te Ching 33">Tao Te Ching 33</a> · <a
+        href="#src-profit-and-loss" class="source-ref"
+        data-ref="Mark 8:36">Mark 8:36</a></p>
         </div>
         <h2 id="the-great-river">The Great River</h2>
         <p>The River of the Father and the Mother<br />
@@ -747,8 +870,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Thus they become transparent,<br />
         and the Living Source is seen through them.</p>
         <div class="saying-source">
-        <p><a href="#src-the-great-river">Tao Te Ching 34 · Odes of
-        Solomon 6</a></p>
+        <p><a href="#src-the-great-river" class="source-ref"
+        data-ref="Tao Te Ching 34">Tao Te Ching 34</a> · <a
+        href="#src-the-great-river" class="source-ref"
+        data-ref="Odes of Solomon 6">Odes of Solomon 6</a></p>
         </div>
         <h2 id="the-face-of-peace">The Face of Peace</h2>
         <p>Hold fast to the image of the Living One<br />
@@ -758,8 +883,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         is more than your quarrel.<br />
         The awakened do not persuade—they radiate.</p>
         <div class="saying-source">
-        <p><a href="#src-the-face-of-peace">Tao Te Ching 35 · John
-        14:27</a></p>
+        <p><a href="#src-the-face-of-peace" class="source-ref"
+        data-ref="Tao Te Ching 35">Tao Te Ching 35</a> · <a
+        href="#src-the-face-of-peace" class="source-ref"
+        data-ref="John 14:27">John 14:27</a></p>
         </div>
         <h2 id="the-paradox-of-power">The Paradox of Power</h2>
         <p>To let something expand, first allow it to contract.<br />
@@ -769,8 +896,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Thus I guide by reversal,<br />
         teaching the soul through its own emptiness.</p>
         <div class="saying-source">
-        <p><a href="#src-the-paradox-of-power">Tao Te Ching 36 · John
-        12:24</a></p>
+        <p><a href="#src-the-paradox-of-power" class="source-ref"
+        data-ref="Tao Te Ching 36">Tao Te Ching 36</a> · <a
+        href="#src-the-paradox-of-power" class="source-ref"
+        data-ref="John 12:24">John 12:24</a></p>
         </div>
         <div class="ornament">✦ ✦ ✦</div>
         <h1 id="the-union-of-opposites">The Union of Opposites</h1>
@@ -790,8 +919,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Return to the work with a plain heart,<br />
         and desire finds nowhere to stand.</p>
         <div class="saying-source">
-        <p><a href="#src-split-the-wood">Tao Te Ching 37 · Thomas
-        77</a></p>
+        <p><a href="#src-split-the-wood" class="source-ref"
+        data-ref="Tao Te Ching 37">Tao Te Ching 37</a> · <a
+        href="#src-split-the-wood" class="source-ref"
+        data-ref="Thomas 77">Thomas 77</a></p>
         </div>
         <h2 id="true-virtue">True Virtue</h2>
         <p>High virtue moves like breath—<br />
@@ -806,8 +937,12 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Do not ask whether a teacher is holy.<br />
         Ask what grows in you.</p>
         <div class="saying-source">
-        <p><a href="#src-true-virtue">Tao Te Ching 38 · Matthew 6:1–4 ·
-        Matthew 7:16</a></p>
+        <p><a href="#src-true-virtue" class="source-ref"
+        data-ref="Tao Te Ching 38">Tao Te Ching 38</a> · <a
+        href="#src-true-virtue" class="source-ref"
+        data-ref="Matthew 6:1–4">Matthew 6:1–4</a> · <a
+        href="#src-true-virtue" class="source-ref"
+        data-ref="Matthew 7:16">Matthew 7:16</a></p>
         </div>
         <h2 id="the-ones-who-remain-whole">The Ones Who Remain
         Whole</h2>
@@ -816,8 +951,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         nature.<br />
         And the soul remains whole when it refuses to be divided.</p>
         <div class="saying-source">
-        <p><a href="#src-the-ones-who-remain-whole">Tao Te Ching
-        39</a></p>
+        <p><a href="#src-the-ones-who-remain-whole" class="source-ref"
+        data-ref="Tao Te Ching 39">Tao Te Ching 39</a></p>
         </div>
         <h2 id="the-leaking-jar">The Leaking Jar</h2>
         <p>The Kingdom is like a woman carrying a jar of meal<br />
@@ -833,8 +968,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Do not mourn the emptying jar.<br />
         You are coming home light.</p>
         <div class="saying-source">
-        <p><a href="#src-the-leaking-jar">Tao Te Ching 40 · Thomas
-        97</a></p>
+        <p><a href="#src-the-leaking-jar" class="source-ref"
+        data-ref="Tao Te Ching 40">Tao Te Ching 40</a> · <a
+        href="#src-the-leaking-jar" class="source-ref"
+        data-ref="Thomas 97">Thomas 97</a></p>
         </div>
         <h2 id="the-three-seekers">The Three Seekers</h2>
         <p>The wise hear the living word<br />
@@ -850,8 +987,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         each walks toward the bridal chamber,<br />
         though some walk with their backs turned.</p>
         <div class="saying-source">
-        <p><a href="#src-the-three-seekers">Tao Te Ching 41 · Matthew
-        13:3–9</a></p>
+        <p><a href="#src-the-three-seekers" class="source-ref"
+        data-ref="Tao Te Ching 41">Tao Te Ching 41</a> · <a
+        href="#src-the-three-seekers" class="source-ref"
+        data-ref="Matthew 13:3–9">Matthew 13:3–9</a></p>
         </div>
         <h2 id="where-the-mind-is">Where the Mind Is</h2>
         <p>Mary asked, “Lord, with what does one see you—<br />
@@ -865,8 +1004,12 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Rest it on the Light,<br />
         and an empty field will feed you.</p>
         <div class="saying-source">
-        <p><a href="#src-where-the-mind-is">Tao Te Ching 44 · Mary 10 ·
-        Matthew 6:21</a></p>
+        <p><a href="#src-where-the-mind-is" class="source-ref"
+        data-ref="Tao Te Ching 44">Tao Te Ching 44</a> · <a
+        href="#src-where-the-mind-is" class="source-ref"
+        data-ref="Mary 10">Mary 10</a> · <a
+        href="#src-where-the-mind-is" class="source-ref"
+        data-ref="Matthew 6:21">Matthew 6:21</a></p>
         </div>
         <h2 id="the-great-fullness">The Great Fullness</h2>
         <p>The cup most full appears most empty.<br />
@@ -875,7 +1018,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         The awakened make peace with paradox<br />
         and so are not deceived by appearances.</p>
         <div class="saying-source">
-        <p><a href="#src-the-great-fullness">Tao Te Ching 45</a></p>
+        <p><a href="#src-the-great-fullness" class="source-ref"
+        data-ref="Tao Te Ching 45">Tao Te Ching 45</a></p>
         </div>
         <div class="ornament">✦ ✦ ✦</div>
         <h1 id="the-empty-vessel">The Empty Vessel</h1>
@@ -889,8 +1033,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         The yoke of the world is heavy with desire.<br />
         My yoke is easy, and brings peace.</p>
         <div class="saying-source">
-        <p><a href="#src-the-yoke-of-peace">Tao Te Ching 46 · Matthew
-        11:30</a></p>
+        <p><a href="#src-the-yoke-of-peace" class="source-ref"
+        data-ref="Tao Te Ching 46">Tao Te Ching 46</a> · <a
+        href="#src-the-yoke-of-peace" class="source-ref"
+        data-ref="Matthew 11:30">Matthew 11:30</a></p>
         </div>
         <h2 id="the-body-that-leans">The Body That Leans</h2>
         <p>The hand reaches for the cup<br />
@@ -907,7 +1053,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         It is not a wound.<br />
         It is a door.</p>
         <div class="saying-source">
-        <p><a href="#src-the-body-that-leans">Thomas 87, 112</a></p>
+        <p><a href="#src-the-body-that-leans" class="source-ref"
+        data-ref="Thomas 87, 112">Thomas 87, 112</a></p>
         </div>
         <h2 id="seeing-without-seeking">Seeing Without Seeking</h2>
         <p>You cross seas and deserts to seek signs,<br />
@@ -919,8 +1066,14 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         The more you chase what is outside,<br />
         the more you forsake the Treasure within.</p>
         <div class="saying-source">
-        <p><a href="#src-seeing-without-seeking">Tao Te Ching 47 ·
-        Thomas 3 · Luke 17:21 · Mary 8</a></p>
+        <p><a href="#src-seeing-without-seeking" class="source-ref"
+        data-ref="Tao Te Ching 47">Tao Te Ching 47</a> · <a
+        href="#src-seeing-without-seeking" class="source-ref"
+        data-ref="Thomas 3">Thomas 3</a> · <a
+        href="#src-seeing-without-seeking" class="source-ref"
+        data-ref="Luke 17:21">Luke 17:21</a> · <a
+        href="#src-seeing-without-seeking" class="source-ref"
+        data-ref="Mary 8">Mary 8</a></p>
         </div>
         <h2 id="the-unlearning">The Unlearning</h2>
         <p>The scholar gathers more words each day<br />
@@ -934,8 +1087,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         He who lets go of all things<br />
         discovers that he holds the All.</p>
         <div class="saying-source">
-        <p><a href="#src-the-unlearning">Tao Te Ching 48 · Thomas
-        37</a></p>
+        <p><a href="#src-the-unlearning" class="source-ref"
+        data-ref="Tao Te Ching 48">Tao Te Ching 48</a> · <a
+        href="#src-the-unlearning" class="source-ref"
+        data-ref="Thomas 37">Thomas 37</a></p>
         </div>
         <h2 id="the-heart-of-the-single-one">The Heart of the Single
         One</h2>
@@ -946,8 +1101,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         and trusting those who do not trust—<br />
         for trust flows from the inner being, not theirs.</p>
         <div class="saying-source">
-        <p><a href="#src-the-heart-of-the-single-one">Tao Te Ching 49 ·
-        Matthew 5:45</a></p>
+        <p><a href="#src-the-heart-of-the-single-one" class="source-ref"
+        data-ref="Tao Te Ching 49">Tao Te Ching 49</a> · <a
+        href="#src-the-heart-of-the-single-one" class="source-ref"
+        data-ref="Matthew 5:45">Matthew 5:45</a></p>
         </div>
         <h2 id="life-and-death">Life and Death</h2>
         <p>Those who cling to life fear death.<br />
@@ -955,8 +1112,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Death is but the undressing of the bride<br />
         before she enters the chamber.</p>
         <div class="saying-source">
-        <p><a href="#src-life-and-death">Tao Te Ching 50 ·
-        Philip</a></p>
+        <p><a href="#src-life-and-death" class="source-ref"
+        data-ref="Tao Te Ching 50">Tao Te Ching 50</a> · <a
+        href="#src-life-and-death" class="source-ref"
+        data-ref="Philip · Life and Death">Philip</a></p>
         </div>
         <h2 id="return-to-the-mother">Return to the Mother</h2>
         <p>There is a womb older than creation,<br />
@@ -972,8 +1131,14 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         for you remember that you were never separate<br />
         from the One who birthed you.</p>
         <div class="saying-source">
-        <p><a href="#src-return-to-the-mother">Tao Te Ching 25, 52 ·
-        Gospel of the Hebrews · Thunder, Perfect Mind</a></p>
+        <p><a href="#src-return-to-the-mother" class="source-ref"
+        data-ref="Tao Te Ching 25, 52">Tao Te Ching 25, 52</a> · <a
+        href="#src-return-to-the-mother" class="source-ref"
+        data-ref="Gospel of the Hebrews · Return to the Mother">Gospel
+        of the Hebrews</a> · <a href="#src-return-to-the-mother"
+        class="source-ref"
+        data-ref="Thunder, Perfect Mind · Return to the Mother">Thunder,
+        Perfect Mind</a></p>
         </div>
         <h2 id="the-eye-of-the-needle">The Eye of the Needle</h2>
         <p>The world says, “Strive to enter the narrow gate.”<br />
@@ -985,8 +1150,12 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Become small, become single,<br />
         and the narrow path becomes wide as the sky.</p>
         <div class="saying-source">
-        <p><a href="#src-the-eye-of-the-needle">Tao Te Ching 53 · Mark
-        10:25 · Matthew 7:13–14</a></p>
+        <p><a href="#src-the-eye-of-the-needle" class="source-ref"
+        data-ref="Tao Te Ching 53">Tao Te Ching 53</a> · <a
+        href="#src-the-eye-of-the-needle" class="source-ref"
+        data-ref="Mark 10:25">Mark 10:25</a> · <a
+        href="#src-the-eye-of-the-needle" class="source-ref"
+        data-ref="Matthew 7:13–14">Matthew 7:13–14</a></p>
         </div>
         <h2 id="the-widening-circle">The Widening Circle</h2>
         <p>Light the lamp in your own heart,<br />
@@ -1002,8 +1171,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         How shall you know the world?<br />
         Look at your own house.</p>
         <div class="saying-source">
-        <p><a href="#src-the-widening-circle">Tao Te Ching 54 · Matthew
-        5:15</a></p>
+        <p><a href="#src-the-widening-circle" class="source-ref"
+        data-ref="Tao Te Ching 54">Tao Te Ching 54</a> · <a
+        href="#src-the-widening-circle" class="source-ref"
+        data-ref="Matthew 5:15">Matthew 5:15</a></p>
         </div>
         <div class="ornament">✦ ✦ ✦</div>
         <h1 id="the-unforced-life">The Unforced Life</h1>
@@ -1016,8 +1187,12 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         illusions.<br />
         The bones are soft, yet the strength is great.</p>
         <div class="saying-source">
-        <p><a href="#src-the-child-of-the-light">Tao Te Ching 55 ·
-        Thomas 4 · Luke 10:19</a></p>
+        <p><a href="#src-the-child-of-the-light" class="source-ref"
+        data-ref="Tao Te Ching 55">Tao Te Ching 55</a> · <a
+        href="#src-the-child-of-the-light" class="source-ref"
+        data-ref="Thomas 4">Thomas 4</a> · <a
+        href="#src-the-child-of-the-light" class="source-ref"
+        data-ref="Luke 10:19">Luke 10:19</a></p>
         </div>
         <h2 id="lay-down-no-law">Lay Down No Law</h2>
         <p>When I am gone,<br />
@@ -1030,8 +1205,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Cleanse the spring,<br />
         and every stream runs sweet.</p>
         <div class="saying-source">
-        <p><a href="#src-lay-down-no-law">Tao Te Ching 57 · Mary
-        9</a></p>
+        <p><a href="#src-lay-down-no-law" class="source-ref"
+        data-ref="Tao Te Ching 57">Tao Te Ching 57</a> · <a
+        href="#src-lay-down-no-law" class="source-ref"
+        data-ref="Mary 9 · Lay Down No Law">Mary 9</a></p>
         </div>
         <h2 id="sowing-in-winter">Sowing in Winter</h2>
         <p>Sow in winter,<br />
@@ -1044,8 +1221,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         The seed you keep from the cold<br />
         will never see the sun.</p>
         <div class="saying-source">
-        <p><a href="#src-sowing-in-winter">Tao Te Ching 58 ·
-        Philip</a></p>
+        <p><a href="#src-sowing-in-winter" class="source-ref"
+        data-ref="Tao Te Ching 58">Tao Te Ching 58</a> · <a
+        href="#src-sowing-in-winter" class="source-ref"
+        data-ref="Philip · Sowing in Winter">Philip</a></p>
         </div>
         <h2 id="dig-down-to-the-root">Dig Down to the Root</h2>
         <p>Do not prune the branches of your sorrow.<br />
@@ -1056,8 +1235,12 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Ignorance is the mother of every grief,<br />
         and knowing is her grave.</p>
         <div class="saying-source">
-        <p><a href="#src-dig-down-to-the-root">Tao Te Ching 59 · Philip
-        · Matthew 3:10</a></p>
+        <p><a href="#src-dig-down-to-the-root" class="source-ref"
+        data-ref="Tao Te Ching 59">Tao Te Ching 59</a> · <a
+        href="#src-dig-down-to-the-root" class="source-ref"
+        data-ref="Philip · Dig Down to the Root">Philip</a> · <a
+        href="#src-dig-down-to-the-root" class="source-ref"
+        data-ref="Matthew 3:10">Matthew 3:10</a></p>
         </div>
         <h2 id="governing-by-non-grasping">Governing by
         Non-Grasping</h2>
@@ -1068,8 +1251,12 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         achieves by not striving.<br />
         Thus the world settles in such presence.</p>
         <div class="saying-source">
-        <p><a href="#src-governing-by-non-grasping">Tao Te Ching 60 ·
-        Thomas 96 · Matthew 13:33</a></p>
+        <p><a href="#src-governing-by-non-grasping" class="source-ref"
+        data-ref="Tao Te Ching 60">Tao Te Ching 60</a> · <a
+        href="#src-governing-by-non-grasping" class="source-ref"
+        data-ref="Thomas 96">Thomas 96</a> · <a
+        href="#src-governing-by-non-grasping" class="source-ref"
+        data-ref="Matthew 13:33">Matthew 13:33</a></p>
         </div>
         <h2 id="the-great-acceptance">The Great Acceptance</h2>
         <p>The Kingdom is like the Great Sea.<br />
@@ -1082,7 +1269,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         receives the pure and the stained alike,<br />
         until all are cleared in the vastness of Love.</p>
         <div class="saying-source">
-        <p><a href="#src-the-great-acceptance">Tao Te Ching 61</a></p>
+        <p><a href="#src-the-great-acceptance" class="source-ref"
+        data-ref="Tao Te Ching 61">Tao Te Ching 61</a></p>
         </div>
         <h2 id="the-treasure-within">The Treasure Within</h2>
         <p>The Living Way is shelter for all beings—<br />
@@ -1091,7 +1279,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         but a heart that has found this hidden refuge<br />
         quietly transforms the world.</p>
         <div class="saying-source">
-        <p><a href="#src-the-treasure-within">Tao Te Ching 62</a></p>
+        <p><a href="#src-the-treasure-within" class="source-ref"
+        data-ref="Tao Te Ching 62">Tao Te Ching 62</a></p>
         </div>
         <h2 id="the-small-actions">The Small Actions</h2>
         <p>Do the great work through small acts.<br />
@@ -1101,7 +1290,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Let the wound end with you;<br />
         do not send it on.</p>
         <div class="saying-source">
-        <p><a href="#src-the-small-actions">Tao Te Ching 63</a></p>
+        <p><a href="#src-the-small-actions" class="source-ref"
+        data-ref="Tao Te Ching 63">Tao Te Ching 63</a></p>
         </div>
         <h2 id="the-least-of-these">The Least of These</h2>
         <p>You look for me in the high places,<br />
@@ -1115,7 +1305,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Every face that asks of you<br />
         is my face, asking.</p>
         <div class="saying-source">
-        <p><a href="#src-the-least-of-these">Matthew 25:35–40</a></p>
+        <p><a href="#src-the-least-of-these" class="source-ref"
+        data-ref="Matthew 25:35–40">Matthew 25:35–40</a></p>
         </div>
         <h2 id="the-pupil-of-the-eye">The Pupil of the Eye</h2>
         <p>Guard the one beside you<br />
@@ -1128,8 +1319,11 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         is the one that rises<br />
         when you look at another with love.</p>
         <div class="saying-source">
-        <p><a href="#src-the-pupil-of-the-eye">Thomas 25 · Gospel of the
-        Hebrews</a></p>
+        <p><a href="#src-the-pupil-of-the-eye" class="source-ref"
+        data-ref="Thomas 25">Thomas 25</a> · <a
+        href="#src-the-pupil-of-the-eye" class="source-ref"
+        data-ref="Gospel of the Hebrews · The Pupil of the Eye">Gospel
+        of the Hebrews</a></p>
         </div>
         <div class="ornament">✦ ✦ ✦</div>
         <h1 id="the-wisdom-of-the-child">The Wisdom of the Child</h1>
@@ -1146,8 +1340,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         The bridal chamber is built<br />
         from the step you take today.</p>
         <div class="saying-source">
-        <p><a href="#src-the-first-step">Tao Te Ching 64 · Thomas
-        20</a></p>
+        <p><a href="#src-the-first-step" class="source-ref"
+        data-ref="Tao Te Ching 64">Tao Te Ching 64</a> · <a
+        href="#src-the-first-step" class="source-ref"
+        data-ref="Thomas 20">Thomas 20</a></p>
         </div>
         <h2 id="to-each-as-they-could-see">To Each as They Could
         See</h2>
@@ -1163,8 +1359,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         each of you has seen<br />
         as much of it as you could hold.</p>
         <div class="saying-source">
-        <p><a href="#src-to-each-as-they-could-see">Tao Te Ching 65 ·
-        Philip</a></p>
+        <p><a href="#src-to-each-as-they-could-see" class="source-ref"
+        data-ref="Tao Te Ching 65">Tao Te Ching 65</a> · <a
+        href="#src-to-each-as-they-could-see" class="source-ref"
+        data-ref="Philip · To Each as They Could See">Philip</a></p>
         </div>
         <h2 id="who-are-you-to-reject-her">Who Are You to Reject
         Her?</h2>
@@ -1180,7 +1378,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Be ashamed, put on the true Human,<br />
         and go out with nothing to defend.</p>
         <div class="saying-source">
-        <p><a href="#src-who-are-you-to-reject-her">Mary 17–18</a></p>
+        <p><a href="#src-who-are-you-to-reject-her" class="source-ref"
+        data-ref="Mary 17–18">Mary 17–18</a></p>
         </div>
         <h2 id="leading-by-following">Leading by Following</h2>
         <p>The river does not boast,<br />
@@ -1194,8 +1393,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         and because there is no competition in him,<br />
         there is nothing in him to oppose.</p>
         <div class="saying-source">
-        <p><a href="#src-leading-by-following">Tao Te Ching 66 · Mark
-        10:43–45</a></p>
+        <p><a href="#src-leading-by-following" class="source-ref"
+        data-ref="Tao Te Ching 66">Tao Te Ching 66</a> · <a
+        href="#src-leading-by-following" class="source-ref"
+        data-ref="Mark 10:43–45">Mark 10:43–45</a></p>
         </div>
         <h2 id="the-three-jewels">The Three Jewels</h2>
         <p>I have three treasures in this world:<br />
@@ -1207,7 +1408,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Lose them,<br />
         and you will trade the Kingdom for dust.</p>
         <div class="saying-source">
-        <p><a href="#src-the-three-jewels">Tao Te Ching 67</a></p>
+        <p><a href="#src-the-three-jewels" class="source-ref"
+        data-ref="Tao Te Ching 67">Tao Te Ching 67</a></p>
         </div>
         <h2 id="the-sword-of-the-spirit">The Sword of the Spirit</h2>
         <p>Do not mistake your enemy.<br />
@@ -1232,8 +1434,12 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         and the true self<br />
         stands forth whole.</p>
         <div class="saying-source">
-        <p><a href="#src-the-sword-of-the-spirit">Tao Te Ching 69 ·
-        Matthew 10:34 · Thomas 16</a></p>
+        <p><a href="#src-the-sword-of-the-spirit" class="source-ref"
+        data-ref="Tao Te Ching 69">Tao Te Ching 69</a> · <a
+        href="#src-the-sword-of-the-spirit" class="source-ref"
+        data-ref="Matthew 10:34">Matthew 10:34</a> · <a
+        href="#src-the-sword-of-the-spirit" class="source-ref"
+        data-ref="Thomas 16">Thomas 16</a></p>
         </div>
         <h2 id="a-teaching-few-understand">A Teaching Few
         Understand</h2>
@@ -1247,8 +1453,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Such a one walks unseen,<br />
         yet the world is fed by their presence.</p>
         <div class="saying-source">
-        <p><a href="#src-a-teaching-few-understand">Tao Te Ching
-        70</a></p>
+        <p><a href="#src-a-teaching-few-understand" class="source-ref"
+        data-ref="Tao Te Ching 70">Tao Te Ching 70</a></p>
         </div>
         <h2 id="bring-it-forth">Bring It Forth</h2>
         <p>What is in you is not yours to bury.<br />
@@ -1261,7 +1467,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Hold it back,<br />
         and it will hold you.</p>
         <div class="saying-source">
-        <p><a href="#src-bring-it-forth">Thomas 70</a></p>
+        <p><a href="#src-bring-it-forth" class="source-ref"
+        data-ref="Thomas 70">Thomas 70</a></p>
         </div>
         <h2 id="the-gift-of-not-knowing">The Gift of Not-Knowing</h2>
         <p>To know that you do not know—this is clarity.<br />
@@ -1269,8 +1476,12 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         blindness.<br />
         The awakened remove the cataract from their own sight first.</p>
         <div class="saying-source">
-        <p><a href="#src-the-gift-of-not-knowing">Tao Te Ching 71 · John
-        9:41 · Matthew 7:5</a></p>
+        <p><a href="#src-the-gift-of-not-knowing" class="source-ref"
+        data-ref="Tao Te Ching 71">Tao Te Ching 71</a> · <a
+        href="#src-the-gift-of-not-knowing" class="source-ref"
+        data-ref="John 9:41">John 9:41</a> · <a
+        href="#src-the-gift-of-not-knowing" class="source-ref"
+        data-ref="Matthew 7:5">Matthew 7:5</a></p>
         </div>
         <div class="ornament">✦ ✦ ✦</div>
         <h1 id="the-return-to-source">The Return to Source</h1>
@@ -1283,7 +1494,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         The Way gives courage that does not wound<br />
         and power that does not dominate.</p>
         <div class="saying-source">
-        <p><a href="#src-the-courage-of-the-way">Tao Te Ching 73</a></p>
+        <p><a href="#src-the-courage-of-the-way" class="source-ref"
+        data-ref="Tao Te Ching 73">Tao Te Ching 73</a></p>
         </div>
         <h2 id="rise-before-you-die">Rise Before You Die</h2>
         <p>How can death frighten<br />
@@ -1296,8 +1508,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         The resurrection does not wait at the end of your days.<br />
         It waits at the end of your sleep.</p>
         <div class="saying-source">
-        <p><a href="#src-rise-before-you-die">Tao Te Ching 74 ·
-        Philip</a></p>
+        <p><a href="#src-rise-before-you-die" class="source-ref"
+        data-ref="Tao Te Ching 74">Tao Te Ching 74</a> · <a
+        href="#src-rise-before-you-die" class="source-ref"
+        data-ref="Philip · Rise Before You Die">Philip</a></p>
         </div>
         <h2 id="he-wept">He Wept</h2>
         <p>At the grave of my friend<br />
@@ -1310,7 +1524,9 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         the Light does not stand above sorrow<br />
         but kneels beside it.</p>
         <div class="saying-source">
-        <p><a href="#src-he-wept">John 11:35 · Romans 12:15</a></p>
+        <p><a href="#src-he-wept" class="source-ref"
+        data-ref="John 11:35">John 11:35</a> · <a href="#src-he-wept"
+        class="source-ref" data-ref="Romans 12:15">Romans 12:15</a></p>
         </div>
         <h2 id="not-in-two-minds">Not in Two Minds</h2>
         <p>When the Teacher had gone,<br />
@@ -1326,7 +1542,8 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         What made you human<br />
         has not left the room.</p>
         <div class="saying-source">
-        <p><a href="#src-not-in-two-minds">Mary 9</a></p>
+        <p><a href="#src-not-in-two-minds" class="source-ref"
+        data-ref="Mary 9 · Not in Two Minds">Mary 9</a></p>
         </div>
         <h2 id="be-of-good-courage">Be of Good Courage</h2>
         <p>What clings to the passing<br />
@@ -1339,8 +1556,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         they forget to live it.<br />
         Open your hand, and be of good courage.</p>
         <div class="saying-source">
-        <p><a href="#src-be-of-good-courage">Tao Te Ching 75 · Mary
-        7–8</a></p>
+        <p><a href="#src-be-of-good-courage" class="source-ref"
+        data-ref="Tao Te Ching 75">Tao Te Ching 75</a> · <a
+        href="#src-be-of-good-courage" class="source-ref"
+        data-ref="Mary 7–8">Mary 7–8</a></p>
         </div>
         <h2 id="the-green-wood-and-the-dry">The Green Wood and the
         Dry</h2>
@@ -1350,8 +1569,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         that which resists belongs to the grave.<br />
         The one who remains supple cannot be broken.</p>
         <div class="saying-source">
-        <p><a href="#src-the-green-wood-and-the-dry">Tao Te Ching 76 ·
-        Luke 23:31</a></p>
+        <p><a href="#src-the-green-wood-and-the-dry" class="source-ref"
+        data-ref="Tao Te Ching 76">Tao Te Ching 76</a> · <a
+        href="#src-the-green-wood-and-the-dry" class="source-ref"
+        data-ref="Luke 23:31">Luke 23:31</a></p>
         </div>
         <h2 id="the-stretched-bow">The Stretched Bow</h2>
         <p>The Father’s way is like a bow drawn back:<br />
@@ -1364,8 +1585,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Give as the bow gives,<br />
         and do not stay to be thanked.</p>
         <div class="saying-source">
-        <p><a href="#src-the-stretched-bow">Tao Te Ching 77 · Luke
-        1:52–53</a></p>
+        <p><a href="#src-the-stretched-bow" class="source-ref"
+        data-ref="Tao Te Ching 77">Tao Te Ching 77</a> · <a
+        href="#src-the-stretched-bow" class="source-ref"
+        data-ref="Luke 1:52–53">Luke 1:52–53</a></p>
         </div>
         <h2 id="the-stone-and-the-corner">The Stone and the Corner</h2>
         <p>Truly I say to you:<br />
@@ -1378,8 +1601,12 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         So too the gentle, despised by the strong,<br />
         uphold a world they did not claim as theirs.</p>
         <div class="saying-source">
-        <p><a href="#src-the-stone-and-the-corner">Tao Te Ching 43, 78 ·
-        Psalm 118:22 · Thomas 66</a></p>
+        <p><a href="#src-the-stone-and-the-corner" class="source-ref"
+        data-ref="Tao Te Ching 43, 78">Tao Te Ching 43, 78</a> · <a
+        href="#src-the-stone-and-the-corner" class="source-ref"
+        data-ref="Psalm 118:22">Psalm 118:22</a> · <a
+        href="#src-the-stone-and-the-corner" class="source-ref"
+        data-ref="Thomas 66">Thomas 66</a></p>
         </div>
         <h2 id="the-end-of-debts">The End of Debts</h2>
         <p>Even after a truce, resentment lingers.<br />
@@ -1387,8 +1614,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         They see no debtor, no creditor—<br />
         only the One Light in many forms.</p>
         <div class="saying-source">
-        <p><a href="#src-the-end-of-debts">Tao Te Ching 79 · Matthew
-        6:12</a></p>
+        <p><a href="#src-the-end-of-debts" class="source-ref"
+        data-ref="Tao Te Ching 79">Tao Te Ching 79</a> · <a
+        href="#src-the-end-of-debts" class="source-ref"
+        data-ref="Matthew 6:12">Matthew 6:12</a></p>
         </div>
         <h2 id="the-simple-kingdom">The Simple Kingdom</h2>
         <p>Imagine a small, peaceful land<br />
@@ -1397,8 +1626,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         Such a kingdom is within you.<br />
         Live there, and the world outside becomes gentle.</p>
         <div class="saying-source">
-        <p><a href="#src-the-simple-kingdom">Tao Te Ching 80 · Luke
-        17:21</a></p>
+        <p><a href="#src-the-simple-kingdom" class="source-ref"
+        data-ref="Tao Te Ching 80">Tao Te Ching 80</a> · <a
+        href="#src-the-simple-kingdom" class="source-ref"
+        data-ref="Luke 17:21">Luke 17:21</a></p>
         </div>
         <h2 id="the-completion">The Completion</h2>
         <p>Truth does not dress itself in splendor.<br />
@@ -1413,8 +1644,10 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         in silence, in seeing,<br />
         in the Light that you are.</p>
         <div class="saying-source">
-        <p><a href="#src-the-completion">Tao Te Ching 81 · Matthew
-        10:8</a></p>
+        <p><a href="#src-the-completion" class="source-ref"
+        data-ref="Tao Te Ching 81">Tao Te Ching 81</a> · <a
+        href="#src-the-completion" class="source-ref"
+        data-ref="Matthew 10:8">Matthew 10:8</a></p>
         </div>
         <div class="ornament">✦ ✦ ✦</div>
         <h1 class="backmatter" id="sources-and-echoes">Sources and
@@ -1806,6 +2039,7 @@ Thomas, Mary, Philip, and the Tao Te Ching.">
         <div class="center">
         <p><strong>End of Manuscript</strong></p>
         </div>
+        <script type="application/json" id="lw-source-excerpts">{"Ashtavakra Gita 1.11":{"credit":"Our translation","html":"<p>One who takes themselves to be free is free; one who takes themselves\nto be bound is bound. The saying is true: as you think, so you\nbecome.<\/p>","link":"read.html?doc=Krishna/The_Ashtavakra_Gita_Sanskrit_and_Translation.md"},"Ashtavakra Gita 1.3, 1.7":{"credit":"Our translation","html":"<p><strong>1.3<\/strong> You are not earth, nor water, nor fire, nor air,\nnor space. To be free, know yourself as the witness of all these:\nawareness itself.<\/p>\n<p><strong>1.7<\/strong> You are the one seer of all, and you are always\nalready free. This alone is your bondage: that you see the seer as\nsomeone else.<\/p>","link":"read.html?doc=Krishna/The_Ashtavakra_Gita_Sanskrit_and_Translation.md"},"Dialogue of the Savior · The Single Eye":{"credit":"Rendered for The Living Way","html":"<p>The lamp of the body is the mind. As long as the things within you\nare set in order, your bodies are lights.<\/p>","link":"wisdom_gospels.html"},"Exodus 3:2–6, 3:14":{"credit":"World English Bible","html":"<p>Yahweh’s angel appeared to him in a flame of fire out of the middle\nof a bush. He looked, and behold, the bush burned with fire, and the\nbush was not consumed. Moses said, “I will go now, and see this great\nsight, why the bush is not burned.” When Yahweh saw that he came over to\nsee, God called to him out of the middle of the bush, and said, “Moses!\nMoses!” He said, “Here I am.” He said, “Don’t come close. Take off your\nsandals, for the place you are standing on is holy ground.” Moreover he\nsaid, “I am the God of your father, the God of Abraham, the God of\nIsaac, and the God of Jacob.” Moses hid his face; for he was afraid to\nlook at God. God said to Moses, “I AM WHO I AM,” and he said, “You shall\ntell the children of Israel this: ‘I AM has sent me to you.’”<\/p>\n<p><em>King James Version, 3:14:<\/em> “I AM THAT I AM.”<\/p>"},"Genesis 1:2":{"credit":"World English Bible","html":"<p>The earth was formless and empty. Darkness was on the surface of the\ndeep and God’s Spirit was hovering over the surface of the waters.<\/p>"},"Gospel of Truth · The Unforced Kingdom":{"credit":"Rendered for The Living Way","html":"<p>Since the lack came about because the Father was not known, when the\nFather is known the lack will no longer exist. As with a person’s\nignorance: when they come to know, their ignorance vanishes of itself,\nas darkness vanishes when light appears.<\/p>","link":"wisdom_gospels.html"},"Gospel of the Egyptians · The Two Become One":{"credit":"Rendered for The Living Way","html":"<p>When you trample on the garment of shame, and when the two become\none, and the male with the female is neither male nor female.<\/p>","link":"wisdom_gospels.html"},"Gospel of the Hebrews · Return to the Mother":{"credit":"Rendered for The Living Way","html":"<p>Just now my mother, the Holy Spirit, took me by one of my hairs and\ncarried me away to the great mountain Tabor.<\/p>","link":"wisdom_gospels.html"},"Gospel of the Hebrews · The Pupil of the Eye":{"credit":"Rendered for The Living Way","html":"<p>Never be joyful except when you look upon your brother in love.<\/p>","link":"wisdom_gospels.html"},"Hymn of the Pearl · The Return to the Unborn":{"credit":"Rendered for The Living Way","html":"<p>I put on their clothes and ate their food. I forgot that I was a\nking’s son, and I served their king. I forgot the pearl for which I had\nbeen sent, and I fell into a deep sleep.<\/p>\n<p>Wake, and rise from your sleep. Remember that you are a king’s son.\nSee whom you have served in slavery. Remember the pearl for which you\nwere sent.<\/p>","link":"wisdom_gospels.html"},"Hymn of the Pearl · The Two Become One":{"credit":"Rendered for The Living Way","html":"<p>When I saw the robe, it became like a mirror of myself. I saw all of\nmyself in it, and in it I saw myself whole. We were two, and yet we were\none in one likeness.<\/p>","link":"wisdom_gospels.html"},"John 11:35":{"credit":"World English Bible","html":"<p>Jesus wept.<\/p>"},"John 12:24":{"credit":"World English Bible","html":"<p>Most certainly I tell you, unless a grain of wheat falls into the\nearth and dies, it remains by itself alone. But if it dies, it bears\nmuch fruit.<\/p>"},"John 14:27":{"credit":"World English Bible","html":"<p>Peace I leave with you. My peace I give to you; not as the world\ngives, give I to you. Don’t let your heart be troubled, neither let it\nbe fearful.<\/p>"},"John 14:6":{"credit":"World English Bible","html":"<p>Jesus said to him, “I am the way, the truth, and the life. No one\ncomes to the Father, except through me.<\/p>"},"John 17:16":{"credit":"World English Bible","html":"<p>They are not of the world even as I am not of the world.<\/p>"},"John 3:8":{"credit":"World English Bible","html":"<p>The wind blows where it wants to, and you hear its sound, but don’t\nknow where it comes from and where it is going. So is everyone who is\nborn of the Spirit.”<\/p>"},"John 8:58":{"credit":"World English Bible","html":"<p>Jesus said to them, “Most certainly, I tell you, before Abraham came\ninto existence, I AM.”<\/p>"},"John 9:41":{"credit":"World English Bible","html":"<p>Jesus said to them, “If you were blind, you would have no sin; but\nnow you say, ‘We see.’ Therefore your sin remains.<\/p>"},"Luke 10:19":{"credit":"World English Bible","html":"<p>Behold, I give you authority to tread on serpents and scorpions, and\nover all the power of the enemy. Nothing will in any way hurt you.<\/p>"},"Luke 14:7–11":{"credit":"World English Bible","html":"<p>He spoke a parable to those who were invited, when he noticed how\nthey chose the best seats, and said to them, “When you are invited by\nanyone to a marriage feast, don’t sit in the best seat, since perhaps\nsomeone more honorable than you might be invited by him, and he who\ninvited both of you would come and tell you, ‘Make room for this\nperson.’ Then you would begin, with shame, to take the lowest place. But\nwhen you are invited, go and sit in the lowest place, so that when he\nwho invited you comes, he may tell you, ‘Friend, move up higher.’ Then\nyou will be honored in the presence of all who sit at the table with\nyou. For everyone who exalts himself will be humbled, and whoever\nhumbles himself will be exalted.”<\/p>"},"Luke 17:21":{"credit":"World English Bible","html":"<p>neither will they say, ‘Look, here!’ or, ‘Look, there!’ for behold,\nGod’s Kingdom is within you.”<\/p>"},"Luke 1:52–53":{"credit":"World English Bible","html":"<p>He has put down princes from their thrones. And has exalted the\nlowly. He has filled the hungry with good things. He has sent the rich\naway empty.<\/p>"},"Luke 22:50–51":{"credit":"World English Bible","html":"<p>A certain one of them struck the servant of the high priest, and cut\noff his right ear. But Jesus answered, “Let me at least do this”—and he\ntouched his ear, and healed him.<\/p>"},"Luke 23:31":{"credit":"World English Bible","html":"<p>For if they do these things in the green tree, what will be done in\nthe dry?”<\/p>"},"Mark 10:25":{"credit":"World English Bible","html":"<p>It is easier for a camel to go through a needle’s eye than for a rich\nman to enter into God’s Kingdom.”<\/p>"},"Mark 10:43–45":{"credit":"World English Bible","html":"<p>But it shall not be so among you, but whoever wants to become great\namong you shall be your servant. Whoever of you wants to become first\namong you, shall be bondservant of all. For the Son of Man also came not\nto be served, but to serve, and to give his life as a ransom for\nmany.”<\/p>"},"Mark 4:26–29":{"credit":"World English Bible","html":"<p>He said, “God’s Kingdom is as if a man should cast seed on the earth,\nand should sleep and rise night and day, and the seed should spring up\nand grow, though he doesn’t know how. For the earth bears fruit: first\nthe blade, then the ear, then the full grain in the ear. But when the\nfruit is ripe, immediately he puts in the sickle, because the harvest\nhas come.”<\/p>"},"Mark 8:36":{"credit":"World English Bible","html":"<p>For what does it profit a man, to gain the whole world, and forfeit\nhis life?<\/p>"},"Mary 10":{"credit":"Rendered for The Living Way","html":"<p>Blessed are you, for you did not waver at seeing me. For where the\nmind is, there is the treasure. … One does not see through the soul, nor\nthrough the spirit, but through the mind that is between the two. That\nis what sees the vision.<\/p>","link":"wisdom_gospels.html"},"Mary 15–17":{"credit":"Rendered for The Living Way","html":"<p>Desire said, ‘I did not see you coming down, but now I see you going\nup. Why do you lie, since you belong to me?’ The soul answered, ‘I saw\nyou. You did not see me or recognize me. I served you as a garment, and\nyou did not know me.’ … Ignorance said, ‘You are bound. Do not judge!’\nThe soul answered, ‘Why do you judge me, when I have not judged? I was\nbound, but I have not bound.’<\/p>\n<p>The fourth power took seven forms. The first is darkness; the second,\ndesire; the third, ignorance; the fourth, the zeal of death; the fifth,\nthe kingdom of the flesh; the sixth, the foolish wisdom of the flesh;\nthe seventh, the wisdom of the wrathful. These are the seven powers of\nwrath.<\/p>\n<p>What binds me has been slain, and what surrounds me has been\novercome. My desire has come to an end, and ignorance has died. I was\nset free from a world, and from the chain of forgetting, which is\npassing. From now on I will reach the rest of the time, of the season,\nof the age, in silence.<\/p>","link":"wisdom_gospels.html"},"Mary 17–18":{"credit":"Rendered for The Living Way","html":"<p>Peter said, “Did he really speak with a woman in private, without our\nknowing? Are we to turn around and all listen to her? Did he prefer her\nto us?”<\/p>\n<p>Peter, you have always been hot-tempered. Now I see you arguing\nagainst the woman as if she were an enemy. But if the Savior made her\nworthy, who are you to reject her? Surely the Savior knows her very\nwell. That is why he loved her more than us. Rather, let us be ashamed,\nput on the perfect human, and go out and preach the good news, laying\ndown no other rule or law beyond what the Savior said.<\/p>","link":"wisdom_gospels.html"},"Mary 7":{"credit":"Rendered for The Living Way","html":"<p>There is no sin as such. It is you who make sin when you act in ways\nthat confuse your nature, which is called sin. That is why the Good came\namong you, to restore every nature to its root. Matter gave birth to a\npassion that has no likeness, because it came from what is contrary to\nnature; then a disturbance arises in the whole body. Peace be with you.\nReceive my peace within you.<\/p>","link":"wisdom_gospels.html"},"Mary 7–8":{"credit":"Rendered for The Living Way","html":"<p>There is no sin as such. It is you who make sin when you act in ways\nthat confuse your nature, which is called sin. That is why the Good came\namong you, to restore every nature to its root. Matter gave birth to a\npassion that has no likeness, because it came from what is contrary to\nnature; then a disturbance arises in the whole body. Peace be with you.\nReceive my peace within you.<\/p>","link":"wisdom_gospels.html"},"Mary 8":{"credit":"Rendered for The Living Way","html":"<p>Beware that no one leads you astray, saying, ‘Look here!’ or ‘Look\nthere!’ For the Son of Man is within you. Follow him. Those who seek him\nwill find him. Go, then, and preach the good news of the Kingdom.<\/p>","link":"wisdom_gospels.html"},"Mary 9 · Lay Down No Law":{"credit":"Rendered for The Living Way","html":"<p>Do not lay down any rule beyond what I have appointed for you, and do\nnot give a law like the lawgiver, lest you be bound by it.<\/p>","link":"wisdom_gospels.html"},"Mary 9 · Not in Two Minds":{"credit":"Rendered for The Living Way","html":"<p>Do not weep and do not grieve or be in two minds, for his grace will\nbe with you completely and will protect you. Rather, let us praise his\ngreatness, for he has prepared us and made us truly human.<\/p>","link":"wisdom_gospels.html"},"Matthew 10:34":{"credit":"World English Bible","html":"<p>“Don’t think that I came to send peace on the earth. I didn’t come to\nsend peace, but a sword.<\/p>"},"Matthew 10:8":{"credit":"World English Bible","html":"<p>Heal the sick, cleanse the lepers, and cast out demons. Freely you\nreceived, so freely give.<\/p>"},"Matthew 11:30":{"credit":"World English Bible","html":"<p>For my yoke is easy, and my burden is light.”<\/p>"},"Matthew 13:33":{"credit":"World English Bible","html":"<p>He spoke another parable to them. “The Kingdom of Heaven is like\nyeast, which a woman took, and hid in three measures of meal, until it\nwas all leavened.”<\/p>"},"Matthew 13:3–9":{"credit":"World English Bible","html":"<p>He spoke to them many things in parables, saying, “Behold, a farmer\nwent out to sow. As he sowed, some seeds fell by the roadside, and the\nbirds came and devoured them. Others fell on rocky ground, where they\ndidn’t have much soil, and immediately they sprang up, because they had\nno depth of earth. When the sun had risen, they were scorched. Because\nthey had no root, they withered away. Others fell among thorns. The\nthorns grew up and choked them. Others fell on good soil, and yielded\nfruit: some one hundred times as much, some sixty, and some thirty. He\nwho has ears to hear, let him hear.”<\/p>"},"Matthew 23:12":{"credit":"World English Bible","html":"<p>Whoever exalts himself will be humbled, and whoever humbles himself\nwill be exalted.<\/p>"},"Matthew 25:35–40":{"credit":"World English Bible","html":"<p>for I was hungry, and you gave me food to eat. I was thirsty, and you\ngave me drink. I was a stranger, and you took me in. I was naked, and\nyou clothed me. I was sick, and you visited me. I was in prison, and you\ncame to me.’ “Then the righteous will answer him, saying, ‘Lord, when\ndid we see you hungry, and feed you; or thirsty, and give you a drink?\nWhen did we see you as a stranger, and take you in; or naked, and clothe\nyou? When did we see you sick, or in prison, and come to you?’ “The King\nwill answer them, ‘Most certainly I tell you, because you did it to one\nof the least of these my brothers, you did it to me.’<\/p>"},"Matthew 26:52":{"credit":"World English Bible","html":"<p>Then Jesus said to him, “Put your sword back into its place, for all\nthose who take the sword will die by the sword.<\/p>"},"Matthew 3:10":{"credit":"World English Bible","html":"<p>“Even now the ax lies at the root of the trees. Therefore every tree\nthat doesn’t produce good fruit is cut down, and cast into the fire.<\/p>"},"Matthew 5:15":{"credit":"World English Bible","html":"<p>Neither do you light a lamp, and put it under a measuring basket, but\non a stand; and it shines to all who are in the house.<\/p>"},"Matthew 5:45":{"credit":"World English Bible","html":"<p>that you may be children of your Father who is in heaven. For he\nmakes his sun to rise on the evil and the good, and sends rain on the\njust and the unjust.<\/p>"},"Matthew 5:9":{"credit":"World English Bible","html":"<p>Blessed are the peacemakers, for they shall be called children of\nGod.<\/p>"},"Matthew 6:12":{"credit":"World English Bible","html":"<p>Forgive us our debts, as we also forgive our debtors.<\/p>"},"Matthew 6:1–4":{"credit":"World English Bible","html":"<p>“Be careful that you don’t do your charitable giving before men, to\nbe seen by them, or else you have no reward from your Father who is in\nheaven. Therefore when you do merciful deeds, don’t sound a trumpet\nbefore yourself, as the hypocrites do in the synagogues and in the\nstreets, that they may get glory from men. Most certainly I tell you,\nthey have received their reward. But when you do merciful deeds, don’t\nlet your left hand know what your right hand does, so that your merciful\ndeeds may be in secret, then your Father who sees in secret will reward\nyou openly.<\/p>"},"Matthew 6:21":{"credit":"World English Bible","html":"<p>for where your treasure is, there your heart will be also.<\/p>"},"Matthew 6:22":{"credit":"World English Bible","html":"<p>“The lamp of the body is the eye. If therefore your eye is sound,\nyour whole body will be full of light.<\/p>"},"Matthew 7:13–14":{"credit":"World English Bible","html":"<p>“Enter in by the narrow gate; for wide is the gate and broad is the\nway that leads to destruction, and many are those who enter in by it.\nHow narrow is the gate, and restricted is the way that leads to life!\nFew are those who find it.<\/p>"},"Matthew 7:16":{"credit":"World English Bible","html":"<p>By their fruits you will know them. Do you gather grapes from thorns,\nor figs from thistles?<\/p>"},"Matthew 7:5":{"credit":"World English Bible","html":"<p>You hypocrite! First remove the beam out of your own eye, and then\nyou can see clearly to remove the speck out of your brother’s eye.<\/p>"},"Odes of Solomon 6":{"credit":"Rendered for The Living Way","html":"<p>A stream went out and became a river, great and broad. It swept over\neverything, and it brought it to the Temple.<\/p>","link":"wisdom_gospels.html"},"Philip · Dig Down to the Root":{"credit":"Rendered for The Living Way","html":"<p>Ignorance is the mother of every evil. As long as the root of\nwickedness is hidden, it is strong; when it is recognized, it dissolves;\nwhen it is revealed, it perishes. Let each of us dig down to the root of\nevil within and pull it out of the heart. As the Word said: ‘If you know\nthe truth, the truth will make you free.’<\/p>","link":"wisdom_gospels.html"},"Philip · Life and Death":{"credit":"Rendered for The Living Way","html":"<p>If the woman had not separated from the man, she would not die with\nthe man. Their separation was the beginning of death. Christ came to\nrepair the separation that was there from the beginning and to join the\ntwo. Those who have been united in the bridal chamber will no longer be\nseparated. The holy of holies is the bridal chamber.<\/p>","link":"wisdom_gospels.html"},"Philip · Rise Before You Die":{"credit":"Rendered for The Living Way","html":"<p>Those who say they will first die and then rise are mistaken. If they\ndo not receive the resurrection while they are alive, they will receive\nnothing when they die. While we are in this world, we must gain the\nresurrection for ourselves, so that when we take off the flesh we will\nbe found in rest.<\/p>","link":"wisdom_gospels.html"},"Philip · Sowing in Winter":{"credit":"Rendered for The Living Way","html":"<p>Those who sow in winter reap in summer. The winter is the world; the\nsummer is the other realm. Let us sow in the world, so that we may reap\nin the summer. Whoever tries to reap in winter will not reap, but only\npull up young shoots.<\/p>","link":"wisdom_gospels.html"},"Philip · The Two Become One":{"credit":"Rendered for The Living Way","html":"<p>If the woman had not separated from the man, she would not die with\nthe man. Their separation was the beginning of death. Christ came to\nrepair the separation that was there from the beginning and to join the\ntwo. Those who have been united in the bridal chamber will no longer be\nseparated. The holy of holies is the bridal chamber.<\/p>","link":"wisdom_gospels.html"},"Philip · To Each as They Could See":{"credit":"Rendered for The Living Way","html":"<p>Jesus took them all by stealth, for he did not appear as he was, but\nas they would be able to see him. He appeared to the great as great, to\nthe small as small, to the angels as an angel, and to human beings as a\nhuman being. So his word was hidden from everyone. Some saw him and\nthought they were seeing themselves.<\/p>","link":"wisdom_gospels.html"},"Philip · When the Way Is Forgotten":{"credit":"Rendered for The Living Way","html":"<p>Light and darkness, life and death, right and left are brothers of\none another; they cannot be separated. So the good are not good, nor the\nevil evil, nor is life life, nor death death. The names given to worldly\nthings are very deceptive: they turn the heart from what is real to what\nis not. Whoever hears the word ‘God’ does not perceive what is real, but\nwhat is not.<\/p>","link":"wisdom_gospels.html"},"Psalm 118:22":{"credit":"World English Bible","html":"<p>The stone which the builders rejected has become the cornerstone.<\/p>"},"Romans 12:15":{"credit":"World English Bible","html":"<p>Rejoice with those who rejoice. Weep with those who weep.<\/p>"},"Tao Te Ching 1":{"credit":"The Unforced Leader, our translation","html":"<p>Ways that can be spoken are not the eternal way.<\/p>\n<p>Distinctions we can define are not eternal distinctions.<\/p>\n<p>With distinction, it spans the world of forms, encompassing all\nthings seen.<\/p>\n<p>Without distinction, it precedes the world of forms, residing within\nthe eternal unseen.<\/p>\n<p>With desire, you observe the boundaries, its limits becoming\nclear.<\/p>\n<p>Without desire, you observe the inner workings, its nature becoming\nclear.<\/p>\n<p>Both of these are different distinctions, yet point to one way.<\/p>\n<p>For both of these have the same origin.<\/p>\n<p>Within the depths of the unseen<\/p>\n<p>lies the gateway to all profound mysteries.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 10":{"credit":"The Unforced Leader, our translation","html":"<p>Can you carry body and soul as one<br />\nwithout letting them drift apart?<\/p>\n<p>Can you gather the breath<br />\nand become supple as a newborn?<\/p>\n<p>Can you cleanse the inward vision<br />\nuntil it is free of stain?<\/p>\n<p>In loving the people and guiding the land,<br />\ncan you do so without contrivance?<\/p>\n<p>As the gates of heaven open and close,<br />\ncan you remain receptive?<\/p>\n<p>As understanding reaches in every direction,<br />\ncan you remain unforcing?<\/p>\n<p>It gives birth,<\/p>\n<p>nourishes,<\/p>\n<p>brings forth without possessing,<br />\nacts without relying,<br />\nleads without controlling.<br />\nThis is called profound virtue.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 11":{"credit":"The Unforced Leader, our translation","html":"<p>Thirty spokes join at one hub,<br />\nbut the empty space makes the wheel useful.<\/p>\n<p>Clay is shaped into a vessel,<br />\nbut the empty space makes the vessel useful.<\/p>\n<p>Doors and windows are cut for a room,<br />\nbut the empty space makes the room useful.<\/p>\n<p>Thus what is there gives form,<br />\nand what is not there gives use.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 12":{"credit":"The Unforced Leader, our translation","html":"<p>The five colors blind the eye,<br />\nthe five tones deafen the ear,<br />\nthe five flavors dull the tongue.<br />\nRacing and hunting<br />\ndrive the heart toward frenzy.<\/p>\n<p>Rare goods<br />\nlead the way astray.<\/p>\n<p>Therefore, the unforced leader<br />\ncares for the belly, not the eye.<br />\nThey let go of one<br />\nand keep to the other.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 13":{"credit":"The Unforced Leader, our translation","html":"<p>Favor and disgrace are both unsettling.<br />\nGreat trouble is felt through the self.<br />\nWhat does it mean<br />\nthat favor and disgrace are both unsettling?<\/p>\n<p>Favor lowers you.<br />\nTo receive it is to be startled;<br />\nto lose it is to be startled.<br />\nThis is what it means.<br />\nWhat does it mean<br />\nto feel great trouble through the self?<\/p>\n<p>I suffer great trouble<br />\nbecause I have a self.<\/p>\n<p>If I had no self,<\/p>\n<p>what trouble could reach me?<\/p>\n<p>Therefore, one who values the world<br />\nas they value the self<br />\nmay be entrusted with the world;<\/p>\n<p>one who loves the world<br />\nas they love the self<br />\nmay be given its care.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 14":{"credit":"The Unforced Leader, our translation","html":"<p>Look for it and it cannot be seen:<br />\nit is called elusive.<br />\nListen for it and it cannot be heard:<br />\nit is called rarefied.<br />\nReach for it and it cannot be grasped:<br />\nit is called subtle.<br />\nThese three cannot be fully named,<br />\nso they merge into one.<br />\nAbove, it is not bright.<br />\nBelow, it is not dark.<\/p>\n<p>Endlessly moving,<br />\nit cannot be named<br />\nand returns again to no-thing.<br />\nThis is called the shape of the shapeless,<br />\nthe image of the imageless,<\/p>\n<p>the faint and indeterminate.<\/p>\n<p>Face it,<br />\nand you do not see its beginning.<br />\nFollow it,<br />\nand you do not see its end.<\/p>\n<p>Hold to the ancient Way<br />\nto move through the present,<\/p>\n<p>and know the first beginning.<br />\nThis is called<br />\nthe guiding thread of the Way.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 15, 56":{"credit":"The Unforced Leader, our translation","html":"<p><strong>Chapter 15<\/strong><\/p>\n<p>Those who were skilled in the Way in ancient times<br />\nwere subtle, mysterious, profound,<br />\nbeyond the reach of easy knowing.<br />\nBecause they could not be fully known,<br />\none can only trace their appearance:<\/p>\n<p>careful,<br />\nas if crossing a winter stream;<br />\ncautious,<br />\nas if surrounded on every side;<\/p>\n<p>reserved, like a guest;<br />\nyielding, like ice beginning to melt;<br />\nplain, like uncarved wood;<br />\nopen, like a valley;<br />\nunclear, like muddy water.<\/p>\n<p>Who can let the muddy settle<br />\nuntil it clears?<\/p>\n<p>Who can remain at rest<br />\nuntil life slowly stirs?<\/p>\n<p>Those who hold to this Way<br />\ndo not seek fullness.<\/p>\n<p>Because they do not seek fullness,<br />\nthey can remain worn<br />\nwithout needing to appear complete.<\/p>\n<p><strong>Chapter 56<\/strong><\/p>\n<p>Those who know do not speak.<br />\nThose who speak do not know.<\/p>\n<p>Close the openings.<br />\nShut the gates.<br />\nBlunt the sharp.<br />\nUntie the tangles.<\/p>\n<p>Soften the glare.<\/p>\n<p>Settle with the dust.<\/p>\n<p>This is called mysterious unity.<\/p>\n<p>Then one cannot be drawn into intimacy<br />\nor held at a distance;<\/p>\n<p>cannot be benefited<br />\nor harmed;<\/p>\n<p>cannot be raised up<br />\nor brought low.<\/p>\n<p>Therefore, such a one<br />\nis precious to the world.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 16":{"credit":"The Unforced Leader, our translation","html":"<p>Bring emptiness to its fullness.<br />\nKeep stillness completely.<br />\nAs the ten thousand things arise together,<br />\nwatch how they return.<\/p>\n<p>All things flourish,<br />\nthen each returns to its root.<br />\nReturning to the root is stillness.<br />\nThis is called returning to life’s command.<\/p>\n<p>Returning is the constant.<br />\nKnowing the constant is clarity.<\/p>\n<p>Not knowing the constant,<br />\none acts blindly and meets ruin.<br />\nKnowing the constant,<br />\none becomes spacious;<\/p>\n<p>spaciousness becomes impartial;<\/p>\n<p>impartiality becomes whole;<\/p>\n<p>wholeness becomes heaven;<\/p>\n<p>heaven becomes the Way;<\/p>\n<p>the Way endures.<\/p>\n<p>And to the end of life,<br />\nthere is no danger.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 17":{"credit":"The Unforced Leader, our translation","html":"<p>The highest kind of rule<br />\nis one the people barely know is there.<\/p>\n<p>Next comes the ruler<br />\nthey love and praise.<\/p>\n<p>Next comes the ruler<br />\nthey fear.<\/p>\n<p>Next comes the ruler<br />\nthey despise.<br />\nWhen trust is not given,<br />\ntrust is not returned.<\/p>\n<p>Measured in speech,<br />\nwhen the work is done<br />\nand things have found their course,<br />\nthe people say,<br />\n“We did this ourselves.”<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 18–19":{"credit":"The Unforced Leader, our translation","html":"<p><strong>Chapter 18<\/strong><\/p>\n<p>When the great Way is abandoned,<br />\nbenevolence and righteousness appear.<\/p>\n<p>When cleverness and knowledge arise,<br />\ngreat hypocrisy follows.<\/p>\n<p>When the six relations lose harmony,<br />\nfilial devotion and parental kindness appear.<\/p>\n<p>When the state falls into disorder,<br />\nloyal ministers appear.<\/p>\n<p><strong>Chapter 19<\/strong><\/p>\n<p>Cut off sageliness,<br />\nabandon cleverness,<br />\nand the people will benefit a hundredfold.<\/p>\n<p>Cut off benevolence,<br />\nabandon righteousness,<br />\nand the people will return<br />\nto natural affection.<\/p>\n<p>Cut off skillfulness,<br />\nabandon profit,<br />\nand thieves will disappear.<\/p>\n<p>These three are not enough by themselves,<br />\nso hold to what is deeper:<br />\nsee the plain,<br />\nembrace the uncarved,<br />\nreduce self-interest,<br />\nand make desire small.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 2":{"credit":"The Unforced Leader, our translation","html":"<p>When beauty is distinguished,<\/p>\n<p>ugliness appears.<\/p>\n<p>When goodness is defined,<\/p>\n<p>what is not-good is born.<\/p>\n<p>Being and non-being create each other.<\/p>\n<p>Difficult and easy shape each other.<\/p>\n<p>Long and short measure each other.<\/p>\n<p>High and low balance each other.<\/p>\n<p>Tone and sound weave each other into harmony.<\/p>\n<p>Before and after walk in sequence.<\/p>\n<p>Therefore, the unforced leader moves before distinctions harden into\nopposites,<\/p>\n<p>and guides without imposing words.<\/p>\n<p>All things arise, and the leader does not turn away.<\/p>\n<p>They bring forth, but do not possess.<\/p>\n<p>They act, but do not cling to the act.<\/p>\n<p>They accomplish, but do not dwell on accomplishment.<\/p>\n<p>Because they do not dwell on it, it does not leave them.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 20":{"credit":"The Unforced Leader, our translation","html":"<p>Give up learned striving,<br />\nand trouble falls away.<br />\nHow much difference is there<br />\nbetween yes and approval?<br />\nHow much distance is there<br />\nbetween good and bad?<\/p>\n<p>What others fear<br />\ncannot simply be ignored.<br />\nVast is this wilderness,<br />\nwith no end in sight.<\/p>\n<p>Everyone else is bright with excitement,<br />\nas if feasting,<br />\nas if climbing a terrace in spring.<br />\nI alone am quiet,<br />\nwithout sign,<br />\nlike an infant<br />\nwho has not yet smiled.<\/p>\n<p>Drifting,<br />\nas if with nowhere to return.<br />\nEveryone else has more than enough.<br />\nI alone seem to have been left behind.<\/p>\n<p>Mine is the mind of a fool,<br />\nuncarved, unsettled.<\/p>\n<p>Ordinary people shine with clarity.<\/p>\n<p>I alone seem dim.<\/p>\n<p>Ordinary people are sharp and exact.<\/p>\n<p>I alone seem obscure.<\/p>\n<p>Vast,<br />\nlike the sea;<\/p>\n<p>restless,<br />\nas if with no place to stop.<\/p>\n<p>Everyone else seems to have a purpose.<\/p>\n<p>I alone remain simple and unformed.<\/p>\n<p>I am different from others<br />\nbecause I value<br />\nbeing fed by the Mother.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 21":{"credit":"The Unforced Leader, our translation","html":"<p>The shape of profound virtue<br />\nfollows only the Way.<\/p>\n<p>As a thing, the Way<br />\nis dim and elusive.<\/p>\n<p>Elusive and dim,<br />\nyet within it there is image;<\/p>\n<p>dim and elusive,<br />\nyet within it there is substance.<\/p>\n<p>Dark and hidden,<br />\nyet within it there is essence;<\/p>\n<p>that essence is deeply real.<br />\nWithin it there is trust.<\/p>\n<p>From the present back to the ancient past,<br />\nits name has never vanished.<\/p>\n<p>By it,<br />\nthe beginning of all things is seen.<\/p>\n<p>How do I know the way of all beginnings?<br />\nBy this.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 22":{"credit":"The Unforced Leader, our translation","html":"<p>What is bent becomes whole.<\/p>\n<p>What is crooked becomes straight.<\/p>\n<p>What is hollow becomes full.<\/p>\n<p>What is worn becomes new.<\/p>\n<p>Having little, one receives.<br />\nHaving much, one is confused.<\/p>\n<p>Therefore, the unforced leader<br />\nembraces the One<br />\nand becomes a pattern for the world.<\/p>\n<p>Not displaying the self,<br />\nthey are clear.<\/p>\n<p>Not insisting on the self,<br />\nthey are revealed.<\/p>\n<p>Not boasting,<br />\nthey have accomplishment.<\/p>\n<p>Not exalting themselves,<br />\nthey endure.<\/p>\n<p>Because they do not contend,<br />\nnone can contend with them.<\/p>\n<p>The ancient saying<br />\n“What is bent becomes whole”<br />\nis not empty speech.<\/p>\n<p>In true wholeness,<br />\nall returns.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 23":{"credit":"The Unforced Leader, our translation","html":"<p>Few words accord with what is natural.<\/p>\n<p>A whirlwind does not last through the morning.<br />\nA sudden rain does not last through the day.<\/p>\n<p>Who does this?<\/p>\n<p>Heaven and earth.<\/p>\n<p>If heaven and earth cannot sustain such force,<br />\nhow much less can human beings?<\/p>\n<p>Therefore, one who lives in the Way<br />\nbecomes one with the Way.<\/p>\n<p>One who lives in virtue<br />\nbecomes one with virtue.<\/p>\n<p>One who lives in loss<br />\nbecomes one with loss.<\/p>\n<p>One with the Way,<br />\nthe Way receives.<\/p>\n<p>One with virtue,<br />\nvirtue receives.<\/p>\n<p>One with loss,<br />\nloss receives.<\/p>\n<p>When trust is insufficient,<br />\nthere is no trust in return.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 25, 52":{"credit":"The Unforced Leader, our translation","html":"<p><strong>Chapter 25<\/strong><\/p>\n<p>There is something formless and complete,<br />\nborn before heaven and earth.<\/p>\n<p>Silent. Empty.<br />\nStanding alone, unchanged.<\/p>\n<p>Moving everywhere,<br />\nnever exhausted.<br />\nIt may be taken<br />\nas the mother of the world.<\/p>\n<p>I do not know its name.<br />\nI call it the Way.<\/p>\n<p>Forced to name it further,<br />\nI call it great.<\/p>\n<p>Great means flowing onward.<\/p>\n<p>Flowing onward means going far.<br />\nGoing far means returning.<\/p>\n<p>So the Way is great.<br />\nHeaven is great.<br />\nEarth is great.<br />\nAnd the ruler is also great.<\/p>\n<p>Within the realm<br />\nthere are four greatnesses,<\/p>\n<p>and the ruler is one of them.<\/p>\n<p>Humanity follows earth.<br />\nEarth follows heaven.<br />\nHeaven follows the Way.<br />\nThe Way follows what is naturally so.<\/p>\n<p><strong>Chapter 52<\/strong><\/p>\n<p>The world has a beginning.<br />\nThis may be called the Mother of the world.<br />\nOnce you know the Mother,<br />\nyou know the children.<br />\nOnce you know the children,<br />\nreturn to keep to the Mother,<br />\nand to the end of life<br />\nyou will not be endangered.<\/p>\n<p>Close the openings.<br />\nShut the gates.<\/p>\n<p>And all your life<br />\nyou will not be worn out.<\/p>\n<p>Open the openings.<br />\nBusy yourself with affairs.<br />\nAnd all your life<br />\nthere will be no rescue.<\/p>\n<p>To see the small is clarity.<br />\nTo keep to the soft is strength.<\/p>\n<p>Use the light,<\/p>\n<p>return to clarity,<\/p>\n<p>and leave no disaster for yourself.<br />\nThis is practicing the constant.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 26":{"credit":"The Unforced Leader, our translation","html":"<p>The heavy is the root of the light.<br />\nStillness is the ruler of restlessness.<\/p>\n<p>Therefore, the unforced leader<br />\ntravels all day<br />\nwithout leaving the weight behind.<\/p>\n<p>Though there are splendid sights,<br />\nthey remain at ease, above them.<\/p>\n<p>How can the ruler of ten thousand chariots<br />\ntake the self lightly before the world?<\/p>\n<p>Lightness loses the root.<br />\nRestlessness loses command.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 27":{"credit":"The Unforced Leader, our translation","html":"<p>The skillful traveler<br />\nleaves no tracks.<\/p>\n<p>The skillful speaker<br />\nleaves no openings for blame.<\/p>\n<p>The skillful reckoner<br />\nneeds no counting rods.<\/p>\n<p>The skillful closer uses no bolt,<br />\nyet what is closed cannot be opened.<br />\nThe skillful binder uses no cord,<br />\nyet what is bound cannot be undone.<\/p>\n<p>Therefore, the unforced leader<br />\nis always skillful at saving people,<br />\nand so abandons no one.<\/p>\n<p>Always skillful at saving things,<br />\nand so abandons nothing.<br />\nThis is called hidden illumination.<br />\nThe good person<br />\nis the teacher of the not-good;<\/p>\n<p>the not-good person<br />\nis the material of the good.<\/p>\n<p>If the teacher is not honored<br />\nand the material is not cared for,<br />\neven the intelligent go deeply astray.<\/p>\n<p>This is called<br />\nthe essential mystery.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 28":{"credit":"The Unforced Leader, our translation","html":"<p>Know the masculine,<br />\nkeep to the feminine,<br />\nand become the valley of the world.<\/p>\n<p>Being the valley of the world,<br />\nconstant virtue does not leave,<br />\nand one returns to the infant.<\/p>\n<p>Know the bright,<br />\nkeep to the dark,<br />\nand become the pattern of the world.<\/p>\n<p>Being the pattern of the world,<br />\nconstant virtue does not fail,<\/p>\n<p>and one returns to the boundless.<\/p>\n<p>Know glory,<br />\nkeep to humility,<br />\nand become the valley of the world.<br />\nThen constant virtue is enough,<br />\nand one returns to the uncarved block.<\/p>\n<p>When the uncarved block is divided,<br />\nit becomes instruments.<br />\nWhen the unforced leader uses it,<br />\nit becomes leadership.<\/p>\n<p>Thus the great shaping<br />\ndoes not cut.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 29":{"credit":"The Unforced Leader, our translation","html":"<p>Whoever would seize the world<br />\nand shape it by force,<br />\nI see will not succeed.<\/p>\n<p>The world is a sacred vessel.<\/p>\n<p>It cannot be forced.<br />\nThose who force it spoil it.<br />\nThose who grasp it lose it.<\/p>\n<p>Things move ahead or follow behind,<br />\nbreathe gently or violently,<br />\ngrow strong or weak,<br />\nrise up or collapse.<br />\nTherefore, the unforced leader<br />\nlets go of excess,<br />\nlets go of extravagance,<br />\nlets go of overreach.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 3":{"credit":"The Unforced Leader, our translation","html":"<p>When superiority is exalted,<br />\npeople begin to compete.<br />\nWhen rare things are prized,<br />\npeople begin to steal.<\/p>\n<p>When desire is put on display,<br />\nthe heart grows restless.<\/p>\n<p>Therefore, the unforced leader<br />\nempties the mind of excess<br />\nand fills the belly with what is needed.<\/p>\n<p>They soften striving<br />\nand strengthen what endures,<br />\nkeeping people free<br />\nfrom manufactured knowing<br />\nand grasping desire.<\/p>\n<p>Then cleverness does not rush to interfere.<\/p>\n<p>Practice unforced action,<br />\nand all things return to order.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 30, 68":{"credit":"The Unforced Leader, our translation","html":"<p><strong>Chapter 30<\/strong><\/p>\n<p>One who serves a ruler through the Way<br />\ndoes not use force of arms<br />\nto master the world.<\/p>\n<p>Such things return.<\/p>\n<p>Where armies camp,<br />\nthorns and brambles grow.<br />\nAfter great war,<br />\nlean years follow.<\/p>\n<p>A skillful one<br />\nachieves what must be achieved<br />\nand stops.<br />\nThey do not use it<br />\nto seize power.<\/p>\n<p>Achieve,<br />\nbut do not flaunt it.<br />\nAchieve,<br />\nbut do not boast.<br />\nAchieve,<br />\nbut do not become arrogant.<\/p>\n<p>Achieve<br />\nonly because it cannot be avoided.<br />\nAchieve,<br />\nbut do not force.<\/p>\n<p>What grows strong<br />\nalso grows old.<br />\nThis is not the Way.<br />\nWhat is not the Way<br />\nsoon ends.<\/p>\n<p><strong>Chapter 68<\/strong><\/p>\n<p>One skilled as a warrior<br />\nis not warlike.<\/p>\n<p>One skilled in battle<br />\nis not angry.<\/p>\n<p>One skilled at overcoming an enemy<br />\ndoes not engage in hatred.<\/p>\n<p>One skilled in using people<br />\nplaces themselves below them.<br />\nThis is called<br />\nthe virtue of not contending.<br />\nThis is called<br />\nthe power of using people.<br />\nThis is called<br />\nmatching heaven,<br />\nthe highest attainment of old.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 31":{"credit":"The Unforced Leader, our translation","html":"<p>Even fine weapons<br />\nare instruments of ill omen.<br />\nThings resist them.<br />\nTherefore, one who lives by the Way<br />\ndoes not dwell with them.<\/p>\n<p>In ordinary life,<br />\nthe left is honored.<br />\nIn war,<br />\nthe right is honored.<\/p>\n<p>Weapons are instruments of ill omen,<br />\nnot the tools of one who is grounded.<br />\nUse them only when there is no choice.<br />\nBest is calm restraint.<\/p>\n<p>Do not celebrate victory.<br />\nTo celebrate it<br />\nis to delight in killing.<\/p>\n<p>One who delights in killing<br />\ncannot fulfill their will in the world.<\/p>\n<p>On auspicious occasions,<br />\nhonor the left.<br />\nOn occasions of mourning,<br />\nhonor the right.<\/p>\n<p>The lesser commander stands on the left.<br />\nThe greater commander stands on the right.<br />\nThis is the order of mourning.<\/p>\n<p>When many have been killed,<br />\nmeet it with grief.<br />\nWhen victory is won,<br />\nobserve the rites of mourning.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 32":{"credit":"The Unforced Leader, our translation","html":"<p>The Way is always without name.<br />\nThough the uncarved block seems small,<br />\nnothing in the world can master it.<br />\nIf rulers could hold to it,<br />\nall things would come of themselves.<\/p>\n<p>Heaven and earth would join<br />\nand sweet dew would fall.<br />\nNo one would command it,<br />\nyet it would be shared by all.<\/p>\n<p>When carving begins,<br />\nnames appear.<br />\nOnce names appear,<br />\nknow where to stop.<br />\nKnowing where to stop<br />\nkeeps one from danger.<\/p>\n<p>The Way in the world<br />\nis like rivers and valleys<br />\nflowing into the great sea.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 33":{"credit":"The Unforced Leader, our translation","html":"<p>To know others is intelligence.<br />\nTo know yourself is clarity.<\/p>\n<p>To overcome others requires force.<br />\nTo overcome yourself is strength.<\/p>\n<p>To know enough is richness.<\/p>\n<p>To keep going with strength is resolve.<br />\nNot losing your place is endurance.<\/p>\n<p>To die without vanishing<br />\nis long life.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 34":{"credit":"The Unforced Leader, our translation","html":"<p>The great Way flows everywhere,<br />\nto the left and to the right.<br />\nAll things depend on it for life,<br />\nand it does not refuse them.<br />\nIts work is done,<br />\nyet it does not claim possession.<\/p>\n<p>It clothes and nourishes all things<br />\nwithout becoming their lord.<br />\nAlways without desire,<br />\nit may be called small.<\/p>\n<p>All things return to it,<br />\nyet it does not become their lord.<br />\nThus it may be called great.<\/p>\n<p>Because it never makes itself great,<br />\nit fulfills its greatness.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 35":{"credit":"The Unforced Leader, our translation","html":"<p>Hold to the great image,<br />\nand the world will come.<\/p>\n<p>It comes without harm,<br />\nand rests in peace.<\/p>\n<p>Music and rich food<br />\nmay stop the traveler for a while.<\/p>\n<p>But the Way as it is spoken<br />\nseems bland and without flavor.<br />\nLook at it:<br />\nthere is not enough to see.<br />\nListen to it:<br />\nthere is not enough to hear.<br />\nUse it:<br />\nit cannot be exhausted.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 36":{"credit":"The Unforced Leader, our translation","html":"<p>What is to be closed<br />\nmust first be opened wide.<br />\nWhat is to be weakened<br />\nmust first be strengthened.<\/p>\n<p>What is to be cast down<br />\nmust first be raised up.<\/p>\n<p>What is to be taken<br />\nmust first be given.<\/p>\n<p>This is called subtle clarity.<\/p>\n<p>The soft and weak<br />\novercome the hard and strong.<\/p>\n<p>Fish should not be taken from the deep.<br />\nThe sharp instruments of a state<br />\nshould not be displayed.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 37":{"credit":"The Unforced Leader, our translation","html":"<p>The Way is always unforcing,<\/p>\n<p>yet nothing is left undone.<\/p>\n<p>If rulers could hold to it,<br />\nall things would transform themselves.<br />\nIf, in transforming, desire begins to rise,<br />\nI would steady it<br />\nwith the nameless uncarved block.<\/p>\n<p>The nameless uncarved block<br />\nfrees one from desire.<\/p>\n<p>Without desire,<br />\nin stillness,<br />\nthe world settles itself.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 38":{"credit":"The Unforced Leader, our translation","html":"<p>The highest virtue does not perform virtue, and so it is truly\nvirtuous.<\/p>\n<p>Lower virtue cannot stop clinging to virtue, and so it lacks true\nvirtue.<\/p>\n<p>Higher virtue acts without forcing and without agenda.<\/p>\n<p>Higher benevolence acts, yet still without agenda.<\/p>\n<p>Higher righteousness acts with a purpose.<\/p>\n<p>Higher ritual acts, and when no one responds, it rolls up its sleeves\nand imposes itself.<\/p>\n<p>So when the Way is lost, virtue appears; when virtue is lost,\nbenevolence appears; then righteousness; then ritual.<\/p>\n<p>Ritual is the thinning of trust and sincerity, and the beginning of\ndisorder.<\/p>\n<p>Foreknowledge is the flower of the Way, and the beginning of\nfolly.<\/p>\n<p>So the grounded person dwells in depth, not surface;<\/p>\n<p>in substance, not appearance;<\/p>\n<p>and leaves the latter for the former.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 39":{"credit":"The Unforced Leader, our translation","html":"<p>Of old, those who attained the One:<\/p>\n<p>heaven became clear;<br />\nearth became steady;<br />\nspirit became responsive;<br />\nthe valley became full;<br />\nthe ten thousand things came to life;<br />\nrulers became a measure for the world.<\/p>\n<p>This comes from the One.<\/p>\n<p>Without clarity,<br />\nheaven would split.<\/p>\n<p>Without steadiness,<br />\nearth would break apart.<br />\nWithout responsiveness,<br />\nspirit would fade.<br />\nWithout fullness,<br />\nthe valley would run dry.<br />\nWithout life,<br />\nthe ten thousand things would perish.<br />\nWithout humility beneath their height,<br />\nrulers would fall.<\/p>\n<p>Dignity has the low as its root.<br />\nHeight has the low as its foundation.<\/p>\n<p>Thus rulers call themselves<br />\norphaned,<br />\nbereft,<br />\nunworthy.<\/p>\n<p>Is this not taking the low<br />\nas the root?<\/p>\n<p>Is it not?<\/p>\n<p>So seek neither the polished gleam of jade<br />\nnor the sharp display of ornament.<br />\nBe as plain as stone.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 4":{"credit":"The Unforced Leader, our translation","html":"<p>The Way is an emptiness that cannot be used up,<br />\na depth that seems the source of all things.<\/p>\n<p>It blunts the sharp, unties the tangled,<br />\nsoftens the glare, and settles with the dust.<br />\nDeep and still, it seems to remain.<\/p>\n<p>I do not know whose child it is.<br />\nIt seems to be there before the first image of the divine.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 40":{"credit":"The Unforced Leader, our translation","html":"<p>Returning<br />\nis the movement of the Way.<\/p>\n<p>Yielding<br />\nis the function of the Way.<\/p>\n<p>All things under heaven<br />\nare born from being.<br />\nBeing is born from non-being.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 41":{"credit":"The Unforced Leader, our translation","html":"<p>When the highest person hears the Way,<br />\nthey practice it with care.<br />\nWhen the middling person hears the Way,<br />\nit seems present, then absent.<\/p>\n<p>When the lowest person hears the Way,<br />\nthey laugh aloud.<br />\nIf it were not laughed at,<br />\nit would hardly be the Way.<\/p>\n<p>So the old saying has it:<br />\nThe bright Way seems dim.<\/p>\n<p>The advancing Way seems to withdraw.<\/p>\n<p>The level Way seems rough.<br />\nHighest virtue seems like a valley.<br />\nGreat whiteness seems stained.<br />\nVast virtue seems insufficient.<\/p>\n<p>Established virtue seems yielding.<\/p>\n<p>Solid truth seems changeable.<\/p>\n<p>The great square has no corners.<\/p>\n<p>The great vessel is slow to complete.<\/p>\n<p>Great sound is barely heard.<br />\nGreat form has no shape.<\/p>\n<p>The Way is hidden and nameless.<br />\nYet only the Way<br />\nis skillful in giving<br />\nand bringing things to completion.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 43, 78":{"credit":"The Unforced Leader, our translation","html":"<p><strong>Chapter 43<\/strong><\/p>\n<p>The softest thing in the world<br />\noverrides the hardest.<\/p>\n<p>What has no substance<br />\nenters where there is no space.<br />\nFrom this I know<br />\nthe benefit of unforced action.<\/p>\n<p>The teaching without words,<br />\nthe benefit of unforced action,<br />\nfew in the world attain.<\/p>\n<p><strong>Chapter 78<\/strong><\/p>\n<p>Nothing in the world<br />\nis softer or weaker than water,<br />\nyet in overcoming what is hard and strong,<br />\nnothing can surpass it.<br />\nNothing can take its place.<\/p>\n<p>The weak overcomes the strong.<br />\nThe soft overcomes the hard.<br />\nEveryone in the world knows this,<br />\nyet no one can practice it.<br />\nSo the unforced leader says:<br />\n“One who receives a nation’s humiliation<br />\nis lord of its altars.<br />\nOne who receives a nation’s misfortune<br />\nis king of the world.”<br />\nTrue words<br />\nseem reversed.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 44":{"credit":"The Unforced Leader, our translation","html":"<p>Which is closer:<br />\nname or self?<\/p>\n<p>Which matters more:<br />\nself or possessions?<\/p>\n<p>Which is worse:<br />\ngain or loss?<\/p>\n<p>Great attachment<br />\nalways costs much.<br />\nMuch hoarding<br />\nalways loses much.<\/p>\n<p>Know enough,<br />\nand you will not be shamed.<br />\nKnow when to stop,<br />\nand you will not be endangered.<br />\nThen you can endure.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 45":{"credit":"The Unforced Leader, our translation","html":"<p>Great completeness seems lacking,<br />\nyet its use never fails.<\/p>\n<p>Great fullness seems empty,<br />\nyet its use never runs dry.<\/p>\n<p>Great straightness seems bent.<\/p>\n<p>Great skill seems clumsy.<br />\nGreat eloquence seems hesitant.<\/p>\n<p>Movement overcomes cold.<br />\nStillness overcomes heat.<\/p>\n<p>Clarity and stillness<br />\nset the world in order.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 46":{"credit":"The Unforced Leader, our translation","html":"<p>When the Way prevails in the world,<br />\nwar horses are turned back<br />\nto haul the manure carts.<\/p>\n<p>When the Way is lost in the world,<br />\nwar horses breed at the borders.<\/p>\n<p>No disaster is greater<br />\nthan not knowing enough.<\/p>\n<p>No fault is greater<br />\nthan grasping for gain.<\/p>\n<p>Therefore the sufficiency<br />\nof knowing enough<br />\nis enduring sufficiency.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 47":{"credit":"The Unforced Leader, our translation","html":"<p>Without stepping outside the door, one understands what unfolds under\nheaven.<\/p>\n<p>Without looking out the window, one sees the Way of Heaven.<\/p>\n<p>The farther one goes outward, the less one understands.<\/p>\n<p>Therefore, the unforced leader knows without wandering;<\/p>\n<p>distinguishes without looking; and accomplishes without forcing.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 48":{"credit":"The Unforced Leader, our translation","html":"<p>In the pursuit of learning,<br />\none adds each day.<\/p>\n<p>In the pursuit of the Way,<br />\none subtracts each day.<\/p>\n<p>Subtract and subtract,<br />\nuntil one arrives at unforced action.<br />\nThrough unforced action,<br />\nnothing is left undone.<\/p>\n<p>The world is won<br />\nby not meddling.<\/p>\n<p>As soon as one begins to meddle,<\/p>\n<p>one is no longer equal to winning the world.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 49":{"credit":"The Unforced Leader, our translation","html":"<p>The unforced leader has no fixed mind.<br />\nThey take the people’s mind as their mind.<br />\nTo the good,<br />\nthey are good.<\/p>\n<p>To the not-good,<br />\nthey are also good,<\/p>\n<p>and thus goodness appears.<\/p>\n<p>To the trustworthy,<br />\nthey are trustworthy.<\/p>\n<p>To the untrustworthy,<br />\nthey are also trustworthy,<br />\nand thus trust appears.<\/p>\n<p>The unforced leader<br />\nmoves through the world quietly,<br />\nblending their mind with the world.<\/p>\n<p>The people<br />\nfix their eyes and ears on them,<\/p>\n<p>and the unforced leader<br />\nmeets them all as children.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 5":{"credit":"The Unforced Leader, our translation","html":"<p>Heaven and earth are not sentimental.<br />\nThey treat all things like straw dogs.<\/p>\n<p>The sages are not sentimental.<br />\nThey treat the people like straw dogs.<\/p>\n<p>Is not the space between heaven and earth like a bellows?<br />\nEmpty, yet never exhausted;<br />\nthe more it moves, the more it gives.<\/p>\n<p>Too many words run dry.<br />\nBetter to keep to the center.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 50":{"credit":"The Unforced Leader, our translation","html":"<p>Coming forth is life.<br />\nEntering again is death.<\/p>\n<p>Of ten,<br />\nthree are inclined toward life,<br />\nthree toward death,<br />\nand three move into death<br />\nthrough the force of living.<br />\nWhy?<br />\nBecause they cling too tightly to life.<\/p>\n<p>I have heard that one skilled in tending life<br />\nwalks the land<br />\nwithout meeting rhinoceros or tiger,<br />\nenters battle<br />\nwithout needing armor.<br />\nThe rhinoceros finds no place<br />\nto drive its horn.<br />\nThe tiger finds no place<br />\nto fix its claws.<br />\nThe blade finds no place<br />\nto enter.<br />\nWhy?<br />\nBecause in such a one<br />\nthere is no place for death.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 53":{"credit":"The Unforced Leader, our translation","html":"<p>If I had even a little knowing<br />\nand walked the great Way,<br />\nmy only fear<br />\nwould be straying from it.<br />\nThe great Way is smooth,<br />\nyet people love side paths.<\/p>\n<p>The courts are polished bright,<\/p>\n<p>while the fields are overgrown<br />\nand the granaries empty.<\/p>\n<p>They wear embroidered robes,<br />\ncarry sharp swords,<br />\nstuff themselves with food and drink,<br />\nand possess more wealth than they need.<\/p>\n<p>This is robbery dressed as glory.<\/p>\n<p>This is not the Way.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 54":{"credit":"The Unforced Leader, our translation","html":"<p>What is well planted<br />\ncannot be uprooted.<\/p>\n<p>What is well held<br />\ncannot slip away.<\/p>\n<p>Children and grandchildren<br />\nwill carry on the offering.<\/p>\n<p>Cultivate it in yourself,<br />\nand virtue becomes real.<\/p>\n<p>Cultivate it in the family,<br />\nand virtue overflows.<\/p>\n<p>Cultivate it in the village,<br />\nand virtue endures.<\/p>\n<p>Cultivate it in the state,<br />\nand virtue becomes abundant.<\/p>\n<p>Cultivate it in the world,<br />\nand virtue becomes universal.<\/p>\n<p>So observe the self through the self,<br />\nthe family through the family,<br />\nthe village through the village,<br />\nthe state through the state,<\/p>\n<p>the world through the world.<\/p>\n<p>How do I know the world is so?<\/p>\n<p>By this.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 55":{"credit":"The Unforced Leader, our translation","html":"<p>One filled with abundant virtue<br />\nis like a newborn child.<\/p>\n<p>Wasps and scorpions do not sting.<br />\nSerpents do not bite.<br />\nFierce beasts do not seize.<br />\nBirds of prey do not strike.<\/p>\n<p>Bones are weak.<br />\nSinews are soft.<br />\nYet the grip is firm.<\/p>\n<p>Not yet knowing the union of male and female,<br />\nyet the life-force is whole.<\/p>\n<p>This is the fullness of essence.<br />\nIt cries all day<br />\nwithout becoming hoarse.<\/p>\n<p>This is the fullness of harmony.<\/p>\n<p>Knowing harmony is the constant.<\/p>\n<p>Knowing the constant is clarity.<\/p>\n<p>Forcing life is ill omen.<\/p>\n<p>Driving the breath with the mind<br />\nis force.<\/p>\n<p>What grows strong grows old.<br />\nThis is not the Way.<br />\nWhat is not the Way<br />\nsoon ends.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 57":{"credit":"The Unforced Leader, our translation","html":"<p>Govern a state with uprightness.<br />\nUse surprise in war.<br />\nWin the world by not meddling.<br />\nHow do I know this is so?<\/p>\n<p>By this:<br />\nthe more prohibitions there are,<br />\nthe poorer the people become;<\/p>\n<p>the more sharp tools the people have,<br />\nthe darker the state becomes;<\/p>\n<p>the more clever skills people have,<br />\nthe more strange things appear;<\/p>\n<p>the more laws are displayed,<br />\nthe more thieves and robbers multiply.<\/p>\n<p>Therefore, the unforced leader says:<br />\n“I practice unforced action,<br />\nand the people transform themselves.<br />\nI love stillness,<br />\nand the people become upright.<br />\nI do not meddle,<br />\nand the people prosper.<br />\nI am free of desire,<br />\nand the people return<br />\nto the uncarved.”<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 58":{"credit":"The Unforced Leader, our translation","html":"<p>When government is muted,<br />\nthe people are simple.<br />\nWhen government is sharp and watchful,<br />\nthe people become wounded.<br />\nMisfortune rests upon fortune.<br />\nFortune hides within misfortune.<\/p>\n<p>Who knows where either ends?<br />\nNothing stays fixed.<\/p>\n<p>The straight turns strange.<\/p>\n<p>The good turns distorted.<\/p>\n<p>The people’s confusion<br />\nhas lasted a long time.<\/p>\n<p>Therefore, the unforced leader is square<br />\nbut does not cut,<\/p>\n<p>sharp<br />\nbut does not wound,<\/p>\n<p>straight<br />\nbut not severe,<\/p>\n<p>bright<br />\nbut not dazzling.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 59":{"credit":"The Unforced Leader, our translation","html":"<p>In guiding people and serving heaven,<br />\nnothing is better than restraint.<br />\nRestraint means returning early.<br />\nReturning early means<br />\ngathering virtue deeply.<\/p>\n<p>When virtue is gathered deeply,<br />\nnothing cannot be overcome.<br />\nWhen nothing cannot be overcome,<br />\nno one knows the limit.<\/p>\n<p>When no one knows the limit,<br />\none can hold a state.<\/p>\n<p>Holding the mother of the state,<br />\none can endure long.<\/p>\n<p>This is called<br />\ndeep roots and a firm base,<br />\nthe Way of lasting life<br />\nand long endurance.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 6":{"credit":"The Unforced Leader, our translation","html":"<p>The valley spirit never dies.<br />\nThis is called the mysterious feminine.<\/p>\n<p>The gate of the mysterious feminine<br />\nis the root of heaven and earth.<\/p>\n<p>Unbroken, it seems to remain.<br />\nDraw from it,<br />\nand it is never exhausted.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 60":{"credit":"The Unforced Leader, our translation","html":"<p>Governing a great state<br />\nis like cooking a small fish.<br />\nWhen the world is guided by the Way,<br />\nits ghosts lose their power.<\/p>\n<p>It is not that the ghosts lack power.<br />\nTheir power does not harm people.<\/p>\n<p>Not only do their powers not harm people,<br />\nthe unforced leader does not harm them either.<\/p>\n<p>When neither harms the other,<br />\nvirtue returns to both.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 61":{"credit":"The Unforced Leader, our translation","html":"<p>A great state is the low ground<br />\nwhere all streams meet,<br />\nthe feminine of the world.<\/p>\n<p>The feminine<br />\novercomes the masculine through stillness.<br />\nThrough stillness<br />\nit takes the lower place.<\/p>\n<p>So when a great state<br />\ntakes the lower place before a small state,<\/p>\n<p>it wins the small state.<\/p>\n<p>When a small state<br />\ntakes the lower place before a great state,<br />\nit wins the great state.<\/p>\n<p>So some take by lowering themselves,<br />\nand some are taken by lowering themselves.<\/p>\n<p>A great state wants only<br />\nto gather and nourish people.<br />\nA small state wants only<br />\nto enter and serve.<\/p>\n<p>If both are to get what they want,<br />\nthe great state should take the lower place.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 62":{"credit":"The Unforced Leader, our translation","html":"<p>The Way is the hidden depth<br />\nof the ten thousand things.<\/p>\n<p>It is the treasure of the good,<\/p>\n<p>and the refuge of the not-good.<\/p>\n<p>Beautiful words can buy honor.<br />\nNoble actions can raise a person.<\/p>\n<p>But if a person is not good,<br />\nwhy cast them aside?<br />\nTherefore, when the Son of Heaven is enthroned<br />\nand the three ministers are appointed,<\/p>\n<p>though one offers jade before a team of horses,<br />\nit is not equal<br />\nto offering this Way while seated.<br />\nWhy did the ancients prize this Way so highly?<\/p>\n<p>Was it not because<br />\nthose who seek find,<br />\nand those with guilt are spared?<\/p>\n<p>Therefore it is precious to the world.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 63":{"credit":"The Unforced Leader, our translation","html":"<p>Practice unforced action.<br />\nHandle what does not call attention to itself.<br />\nTaste what has no flavor.<\/p>\n<p>See the small as large,<br />\nthe few as many.<br />\nMeet injury with virtue.<\/p>\n<p>Approach the difficult<br />\nwhile it is still easy.<br />\nDo the great<br />\nwhile it is still small.<br />\nAll difficult things in the world<br />\nbegin in what is easy.<br />\nAll great things in the world<br />\nbegin in what is small.<\/p>\n<p>Therefore, the unforced leader<br />\nnever tries to do what is great,<br />\nand so accomplishes greatness.<br />\nLight promises<br />\nbring little trust.<br />\nTaking too much as easy<br />\nbrings many difficulties.<\/p>\n<p>Therefore, the unforced leader<br />\ntakes even the easy as difficult,<\/p>\n<p>and so in the end<br />\nhas no difficulties.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 64":{"credit":"The Unforced Leader, our translation","html":"<p>What is at rest<br />\nis easy to hold.<br />\nWhat has not yet shown itself<br />\nis easy to plan for.<\/p>\n<p>What is brittle<br />\nis easy to break.<br />\nWhat is slight<br />\nis easy to scatter.<\/p>\n<p>Act before something exists.<\/p>\n<p>Set things in order<br />\nbefore disorder begins.<br />\nA tree that fills the arms<br />\ngrows from the tiniest shoot.<\/p>\n<p>A nine-story tower<br />\nrises from a heap of earth.<br />\nA thousand-mile journey<br />\nbegins beneath the foot.<\/p>\n<p>Those who force things<br />\nruin them.<br />\nThose who grasp them<br />\nlose them.<\/p>\n<p>Therefore, the unforced leader<br />\ndoes not force<br />\nand so does not fail.<br />\nDoes not grasp<br />\nand so does not lose.<\/p>\n<p>People in handling affairs<br />\noften fail<br />\nwhen they are close to completion.<\/p>\n<p>If they were as careful at the end<br />\nas at the beginning,<br />\nthere would be no failures.<\/p>\n<p>Therefore, the unforced leader<br />\ndesires not to desire<br />\nand does not prize rare goods.<\/p>\n<p>They learn what is not learned<br />\nand return to what others have passed by.<\/p>\n<p>In this way<br />\nthey support the naturalness of all things<br />\nand do not dare to force.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 65":{"credit":"The Unforced Leader, our translation","html":"<p>Those skilled in the Way in ancient times<br />\ndid not use it<br />\nto fill the people with cleverness,<br />\nbut to keep them simple.<br />\nPeople are hard to govern<br />\nbecause they have too much cleverness.<\/p>\n<p>To govern a state through cleverness<br />\nis to rob the state.<br />\nTo govern a state<br />\nwithout cleverness<br />\nis to bless it.<\/p>\n<p>Knowing these two<br />\nis itself a pattern.<br />\nTo keep to this pattern<br />\nis called profound virtue.<\/p>\n<p>Profound virtue is deep.<br />\nIt reaches far.<\/p>\n<p>It seems to move against the grain of things,<\/p>\n<p>and thereby arrives<br />\nat great harmony.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 66":{"credit":"The Unforced Leader, our translation","html":"<p>Rivers and seas<br />\nbecome kings of a hundred valleys<br />\nbecause they are skilled<br />\nat staying below them.<br />\nSo if you would stand above the people,<br />\nyou must speak from below them.<br />\nIf you would lead the people,<br />\nyou must place yourself behind them.<\/p>\n<p>Therefore, the unforced leader<br />\nstands above<br />\nwithout weighing people down,<br />\ngoes ahead<br />\nwithout standing in their way.<br />\nSo the world<br />\ngladly supports them<br />\nand does not tire of them.<br />\nBecause they do not contend,<br />\nnone can contend with them.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 67":{"credit":"The Unforced Leader, our translation","html":"<p>All the world says<br />\nmy Way is great,<br />\nand because it is great<br />\nit seems unlike anything familiar.<\/p>\n<p>If it were familiar,<br />\nit would long ago<br />\nhave been small.<br />\nI have three treasures.<br />\nI hold to them<br />\nand keep them.<\/p>\n<p>The first is compassion.<br />\nThe second is frugality.<br />\nThe third is not daring<br />\nto place oneself before the world.<br />\nThrough compassion,<br />\none can be brave.<\/p>\n<p>Through frugality,<br />\none can be generous.<\/p>\n<p>By not daring<br />\nto place oneself before the world,<br />\none can become a vessel of leadership.<\/p>\n<p>Now if one abandons compassion<br />\nand tries to be brave,<\/p>\n<p>abandons frugality<br />\nand tries to be expansive,<br />\nabandons the rear<br />\nand tries to be first,<br />\nthat is death.<\/p>\n<p>Through compassion in battle,<br />\none wins.<br />\nThrough compassion in defense,<br />\none stands firm.<\/p>\n<p>When heaven would save someone,<br />\nit protects them<br />\nwith compassion.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 69":{"credit":"The Unforced Leader, our translation","html":"<p>There is a saying in the use of arms:<br />\n“I do not dare to be the host.<br />\nI choose to be the guest.<br />\nI do not dare advance an inch.<br />\nI prefer to retreat a foot.”<\/p>\n<p>This is called<br />\nmarching without marching,<\/p>\n<p>rolling up sleeves without arms,<br />\ngrappling without an enemy,<\/p>\n<p>grasping without weapons.<\/p>\n<p>No disaster is greater<br />\nthan taking the enemy lightly.<br />\nTo take the enemy lightly<br />\nis nearly to lose my treasures.<\/p>\n<p>So when opposing armies meet,<br />\nthe grieving side prevails.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 7":{"credit":"The Unforced Leader, our translation","html":"<p>Heaven endures.<br />\nEarth abides.<\/p>\n<p>They endure and abide<br />\nbecause they do not live for themselves.<\/p>\n<p>And so they endure.<br />\nTherefore, the unforced leader<br />\nplaces themselves behind,<br />\nand comes to the front;<\/p>\n<p>lets the self fall away,<br />\nand the self is preserved.<\/p>\n<p>Is it not because they are free of self-concern<br />\nthat the self is fulfilled?<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 70":{"credit":"The Unforced Leader, our translation","html":"<p>My words are easy to understand<br />\nand easy to practice.<br />\nYet no one in the world<br />\nunderstands them<br />\nor practices them.<\/p>\n<p>Words have an origin.<br />\nActions have a guiding thread.<\/p>\n<p>Because people do not know this,<br />\nthey do not know me.<\/p>\n<p>Those who know me are few.<br />\nTherefore I am precious.<\/p>\n<p>Therefore, the unforced leader<br />\nwears coarse cloth<br />\nand carries jade within.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 71":{"credit":"The Unforced Leader, our translation","html":"<p>To know not-knowing<br />\nis highest.<br />\nNot to know<br />\nyet think you know<br />\nis sickness.<\/p>\n<p>Only by being sick of this sickness<br />\ncan one be free of it.<\/p>\n<p>The unforced leader is free of sickness<br />\nbecause they are sick of sickness.<br />\nAnd so they are not sick.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 73":{"credit":"The Unforced Leader, our translation","html":"<p>Courage in daring<br />\nleads to death.<\/p>\n<p>Courage in not daring<br />\nleads to life.<\/p>\n<p>Of these two,<br />\none helps,<br />\none harms.<\/p>\n<p>What heaven rejects,<br />\nwho knows the reason?<br />\nTherefore, even the unforced leader<br />\nfinds it difficult.<br />\nThe Way of heaven<br />\ndoes not contend,<br />\nyet it prevails.<\/p>\n<p>It does not speak,<br />\nyet responds well.<br />\nIt is not summoned,<br />\nyet comes of itself.<\/p>\n<p>Still and spacious,<br />\nyet skillful in design.<\/p>\n<p>The net of heaven<br />\nis vast and loose,<br />\nyet nothing slips through.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 74":{"credit":"The Unforced Leader, our translation","html":"<p>If people do not fear death,<br />\nhow can death be used<br />\nto frighten them?<\/p>\n<p>If people truly feared death,<br />\nand I could seize those who act strangely<br />\nand kill them,<br />\nwho would dare?<\/p>\n<p>There is always<br />\none who presides over killing.<br />\nTo kill in that one’s place<br />\nis like hewing in place<br />\nof a master carpenter.<\/p>\n<p>Those who hew<br />\nin place of the master carpenter<br />\nrarely escape<br />\nwithout injuring their own hands.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 75":{"credit":"The Unforced Leader, our translation","html":"<p>People starve<br />\nbecause those above them<br />\nconsume too much in taxes.<br />\nThat is why they starve.<\/p>\n<p>People are hard to govern<br />\nbecause those above them<br />\ndo too much.<br />\nThat is why they are hard to govern.<\/p>\n<p>People make light of death<br />\nbecause those above them<br />\ncling too hard to life.<br />\nThat is why they make light of death.<\/p>\n<p>Only those who do not live<br />\nfor the sake of life<br />\nare wiser<br />\nthan those who prize life too much.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 76":{"credit":"The Unforced Leader, our translation","html":"<p>When alive,<br />\npeople are soft and yielding.<br />\nWhen dead,<br />\nthey are hard and rigid.<\/p>\n<p>The ten thousand things,<br />\nthe grasses and trees,<br />\nare soft and tender in life,<br />\ndry and brittle in death.<\/p>\n<p>So hardness and strength<br />\nbelong to death.<br />\nSoftness and yielding<br />\nbelong to life.<\/p>\n<p>Therefore,<br />\nwhen an army is strong<br />\nit does not prevail,<\/p>\n<p>and when a tree is strong<br />\nit is cut down.<\/p>\n<p>The strong and great<br />\ntake the lower place.<\/p>\n<p>The soft and yielding<br />\ntake the higher place.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 77":{"credit":"The Unforced Leader, our translation","html":"<p>Is not the Way of heaven<br />\nlike drawing a bow?<br />\nWhat is high is pressed down.<br />\nWhat is low is lifted up.<\/p>\n<p>What has excess is reduced.<br />\nWhat is lacking is supplied.<br />\nThe Way of heaven<br />\nreduces excess<br />\nand supplies what is lacking.<\/p>\n<p>The human way is not like this.<\/p>\n<p>It takes from what lacks<br />\nto serve what already has excess.<\/p>\n<p>Who can have enough<br />\nto serve the world?<\/p>\n<p>Only one who has the Way.<\/p>\n<p>Therefore, the unforced leader<br />\nacts without relying,<br />\naccomplishes without dwelling on accomplishment,<br />\nand does not wish<br />\nto display superiority.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 79":{"credit":"The Unforced Leader, our translation","html":"<p>After a great resentment is reconciled,<br />\nsome resentment remains.<br />\nHow can that be called good?<\/p>\n<p>Therefore, the unforced leader<br />\nholds the left side of the tally<\/p>\n<p>and does not press claims on others.<br />\nOne with virtue attends to the tally.<\/p>\n<p>One without virtue<br />\nattends only to collection.<\/p>\n<p>The Way of heaven<br />\nhas no favorites.<br />\nIt always stands with the good.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 8":{"credit":"The Unforced Leader, our translation","html":"<p>The highest good is like water.<\/p>\n<p>Water benefits all things<br />\nand does not contend.<br />\nIt settles in places others avoid,<\/p>\n<p>and so comes near the Way.<\/p>\n<p>In dwelling, stay close to the ground.<br />\nIn mind, remain deep.<br />\nIn relationship, be generous.<br />\nIn speech, be true.<br />\nIn governing, be just.<br />\nIn action, be capable.<br />\nIn movement, be timely.<br />\nBecause it does not contend,<br />\nit remains beyond reproach.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 80":{"credit":"The Unforced Leader, our translation","html":"<p>Let there be a small state<br />\nwith few people.<\/p>\n<p>Even if there are tools<br />\nfor ten or a hundred uses,<br />\nlet them not be used.<\/p>\n<p>Let people take death seriously<br />\nand not wander far.<\/p>\n<p>Though there are boats and carriages,<br />\nlet there be no reason to ride them.<\/p>\n<p>Though there are armor and weapons,<br />\nlet there be no reason to display them.<\/p>\n<p>Let people return<br />\nto knotting cords.<br />\nLet them find their food sweet,<br />\ntheir clothes beautiful,<br />\ntheir homes peaceful,<br />\ntheir customs joyful.<br />\nNeighboring states<br />\nmay look across at one another.<br />\nThe sounds of dogs and chickens<br />\nmay be heard across the distance.<br />\nYet the people grow old and die<br />\nwithout going back and forth.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 81":{"credit":"The Unforced Leader, our translation","html":"<p>True words are not beautiful.<\/p>\n<p>Beautiful words are not true.<\/p>\n<p>Those who are good<br />\ndo not argue.<br />\nThose who argue<br />\nare not good.<\/p>\n<p>Those who know<br />\nare not broadly stuffed with knowledge.<\/p>\n<p>Those broadly stuffed with knowledge<br />\ndo not know.<\/p>\n<p>The unforced leader<br />\ndoes not accumulate for the self.<\/p>\n<p>The more they do for others,<br />\nthe more they have.<\/p>\n<p>The more they give to others,<br />\nthe more they possess.<br />\nThe Way of heaven<br />\nbenefits and does not harm.<\/p>\n<p>The way of the unforced leader<br />\nacts and does not contend.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tao Te Ching 9":{"credit":"The Unforced Leader, our translation","html":"<p>Better to stop<br />\nthan to keep filling to the brim.<br />\nBetter to temper a blade<br />\nthan sharpen it past endurance.<\/p>\n<p>When gold and jade fill the hall,<br />\nno one can keep them safe.<\/p>\n<p>When wealth and honor breed arrogance,<br />\nthey leave ruin behind.<\/p>\n<p>When the work is done,<br />\nwithdraw.<br />\nThis is the Way of Heaven.<\/p>","link":"read.html?doc=Laozi/The_Unforced_Leader_Tao_Te_Ching.md"},"Tathāgata":{"html":"<p><em>Tathāgata<\/em> (Pali and Sanskrit): “one who has thus gone”\n(<em>tathā-gata<\/em>) or “thus come” (<em>tathā-āgata<\/em>), the name\nthe Buddha uses for himself in the early discourses: one who has walked\nthe way to its end.<\/p>"},"Thomas 113":{"credit":"Rendered for The Living Way","html":"<p>It will not come by watching for it. No one will say, ‘Look, here it\nis,’ or ‘Look, there it is.’ Rather, the Kingdom of the Father is spread\nout upon the earth, and people do not see it.<\/p>","link":"wisdom_gospels.html"},"Thomas 13, 108":{"credit":"Rendered for The Living Way","html":"<p><strong>13.<\/strong> Yeshua said to his disciples, “Compare me to\nsomeone, and tell me what I am like.” Simon Peter said, “You are like a\nrighteous messenger.” Matthew said, “You are like a wise philosopher.”\nThomas said, “Teacher, my mouth cannot bring itself to say what you are\nlike.” Yeshua said, “I am not your teacher, for you have drunk and\nbecome drunk from the bubbling spring that I have tended.”<\/p>\n<p><strong>108.<\/strong> Whoever drinks from my mouth will become as I\nam, and I myself will become that one, and what is hidden will be\nrevealed to them.<\/p>","link":"wisdom_gospels.html"},"Thomas 16":{"credit":"Rendered for The Living Way","html":"<p>People may think that I have come to cast peace upon the world. They\ndo not know that I have come to cast divisions upon the earth: fire,\nsword, war. Where there are five in a house, three will be against two\nand two against three, father against son and son against father, and\nthey will stand alone, as single ones.<\/p>","link":"wisdom_gospels.html"},"Thomas 18–19":{"credit":"Rendered for The Living Way","html":"<p><strong>18.<\/strong> The disciples said, “Tell us how our end will\ncome.” Yeshua said, “Have you found the beginning, then, that you ask\nabout the end? Where the beginning is, there the end will be. Blessed is\nthe one who stands at the beginning: that one will know the end, and\nwill not taste death.”<\/p>\n<p><strong>19.<\/strong> Blessed is the one who came into being before\ncoming into being. … You have five trees in Paradise that do not change\nin summer or in winter, and their leaves do not fall. Whoever knows them\nwill not taste death.<\/p>","link":"wisdom_gospels.html"},"Thomas 20":{"credit":"Rendered for The Living Way","html":"<p>The disciples said, “Tell us what the Kingdom of Heaven is like.” He\nsaid, “It is like a mustard seed, the smallest of all seeds. But when it\nfalls on tilled ground, it puts forth a great branch and becomes a\nshelter for the birds of the sky.”<\/p>","link":"wisdom_gospels.html"},"Thomas 22":{"credit":"Rendered for The Living Way","html":"<p>When you make the two one, and make the inside like the outside and\nthe outside like the inside, and the above like the below … then you\nwill enter the Kingdom.<\/p>","link":"wisdom_gospels.html"},"Thomas 22, 89":{"credit":"Rendered for The Living Way","html":"<p><strong>22.<\/strong> When you make the two one, and make the inside\nlike the outside and the outside like the inside, and the above like the\nbelow … then you will enter the Kingdom.<\/p>\n<p><strong>89.<\/strong> Why do you wash the outside of the cup? Do you\nnot understand that the one who made the inside is also the one who made\nthe outside?<\/p>","link":"wisdom_gospels.html"},"Thomas 25":{"credit":"Rendered for The Living Way","html":"<p>Love your brother as your own soul; guard him like the pupil of your\neye.<\/p>","link":"wisdom_gospels.html"},"Thomas 3":{"credit":"Rendered for The Living Way","html":"<p>If those who lead you say, ‘Look, the Kingdom is in the sky,’ then\nthe birds will get there before you. If they say, ‘It is in the sea,’\nthen the fish will get there before you. Rather, the Kingdom is inside\nyou, and it is outside you. When you know yourselves, you will be\nknown.<\/p>","link":"wisdom_gospels.html"},"Thomas 37":{"credit":"Rendered for The Living Way","html":"<p>His disciples said, “When will you appear to us, and when will we see\nyou?” Yeshua said, “When you strip without being ashamed, and take your\nclothes and lay them under your feet like little children and tread on\nthem, then you will see the Son of the Living One, and you will not be\nafraid.”<\/p>","link":"wisdom_gospels.html"},"Thomas 4":{"credit":"Rendered for The Living Way","html":"<p>The old person will not hesitate to ask a little child, seven days\nold, about the place of life, and that person will live. For many who\nare first will be last, and they will become a single one.<\/p>","link":"wisdom_gospels.html"},"Thomas 42":{"credit":"Rendered for The Living Way","html":"<p>Be passersby.<\/p>","link":"wisdom_gospels.html"},"Thomas 50":{"credit":"Rendered for The Living Way","html":"<p>If they say to you, “Where have you come from?” say to them, “We came\nfrom the light, the place where the light came into being of itself.” If\nthey say to you, “Is it you?” say, “We are its children, the chosen of\nthe living Father.” If they ask you, “What is the sign of your Father in\nyou?” say to them, “It is movement, and rest.”<\/p>","link":"wisdom_gospels.html"},"Thomas 66":{"credit":"Rendered for The Living Way","html":"<p>Show me the stone that the builders rejected: that is the\ncornerstone.<\/p>","link":"wisdom_gospels.html"},"Thomas 7, 22":{"credit":"Rendered for The Living Way","html":"<p><strong>7.<\/strong> Blessed is the lion that the human eats, so that\nthe lion becomes human. And cursed is the human that the lion eats; the\nlion will become human.<\/p>\n<p><strong>22.<\/strong> When you make the two one, and make the inside\nlike the outside and the outside like the inside, and the above like the\nbelow … then you will enter the Kingdom.<\/p>","link":"wisdom_gospels.html"},"Thomas 70":{"credit":"Rendered for The Living Way","html":"<p>If you bring forth what is within you, what you bring forth will save\nyou. If you do not bring forth what is within you, what you do not bring\nforth will destroy you.<\/p>","link":"wisdom_gospels.html"},"Thomas 77":{"credit":"Rendered for The Living Way","html":"<p>I am the light that is over all things. I am the All: from me the All\ncame forth, and to me the All has reached. Split a piece of wood, and I\nam there. Lift up the stone, and you will find me there.<\/p>","link":"wisdom_gospels.html"},"Thomas 78":{"credit":"Rendered for The Living Way","html":"<p>Why have you come out to the countryside? To see a reed shaken by the\nwind? To see someone dressed in soft clothes, like your kings and your\ngreat ones? They wear soft clothes, and they cannot know the truth.<\/p>","link":"wisdom_gospels.html"},"Thomas 8":{"credit":"Rendered for The Living Way","html":"<p>The human being is like a wise fisher who cast a net into the sea and\ndrew it up full of small fish. Among them the fisher found one fine,\nlarge fish, threw all the small fish back into the sea, and chose the\nlarge fish without hesitation. Whoever has ears to hear, let them\nhear.<\/p>","link":"wisdom_gospels.html"},"Thomas 87, 112":{"credit":"Rendered for The Living Way","html":"<p><strong>87.<\/strong> Wretched is the body that depends on a body, and\nwretched is the soul that depends on these two.<\/p>\n<p><strong>112.<\/strong> Woe to the flesh that depends on the soul; woe\nto the soul that depends on the flesh.<\/p>","link":"wisdom_gospels.html"},"Thomas 96":{"credit":"Rendered for The Living Way","html":"<p>The Kingdom of the Father is like a woman who took a little leaven,\nhid it in dough, and made it into large loaves. Whoever has ears, let\nthem hear.<\/p>","link":"wisdom_gospels.html"},"Thomas 97":{"credit":"Rendered for The Living Way","html":"<p>The Kingdom of the Father is like a woman carrying a jar full of\nmeal. While she walked a long road, the handle of the jar broke and the\nmeal spilled out behind her along the road. She did not know it; she had\nnoticed no trouble. When she reached her house, she set the jar down and\nfound it empty.<\/p>","link":"wisdom_gospels.html"},"Thunder, Perfect Mind · Return to the Mother":{"credit":"Rendered for The Living Way","html":"<p>I am the first and the last. I am the honored one and the scorned\none. I am the prostitute and the holy one. I am the wife and the virgin.\nI am the mother and the daughter.<\/p>","link":"wisdom_gospels.html"},"Thunder, Perfect Mind · The Eternal Name":{"credit":"Rendered for The Living Way","html":"<p>I am the silence that cannot be grasped, and the thought that is\nremembered often. I am the voice of many sounds, and the word of many\nforms. I am the speaking of my own name.<\/p>","link":"wisdom_gospels.html"}}</script>
         
         <div style="text-align: center; margin-top: 4rem; opacity: 0.6; font-size: 0.9rem;">
             <p>The Living Way Library</p>
