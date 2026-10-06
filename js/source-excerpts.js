@@ -9,19 +9,33 @@
   var excerpts;
   try { excerpts = JSON.parse(dataEl.textContent); } catch (e) { return; }
 
+  // A panel opens after the source line under a saying, or at the end of
+  // a Sources and Echoes entry.
+  function hostOf(el) {
+    return el.closest('.saying-source') || el.closest('li');
+  }
+
+  function panelOf(host) {
+    var next = host.classList.contains('saying-source')
+      ? host.nextElementSibling
+      : host.querySelector(':scope > .source-excerpt');
+    return next && next.classList.contains('source-excerpt') ? next : null;
+  }
+
   function close(panel) {
-    var line = panel.previousElementSibling;
-    if (line) line.querySelectorAll('a[aria-expanded]').forEach(function (a) {
+    var host = panel.classList.contains('in-entry') ? panel.parentElement : panel.previousElementSibling;
+    if (host) host.querySelectorAll('a[aria-expanded]').forEach(function (a) {
       a.setAttribute('aria-expanded', 'false');
     });
     panel.remove();
   }
 
   function open(link, key) {
-    var line = link.closest('.saying-source');
-    var existing = line.nextElementSibling;
-    var same = existing && existing.classList.contains('source-excerpt') && existing.dataset.ref === key;
-    if (existing && existing.classList.contains('source-excerpt')) close(existing);
+    var host = hostOf(link);
+    if (!host) return;
+    var existing = panelOf(host);
+    var same = existing && existing.dataset.ref === key;
+    if (existing) close(existing);
     if (same) return;
 
     var item = excerpts[key];
@@ -62,7 +76,12 @@
       panel.appendChild(credit);
     }
 
-    line.after(panel);
+    if (host.classList.contains('saying-source')) {
+      host.after(panel);
+    } else {
+      panel.classList.add('in-entry');
+      host.appendChild(panel);
+    }
     link.setAttribute('aria-expanded', 'true');
   }
 
