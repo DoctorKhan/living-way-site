@@ -84,7 +84,7 @@ The trouble turns, slowly, into wonder. What threatened you begins to look like 
 
 ### ✦ Reign and Rest
 
-To "reign over the All" is not to rule others. It is to no longer be ruled by fear, craving, and the opinions of the crowd. What remains is rest: not idleness, but a settledness that does not depend on circumstances. This is the return the Tao speaks of: not going back in time, but coming home to the Source you never left (*The Living Way*, 40, "The Return").
+To "reign over the All" is not to rule others. It is to no longer be ruled by fear, craving, and the opinions of the crowd. What remains is rest: not idleness, but a settledness that does not depend on circumstances. This is the return the Tao speaks of: not going back in time, but coming home to the Source you never left (*The Living Way*, 39, "The Leaking Jar": "So the Way moves: by returning").
 
 > "If they ask you, 'What is the sign of your Father in you?'
 > say to them, 'It is movement and rest.'"
@@ -115,12 +115,11 @@ These texts say less about *who* God is than about *where* God is found.
 
 ### ✦ One Source, Two Hands
 
-*The Living Way* speaks of a single Source that cannot be named, and of two ways it is known:
+*The Living Way* speaks of a single Source that cannot be named, and of two ways it is known. Its Preface names them both:
 
-> The Source gives birth to the Father and the Mother.
-> The Two give birth to the Many.
-> The Many return to the One.
-> — *The Living Way*, 42, "The Birth of the Two"
+> There the Father of Light whispers,
+> and the Mother of Wisdom gathers you to Herself.
+> — *The Living Way*, Preface
 
 The Father and the Mother are not two gods. They are the two hands of the One Source: the Light that originates, and the Wisdom that receives, holds, and gives birth. Neither is complete without the other.
 
@@ -177,7 +176,7 @@ In the **Wisdom tradition**, the Mother stands beside the Father. She speaks, ca
 
 *The Living Way* holds both. From the Tao it takes her images: the womb, the silence, the valley, the river, the return. From Wisdom it takes her name and her voice, the Mother who "gathers you to Herself" (Preface). It also places her, with the Father, as one of the two hands of a nameless Source, where the Tao sets her closer to the Source itself. The Tao's Mother is the ground; Wisdom is the voice. The Mother of *The Living Way* is both.
 
-In *The Living Way*, the Mother is the Silence that births the All (25, "The Womb of Silence"), the River that pours itself into every vessel (34, "The Great River"), and the home the soul returns to, where the powers can no longer wound it (52, "Return to the Mother").
+In *The Living Way*, the Mother is the Silence that births the All and the home the soul returns to, where the powers can no longer wound it (50, "Return to the Mother"), and the River that pours itself into every vessel (33, "The Great River").
 
 If the Father is the Light you came from, the Mother is the Silence you rest in.
 
@@ -216,9 +215,33 @@ The question these texts put to you is not *"Will you accept a claim about him?"
 
 # **Chapter 3 — The Practices of the Way**
 
-The Way is learned by doing. These practices do not make you free. They shift where you stand, so you can see that you already are. These seven practices are the heart of this guide. Begin with the first, and add the next only when the one before has become familiar. For more practices in the voice of Gotama, see [The Wisdom of Awakening](The_Living_Suttas.html).
+The Way is learned by doing. These practices do not make you free. They shift where you stand, so you can see that you already are. For more practices in the voice of Gotama, see [The Wisdom of Awakening](The_Living_Suttas.html).
+
+## ✦ Two Doors and the Ground Between
+
+There are two ways the false self dissolves.
+
+In **the fire of the eye**, you turn toward the one who sees, until the seer cannot be found and only seeing remains. This is the door of the Father of Light.
+
+In **the absorption of the senses**, you give yourself so fully to what is seen, heard, felt, or done that no one is left over. This is the door of the Mother.
+
+Between these two, where most of life is lived, you can begin to **relate differently**: to meet what arises as something you are in relation to, not something you are.
+
+> Between them runs the long hall of your days.
+> Walk it gently, child of both.
+> Let every guest be a guest,
+> and none of them your face.
+> Both doors open on the bridal chamber.
+> It was never locked.
+> — *The Living Way*, 46, "Two Doors", "Two Doors"
+
+You may begin at either door. If inquiry comes naturally to you, start with the eye. If the body, work, music, or devotion comes naturally, start with absorption. The practices of the ground between are for everyone, every day. Where the two doors meet, Thomas calls it *making the two one*.
 
 ---
+
+## ✦ The First Door: The Fire of the Eye
+
+*Dissolving into the seer.*
 
 ## ✦ Practice 1 — Know Yourself
 
@@ -231,13 +254,17 @@ The Way is learned by doing. These practices do not make you free. They shift wh
 3. Ask quietly: *"Who is aware of this?"* Do not answer in words.
 4. Rest in the awareness that is noticing. It was here before the thought, and it will be here after it.
 
-This is the "poverty" of Thomas 3 turning into its opposite: you begin to know yourself.
+Follow the question all the way back, and you will not find the one who sees as something that can be seen. The eye does not see itself. When the looking turns up nothing, stop looking, and simply be the seeing.
 
-The Ashtavakra Gita gives this practice in a single line: "You are not earth, nor water, nor fire, nor air, nor space. To be free, know yourself as the witness of all these: awareness itself" (1.3). See [The Ashtavakra Gita](read.html?doc=Krishna/The_Ashtavakra_Gita_Sanskrit_and_Translation.md).
+The Upanishads put it plainly: "You cannot see the seer of seeing" (Brihadaranyaka 3.4.2). The Ashtavakra Gita gives the practice in a single line: "You are not earth, nor water, nor fire, nor air, nor space. To be free, know yourself as the witness of all these: awareness itself" (1.3). See [The Ashtavakra Gita](read.html?doc=Krishna/The_Ashtavakra_Gita_Sanskrit_and_Translation.md).
 
-*In The Living Way:* 3, "The Poverty of the Unknowing"; 32, "The Way, the Truth."
+*In The Living Way:* 3, "The Poverty of the Unknowing"; 30, "The Way, the Truth"; 45, "Seeing Without Seeking"; 31, "The Eternal Name".
 
 ---
+
+## ✦ The Second Door: The Absorption of the Senses
+
+*Dissolving into the seen.*
 
 ## ✦ Practice 2 — Return to the Mother
 
@@ -254,28 +281,39 @@ The first practice asks. This one receives.
 3. Feel yourself held: by the ground, by the air, by the silence around the sounds.
 4. Rest there like a valley that receives the rain. There is nothing to achieve.
 
-When the powers return, come back here. In *The Living Way*, the one who returns to the Womb of Light is "no longer wounded by the powers" (52).
+When the powers return, come back here. In *The Living Way*, the one who returns to the Womb of Light is "no longer wounded by the powers."
 
-*In The Living Way:* 25, "The Womb of Silence"; 52, "Return to the Mother."
+*In The Living Way:* 50, "Return to the Mother".
+
+---
+
+## ✦ Practice 3 — Only the Seen
+
+> "Split a piece of wood, and I am there.
+> Lift up the stone, and you will find me there."
+> — Thomas 77
+
+The Buddha once gave a teaching to a seeker named Bahiya, who asked for something he could practice at once:
+
+> "In the seen, let there be only the seen;
+> in the heard, only the heard;
+> in the felt, only the felt;
+> in the known, only the known.
+> Then there is no 'you' in it.
+> When there is no 'you' in it,
+> you are neither here nor beyond nor in between.
+> This, just this, is the end of suffering."
+> — Udana 1.10
+
+**The practice:** choose one ordinary act: washing a bowl, walking to the door, splitting wood, listening to rain. Give yourself to it entirely. Only the washing; only the walking; only the sound. When the one who is doing it reappears, with *"Am I doing this well?"* or *"How long now?"*, do not fight it. Let it fall back into the act, the way a ripple falls back into the water.
+
+*In The Living Way:* 36, "Split the Wood"; 46, "Two Doors".
 
 ---
 
-## ✦ Practice 3 — Make the Two One
+## ✦ The Ground Between: Relating Differently
 
-> "When you make the two one,
-> and make the inside like the outside and the outside like the inside,
-> and the above like the below…
-> then you will enter the Kingdom."
-> — Thomas 22
-
-1. Choose a pair: breath in and breath out; sound and silence; your self and the person in front of you.
-2. Notice each side clearly.
-3. Ask: *"What holds both?"*
-4. Rest in that. Thomas calls the one who lives from there the **Single One**: not alone, but undivided.
-
-*In The Living Way:* 2, "The Two Become One"; 28, "The Fertile Soil."
-
----
+*Neither door has opened, and you are still here. This is where most of the Way is walked.*
 
 ## ✦ Practice 4 — Name the Powers
 
@@ -300,7 +338,7 @@ In this reading, sin is less a debt you owe than a confusion you live in: taking
 
 **The practice:** when you notice craving, confusion, or anger, name it plainly and add, *"This is a power, not my self."* Watch what happens to its grip once it has been named.
 
-*In The Living Way:* 5, "The Powers Question the Soul"; 7, "The Unforced Kingdom."
+*In The Living Way:* 5, "The Powers Question the Soul"; 7, "The Unforced Kingdom".
 
 ---
 
@@ -320,11 +358,11 @@ And at the last power:
 > and ignorance has died."
 > — Mary 16
 
-**The practice:** when a power returns, and it will, answer it in your own words, gently and without contempt: *"I see you. You are something I wear. You are not me."* Then return to the Mother, in Practice 2.
+**The practice:** when a power returns, and it will, answer it in your own words, gently and without contempt: *"I see you. You are something I wear. You are not me."* This is letting every guest be a guest, and none of them your face. Then return to either door.
 
 This is not triumph over an enemy. It is recognition. What is recognized loses the power to rule.
 
-*In The Living Way:* 5, "The Powers Question the Soul"; 13, "The Unbinding."
+*In The Living Way:* 5, "The Powers Question the Soul"; 13, "The Unbinding".
 
 ---
 
@@ -340,7 +378,7 @@ The Way does not force.
 
 **The practice:** when you meet resistance, in a person, a task, or yourself, pause before you push. Ask: *"What would water do here?"* Water does not stop moving, and it does not fight. It finds the low way around, and in time it wears down stone. Take the lower seat. Say less. Let the situation show you its shape before you act on it.
 
-*In The Living Way:* 8, "The Servant at the Feast"; 43, "The Gentle Overcomes"; 78, "The Stone and the Corner."
+*In The Living Way:* 8, "The Servant at the Feast"; 79, "The Stone and the Corner".
 
 ---
 
@@ -356,7 +394,28 @@ The Way is inward, but it is not private.
 
 **The practice:** once a day, act from what you have seen in stillness. Speak the true thing you have been avoiding. Give what you have been holding back. Do the small task you know is yours. Then notice whether what you brought forth leaves you more alive or less.
 
-*In The Living Way:* 63, "The Small Actions"; 81, "The Completion."
+*In The Living Way:* 60, "The Small Actions"; 82, "The Completion".
+
+---
+
+## ✦ Where the Doors Meet
+
+## ✦ Practice 8 — Make the Two One
+
+> "When you make the two one,
+> and make the inside like the outside and the outside like the inside,
+> and the above like the below…
+> then you will enter the Kingdom."
+> — Thomas 22
+
+1. Choose a pair: breath in and breath out; sound and silence; your self and the person in front of you.
+2. Notice each side clearly.
+3. Ask: *"What holds both?"*
+4. Rest in that. Thomas calls the one who lives from there the **Single One**: not alone, but undivided.
+
+Through the eye, nothing is outside you. Through absorption, no one is inside. When both are true at once, the two are made one, and both doors open on the bridal chamber.
+
+*In The Living Way:* 2, "The Two Become One"; 26, "The Fertile Soil"; 46, "Two Doors".
 
 ---
 

@@ -652,6 +652,23 @@ you may know the One who sees.
 But the eye does not see itself;  
 be the seeing, and the search is over.
 
+## Two Doors
+
+The house of forgetting has two doors.  
+One is made of light:  
+the eye turns back to find the eye  
+and finds only the Father's Light.  
+One is made of bread and song:  
+the bread is eaten until no one is eating,  
+the song is heard until no one is hearing,  
+and the Mother gathers you into her silence.  
+Between them runs the long hall of your days.  
+Walk it gently, child of both.  
+Let every guest be a guest,  
+and none of them your face.  
+Both doors open on the bridal chamber.  
+It was never locked.
+
 ## The Unlearning
 
 The scholar gathers more words each day  
@@ -1166,6 +1183,7 @@ $\cdot$ $\odot$ $\cdot$
 - The Yoke of Peace: Tao Te Ching 46; Matthew 11:30.
 - The Body That Leans: Thomas 87, 112.
 - Seeing Without Seeking: Tao Te Ching 47; Thomas 3; Luke 17:21; Mary 8; Brihadaranyaka Upanishad 3.4.2 ("you cannot see the seer of seeing").
+- Two Doors: Brihadaranyaka Upanishad 3.4.2; Udana 1.10 (Bahiya: "in the seen, only the seen"); Thomas 77; Mary 15; Philip on the bridal chamber.
 - The Unlearning: Tao Te Ching 48; Thomas 37.
 - The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
 - Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
