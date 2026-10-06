@@ -182,8 +182,8 @@ yet the Master calls him forward.
 So too the one who knows the Father  
 takes the lowest seat  
 and finds there the highest.  
-Humility is not making the self small;  
-it is seeing that the self is a shadow.
+Humility is not the false self becoming small;  
+it is simply seeing it as a shadow.
 
 ## The Teacher Who Does Not Teach
 
