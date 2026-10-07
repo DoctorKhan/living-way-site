@@ -704,6 +704,10 @@ There is a womb older than creation,
 the Silence that births the All.  
 It moves through you as breath,  
 yet it is not the breath.  
+She is in the taste of bread,  
+in the wind against your face;  
+rest in what you sense,  
+and you are resting in her.  
 Know the Mother of your soul,  
 and you recognize all her children.  
 Know the children as passing forms,  
@@ -1183,11 +1187,11 @@ $\cdot$ $\odot$ $\cdot$
 - The Yoke of Peace: Tao Te Ching 46; Matthew 11:30.
 - The Body That Leans: Thomas 87, 112.
 - Seeing Without Seeking: Tao Te Ching 47; Thomas 3; Luke 17:21; Mary 8; Brihadaranyaka Upanishad 3.4.2 ("you cannot see the seer of seeing").
-- Two Doors: Brihadaranyaka Upanishad 3.4.2; Udana 1.10 (Bahiya: "in the seen, only the seen"); Thomas 77; Mary 15; Philip on the bridal chamber.
+- Two Doors: Brihadaranyaka Upanishad 3.4.2; Udana 1.10 (Bahiya: "in the seen, only the seen"); Thomas 77; Mary 15; Philip on the bridal chamber; Vijñāna Bhairava 41, 72.
 - The Unlearning: Tao Te Ching 48; Thomas 37.
 - The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
 - Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
-- Return to the Mother: Tao Te Ching 25, 52; Gospel of the Hebrews; Thunder, Perfect Mind.
+- Return to the Mother: Tao Te Ching 25, 52; Gospel of the Hebrews; Thunder, Perfect Mind; Vijñāna Bhairava 74.
 - The Eye of the Needle: Tao Te Ching 53; Mark 10:25; Matthew 7:13--14.
 - The Widening Circle: Tao Te Ching 54; Matthew 5:15.
 
