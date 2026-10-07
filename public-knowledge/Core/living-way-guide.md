@@ -266,6 +266,10 @@ The Upanishads put it plainly: "You cannot see the seer of seeing" (Brihadaranya
 
 *Dissolving into the seen.*
 
+Resting in the senses, the Mother is found. She is Mother Nature in the oldest sense: "the Mother of the ten thousand things" (Tao Te Ching 1).
+
+India names the two doors precisely. The Sāṃkhya philosophy calls the seer *Puruṣa* and everything seen *Prakṛti*, nature, and she is feminine. The way of discernment leaves by the first door, telling the seer from the seen. The Tantras leave by the second: the senses and the world are not obstacles to be escaped but the Goddess herself, *Śakti*, and whoever rests fully in them finds her. Buddhist practice knows this door too, in the Buddha's teaching to Bahiya, "in the seen, only the seen," and in the Tibetan traditions of resting in whatever appears.
+
 ## ✦ Practice 2 — Return to the Mother
 
 The first practice asks. This one receives.
@@ -304,6 +308,28 @@ The Buddha once gave a teaching to a seeker named Bahiya, who asked for somethin
 > you are neither here nor beyond nor in between.
 > This, just this, is the end of suffering."
 > — Udana 1.10
+
+The *Vijñāna Bhairava Tantra*, a dialogue in which Bhairava, the Lord, answers the questions of the Goddess, gives one hundred and twelve ways in. Many of them pass through the senses:
+
+> "When the long, unfolding sounds of strings and other instruments
+> are heard with an undivided mind,
+> at their ending one becomes the body of the boundless sky."
+> — Vijñāna Bhairava 41
+
+> "When the joy of eating and drinking swells,
+> rest in that fullness;
+> from it, great bliss arises."
+> — Vijñāna Bhairava 72
+
+> "Wherever the mind finds delight,
+> let it rest right there.
+> There, the nature of the highest joy unfolds."
+> — Vijñāna Bhairava 74
+
+> "Gazing at the clear sky with an unwavering eye,
+> the body still,
+> in that very moment, O Goddess, one takes on the form of the Lord."
+> — Vijñāna Bhairava 84
 
 **The practice:** choose one ordinary act: washing a bowl, walking to the door, splitting wood, listening to rain. Give yourself to it entirely. Only the washing; only the walking; only the sound. When the one who is doing it reappears, with *"Am I doing this well?"* or *"How long now?"*, do not fight it. Let it fall back into the act, the way a ripple falls back into the water.
 
@@ -414,6 +440,8 @@ The Way is inward, but it is not private.
 4. Rest in that. Thomas calls the one who lives from there the **Single One**: not alone, but undivided.
 
 Through the eye, nothing is outside you. Through absorption, no one is inside. When both are true at once, the two are made one, and both doors open on the bridal chamber.
+
+Kashmir Shaivism gives the same union its own names: *Śiva*, the Light of consciousness, and *Śakti*, its living power. Liberation is their embrace. The Father of Light and the Mother; the seer and the seen; the eye and the senses: the Gospel of Philip calls their meeting the bridal chamber.
 
 *In The Living Way:* 2, "The Two Become One"; 26, "The Fertile Soil"; 46, "Two Doors".
 
