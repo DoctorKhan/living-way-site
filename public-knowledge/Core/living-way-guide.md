@@ -227,12 +227,17 @@ In **the absorption of the senses**, you give yourself so fully to what is seen,
 
 Between these two, where most of life is lived, you can begin to **relate differently**: to meet what arises as something you are in relation to, not something you are.
 
-> Between them runs the long hall of your days.
-> Walk it gently, child of both.
-> Let every guest be a guest,
-> and none of them your face.
-> Both doors open on the bridal chamber.
-> It was never locked.
+> The bread is eaten until no one is eating.
+> The song is heard until no one is hearing.
+> Where the Mother gathers you into her arms.
+>
+> The eye turns back to find the eye
+> and burns in its own flame,
+> until only the Father's Light remains.
+>
+> Beyond either door,
+> the same bridal chamber,
+> never locked.
 > — *The Living Way*, 46, "Two Doors", "Two Doors"
 
 You may begin at either door. If inquiry comes naturally to you, start with the eye. If the body, work, music, or devotion comes naturally, start with absorption. The practices of the ground between are for everyone, every day. Where the two doors meet, Thomas calls it *making the two one*.
@@ -384,7 +389,7 @@ And at the last power:
 > and ignorance has died."
 > — Mary 16
 
-**The practice:** when a power returns, and it will, answer it in your own words, gently and without contempt: *"I see you. You are something I wear. You are not me."* This is letting every guest be a guest, and none of them your face. Then return to either door.
+**The practice:** when a power returns, and it will, answer it in your own words, gently and without contempt: *"I see you. You are something I wear. You are not me."* This is letting every guest be a guest, and none of them your own face. Then return to either door.
 
 This is not triumph over an enemy. It is recognition. What is recognized loses the power to rule.
 
