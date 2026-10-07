@@ -656,7 +656,7 @@ be the seeing, and the search is over.
 
 The bread is eaten until no one is eating.  
 The song is heard until no one is hearing.  
-Where the Mother gathers you into her arms.
+There the Mother gathers you into her arms.
 
 The eye turns back to find the eye  
 and burns in its own flame,  
