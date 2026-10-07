@@ -235,9 +235,9 @@ Between these two, where most of life is lived, you can begin to **relate differ
 > and burns in its own flame,
 > until only the Father's Light remains.
 >
-> Beyond either door,
+> Each door hides
 > the same bridal chamber,
-> never locked.
+> though it is never locked.
 > — *The Living Way*, 46, "Two Doors", "Two Doors"
 
 You may begin at either door. If inquiry comes naturally to you, start with the eye. If the body, work, music, or devotion comes naturally, start with absorption. The practices of the ground between are for everyone, every day. Where the two doors meet, Thomas calls it *making the two one*.

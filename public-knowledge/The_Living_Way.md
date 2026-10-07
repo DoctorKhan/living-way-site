@@ -662,9 +662,9 @@ The eye turns back to find the eye
 and burns in its own flame,  
 until only the Father's Light remains.
 
-Beyond either door,  
+Each door hides  
 the same bridal chamber,  
-never locked.
+though it is never locked.
 
 ## The Unlearning
 
@@ -1184,7 +1184,7 @@ $\cdot$ $\odot$ $\cdot$
 - The Yoke of Peace: Tao Te Ching 46; Matthew 11:30.
 - The Body That Leans: Thomas 87, 112.
 - Seeing Without Seeking: Tao Te Ching 47; Thomas 3; Luke 17:21; Mary 8; Brihadaranyaka Upanishad 3.4.2 ("you cannot see the seer of seeing").
-- Two Doors: Brihadaranyaka Upanishad 3.4.2; Udana 1.10 (Bahiya: "in the seen, only the seen"); Thomas 77; Philip on the bridal chamber; Vijñāna Bhairava 41, 72.
+- Two Doors: Brihadaranyaka Upanishad 3.4.2; Udana 1.10 (Bahiya: "in the seen, only the seen"); Thomas 77; Philip ("the bridal chamber remains hidden"); Vijñāna Bhairava 41, 72.
 - The Unlearning: Tao Te Ching 48; Thomas 37.
 - The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
 - Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
