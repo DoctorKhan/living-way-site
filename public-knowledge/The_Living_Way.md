@@ -595,7 +595,7 @@ I answered: with neither.
 There is an eye between them,  
 and where that eye rests,  
 there your treasure lies.  
-Rest it on a name,  
+Rest it on your name,  
 and you will starve in a palace.  
 Rest it on the Light,  
 and an empty field will feed you.
