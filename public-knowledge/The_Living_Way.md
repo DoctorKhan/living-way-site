@@ -668,16 +668,14 @@ though it is never locked.
 
 ## The Unlearning
 
-The scholar gathers more words each day  
-and builds a tower of opinions.  
+The scholar adds a word each day,  
+and the tower climbs.  
 The seeker of the Way  
-lays one stone down each day  
+takes one stone down each day:  
+a belief, a fear, a name,  
 until only open sky remains.  
-She strips off garment after garment---  
-belief, fear, reputation---  
-until the naked Light stands forth.  
-He who lets go of all things  
-discovers that he holds the All.
+Let go of all things,  
+and the All will hold you.
 
 ## The Heart of the Single One
 
@@ -1185,7 +1183,7 @@ $\cdot$ $\odot$ $\cdot$
 - The Body That Leans: Thomas 87, 112.
 - Seeing Without Seeking: Tao Te Ching 47; Thomas 3; Luke 17:21; Mary 8; Brihadaranyaka Upanishad 3.4.2 ("you cannot see the seer of seeing").
 - Two Doors: Brihadaranyaka Upanishad 3.4.2; Udana 1.10 (Bahiya: "in the seen, only the seen"); Thomas 77; Philip ("the bridal chamber remains hidden"); Vijñāna Bhairava 41, 72.
-- The Unlearning: Tao Te Ching 48; Thomas 37.
+- The Unlearning: Tao Te Ching 48; Thomas 77 ("I am the All").
 - The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
 - Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
 - Return to the Mother: Tao Te Ching 25, 52; Gospel of the Hebrews; Thunder, Perfect Mind; Vijñāna Bhairava 74.
