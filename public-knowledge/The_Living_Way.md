@@ -333,6 +333,21 @@ Let the heart's waters grow still.
 The mud settles;  
 the moon appears below.
 
+## The First Free Act
+
+All day, the old wheel turns:  
+the hand reaches,  
+the mouth answers,  
+before you arrive.
+
+You sit.  
+The wheel keeps turning.  
+You watch,  
+and do not climb aboard.
+
+In that stillness,  
+the next act is yours.
+
 ## The Hidden Guide
 
 The greatest guide is the one who disappears.  
@@ -544,7 +559,7 @@ They ask, "Show us the life that does not die."
 I answer: *I am.*
 
 *I am* the Way, the Truth, and the Life.  
-Only those who walk this way come to the Father.
+All who arrived here have walked this way.
 
 ## Many Rooms
 
@@ -1366,6 +1381,7 @@ I am the one reading.
 - The Return to the Unborn: Tao Te Ching 14; Thomas 18--19; Hymn of the Pearl.
 - The Silence That Speaks: Tao Te Ching 56; Thomas 8.
 - The Great Stillness: Tao Te Ching 15, 16.
+- The First Free Act: Tao Te Ching 16.
 - The Hidden Guide: Tao Te Ching 17.
 - When the Way Is Forgotten: Tao Te Ching 18--19; Philip ("light and darkness are brothers").
 
@@ -1388,7 +1404,7 @@ I am the one reading.
 - The Futility of Control: Tao Te Ching 29; Mark 4:26--29.
 - The Way of Non-Violence: Tao Te Ching 30, 68; Matthew 26:52; Matthew 5:9.
 - The Healing of the Ear: Tao Te Ching 31; Luke 22:50--51.
-- The Way, the Truth: John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7; Tathāgata (the Buddha's name for himself, "one who has gone thus"), echoed in "those who walk this way."
+- The Way, the Truth: John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7; Tathāgata (the Buddha's name for himself, "one who has thus come," or "thus gone"), echoed in "all who arrived here."
 - Many Rooms: John 14:2; Ashtavakra Gita 1.20 (the space in the jar); Chandogya Upanishad 8.1 (the space within the heart); Teresa of Ávila, *Interior Castle*.
 - The Eternal Name: Exodus 3:2--6, 3:14 (Moses at the burning bush); John 8:58 ("before Abraham was, I am"); Thunder, Perfect Mind ("the speaking of my own name"); Tao Te Ching 1 (the name that can be named); Genesis 1:2 (the breath moving); so'ham, "That I am," the breath mantra of Advaita (compare Nisargadatta, *I Am That*).
 - Profit and Loss: Tao Te Ching 33; Mark 8:36.
