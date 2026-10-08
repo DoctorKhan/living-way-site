@@ -814,15 +814,16 @@ need not hold on.
 
 There is a womb older than creation,  
 the deep that births the All.  
-It moves through you as breath,  
-yet it is not the breath.  
-She is in the taste of bread,  
-in the wind against your face;  
-rest in what you sense  
+Her life moves through you as breath,  
+yet is more than breath.  
+Taste the bread.  
+Feel the wind cross your face.  
+Rest in what touches you  
 until you lose yourself in her.  
+A bird crosses the sky;  
+the sky opens in the bird.  
 Each passing form  
-is held in her life;  
-her life meets your own.  
+is her life taking shape.  
 You were never separate  
 from the womb that bears the All.
 
