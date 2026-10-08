@@ -697,7 +697,7 @@ before she enters the chamber.
 ## Return to the Mother
 
 There is a womb older than creation,  
-the Silence that births the All.  
+the deep that births the All.  
 It moves through you as breath,  
 yet it is not the breath.  
 She is in the taste of bread,  
@@ -708,7 +708,7 @@ Know the Mother of your soul,
 and you recognize all her children.  
 Know the children as passing forms,  
 and you are drawn back to the Mother.  
-In returning to her silence  
+In returning to her arms  
 you are no longer wounded by the powers,  
 for you remember that you were never separate  
 from the womb that bore you.
@@ -1235,14 +1235,16 @@ For the ancient words themselves, see *Wisdom Gospels* in the Living Way library
 # Glossary of the Inner Kingdom
 
 **The Source:** The nameless ground of all that is, what the Tao Te
-Ching calls the nameless. It cannot be seen as an object; everything
-comes from it and returns to it. Met as one, the sayings call it the One.
+Ching calls the nameless. It is the Silence before the Father and the
+Mother: "From the Silence, the Word. From the Word, the Light." It
+cannot be seen as an object; everything comes from it and returns to it.
+Met as one, the sayings call it the One.
 
 **The Father and the Mother:** The two faces of the one Source, not two
 gods. The Father is the Source as origin and Light: what you came from,
 and the seeing that knows. The Mother is the Source as Wisdom and
-Silence: the womb that bears you, the senses in which she is found, and
-the home you return to. Early Semitic Christians spoke of the Holy
+life: the deep that bears all things, the womb that bears you, the
+senses in which she is found, and the arms you return to. Early Semitic Christians spoke of the Holy
 Spirit as Mother.
 
 **The Living One:** God's own life, as in the Gospel of Thomas: "Look to
@@ -1256,9 +1258,9 @@ your own.
 **The One and the All:** The Source seen as one, the One who sees and
 who bears all things, and as everything: "I am the All" (Thomas 77).
 
-**Light and Silence:** The Father's Light and the Mother's Silence.
-Where the sayings speak of "the Light" alone, they mean the divine light
-that is also your own.
+**Light and Silence:** The Light is the Father's; the Silence is the
+Source's, before both Father and Mother. Where the sayings speak of "the
+Light" alone, they mean the divine light that is also your own.
 
 **The Way (Tao):** The movement of the Source through all things,
 without force, and the path of return to it. In this scroll it is also
@@ -1266,10 +1268,15 @@ the Kingdom of Heaven spread upon the earth. The same word named the first follo
 
 **Living:** Awake to the Source. Thomas calls Jesus "the living Jesus" and God "the living Father." To be living is to have come alive to one's origin; the dead are those wholly absorbed in the surface of things. The Letter to the Hebrews speaks of "a new and living way" (10:20), in Syriac *ʾurḥā d-ḥayyē*, "a way of life."
 
-**The Bridal Chamber:** The union of the two: Father and Mother, inner
-and outer, seer and seen. Both doors of practice open on it. In the
-Gospel of Philip it is the holy of holies; it remains hidden, yet it is
-never locked.
+**The Bridal Chamber:** The Silence of the Source, as the soul enters it.
+The Silence is the ground before the two; the bridal chamber is the same
+ground found from within the world of two, where the two are made one.
+The soul enters it as a bride; there seer and seen, inner and outer, the
+Father's Light and the Mother's life are no longer two, and the union
+itself dissolves into the Silence: "the one is shown to be none." Both doors
+of practice open on it. In the Gospel of Philip it is the holy of
+holies, and Thomas says the single one enters it (75). It remains
+hidden, yet it is never locked.
 
 **The Single One (Monachos):** A term from the Gospel of Thomas for the
 solitary or unified seeker; one who has integrated the inner opposites

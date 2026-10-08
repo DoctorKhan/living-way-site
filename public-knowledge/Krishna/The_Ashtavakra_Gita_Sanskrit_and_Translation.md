@@ -10,7 +10,9 @@ The Ashtavakra Gita speaks from the standpoint of awareness itself, where nothin
 
 That is also the key to its hardest lines, such as “This alone is your bondage: that you keep practicing meditation” (1.15). From the standpoint of the one who practices, practice is the way. From the standpoint of awareness, there is no one who needs to get anywhere. Both are true at their own level; the text simply refuses to speak from the first.
 
-In *The Living Way*, see [32, “The Way, the Truth”](The_Living_Way.html#the-way-the-truth) and [13, “The Unbinding”](The_Living_Way.html#the-unbinding). For practices that lead toward this standpoint, see the [Guide to the Way of the Living Jesus](living_way_guide.html).
+In *The Living Way*, see [30, “The Way, the Truth”](The_Living_Way.html#the-way-the-truth) and [13, “The Unbinding”](The_Living_Way.html#the-unbinding). For practices that lead toward this standpoint, see the [Guide to the Way of the Living Jesus](living_way_guide.html).
+
+In the Guide’s terms, this is the first of two doors: the fire of the eye, the Father’s door. Its companion for the second door, the Mother’s door of the senses, is the *Vijñāna Bhairava Tantra*; see “Only the Seen” in the [Guide](living_way_guide.html#practice-3-only-the-seen).
 
 ---
 

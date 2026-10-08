@@ -174,11 +174,11 @@ In the **Tao Te Ching**, the Mother is the Source itself, seen as the one that g
 
 In the **Wisdom tradition**, the Mother stands beside the Father. She speaks, calls in the streets, invites, delights, and teaches. She is known through relationship: by being taught, invited, and loved.
 
-*The Living Way* holds both. From the Tao it takes her images: the womb, the silence, the valley, the river, the return. From Wisdom it takes her name and her voice, the Mother who "gathers you to herself" (Preface). It also places her, with the Father, as one of the two hands of a nameless Source, where the Tao sets her closer to the Source itself. The Tao's Mother is the ground; Wisdom is the voice. The Mother of *The Living Way* is both.
+*The Living Way* holds both. From the Tao it takes her images: the womb, the valley, the river, the return. From Wisdom it takes her name and her voice, the Mother who "gathers you to herself" (Preface). It also places her, with the Father, as one of the two hands of a nameless Source, where the Tao sets her closer to the Source itself. The Tao's Mother is the ground; Wisdom is the voice. The Mother of *The Living Way* is both.
 
-In *The Living Way*, the Mother is the Silence that births the All and the home the soul returns to, where the powers can no longer wound it (50, "Return to the Mother"), and the River that pours itself into every vessel (33, "The Great River").
+In *The Living Way*, the Mother is the deep that births the All and the arms the soul returns to, where the powers can no longer wound it (50, "Return to the Mother"), and the River that pours itself into every vessel (33, "The Great River").
 
-If the Father is the Light you came from, the Mother is the Silence you rest in.
+If the Father is the Light you came from, the Mother is the life that holds you. Before them both is the Silence of the Source.
 
 ### ✦ The Two Made One
 
@@ -193,6 +193,23 @@ The Preface of *The Living Way* says it in two lines:
 
 > There the two are made one,
 > and the one is shown to be none.
+
+### ✦ In the Language of India
+
+The traditions of India map the same ground with great precision, though they do not all agree with one another, or with this book.
+
+| *The Living Way* | Advaita (the Ashtavakra Gita) | Sāṃkhya | Tantra (Kashmir Shaivism) |
+| --- | --- | --- | --- |
+| The Silence of the Source | *nirguṇa Brahman*, beyond all qualities | none | *Paramaśiva*, the still ground of both |
+| The Father: Light, the seeing | the witness, *sākṣī* | *Puruṣa*, the seer | *Śiva* as light, *prakāśa* |
+| The Mother: the womb, life, the senses | *māyā*, appearance | *Prakṛti*, nature | *Śakti*, power and play |
+| *I am* | *aham*: "I am awareness alone" | none | *aham*, the heart of consciousness |
+| The Single One | the *dhīra*, steady and free while living | the *yogin* | the *siddha* |
+| The bridal chamber | none: there is only one, so nothing to unite | *kaivalya*: the seer alone, apart from nature | the embrace of Śiva and Śakti |
+
+Two differences matter. Advaita treats the world of the senses as a veil to see through; the Tantras treat it as the Goddess herself. *The Living Way* keeps both doors open, so for the Mother it stands with the Tantras, while its first door is the Ashtavakra Gita's. And Sāṃkhya names the two doors well but ends in separation, the seer alone at last; the Way ends in union, in the bridal chamber.
+
+What Advaita calls *jīvanmukti*, freedom while living, the sayings call rising before you die.
 
 ### ✦ The Teacher Who Points Within
 
@@ -273,7 +290,7 @@ The Upanishads put it plainly: "You cannot see the seer of seeing" (Brihadaranya
 
 Resting in the senses, the Mother is found. She is Mother Nature in the oldest sense: "the Mother of the ten thousand things" (Tao Te Ching 1).
 
-India names the two doors precisely. The Sāṃkhya philosophy calls the seer *Puruṣa* and everything seen *Prakṛti*, nature, and she is feminine. The way of discernment leaves by the first door, telling the seer from the seen. The Tantras leave by the second: the senses and the world are not obstacles to be escaped but the Goddess herself, *Śakti*, and whoever rests fully in them finds her. Buddhist practice knows this door too, in the Buddha's teaching to Bahiya, "in the seen, only the seen," and in the Tibetan traditions of resting in whatever appears.
+India names the two doors precisely. The Sāṃkhya philosophy calls the seer *Puruṣa* and everything seen *Prakṛti*, nature, and she is feminine. (Sāṃkhya itself seeks the seer's freedom from nature; the Way seeks their union.) The way of discernment leaves by the first door, telling the seer from the seen. The Tantras leave by the second: the senses and the world are not obstacles to be escaped but the Goddess herself, *Śakti*, and whoever rests fully in them finds her. Buddhist practice knows this door too, in the Buddha's teaching to Bahiya, "in the seen, only the seen," and in the Tibetan traditions of resting in whatever appears.
 
 ## ✦ Practice 2 — Return to the Mother
 
@@ -290,7 +307,7 @@ The first practice asks. This one receives.
 3. Feel yourself held: by the ground, by the air, by the silence around the sounds.
 4. Rest there like a valley that receives the rain. There is nothing to achieve.
 
-When the powers return, come back here. In *The Living Way*, the one who returns to her silence is "no longer wounded by the powers."
+When the powers return, come back here. In *The Living Way*, the one who returns to her arms is "no longer wounded by the powers."
 
 *In The Living Way:* 50, "Return to the Mother".
 
@@ -466,7 +483,7 @@ Some images and how this guide reads them:
 * **The lion** is the appetite that devours (Thomas 7).
 * **Poverty** is not knowing yourself (Thomas 3).
 * **The garment** is the self you wear and mistake for yourself (Thomas 37; Mary 15). In the Hymn of the Pearl, the prince who forgot himself returns home to find his robe, and sees in it his own whole image.
-* **The Mother** is Wisdom, Silence, and the receiving ground of all things (Proverbs 8; Tao Te Ching 52).
+* **The Mother** is Wisdom, the womb, and the life of all things (Proverbs 8; Tao Te Ching 52).
 * **Water** is the strength of what does not force (Tao Te Ching 8, 78).
 * **The bridal chamber** is the union in which the two are made one (Gospel of Philip).
 
@@ -516,7 +533,7 @@ For the history of how the image of Christ was shaped by the cultures around it,
 
 # ✦ **Conclusion — Movement and Rest**
 
-The Way of the Living Jesus is not a new set of beliefs to replace the old ones. It is a path you walk: seeking, finding, being troubled, marveling, and coming to rest, from the Light of the Father into the Silence of the Mother, until the two are made one.
+The Way of the Living Jesus is not a new set of beliefs to replace the old ones. It is a path you walk: seeking, finding, being troubled, marveling, and coming to rest, through the Light of the Father and the arms of the Mother, into the Silence where the two are made one.
 
 > "Those who say they will first die and then rise are mistaken.
 > If they do not receive the resurrection while they are alive,
