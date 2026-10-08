@@ -668,14 +668,15 @@ though it is never locked.
 
 ## The Unlearning
 
-The scholar adds a word each day,  
-and the tower climbs.  
+The scholar adds a word each day  
+and builds a tower toward the sky.  
 The seeker of the Way  
-takes one stone down each day:  
-a belief, a fear, a name,  
-until only open sky remains.  
+lays one stone aside:  
+a belief, a fear, a name—  
+until the tower falls  
+and only sky remains.  
 Let go of all things,  
-and the All will hold you.
+and the open sky will hold you.
 
 ## The Heart of the Single One
 
