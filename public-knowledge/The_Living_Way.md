@@ -29,7 +29,7 @@ map of forgetting and remembering, see
 [The Hidden Architecture](The_Living_Architecture.html).
 :::
 
-# Preface
+# Beloved
 
 *Yeshua spoke:*
 
@@ -1113,7 +1113,7 @@ in the Light that you are.
 $\cdot$ $\odot$ $\cdot$
 :::
 
-# Beloved {.backmatter}
+# The One Reading {.backmatter}
 
 Beloved,  
 I have said what can be said.  
