@@ -28,3 +28,14 @@ pnpm-debug.log*
 
 # Local scratch / experiments
 .tmp-run-test/
+
+# Unpublished drafts and build files that a knowledge sync can copy here.
+# Keep them out of the live site; their sources live in knowledge/.
+# To publish one of these drafts on purpose, remove its line first.
+public-knowledge/Mindfulness/The_Lay_Verses_of_the_Living_Way.md
+public-knowledge/Zen/
+public-knowledge/spread/
+public-knowledge/Source_Excerpts.md
+public-knowledge/The_Book_of_Sayings.tex
+public-knowledge/templates/
+public-knowledge/tools/
