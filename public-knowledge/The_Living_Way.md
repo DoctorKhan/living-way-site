@@ -535,6 +535,20 @@ I answer: *I am.*
 *I am* the Way, the Truth, and the Life.  
 Only those who walk this way come to the Father.
 
+## Many Rooms
+
+In my Father's house are many rooms.  
+Each of you lives in one  
+and calls its walls your life.  
+But the space in every room  
+is the same space,  
+as the sky in a jar  
+is the sky.  
+I did not go to build you a room.  
+I went to open the doors between them.  
+The innermost room has no walls at all;  
+there the bride is waiting.
+
 ## The Eternal Name
 
 Take off your sandals.  
@@ -1363,6 +1377,7 @@ I am the one reading.
 - The Way of Non-Violence: Tao Te Ching 30, 68; Matthew 26:52; Matthew 5:9.
 - The Healing of the Ear: Tao Te Ching 31; Luke 22:50--51.
 - The Way, the Truth: John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7; Tathāgata (the Buddha's name for himself, "one who has gone thus"), echoed in "those who walk this way."
+- Many Rooms: John 14:2; Ashtavakra Gita 1.20 (the space in the jar); Chandogya Upanishad 8.1 (the space within the heart); Teresa of Ávila, *Interior Castle*.
 - The Eternal Name: Exodus 3:2--6, 3:14 (Moses at the burning bush); John 8:58 ("before Abraham was, I am"); Thunder, Perfect Mind ("the speaking of my own name"); Tao Te Ching 1 (the name that can be named); Genesis 1:2 (the breath moving); so'ham, "That I am," the breath mantra of Advaita (compare Nisargadatta, *I Am That*).
 - Profit and Loss: Tao Te Ching 33; Mark 8:36.
 - The Great River: Tao Te Ching 34; Odes of Solomon 6.
