@@ -118,7 +118,7 @@ These texts say less about *who* God is than about *where* God is found.
 *The Living Way* speaks of a single Source that cannot be named, and of two ways it is known. Its Preface names them both:
 
 > There the Father of Light whispers,
-> and the Mother of Wisdom gathers you to Herself.
+> and the Mother of Wisdom gathers you to herself.
 > — *The Living Way*, Preface
 
 The Father and the Mother are not two gods. They are the two hands of the One Source: the Light that originates, and the Wisdom that receives, holds, and gives birth. Neither is complete without the other.
@@ -174,7 +174,7 @@ In the **Tao Te Ching**, the Mother is the Source itself, seen as the one that g
 
 In the **Wisdom tradition**, the Mother stands beside the Father. She speaks, calls in the streets, invites, delights, and teaches. She is known through relationship: by being taught, invited, and loved.
 
-*The Living Way* holds both. From the Tao it takes her images: the womb, the silence, the valley, the river, the return. From Wisdom it takes her name and her voice, the Mother who "gathers you to Herself" (Preface). It also places her, with the Father, as one of the two hands of a nameless Source, where the Tao sets her closer to the Source itself. The Tao's Mother is the ground; Wisdom is the voice. The Mother of *The Living Way* is both.
+*The Living Way* holds both. From the Tao it takes her images: the womb, the silence, the valley, the river, the return. From Wisdom it takes her name and her voice, the Mother who "gathers you to herself" (Preface). It also places her, with the Father, as one of the two hands of a nameless Source, where the Tao sets her closer to the Source itself. The Tao's Mother is the ground; Wisdom is the voice. The Mother of *The Living Way* is both.
 
 In *The Living Way*, the Mother is the Silence that births the All and the home the soul returns to, where the powers can no longer wound it (50, "Return to the Mother"), and the River that pours itself into every vessel (33, "The Great River").
 
@@ -290,7 +290,7 @@ The first practice asks. This one receives.
 3. Feel yourself held: by the ground, by the air, by the silence around the sounds.
 4. Rest there like a valley that receives the rain. There is nothing to achieve.
 
-When the powers return, come back here. In *The Living Way*, the one who returns to the Womb of Light is "no longer wounded by the powers."
+When the powers return, come back here. In *The Living Way*, the one who returns to her silence is "no longer wounded by the powers."
 
 *In The Living Way:* 50, "Return to the Mother".
 
