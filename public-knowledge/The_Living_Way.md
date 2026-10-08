@@ -337,16 +337,19 @@ the moon appears below.
 
 All day, the old wheel turns:  
 the hand reaches,  
-the mouth answers,  
-before you arrive.
+the mouth answers  
+before you arrive,  
+and afterward you say, "I chose."
 
 You sit.  
 The wheel keeps turning.  
 You watch,  
 and do not climb aboard.
 
-In that stillness,  
-the next act is yours.
+In that stillness  
+the next act rises  
+from no one,  
+and is free.
 
 ## The Hidden Guide
 
@@ -1381,7 +1384,7 @@ I am the one reading.
 - The Return to the Unborn: Tao Te Ching 14; Thomas 18--19; Hymn of the Pearl.
 - The Silence That Speaks: Tao Te Ching 56; Thomas 8.
 - The Great Stillness: Tao Te Ching 15, 16.
-- The First Free Act: Tao Te Ching 16.
+- The First Free Act: Tao Te Ching 16; Philip ("it makes us do what we do not want"); Thomas 6; Bhagavad Gita 3.27; Ashtavakra Gita 1.8, 18.20.
 - The Hidden Guide: Tao Te Ching 17.
 - When the Way Is Forgotten: Tao Te Ching 18--19; Philip ("light and darkness are brothers").
 
