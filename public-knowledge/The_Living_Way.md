@@ -718,7 +718,7 @@ From the One, the two:
 the Father whose Light I am,  
 and the Mother who gave me life.  
 My mother in the flesh bore my body;  
-my true Mother, the Spirit,  
+my true Mother, by her Spirit,  
 carried me by a single hair  
 to the mountain.  
 From the two, the ten thousand things,  
@@ -1497,9 +1497,13 @@ Met as one, the sayings call it the One.
 **The Father and the Mother:** The two faces of the one Source, not two
 gods. The Father is the Source as origin and Light: what you came from,
 and the seeing that knows. The Mother is the Source as life made manifest:
-the deep that bears all things, the womb that bears you, and the forms
-through which her life is felt—in the senses, in delight, and in all
-beings. Early Semitic Christians spoke of the Holy Spirit as Mother.
+Wisdom, the deep that bears all things, the womb that bears you, and the
+forms through which her life is felt—in the senses, in delight, and in
+all beings (Proverbs 8; Luke 7:35). Her breath is the Spirit: her life
+moving through the forms. Early Semitic Christians, whose word for Spirit
+(*ruḥā*) is feminine, called the Holy Spirit Mother. Jesus himself
+spoke of God as Father, and of Wisdom as a woman with children; naming
+the two as the Source's two faces is this scroll's reading.
 
 **The Living One:** God's own life, as in the Gospel of Thomas: "Look to
 the Living One while you are alive." Jesus is "the living Jesus" because
@@ -1542,7 +1546,7 @@ awakens. The self, without qualification, is the false self: the
 garment the soul mistakes for itself. The true self is the soul
 standing forth whole. Lowercase, spirit is the highest part of a person,
 beside soul and mind, as in the Gospel of Mary; capitalized, the Spirit
-is the divine breath.
+is the divine breath, the Mother's life moving in all things.
 
 **Nous:** The "Eye of the Heart" or spiritual intellect. It is the
 faculty within the human soul that perceives the Divine directly,
