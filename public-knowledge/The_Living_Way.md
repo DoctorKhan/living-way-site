@@ -203,12 +203,10 @@ even the storm becomes a song.
 ## The Unforced Kingdom
 
 The Kingdom comes by neither effort nor delay.  
-When you stop grasping at life,  
-life reveals itself as eternal.  
-When you cease seeking the Kingdom,  
-you discover you never left it.  
-What you call "sin" is forgetting.  
-What you call "salvation" is remembering.
+Loosen your grasp,  
+and life opens around you.  
+Exile is forgetting;  
+remembering, the way home.
 
 ## The Servant at the Feast
 
@@ -331,12 +329,9 @@ one being.
 ## The Great Stillness
 
 Empty yourself of what you think you are.  
-Let the waters of the heart grow still.  
-When the mud settles by itself,  
-the bottom is revealed.  
-So too, when the soul becomes quiet,  
-the Light of the Source  
-shines through without effort.
+Let the heart's waters grow still.  
+The mud settles;  
+the moon appears below.
 
 ## The Hidden Guide
 
@@ -584,13 +579,11 @@ and the Source is seen through you.
 
 ## The Face of Peace
 
-Hold fast to the image of the Living One  
-and all beings come to rest in your presence.  
-Peace begins when you see  
-that the one you oppose  
-is more than your quarrel.  
-Do not persuade.  
-Radiate.
+Hold the Living One within you.  
+When you meet the one you oppose,  
+look until the quarrel loosens  
+and a human face remains.  
+Let peace begin there.
 
 ## The Paradox of Power
 
@@ -914,15 +907,11 @@ Thus the world settles in such presence.
 
 ## The Great Acceptance
 
-The Kingdom is like the Great Sea.  
-It refuses no river,  
-no matter how bitter or clouded.  
-It judges no stream,  
-but takes all into its depth,  
-making them one.  
-So too the Living One  
-receives the pure and the stained alike,  
-until all are cleared in the vastness of Love.
+The Kingdom is the Great Sea.  
+No river is turned away---  
+bitter, clouded, clear.  
+Each gives up its name  
+in the deep that receives it.
 
 ## The Treasure Within
 
@@ -1290,11 +1279,9 @@ Live there, and the world outside becomes gentle.
 Truth does not dress itself in splendor.  
 Splendor often hides a lie.  
 I give what I have been given  
-and do not count the cost.  
-The more the Single One pours out,  
-the more the Source flows through them---  
-for they draw not from their own store,  
-but from the spring that cannot be emptied.  
+and count no cost.  
+The Source flows through the Single One  
+like a spring that never runs dry.  
 So the scripture ends where the Way begins:  
 in silence, in seeing,  
 in the Light that you are.
@@ -1334,26 +1321,26 @@ I am the one reading.
 - The Two Become One: Tao Te Ching 2; Thomas 22; Philip on the bridal chamber; Gospel of the Egyptians (quoted by Clement); Hymn of the Pearl.
 - The Poverty of the Unknowing: Tao Te Ching 3; Thomas 3.
 - The Pearl: Tao Te Ching 3; Thomas 76.
-- The Father of Light: Tao Te Ching 4; Thomas 50.
-- Daily Bread: Tao Te Ching 4; Gospel of the Hebrews ("our bread for tomorrow," as Jerome reports).
-- The Powers Question the Soul: Tao Te Ching 5; Mary 15--17, the soul's ascent past the seven powers.
-- No Enemy: Tao Te Ching 5; Didache 1.3 ("love those who hate you, and you will have no enemy").
-- The Hollow Reed: Tao Te Ching 6; Thomas 78.
-- The Unforced Kingdom: Tao Te Ching 7; Mary 7 ("there is no sin"); Gospel of Truth.
+- The Father of Light: Tao Te Ching 4; Thomas 50; James 1:17 ("the Father of lights, with whom is no shadow of turning").
+- Daily Bread: Tao Te Ching 4; Didache 8 (the Lord's Prayer: "give us today our daily bread").
+- The Powers Question the Soul: Mary 15--17 (the soul's ascent past the powers, the last of them Wrath in seven forms).
+- No Enemy: Tao Te Ching 5; Didache 1.3 ("love those who hate you, and you will have no enemy"); Matthew 5:45.
+- The Hollow Reed: Tao Te Ching 6.
+- The Unforced Kingdom: Tao Te Ching 7; Gospel of Truth (forgetting and remembering).
 - The Servant at the Feast: Tao Te Ching 8; Luke 14:7--11.
-- The Teacher Who Does Not Teach: Tao Te Ching 9; Thomas 13, 108.
+- The Teacher Who Does Not Teach: Thomas 13, 108.
 - The Full Barn: Tao Te Ching 9; Thomas 63.
 
 **The Kingdom Within**
 
 - The Single Eye: Tao Te Ching 10; Matthew 6:22; Mary 10 (the mind between soul and spirit); Dialogue of the Savior.
 - The Inner and the Outer: Tao Te Ching 11; Thomas 22, 89.
-- The Lion and the Child: Tao Te Ching 12; Thomas 7, 22.
+- The Lion and the Child: Thomas 7, 22.
 - The Largest Sheep: Tao Te Ching 12; Thomas 107.
 - The Unbinding: Tao Te Ching 13; Ashtavakra Gita 1.11 ("as you think, so you become").
 - The Return to the Unborn: Tao Te Ching 14; Thomas 18--19; Hymn of the Pearl.
-- The Silence That Speaks: Tao Te Ching 15, 56; Thomas 8.
-- The Great Stillness: Tao Te Ching 16.
+- The Silence That Speaks: Tao Te Ching 56; Thomas 8.
+- The Great Stillness: Tao Te Ching 15, 16.
 - The Hidden Guide: Tao Te Ching 17.
 - When the Way Is Forgotten: Tao Te Ching 18--19; Philip ("light and darkness are brothers").
 
@@ -1375,7 +1362,7 @@ I am the one reading.
 - The Futility of Control: Tao Te Ching 29; Mark 4:26--29.
 - The Way of Non-Violence: Tao Te Ching 30, 68; Matthew 26:52; Matthew 5:9.
 - The Healing of the Ear: Tao Te Ching 31; Luke 22:50--51.
-- The Way, the Truth: Tao Te Ching 32; John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7; Tathāgata (the Buddha's name for himself, "one who has gone thus"), echoed in "those who walk this way."
+- The Way, the Truth: John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7; Tathāgata (the Buddha's name for himself, "one who has gone thus"), echoed in "those who walk this way."
 - The Eternal Name: Exodus 3:2--6, 3:14 (Moses at the burning bush); John 8:58 ("before Abraham was, I am"); Thunder, Perfect Mind ("the speaking of my own name"); Tao Te Ching 1 (the name that can be named); Genesis 1:2 (the breath moving); so'ham, "That I am," the breath mantra of Advaita (compare Nisargadatta, *I Am That*).
 - Profit and Loss: Tao Te Ching 33; Mark 8:36.
 - The Great River: Tao Te Ching 34; Odes of Solomon 6.
@@ -1395,17 +1382,17 @@ I am the one reading.
 
 **The Empty Vessel**
 
-- The Yoke of Peace: Tao Te Ching 46; Matthew 11:30.
+- The Yoke of Peace: Tao Te Ching 46; Thomas 90; Matthew 11:30.
 - The Body That Leans: Thomas 87, 112.
 - Seeing Without Seeking: Tao Te Ching 47; Thomas 3; Luke 17:21; Mary 8; Brihadaranyaka Upanishad 3.4.2 ("you cannot see the seer of seeing").
 - Two Doors: Brihadaranyaka Upanishad 3.4.2; Udana 1.10 (Bahiya: "in the seen, only the seen"); Thomas 77; Philip ("the bridal chamber remains hidden"); Vijñāna Bhairava 41, 72.
-- The Unlearning: Tao Te Ching 48; Thomas 77 ("I am the All").
+- The Unlearning: Tao Te Ching 48.
 - The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
 - Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
 - The Lilies: Tao Te Ching 51; Thomas 36 (Greek: "they neither card nor spin").
-- The Mother in All Things: Tao Te Ching 25, 52; Gospel of the Hebrews; Thunder, Perfect Mind; Vijñāna Bhairava 74.
+- The Mother in All Things: Tao Te Ching 25, 52; Gospel of the Hebrews; Thunder, Perfect Mind; Vijñāna Bhairava 74; Genesis 1:2 (the deep).
 - The Eye of the Needle: Tao Te Ching 53; Mark 10:25; Matthew 7:13--14.
-- The Widening Circle: Tao Te Ching 54; Matthew 5:15.
+- The Widening Circle: Tao Te Ching 54; Thomas 33; Matthew 5:15.
 
 **The Unforced Life**
 
@@ -1431,7 +1418,7 @@ I am the one reading.
 - The Sword of the Spirit: Tao Te Ching 69; Matthew 10:34; Thomas 16.
 - A Teaching Few Understand: Tao Te Ching 70.
 - Bring It Forth: Thomas 70.
-- The Gift of Not-Knowing: Tao Te Ching 71; John 9:41; Matthew 7:5.
+- The Gift of Not-Knowing: Tao Te Ching 71; Thomas 26; John 9:41; Matthew 7:5.
 - Love That Owns Nothing: Tao Te Ching 72; Philip ("faith receives, love gives"; love never calls anything its own).
 
 **The Return to Source**
