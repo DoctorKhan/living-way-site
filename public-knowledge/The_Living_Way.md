@@ -117,7 +117,9 @@ when the two are made one,
 the lion within you lies down as a child,  
 and the child awakens  
 as the One who is not born.  
-Then the bridal chamber opens in your depths.
+Then the bridal chamber opens in your depths---  
+the two become one,  
+and joy has no shore.
 
 ## The Poverty of the Unknowing
 
@@ -1268,15 +1270,15 @@ the Kingdom of Heaven spread upon the earth. The same word named the first follo
 
 **Living:** Awake to the Source. Thomas calls Jesus "the living Jesus" and God "the living Father." To be living is to have come alive to one's origin; the dead are those wholly absorbed in the surface of things. The Letter to the Hebrews speaks of "a new and living way" (10:20), in Syriac *ʾurḥā d-ḥayyē*, "a way of life."
 
-**The Bridal Chamber:** The Silence of the Source, as the soul enters it.
-The Silence is the ground before the two; the bridal chamber is the same
-ground found from within the world of two, where the two are made one.
-The soul enters it as a bride; there seer and seen, inner and outer, the
-Father's Light and the Mother's life are no longer two, and the union
-itself dissolves into the Silence: "the one is shown to be none." Both doors
-of practice open on it. In the Gospel of Philip it is the holy of
-holies, and Thomas says the single one enters it (75). It remains
-hidden, yet it is never locked.
+**The Bridal Chamber:** The joyful union of opposites within the world
+of two, and the soul's opening into the Silence of the Source. The Silence
+is the ground before the two; the bridal chamber is the reunion
+experienced when the two are made one. The soul enters it as a bride;
+there seer and seen, inner and outer, the Father's Light and the Mother's
+life are no longer two. In this joy, the union opens into Silence, where
+"the one is shown to be none." Both doors of practice open on it. In the
+Gospel of Philip it is the holy of holies, and Thomas says the single one
+enters it (75). It remains hidden, yet it is never locked.
 
 **The Single One (Monachos):** A term from the Gospel of Thomas for the
 solitary or unified seeker; one who has integrated the inner opposites
