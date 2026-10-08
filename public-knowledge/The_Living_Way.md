@@ -406,6 +406,17 @@ and keeps the life.
 Hold the form lightly;  
 the life was never in danger.
 
+## The Treasure in the Dust
+
+The body: dust made warm,  
+a cup held to the rain.  
+Breath fills it.  
+Bread sweetens on the tongue.  
+The boundless comes so near  
+it takes your shape,  
+and tastes the world  
+through you.
+
 ## The Face of the Invisible
 
 The Way is a child-like mystery---  
@@ -1363,6 +1374,7 @@ I am the one reading.
 - Not of This World: Tao Te Ching 20; John 17:16.
 - Passersby: Thomas 42.
 - The Corpse: Thomas 56, 80; Tao Te Ching 16; Philip ("the world is a corpse-eater").
+- The Treasure in the Dust: Genesis 2:7 (dust and the breath of life); Thomas 29 ("how this great wealth has made its home in this poverty").
 - The Face of the Invisible: Tao Te Ching 21.
 - The One Who Is Bent: Tao Te Ching 22; Matthew 23:12.
 - The Wind Speaks Briefly: Tao Te Ching 23; John 3:8.
