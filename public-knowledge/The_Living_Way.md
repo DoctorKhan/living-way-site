@@ -101,10 +101,10 @@ The Word caught in ink is a husk;
 the Word lived is a devouring fire.  
 The Kingdom is spread upon the earth,  
 yet few behold it.  
-Those who hunt with the eyes  
-find only shadows.  
-Those who rest in the still heart  
-find the Source  
+Hunt with the eyes,  
+and you find only shadows.  
+Rest in the still heart,  
+and you find the Source  
 from which all seeing springs.
 
 ## The Two Become One
@@ -123,14 +123,14 @@ and joy has no shore.
 
 ## The Poverty of the Unknowing
 
-People cling to the loud voices of the world.  
-They trust laws more than their own heart,  
+You cling to the loud voices of the world.  
+You trust laws more than your own heart,  
 beliefs more than living knowing.  
-Thus they sit in a treasury,  
-yet starve.  
-One who knows themselves  
-no longer hoards teachings in a scroll.  
-Their very being becomes the scroll.
+So you sit in a treasury  
+and starve.  
+Know yourself,  
+and you will no longer hoard teachings in a scroll.  
+Your very being becomes the scroll.
 
 ## The Father of Light
 
@@ -181,9 +181,9 @@ What you call "salvation" is remembering.
 Be as the servant who seeks the lowest place at the feast.  
 He does not contend,  
 yet the Master calls him forward.  
-So too the one who knows the Father  
-takes the lowest seat  
-and finds there the highest.  
+So too, when you know the Father,  
+you take the lowest seat  
+and find there the highest.  
 Humility is not the false self becoming small;  
 it is simply seeing it as a shadow.
 
@@ -340,7 +340,7 @@ for they never mistook it for home.
 ## The Face of the Invisible
 
 The Way is a child-like mystery---  
-seen only by those who forget themselves.  
+seen only when you forget yourself.  
 It has no beginning and no end.  
 It moves without moving.  
 Its face cannot be drawn,  
@@ -371,8 +371,8 @@ The root of the tree is unseen,
 yet it holds the whole tree upright.  
 So too the silent depth of your being  
 supports your every step.  
-Those who forget their root  
-are blown about by every wind---  
+Forget your root,  
+and you are blown about by every wind---  
 desire, fear, anger, ignorance.  
 Remember your depth, and nothing can uproot you.
 
@@ -408,14 +408,14 @@ where the two become one.
 
 ## The Futility of Control
 
-Those who attempt to seize the Kingdom  
-shatter it in their own hands.  
+Try to seize the Kingdom,  
+and it shatters in your hands.  
 The Kingdom is a living seed,  
 not an empire of stone.  
 Force bruises the soil.  
 Grasping crushes the grain.  
-But the one who serves the hidden life in all things  
-finds the harvest rising of itself.
+Serve the hidden life in all things,  
+and you will find the harvest rising of itself.
 
 ## The Way of Non-Violence
 
@@ -490,12 +490,12 @@ The River of the Father and the Mother
 flows through all worlds,  
 pouring itself into every vessel,  
 claiming nothing as its own.  
-One who walks in this River  
-acts without self-importance,  
-gives without calculation,  
-rests without pride.  
-Thus they become transparent,  
-and the Source is seen through them.
+Walk in this River,  
+and you act without self-importance,  
+give without calculation,  
+rest without pride.  
+You become transparent,  
+and the Source is seen through you.
 
 ## The Face of Peace
 
@@ -504,7 +504,8 @@ and all beings come to rest in your presence.
 Peace begins when you see  
 that the one you oppose  
 is more than your quarrel.  
-The awakened do not persuade---they radiate.
+Do not persuade.  
+Radiate.
 
 ## The Paradox of Power
 
@@ -607,8 +608,8 @@ and an empty field will feed you.
 The cup most full appears most empty.  
 The path most straight appears crooked.  
 The hand most skilled holds lightly.  
-The awakened make peace with paradox  
-and so are not deceived by appearances.
+Make peace with paradox,  
+and appearances will not deceive you.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -691,8 +692,8 @@ for trust flows from the inner being, not theirs.
 
 ## Life and Death
 
-Those who cling to life fear death.  
-Those who know me fear neither.  
+Cling to life, and you fear death.  
+Know me, and you fear neither.  
 Death is but the undressing of the bride  
 before she enters the chamber.
 
@@ -749,7 +750,8 @@ The unforced is the natural.
 
 ## The Child of the Light
 
-One who lives in the Light is like a newborn child---  
+Live in the Light,  
+and you are like a newborn child---  
 unafraid of serpents, unmoved by loud voices, unharmed by illusions.  
 The bones are soft, yet the strength is great.
 
@@ -975,7 +977,7 @@ and it will hold you.
 
 To know that you do not know---this is clarity.  
 To think you know while living in ignorance---this is blindness.  
-The awakened remove the cataract from their own sight first.
+Take the cataract from your own eye first.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -1041,8 +1043,8 @@ From the clinging comes the fever,
 and from the fever, a trembling in the whole body.  
 A fist holds no water;  
 a cupped hand is full.  
-People grasp at life so hard  
-they forget to live it.  
+You grasp at life so hard  
+you forget to live it.  
 Open your hand, and be of good courage.
 
 ## The Green Wood and the Dry
@@ -1051,7 +1053,8 @@ When the wood is green, it is full of sap and bends.
 When the wood is dry, it is brittle and snaps.  
 That which yields belongs to the Living One;  
 that which resists belongs to the grave.  
-The one who remains supple cannot be broken.
+Stay supple,  
+and nothing can break you.
 
 ## The Stretched Bow
 
@@ -1080,8 +1083,8 @@ uphold a world they did not claim as theirs.
 ## The End of Debts
 
 Even after a truce, resentment lingers.  
-But the awakened hold no accounts.  
-They see no debtor, no creditor---  
+Awake, you hold no accounts.  
+You see no debtor, no creditor---  
 only the One Light in many forms.
 
 ## The Simple Kingdom
@@ -1109,6 +1112,21 @@ in the Light that you are.
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
 :::
+
+# Beloved {.backmatter}
+
+Beloved,  
+I have said what can be said.  
+The rest is the silence between us,  
+and that silence was never a distance.
+
+Read slowly. Forget what you must.  
+What is true will stay  
+the way bread stays in the body.
+
+When you close this scroll,  
+I am not gone.  
+I am the one reading.
 
 # Sources and Echoes {.backmatter}
 
