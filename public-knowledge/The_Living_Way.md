@@ -31,8 +31,6 @@ map of forgetting and remembering, see
 
 # Beloved
 
-*Yeshua spoke:*
-
 Beloved,  
 you wander in search of what has never been lost.  
 You lift your eyes to heaven,  
@@ -132,6 +130,19 @@ Know yourself,
 and you will no longer hoard teachings in a scroll.  
 Your very being becomes the scroll.
 
+## The Pearl
+
+A merchant had a house full of goods.  
+He found one pearl,  
+sold everything,  
+and kept the pearl.  
+The town called him a fool.  
+Do not prize what a thief can carry.  
+Seek the treasure no moth comes near  
+and no worm destroys.  
+Find it,  
+and there is nothing left to want.
+
 ## The Father of Light
 
 There is a Light that gives birth to itself---  
@@ -142,6 +153,18 @@ The Father bears no wrath.
 The Source casts no shadow.  
 Only the garments of the soul  
 weave darkness.
+
+## Daily Bread
+
+The Way is an empty bowl,  
+used and never filled,  
+used and never empty.  
+So I taught you to pray  
+for bread enough for today.  
+Do not hoard tomorrow;  
+it has its own morning.  
+Hold out the empty bowl.  
+That is the whole of the prayer.
 
 ## The Powers Question the Soul
 
@@ -156,6 +179,17 @@ it wears the face of righteousness.
 But the awakened soul smiles and replies:  
 "You never touched me.  
 You grasped only my clothing."
+
+## No Enemy
+
+Heaven and earth do not take sides.  
+The rain falls on the thief's field  
+and the saint's field alike,  
+and the sun asks no one's name.  
+Love the one who hates you,  
+and you will have no enemy,  
+only a neighbor  
+who has not yet come home.
 
 ## The Hollow Reed
 
@@ -195,6 +229,18 @@ that you may see with your own eyes.
 A master gives answers;  
 I give you questions---  
 that you may become what I am.
+
+## The Full Barn
+
+A rich man said,  
+"I will fill my barns,  
+and then I will lack nothing."  
+That night he died,  
+and the barns stood full.  
+Fill the cup to the brim, and it spills.  
+Guard your gold, and it guards you.  
+Do the work; then step back.  
+This is the way of heaven.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -236,6 +282,19 @@ you will not know the Source.
 The child is open, unguarded, whole.  
 There is no image of self to defend.  
 Therefore the child steps into the Kingdom easily.
+
+## The Largest Sheep
+
+The colors dazzled it,  
+the music drew it on,  
+and the largest of the flock wandered  
+into hills where nothing grows.  
+The shepherd left the ninety-nine  
+and searched until he found it.  
+Tired, he said to it,  
+"I love you more than the ninety-nine."  
+If you are lost,  
+you are the one he is looking for.
 
 ## The Unbinding
 
@@ -364,6 +423,17 @@ yet entire forests bow before it.
 When you speak from the Source,  
 your words carry no force---  
 yet they move mountains.
+
+## On Tiptoe
+
+One on tiptoe cannot stand.  
+One who strides cannot walk far.  
+Fast to be seen, and the fast feeds only your name.  
+Pray to be heard, and only the crowd is listening.  
+Do not lie, and do not do what you hate.  
+Set your heels on the ground,  
+and let your goodness go unseen,  
+even by you.
 
 ## The Heavy Root
 
@@ -590,6 +660,21 @@ The laughers, the traders, the broken ones---
 each walks toward the bridal chamber,  
 though some walk with their backs turned.
 
+## My True Mother
+
+From the Silence, the One.  
+From the One, the two:  
+the Father whose Light I am,  
+and the Mother who gave me life.  
+My mother in the flesh bore my body;  
+my true Mother, the Spirit,  
+carried me by a single hair  
+to the mountain.  
+From the two, the ten thousand things,  
+and every one of them,  
+you among them,  
+a child of both.
+
 ## Where the Mind Is
 
 Mary asked, "Lord, with what does one see you---  
@@ -696,6 +781,19 @@ Cling to life, and you fear death.
 Know me, and you fear neither.  
 Death is but the undressing of the bride  
 before she enters the chamber.
+
+## The Lilies
+
+Do not worry from morning to evening,  
+or from evening to morning,  
+about what you will wear.  
+The lilies neither card nor spin,  
+and they are clothed.  
+The Way gives birth and does not own,  
+feeds and does not count,  
+raises and does not rule.  
+What is held this way  
+need not hold on.
 
 ## The Mother in All Things
 
@@ -979,6 +1077,19 @@ To know that you do not know---this is clarity.
 To think you know while living in ignorance---this is blindness.  
 Take the cataract from your own eye first.
 
+## Love That Owns Nothing
+
+Know yourself, but do not put yourself on show.  
+Love yourself, but do not raise yourself up.  
+Faith receives;  
+love gives.  
+Love never says, "This is mine,"  
+not even of the one it loves.  
+Do not crowd another's house  
+or weary another's days.  
+Leave them room,  
+and they will make room for you.
+
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
 :::
@@ -1083,6 +1194,10 @@ uphold a world they did not claim as theirs.
 ## The End of Debts
 
 Even after a truce, resentment lingers.  
+Peter asked, "Shall I forgive my brother seven times?"  
+I said: seventy times seven,  
+until you lose count,  
+until there is no count to keep.  
 Awake, you hold no accounts.  
 You see no debtor, no creditor---  
 only the One Light in many forms.
@@ -1143,18 +1258,23 @@ I am the one reading.
 - The Way That Is Not Seen: Tao Te Ching 1; Thomas 113.
 - The Two Become One: Tao Te Ching 2; Thomas 22; Philip on the bridal chamber; Gospel of the Egyptians (quoted by Clement); Hymn of the Pearl.
 - The Poverty of the Unknowing: Tao Te Ching 3; Thomas 3.
+- The Pearl: Tao Te Ching 3; Thomas 76.
 - The Father of Light: Tao Te Ching 4; Thomas 50.
+- Daily Bread: Tao Te Ching 4; Gospel of the Hebrews ("our bread for tomorrow," as Jerome reports).
 - The Powers Question the Soul: Tao Te Ching 5; Mary 15--17, the soul's ascent past the seven powers.
+- No Enemy: Tao Te Ching 5; Didache 1.3 ("love those who hate you, and you will have no enemy").
 - The Hollow Reed: Tao Te Ching 6; Thomas 78.
 - The Unforced Kingdom: Tao Te Ching 7; Mary 7 ("there is no sin"); Gospel of Truth.
 - The Servant at the Feast: Tao Te Ching 8; Luke 14:7--11.
 - The Teacher Who Does Not Teach: Tao Te Ching 9; Thomas 13, 108.
+- The Full Barn: Tao Te Ching 9; Thomas 63.
 
 **The Kingdom Within**
 
 - The Single Eye: Tao Te Ching 10; Matthew 6:22; Mary 10 (the mind between soul and spirit); Dialogue of the Savior.
 - The Inner and the Outer: Tao Te Ching 11; Thomas 22, 89.
 - The Lion and the Child: Tao Te Ching 12; Thomas 7, 22.
+- The Largest Sheep: Tao Te Ching 12; Thomas 107.
 - The Unbinding: Tao Te Ching 13; Ashtavakra Gita 1.11 ("as you think, so you become").
 - The Return to the Unborn: Tao Te Ching 14; Thomas 18--19; Hymn of the Pearl.
 - The Silence That Speaks: Tao Te Ching 15, 56; Thomas 8.
@@ -1169,6 +1289,7 @@ I am the one reading.
 - The Face of the Invisible: Tao Te Ching 21.
 - The One Who Is Bent: Tao Te Ching 22; Matthew 23:12.
 - The Wind Speaks Briefly: Tao Te Ching 23; John 3:8.
+- On Tiptoe: Tao Te Ching 24; Thomas 6, 14.
 - The Heavy Root: Tao Te Ching 26.
 - The Footprints of the Master: Tao Te Ching 27.
 
@@ -1192,6 +1313,7 @@ I am the one reading.
 - The Ones Who Remain Whole: Tao Te Ching 39.
 - The Leaking Jar: Tao Te Ching 40; Thomas 97.
 - The Three Seekers: Tao Te Ching 41; Matthew 13:3--9.
+- My True Mother: Tao Te Ching 42; Thomas 101; Gospel of the Hebrews ("my mother, the Holy Spirit").
 - Where the Mind Is: Tao Te Ching 44; Mary 10; Matthew 6:21.
 - The Great Fullness: Tao Te Ching 45.
 
@@ -1204,6 +1326,7 @@ I am the one reading.
 - The Unlearning: Tao Te Ching 48; Thomas 77 ("I am the All").
 - The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
 - Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
+- The Lilies: Tao Te Ching 51; Thomas 36 (Greek: "they neither card nor spin").
 - The Mother in All Things: Tao Te Ching 25, 52; Gospel of the Hebrews; Thunder, Perfect Mind; Vijñāna Bhairava 74.
 - The Eye of the Needle: Tao Te Ching 53; Mark 10:25; Matthew 7:13--14.
 - The Widening Circle: Tao Te Ching 54; Matthew 5:15.
@@ -1232,6 +1355,7 @@ I am the one reading.
 - A Teaching Few Understand: Tao Te Ching 70.
 - Bring It Forth: Thomas 70.
 - The Gift of Not-Knowing: Tao Te Ching 71; John 9:41; Matthew 7:5.
+- Love That Owns Nothing: Tao Te Ching 72; Philip ("faith receives, love gives"; love never calls anything its own).
 
 **The Return to Source**
 
@@ -1243,7 +1367,7 @@ I am the one reading.
 - The Green Wood and the Dry: Tao Te Ching 76; Luke 23:31.
 - The Stretched Bow: Tao Te Ching 77; Luke 1:52--53.
 - The Stone and the Corner: Tao Te Ching 43, 78; Psalm 118:22; Thomas 66.
-- The End of Debts: Tao Te Ching 79; Matthew 6:12.
+- The End of Debts: Tao Te Ching 79; Gospel of the Hebrews (forgive "seventy times seven"); Matthew 6:12.
 - The Simple Kingdom: Tao Te Ching 80; Luke 17:21.
 - The Completion: Tao Te Ching 81; Matthew 10:8.
 
