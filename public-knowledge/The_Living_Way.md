@@ -1147,7 +1147,7 @@ and still I wept.
 Do not think the awakened are made of stone.  
 The one who cannot be shaken  
 is not the one who cannot be moved.  
-Weep with those who weep;  
+Sit beside the one who grieves;  
 the Light does not stand above sorrow  
 but kneels beside it.
 
@@ -1425,7 +1425,7 @@ I am the one reading.
 
 - The Courage of the Way: Tao Te Ching 73.
 - Rise Before You Die: Tao Te Ching 74; Philip (those who say they will first die and then rise are mistaken).
-- He Wept: John 11:35; Romans 12:15.
+- He Wept: John 11:35.
 - The Round Dance: Acts of John 94--96 (the Hymn of Jesus).
 - The Cross of Light: Acts of John 97--101 (the cross of light).
 - The Torn Veil: Philip (the veil torn from top to bottom; the holy of holies).
