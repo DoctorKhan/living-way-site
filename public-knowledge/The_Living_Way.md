@@ -43,7 +43,7 @@ yet the Light waits behind your seeing.
 If you would know me,  
 enter the silence where your name has not yet formed.  
 There the Father of Light whispers,  
-and the Mother of Wisdom gathers you to herself.  
+and the Mother of Forms gathers you to herself.  
 There the two are made one,  
 and the one is shown to be none.
 
@@ -704,14 +704,12 @@ It moves through you as breath,
 yet it is not the breath.  
 She is in the taste of bread,  
 in the wind against your face;  
-rest in what you sense,  
-and you are resting in her.  
-Know the Mother of your soul,  
-and you recognize all her children.  
+rest in what you sense  
+until you lose yourself in her.  
 Each passing form  
-is held in her life.  
-Rest among them:  
-you were never separate  
+is held in her life;  
+her life meets your own.  
+You were never separate  
 from the womb that bears the All.
 
 ## The Eye of the Needle
@@ -1243,10 +1241,10 @@ Met as one, the sayings call it the One.
 
 **The Father and the Mother:** The two faces of the one Source, not two
 gods. The Father is the Source as origin and Light: what you came from,
-and the seeing that knows. The Mother is the Source as Wisdom and
-life: the deep that bears all things, the womb that bears you, the
-senses in which she is found, and the arms you return to. Early Semitic Christians spoke of the Holy
-Spirit as Mother.
+and the seeing that knows. The Mother is the Source as life made manifest:
+the deep that bears all things, the womb that bears you, and the forms
+through which her life is felt—in the senses, in delight, and in all
+beings. Early Semitic Christians spoke of the Holy Spirit as Mother.
 
 **The Living One:** God's own life, as in the Gospel of Thomas: "Look to
 the Living One while you are alive." Jesus is "the living Jesus" because
