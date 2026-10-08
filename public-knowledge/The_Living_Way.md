@@ -193,10 +193,10 @@ who has not yet come home.
 
 ## The Hollow Reed
 
-The false self is a wall of stone---  
-it resists the wind and crumbles.  
-The soul is a hollow reed---  
-it lets the Spirit breathe through it.  
+Held as all you are, the self is a wall of stone---  
+it resists the wind, and cracks.  
+Held lightly, it is a hollow reed---  
+the Spirit breathes through it.  
 When you are empty,  
 even the storm becomes a song.
 
@@ -424,6 +424,23 @@ and keeps the life.
 Hold the form lightly;  
 the life was never in danger.
 
+## The Mercy of Endings
+
+Here everything wears out.  
+The anger cools,  
+the hunger tires,  
+the wheel slows each night in sleep.
+
+The gate of the garden was shut  
+not in wrath, but in mercy,  
+lest the wound live forever.
+
+Here each pattern runs its course  
+until it shows its face.  
+See it here, where it ends,  
+and you need not carry it  
+into what does not end.
+
 ## The Treasure in the Dust
 
 The body: dust made warm,  
@@ -434,6 +451,28 @@ The boundless comes so near
 it takes your shape,  
 and tastes the world  
 through you.
+
+## The Trail in the Flesh
+
+Before you had a name,  
+the body was already learning:  
+what warms, what wounds,  
+where the bread is,  
+how the hand reaches.
+
+From its journeys  
+a self was woven,  
+a trail of memory through the flesh.
+
+It is not your enemy.  
+It is the road you came by.
+
+Sit, and feel the old trail stir.  
+See where it leads,  
+and let the next step come.  
+Then rise:  
+the body meets the world again,  
+and the trail is made anew.
 
 ## The Face of the Invisible
 
@@ -449,7 +488,7 @@ when you remember who you are.
 
 If you wish to be whole, let yourself be broken.  
 If you wish to be full, empty yourself.  
-If you wish to be reborn, die to your false image.  
+If you wish to be reborn, die to the image you took for your face.  
 I do not raise the proud;  
 I raise only the one  
 who has laid the self down.
@@ -1393,7 +1432,9 @@ I am the one reading.
 - Not of This World: Tao Te Ching 20; John 17:16.
 - Passersby: Thomas 42.
 - The Corpse: Thomas 56, 80; Tao Te Ching 16; Philip ("the world is a corpse-eater").
+- The Mercy of Endings: Genesis 3:22--24 (the way to the tree of life barred, "lest he live forever"); Irenaeus, *Against Heresies* 3.23.6 (not from envy but from pity, that evil not be "interminable and irremediable"); Tao Te Ching 23; Thomas 56.
 - The Treasure in the Dust: Genesis 2:7 (dust and the breath of life); Thomas 29 ("how this great wealth has made its home in this poverty").
+- The Trail in the Flesh: Hymn of the Pearl (the prince sent down into Egypt, who puts on its clothes); Bhagavad Gita 3.27; Thomas 6.
 - The Face of the Invisible: Tao Te Ching 21.
 - The One Who Is Bent: Tao Te Ching 22; Matthew 23:12.
 - The Wind Speaks Briefly: Tao Te Ching 23; John 3:8.
@@ -1542,9 +1583,14 @@ and become whole. In this scroll the Single One is also the Tao's sage:
 a person, not God, who leads by not ruling and gives without claiming.
 
 **Soul, self, and spirit:** The soul is your inner being, the one who
-awakens. The self, without qualification, is the false self: the
-garment the soul mistakes for itself. The true self is the soul
-standing forth whole. Lowercase, spirit is the highest part of a person,
+awakens. The self, without qualification, is the made self: the
+garment woven from the body's learning, through which the soul meets
+and explores the world. It is a making, not a mistake. It becomes the
+false self only when the soul takes the garment for the whole of what
+it is; where the sayings warn against the self, they mean that taking.
+Seeing it, the soul sets the garment down, relates to it freely, and may
+wear it again more lightly; the cycle turns many times. The true self is
+the soul standing forth whole. Lowercase, spirit is the highest part of a person,
 beside soul and mind, as in the Gospel of Mary; capitalized, the Spirit
 is the divine breath, the Mother's life moving in all things.
 
