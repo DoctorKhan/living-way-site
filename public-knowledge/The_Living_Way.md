@@ -696,7 +696,7 @@ Those who know me fear neither.
 Death is but the undressing of the bride  
 before she enters the chamber.
 
-## Return to the Mother
+## The Mother in All Things
 
 There is a womb older than creation,  
 the deep that births the All.  
@@ -708,12 +708,11 @@ rest in what you sense,
 and you are resting in her.  
 Know the Mother of your soul,  
 and you recognize all her children.  
-Know the children as passing forms,  
-and you are drawn back to the Mother.  
-In returning to her arms  
-you are no longer wounded by the powers,  
-for you remember that you were never separate  
-from the womb that bore you.
+Each passing form  
+is held in her life.  
+Rest among them:  
+you were never separate  
+from the womb that bears the All.
 
 ## The Eye of the Needle
 
@@ -1189,7 +1188,7 @@ $\cdot$ $\odot$ $\cdot$
 - The Unlearning: Tao Te Ching 48; Thomas 77 ("I am the All").
 - The Heart of the Single One: Tao Te Ching 49; Matthew 5:45.
 - Life and Death: Tao Te Ching 50; Philip on the bridal chamber.
-- Return to the Mother: Tao Te Ching 25, 52; Gospel of the Hebrews; Thunder, Perfect Mind; Vijñāna Bhairava 74.
+- The Mother in All Things: Tao Te Ching 25, 52; Gospel of the Hebrews; Thunder, Perfect Mind; Vijñāna Bhairava 74.
 - The Eye of the Needle: Tao Te Ching 53; Mark 10:25; Matthew 7:13--14.
 - The Widening Circle: Tao Te Ching 54; Matthew 5:15.
 
