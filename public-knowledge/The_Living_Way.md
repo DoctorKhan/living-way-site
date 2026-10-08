@@ -396,6 +396,21 @@ The one who passes through
 loses nothing when the house falls,  
 for they never mistook it for home.
 
+## The Corpse
+
+Whoever has come to know the world  
+has found a corpse.  
+The bread goes stale, the body bends,  
+even the stars burn down.  
+Whoever has found the corpse  
+is no longer deceived by it,  
+and the world cannot hold them.  
+Yet do not hate what is passing.  
+The Mother lets each form go  
+and keeps the life.  
+Hold the form lightly;  
+the life was never in danger.
+
 ## The Face of the Invisible
 
 The Way is a child-like mystery---  
@@ -938,6 +953,21 @@ and you have fed me.
 Every face that asks of you  
 is my face, asking.
 
+## The Open Table
+
+A man prepared a feast  
+and sent to call his guests.  
+One had bought a house,  
+one had a debt to collect,  
+one had a wedding of his own.  
+No one came.  
+"Go out to the roads," he said,  
+"and bring whoever you find."  
+As the grain once scattered on the hills  
+was gathered into one loaf,  
+so the strangers sit down together,  
+and the bread does not ask their names.
+
 ## The Pupil of the Eye
 
 Guard the one beside you  
@@ -1131,6 +1161,50 @@ Weep with those who weep;
 the Light does not stand above sorrow  
 but kneels beside it.
 
+## The Round Dance
+
+On the night before they took me,  
+I said, "Let us sing,"  
+and we joined hands in a circle,  
+and I stood in the middle.  
+I am a lamp to you who see me.  
+I am a mirror to you who know me.  
+I am a door to you who knock.  
+I am a way to you, traveler.  
+Whoever does not dance  
+does not know what is happening.  
+Hold the hand on either side of you.  
+The circle is the prayer.
+
+## The Cross of Light
+
+While they raised the wooden cross below,  
+I showed John another:  
+a cross of light,  
+and around it, many names:  
+Word and Door, Way and Bread,  
+Life, Truth, and Grace.  
+They nailed a man to the wood.  
+They could not nail the Light.  
+When you carry your own cross,  
+look for the light in it.
+
+## The Torn Veil
+
+They hung a veil before the holy place  
+and called the hiding holy.  
+When I breathed my last, it tore  
+from the top to the bottom,  
+for no hand below could reach so high.  
+Now nothing stands between you and the Light  
+but the veil you weave:  
+a thread of fear,  
+a thread of name,  
+a thread of wanting to be seen.  
+Lift it from your face,  
+and stand where you have always stood,  
+in the holy of holies.
+
 ## Not in Two Minds
 
 When I had gone,  
@@ -1286,6 +1360,7 @@ I am the one reading.
 
 - Not of This World: Tao Te Ching 20; John 17:16.
 - Passersby: Thomas 42.
+- The Corpse: Thomas 56, 80; Tao Te Ching 16; Philip ("the world is a corpse-eater").
 - The Face of the Invisible: Tao Te Ching 21.
 - The One Who Is Bent: Tao Te Ching 22; Matthew 23:12.
 - The Wind Speaks Briefly: Tao Te Ching 23; John 3:8.
@@ -1342,6 +1417,7 @@ I am the one reading.
 - The Treasure Within: Tao Te Ching 62.
 - The Small Actions: Tao Te Ching 63.
 - The Least of These: Matthew 25:35--40.
+- The Open Table: Thomas 64; Didache 9 (the bread scattered on the hills, gathered into one).
 - The Pupil of the Eye: Thomas 25; Gospel of the Hebrews ("never be joyful except when you look upon your brother in love").
 
 **The Wisdom of the Child**
@@ -1362,6 +1438,9 @@ I am the one reading.
 - The Courage of the Way: Tao Te Ching 73.
 - Rise Before You Die: Tao Te Ching 74; Philip (those who say they will first die and then rise are mistaken).
 - He Wept: John 11:35; Romans 12:15.
+- The Round Dance: Acts of John 94--96 (the Hymn of Jesus).
+- The Cross of Light: Acts of John 97--101 (the cross of light).
+- The Torn Veil: Philip (the veil torn from top to bottom; the holy of holies).
 - Not in Two Minds: Mary 9.
 - Be of Good Courage: Tao Te Ching 75; Mary 7--8.
 - The Green Wood and the Dry: Tao Te Ching 76; Luke 23:31.

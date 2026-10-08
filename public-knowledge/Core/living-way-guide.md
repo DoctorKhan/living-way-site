@@ -84,7 +84,7 @@ The trouble turns, slowly, into wonder. What threatened you begins to look like 
 
 ### ✦ Reign and Rest
 
-To "reign over the All" is not to rule others. It is to no longer be ruled by fear, craving, and the opinions of the crowd. What remains is rest: not idleness, but a settledness that does not depend on circumstances. This is the return the Tao speaks of: not going back in time, but coming home to the Source you never left (*The Living Way*, 45, "The Leaking Jar": "So the Way moves: by returning").
+To "reign over the All" is not to rule others. It is to no longer be ruled by fear, craving, and the opinions of the crowd. What remains is rest: not idleness, but a settledness that does not depend on circumstances. This is the return the Tao speaks of: not going back in time, but coming home to the Source you never left (*The Living Way*, 46, "The Leaking Jar": "So the Way moves: by returning").
 
 > "If they ask you, 'What is the sign of your Father in you?'
 > say to them, 'It is movement and rest.'"
@@ -176,7 +176,7 @@ In the **Wisdom tradition**, the Mother stands beside the Father. She speaks, ca
 
 *The Living Way* holds both. From the Tao it takes her images: the womb, the valley, the river, the return. From Wisdom it takes her name and her voice, the Mother who "gathers you to herself" (Beloved). It also places her, with the Father, as one of the two hands of a nameless Source, where the Tao sets her closer to the Source itself. The Tao's Mother is the ground; Wisdom is the voice. The Mother of *The Living Way* is both.
 
-In *The Living Way*, the Mother is the deep that births the All and the arms the soul returns to, where the powers can no longer wound it (58, "The Mother in All Things"), and the River that pours itself into every vessel (39, "The Great River").
+In *The Living Way*, the Mother is the deep that births the All and the arms the soul returns to, where the powers can no longer wound it (59, "The Mother in All Things"), and the River that pours itself into every vessel (40, "The Great River").
 
 If the Father is the Light you came from, the Mother is the life that holds you. Before them both is the Silence of the Source.
 
@@ -255,7 +255,7 @@ Between these two, where most of life is lived, you can begin to **relate differ
 > Each door hides
 > the same bridal chamber,
 > though it is never locked.
-> — *The Living Way*, 53, "Two Doors", "Two Doors"
+> — *The Living Way*, 54, "Two Doors", "Two Doors"
 
 You may begin at either door. If inquiry comes naturally to you, start with the eye. If the body, work, music, or devotion comes naturally, start with absorption. The practices of the ground between are for everyone, every day. Where the two doors meet, Thomas calls it *making the two one*.
 
@@ -280,7 +280,7 @@ Follow the question all the way back, and you will not find the one who sees as 
 
 The Upanishads put it plainly: "You cannot see the seer of seeing" (Brihadaranyaka 3.4.2). The Ashtavakra Gita gives the practice in a single line: "You are not earth, nor water, nor fire, nor air, nor space. To be free, know yourself as the witness of all these: awareness itself" (1.3). See [The Ashtavakra Gita](read.html?doc=Krishna/The_Ashtavakra_Gita_Sanskrit_and_Translation.md).
 
-*In The Living Way:* 3, "The Poverty of the Unknowing"; 36, "The Way, the Truth"; 52, "Seeing Without Seeking"; 37, "The Eternal Name".
+*In The Living Way:* 3, "The Poverty of the Unknowing"; 37, "The Way, the Truth"; 53, "Seeing Without Seeking"; 38, "The Eternal Name".
 
 ---
 
@@ -309,7 +309,7 @@ The first practice asks. This one receives.
 
 When the powers return, come back here. In *The Living Way*, the one who returns to her arms is "no longer wounded by the powers."
 
-*In The Living Way:* 58, "The Mother in All Things".
+*In The Living Way:* 59, "The Mother in All Things".
 
 ---
 
@@ -355,7 +355,7 @@ The *Vijñāna Bhairava Tantra*, a dialogue in which Bhairava, the Lord, answers
 
 **The practice:** choose one ordinary act: washing a bowl, walking to the door, splitting wood, listening to rain. Give yourself to it entirely. Only the washing; only the walking; only the sound. When the one who is doing it reappears, with *"Am I doing this well?"* or *"How long now?"*, do not fight it. Let it fall back into the act, the way a ripple falls back into the water.
 
-*In The Living Way:* 42, "Split the Wood"; 53, "Two Doors".
+*In The Living Way:* 43, "Split the Wood"; 54, "Two Doors".
 
 ---
 
@@ -426,7 +426,7 @@ The Way does not force.
 
 **The practice:** when you meet resistance, in a person, a task, or yourself, pause before you push. Ask: *"What would water do here?"* Water does not stop moving, and it does not fight. It finds the low way around, and in time it wears down stone. Take the lower seat. Say less. Let the situation show you its shape before you act on it.
 
-*In The Living Way:* 11, "The Servant at the Feast"; 88, "The Stone and the Corner".
+*In The Living Way:* 11, "The Servant at the Feast"; 93, "The Stone and the Corner".
 
 ---
 
@@ -442,7 +442,7 @@ The Way is inward, but it is not private.
 
 **The practice:** once a day, act from what you have seen in stillness. Speak the true thing you have been avoiding. Give what you have been holding back. Do the small task you know is yours. Then notice whether what you brought forth leaves you more alive or less.
 
-*In The Living Way:* 68, "The Small Actions"; 91, "The Completion".
+*In The Living Way:* 69, "The Small Actions"; 96, "The Completion".
 
 ---
 
@@ -465,7 +465,7 @@ Through the eye, nothing is outside you. Through absorption, no one is inside. W
 
 Kashmir Shaivism gives the same union its own names: *Śiva*, the Light of consciousness, and *Śakti*, its living power. Liberation is their embrace. The Father of Light and the Mother; the seer and the seen; the eye and the senses: the Gospel of Philip calls their meeting the bridal chamber.
 
-*In The Living Way:* 2, "The Two Become One"; 32, "The Fertile Soil"; 53, "Two Doors".
+*In The Living Way:* 2, "The Two Become One"; 33, "The Fertile Soil"; 54, "Two Doors".
 
 ---
 
