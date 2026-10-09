@@ -1,8 +1,6 @@
 ::: {.titlepage}
-[The Hidden Wisdom]{.smallcaps}  
-[of Yeshua]{.smallcaps}  
-*Teachings from the Yeshuan Path*  
-**A Gnostic Tao for the Children of Light**  
+[The Living Way]{.smallcaps}  
+*A Gnostic Tao for the Children of Light*  
 Edition 3.0 $\cdot$ October 2026  
 Written for the Seeker of Gnosis
 :::
@@ -10,7 +8,7 @@ Written for the Seeker of Gnosis
 ::: {.center}
 Copyright © 2025--2026 by Rez Khan  
 All rights reserved.  
-*The Hidden Wisdom of Yeshua*  
+*The Living Way*  
 Edition 3.0
 
 *A note on these sayings:*  
