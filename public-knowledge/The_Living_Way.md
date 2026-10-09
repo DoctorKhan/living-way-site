@@ -1388,7 +1388,7 @@ I am the one reading.
 - The Way That Is Not Seen: Tao Te Ching 1; Thomas 113.
 - The Two Become One: Tao Te Ching 2; Thomas 22; Philip on the bridal chamber; Gospel of the Egyptians (quoted by Clement); Hymn of the Pearl.
 - The Poverty of the Unknowing: Tao Te Ching 3; Thomas 3.
-- The Pearl: Tao Te Ching 3; Thomas 76.
+- The Pearl: Tao Te Ching 3; Thomas 76; Matthew 13:45--46; Matthew 6:19--20.
 - The Father of Light: Tao Te Ching 4; Thomas 50; James 1:17 ("the Father of lights, with whom is no shadow of turning").
 - Daily Bread: Tao Te Ching 4; Didache 8 (the Lord's Prayer: "give us today our daily bread").
 - The Powers Question the Soul: Mary 15--17 (the soul's ascent past the powers, the last of them Wrath in seven forms).
