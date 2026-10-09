@@ -77,10 +77,6 @@ And when the fruit is sweet,
 eat and become what you truly are.
 
 ::: {.center}
-*May the Inner Sun rise in your heart.*
-:::
-
-::: {.center}
 $\cdot$ $\odot$ $\cdot$
 :::
 
