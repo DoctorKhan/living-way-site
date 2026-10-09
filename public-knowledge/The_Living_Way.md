@@ -1,6 +1,6 @@
 ::: {.titlepage}
 [The Living Way]{.smallcaps}  
-*A Gnostic Tao for the Children of Light*  
+*A Tao for the Children of Light*  
 Edition 3.0 $\cdot$ October 2026  
 Written for the Seeker of Gnosis
 :::
@@ -1436,7 +1436,7 @@ I am the one reading.
 - The Healing of the Ear: Tao Te Ching 31; Luke 22:50--51.
 - The Way, the Truth: John 14:6; the "I am" as self-inquiry (Advaita *ātma-vichāra*); compare the Ashtavakra Gita 1.3, 1.7; Tathāgata (the Buddha's name for himself, "one who has thus come," or "thus gone"), echoed in "all who arrived here."
 - Many Rooms: John 14:2; Ashtavakra Gita 1.20 (the space in the jar); Chandogya Upanishad 8.1 (the space within the heart); Teresa of Ávila, *Interior Castle*.
-- The Closed Doors: John 14:2; Plotinus, *Enneads* 4.8.7 (the soul comes to know the good more clearly through the experience of evil); Origen, *On First Principles* 2.1 (the world's variety from the many free movements of souls, all ordered toward one end); Pratyabhijñā-hṛdayam 4 (consciousness contracts into the individual, who holds the universe in contracted form).
+- The Closed Doors: John 14:2; Pratyabhijñā-hṛdayam 4 (consciousness freely contracts into the individual, who holds the universe in contracted form); compare Plotinus, *Enneads* 4.8.5--7 (a partial parallel: Plotinus mostly saw the descent as a falling away, yet granted that the soul comes to know the good more clearly through the experience of evil).
 - The Eternal Name: Exodus 3:2--6, 3:14 (Moses at the burning bush); John 8:58 ("before Abraham was, I am"); Thunder, Perfect Mind ("the speaking of my own name"); Tao Te Ching 1 (the name that can be named); Genesis 1:2 (the breath moving); so'ham, "That I am," the breath mantra of Advaita (compare Nisargadatta, *I Am That*).
 - Profit and Loss: Tao Te Ching 33; Mark 8:36.
 - The Great River: Tao Te Ching 34; Odes of Solomon 6.
