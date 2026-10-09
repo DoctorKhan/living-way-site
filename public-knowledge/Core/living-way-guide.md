@@ -1,4 +1,4 @@
-# ✦ **A Guide to The Way of the Living Jesus**
+# ✦ **A Guide to The Living Way**
 
 *(Drawn from the Gospels of Thomas, Mary, and Philip, and the Tao Te Ching)*
 
@@ -548,7 +548,7 @@ Over the centuries, the church built mostly on the first emphasis. The sayings s
 | Resurrection to be found while living    | Resurrection awaited after death            |
 | Authority of inner seeing                | Authority of apostles and their successors  |
 
-Both columns live inside the Christian tradition. The Way of the Living Jesus does not ask you to reject the second. It asks you not to stop there.
+Both columns live inside the Christian tradition. The Living Way does not ask you to reject the second. It asks you not to stop there.
 
 The Gospel of Mary shows this tension in a single scene. After Mary shares her vision, Peter objects that the Savior would not have taught a woman things hidden from the men. Levi answers him:
 
@@ -563,7 +563,7 @@ For the history of how the image of Christ was shaped by the cultures around it,
 
 # ✦ **Conclusion — Movement and Rest**
 
-The Way of the Living Jesus is not a new set of beliefs to replace the old ones. It is a path you walk: seeking, finding, being troubled, marveling, and coming to rest, through the Light of the Father and the arms of the Mother, into the Silence where the two are made one.
+The Living Way is not a new set of beliefs to replace the old ones. It is a path you walk: seeking, finding, being troubled, marveling, and coming to rest, through the Light of the Father and the arms of the Mother, into the Silence where the two are made one.
 
 > "Those who say they will first die and then rise are mistaken.
 > If they do not receive the resurrection while they are alive,
