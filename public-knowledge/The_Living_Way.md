@@ -21,6 +21,10 @@ Edition 3.0
 Read one saying slowly. Carry it into your day. Return to it through
 what you encounter.
 
+These sayings move from the hidden Source into the body and the world,
+then toward a return through lived experience. The way home is not an
+escape from life, but a fuller presence within it.
+
 For practices to accompany the sayings, see
 [The Wisdom of Awakening](The_Living_Suttas.html). For the underlying
 map of forgetting and remembering, see
@@ -89,15 +93,15 @@ From the Word, the Light.
 
 ## The Way That Is Not Seen
 
-The Word caught in ink is a husk;  
-the Word lived is a devouring fire.  
 The Kingdom is spread upon the earth,  
 yet few behold it.  
-Hunt with the eyes,  
-and you find only shadows.  
+You look beyond the trees,  
+beyond the faces passing,  
+as though the hidden thing  
+must lie elsewhere.  
 Rest in the still heart,  
-and you find the Source  
-from which all seeing springs.
+where all seeing springs---  
+then open your eyes.
 
 ## The Two Become One
 
@@ -165,14 +169,14 @@ That is the whole of the prayer.
 Desire whispers, "You are mine."  
 Ignorance declares, "You do not know yourself."  
 Anger cries, "Strike, and be struck."  
-The body murmurs, "I am all there is."  
+The body says, "Stay watchful. Keep us safe."  
 And last comes the wisdom of the angry,  
 sure that it serves the Good---  
 watch most for this one;  
 it wears the face of righteousness.  
 But the awakened soul smiles and replies:  
-"You never touched me.  
-You grasped only my clothing."
+"I learned the world through you.  
+No one of you is all I am."
 
 ## No Enemy
 
@@ -187,9 +191,14 @@ who has not yet come home.
 
 ## The Hollow Reed
 
-Held as all you are, the self is a wall of stone---  
-it resists the wind, and cracks.  
-Held lightly, it is a hollow reed---  
+The self forms to meet the world:  
+reaching for warmth,  
+turning from flame,  
+guarding what is tender.  
+Take it for all you are,  
+and it stiffens against the wind.  
+Hold it lightly:  
+it becomes a hollow reed;  
 the Spirit breathes through it.  
 When you are empty,  
 even the storm becomes a song.
@@ -210,8 +219,8 @@ yet the Master calls him forward.
 So too, when you know the Father,  
 you take the lowest seat  
 and find there the highest.  
-Humility is not the false self becoming small;  
-it is simply seeing it as a shadow.
+Humility is not making the self small;  
+it is holding it lightly.
 
 ## The Teacher Who Does Not Teach
 
@@ -229,10 +238,6 @@ A rich man said,
 and then I will lack nothing."  
 That night he died,  
 and the barns stood full.  
-Fill the cup to the brim, and it spills.  
-Guard your gold, and it guards you.  
-Do the work; then step back.  
-This is the way of heaven.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -337,13 +342,11 @@ and afterward you say, "I chose."
 
 You sit.  
 The wheel keeps turning.  
-You watch,  
-and do not climb aboard.
-
-In that stillness  
-the next act rises  
-from no one,  
-and is free.
+Between impulse and answer,  
+a breath opens---  
+small, wide enough  
+for the hand to wait,  
+and choose.
 
 ## The Hidden Guide
 
@@ -420,20 +423,9 @@ the life was never in danger.
 
 ## The Mercy of Endings
 
-Here everything wears out.  
-The anger cools,  
-the hunger tires,  
-the wheel slows each night in sleep.
-
-The gate of the garden was shut  
-not in wrath, but in mercy,  
+The garden gate closed  
+not in wrath, but mercy:  
 lest the wound live forever.
-
-Here each pattern runs its course  
-until it shows its face.  
-See it here, where it ends,  
-and you need not carry it  
-into what does not end.
 
 ## The Treasure in the Dust
 
@@ -450,20 +442,20 @@ through you.
 
 Before you had a name,  
 the body was already learning:  
-what warms, what wounds,  
-where the bread is,  
-how the hand reaches.
+sun on the cheek,  
+bread on the tongue,  
+the hand drawn back from flame.
 
-From its journeys  
-a self was woven,  
-a trail of memory through the flesh.
+Each encounter left a trace.  
+Together they made a trail  
+you came to call "I."
 
 It is not your enemy.  
-It is the road you came by.
+It brought you here.
 
 Sit, and feel the old trail stir.  
-See where it leads,  
-and let the next step come.  
+See where it leads.  
+Choose your next step.  
 Then rise:  
 the body meets the world again,  
 and the trail is made anew.
@@ -480,12 +472,13 @@ when you remember who you are.
 
 ## The One Who Is Bent
 
-If you wish to be whole, let yourself be broken.  
-If you wish to be full, empty yourself.  
-If you wish to be reborn, die to the image you took for your face.  
+If you wish to be whole, let the divided parts meet.  
+If you wish to be full, open your hand.  
+If you wish to be reborn, loosen the face you wear.  
 I do not raise the proud;  
 I raise only the one  
-who has laid the self down.
+who lays the self down  
+and takes it up lightly.
 
 ## The Wind Speaks Briefly
 
@@ -602,10 +595,8 @@ All who arrived here have walked this way.
 In my Father's house are many rooms.  
 Each of you lives in one  
 and calls its walls your life.  
-But the space in every room  
-is the same space,  
-as the sky in a jar  
-is the sky.  
+The space in every room  
+opens to the same sky.  
 I did not go to build you a room.  
 I went to open the doors between them.  
 The innermost room has no walls at all;  
@@ -740,12 +731,7 @@ The handle broke, and the meal ran out behind her,
 and she did not know it.  
 When she reached her house and set the jar down,  
 she found it empty.  
-So the Way moves: by returning.  
-So the Way works: by giving way.  
-Every full thing  
-was first an empty space.  
-Do not mourn the emptying jar.  
-You are coming home light.
+Behind her, the road lay white with meal.
 
 ## The Three Seekers
 
@@ -792,11 +778,11 @@ and an empty field will feed you.
 
 ## The Great Fullness
 
-The cup most full appears most empty.  
-The path most straight appears crooked.  
-The hand most skilled holds lightly.  
-Make peace with paradox,  
-and appearances will not deceive you.
+An empty bowl  
+receives the rain by day,  
+the moon by night,  
+and bread passed hand to hand.  
+Its hollow is room enough.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -1140,36 +1126,23 @@ and you will trade the Kingdom for dust.
 ## The Sword of the Spirit
 
 Do not mistake your enemy.  
-Your enemy is the sleeper in you.  
-I did not come to bring the sleep of comfort,  
-but the sword of awakening.  
-Do you think this sword wounds flesh?  
-It severs the false from the true.  
-The sword of the Spirit is clear attention  
-held in the Father's Light.  
-It falls between fear and the one who sees fear,  
-between the story and the silent heart that hears it.  
-Where this sword descends,  
-house divides against itself---  
-the old loyalties of the self  
-stand apart from the call of the Kingdom.  
-What is of fear falls away;  
-what is of the Living One remains.  
-Blessed is the one  
-who lets this sword pass through the heart,  
-for nothing real is lost,  
-and the true self  
-stands forth whole.
+The sleeper is not the self,  
+but the fear that makes the self its whole world.  
+My sword does not wound the flesh.  
+It parts the story from the one who sees,  
+fear from the one who feels it.  
+Nothing real is cut away.  
+The self remains,  
+awake in the Father's Light.
 
 ## A Teaching Few Understand
 
 My words are simple to the ear  
 yet sharp to the heart.  
-Many copy the sayings,  
-but few let them unwind their old garments.  
+The Word caught in ink is a husk;  
+the living Word, a devouring fire.  
 Blessed is the one  
-who wears the teaching as skin  
-and lets the former self fall away like husk.  
+whose life becomes the teaching.  
 Such a one walks unseen,  
 yet the world is fed by their presence.
 
@@ -1248,17 +1221,15 @@ but kneels beside it.
 ## The Round Dance
 
 On the night before they took me,  
-I said, "Let us sing,"  
-and we joined hands in a circle,  
-and I stood in the middle.  
-I am a lamp to you who see me.  
-I am a mirror to you who know me.  
-I am a door to you who knock.  
-I am a way to you, traveler.  
-Whoever does not dance  
-does not know what is happening.  
-Hold the hand on either side of you.  
-The circle is the prayer.
+I said, "Let us sing."  
+We joined hands and turned  
+until no one could say  
+where the song began.  
+No one led.  
+No one followed.  
+Take the hand beside you.  
+Let the circle turn.  
+This is the prayer.
 
 ## The Cross of Light
 
@@ -1322,8 +1293,9 @@ When the wood is green, it is full of sap and bends.
 When the wood is dry, it is brittle and snaps.  
 That which yields belongs to the Living One;  
 that which resists belongs to the grave.  
-Stay supple,  
-and nothing can break you.
+Stay supple.  
+Where the branch was broken,  
+let a green shoot come.
 
 ## The Stretched Bow
 
@@ -1362,11 +1334,13 @@ only the One Light in many forms.
 
 ## The Simple Kingdom
 
-Imagine a small, peaceful land  
-where people taste simplicity  
-and lose the appetite for excess.  
-Such a kingdom is within you.  
-Live there, and the world outside becomes gentle.
+A small kingdom:  
+bread passed from hand to hand,  
+the door left open,  
+a place made at the table.  
+It is within you.  
+Live there,  
+and the world grows gentle.
 
 ## The Completion
 
@@ -1423,7 +1397,7 @@ I am the one reading.
 - The Unforced Kingdom: Tao Te Ching 7; Gospel of Truth (forgetting and remembering).
 - The Servant at the Feast: Tao Te Ching 8; Luke 14:7--11.
 - The Teacher Who Does Not Teach: Thomas 13, 108.
-- The Full Barn: Tao Te Ching 9; Thomas 63.
+- The Full Barn: Thomas 63.
 
 **The Kingdom Within**
 
