@@ -253,8 +253,9 @@
     vertical-align: 0;
   }
   .container > p { font-size: 1.08rem; }
-  /* A touch smaller for verse, so most lines fit whole on a phone. */
-  .container > p.lw-verse { font-size: 1.02rem; }
+  /* Verse lines are written to fit a phone. On the narrowest screens the
+     text eases down with the width (never below 15px) so they still fit whole. */
+  .container > p.lw-verse { font-size: clamp(15px, 4.4vw, 1.02rem); }
   .lw-saynav { gap: 0.75rem; font-size: 0.92rem; }
   .lw-saynav a { display: flex; gap: 0.3em; min-width: 0; white-space: nowrap; }
   .lw-saynav .lw-sn-t { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
@@ -267,4 +268,10 @@
 .container table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 @media (max-width: 600px) {
   .container th, .container td { padding: 0.5rem 0.6rem; font-size: 0.95rem; line-height: 1.4; min-width: 7.5rem; }
+}
+
+/* The smallest phones (320px): a little more room, so verse lines still fit whole. */
+@media (max-width: 340px) {
+  body .container { padding-left: 0.8rem; padding-right: 0.8rem; width: calc(100% - 0.5rem); }
+  .container > p.lw-verse { font-size: 14.6px; }
 }

@@ -34,14 +34,16 @@ map of forgetting and remembering, see
 # Beloved
 
 Beloved,  
-you wander in search of what has never been lost.  
+you wander in search  
+of what has never been lost.  
 You lift your eyes to heaven,  
 yet the Kingdom is already laid in your breath.  
 You seek the Light in scriptures and temples,  
 yet the Light waits behind your seeing.
 
 If you would know me,  
-enter the silence where your name has not yet formed.  
+enter the silence  
+where your name has not yet formed.  
 There the Father of Light whispers,  
 and the Mother of Forms gathers you to herself.  
 There the two are made one,  
@@ -106,7 +108,8 @@ then open your eyes.
 ## The Two Become One
 
 The world is born of the cut in two---  
-male and female, light and shadow, life and death.  
+male and female,  
+light and shadow, life and death.  
 Yet these divisions are garments only.  
 Truly I say to you:  
 when the two are made one,  
@@ -125,7 +128,8 @@ beliefs more than living knowing.
 So you sit in a treasury  
 and starve.  
 Know yourself,  
-and you will no longer hoard teachings in a scroll.  
+and you will no longer  
+hoard teachings in a scroll.  
 Your very being becomes the scroll.
 
 ## The Pearl
@@ -213,7 +217,8 @@ remembering, the way home.
 
 ## The Servant at the Feast
 
-Be as the servant who seeks the lowest place at the feast.  
+Be as the servant  
+who seeks the lowest place at the feast.  
 He does not contend,  
 yet the Master calls him forward.  
 So too, when you know the Father,  
@@ -246,8 +251,8 @@ $\cdot$ $\odot$ $\cdot$
 # The Kingdom Within
 
 ::: {.center}
-The door is shut, yet the house is vast.  The lamp is small, yet it
-lights the world.
+The door is shut, yet the house is vast.  
+The lamp is small, yet it lights the world.
 :::
 
 ## The Single Eye
@@ -274,11 +279,13 @@ the All is revealed.
 
 The world teaches you to be a lion---  
 to conquer, to claim, to devour.  
-But I tell you: unless the lion becomes a child,  
+But I tell you:  
+unless the lion becomes a child,  
 you will not know the Source.  
 The child is open, unguarded, whole.  
 There is no image of self to defend.  
-Therefore the child steps into the Kingdom easily.
+Therefore the child  
+steps into the Kingdom easily.
 
 ## The Largest Sheep
 
@@ -387,9 +394,12 @@ The garment divides; the wearer unites.
 
 ## Not of This World
 
-The world shouts; the Way whispers.  
-The world demands belief; the Way asks you to see.  
-The world praises power; the Way dissolves it.  
+The world shouts;  
+the Way whispers.  
+The world demands belief;  
+the Way asks you to see.  
+The world praises power;  
+the Way dissolves it.  
 Many chase desires.  
 Few seek liberation.  
 Yet the Kingdom belongs to those  
@@ -472,9 +482,12 @@ when you remember who you are.
 
 ## The One Who Is Bent
 
-If you wish to be whole, let the divided parts meet.  
-If you wish to be full, open your hand.  
-If you wish to be reborn, loosen the face you wear.  
+If you wish to be whole,  
+let the divided parts meet.  
+If you wish to be full,  
+open your hand.  
+If you wish to be reborn,  
+loosen the face you wear.  
 I do not raise the proud;  
 I raise only the one  
 who lays the self down  
@@ -482,7 +495,8 @@ and takes it up lightly.
 
 ## The Wind Speaks Briefly
 
-Speak only what is true, and your words will be few.  
+Speak only what is true,  
+and your words will be few.  
 The wind does not shout;  
 yet entire forests bow before it.  
 When you speak from the Source,  
@@ -493,8 +507,10 @@ yet they move mountains.
 
 One on tiptoe cannot stand.  
 One who strides cannot walk far.  
-Fast to be seen, and the fast feeds only your name.  
-Pray to be heard, and only the crowd is listening.  
+Fast to be seen,  
+and the fast feeds only your name.  
+Pray to be heard,  
+and only the crowd is listening.  
 Do not lie, and do not do what you hate.  
 Set your heels on the ground,  
 and let your goodness go unseen,  
@@ -525,7 +541,8 @@ $\cdot$ $\odot$ $\cdot$
 # The Power of the Gentle
 
 ::: {.center}
-The gentle are the strong.  The yielding are the immovable.
+The gentle are the strong.  
+The yielding are the immovable.
 :::
 
 ## The Fertile Soil
@@ -553,11 +570,14 @@ and you will find the harvest rising of itself.
 Those who walk in the Way do not harm.  
 They do not conquer.  
 They do not take up the sword.  
-For every blow you strike strikes you in return.  
+For every blow you strike  
+strikes you in return.  
 Every wound you inflict  
 becomes your own garment of suffering.  
-Power gained through violence rots the soul;  
-power gained through awakening cannot be taken away.  
+Power gained through violence  
+rots the soul;  
+power gained through awakening  
+cannot be taken away.  
 Blessed are the peacemakers---  
 they win the war within,  
 and the world lays down its sword.
@@ -642,7 +662,8 @@ You may subdue cities
 and still be ruled by fear within.  
 To turn the gaze inward is illumination.  
 To befriend your own depth is freedom.  
-For what profit is there in gaining the ten thousand things  
+For what profit is there  
+in gaining the ten thousand things  
 if you lose the One who beholds them?
 
 ## The Great River
@@ -668,8 +689,10 @@ Let peace begin there.
 
 ## The Paradox of Power
 
-To let something expand, first allow it to contract.  
-To let something grow strong, first allow it to weaken.  
+To let something expand,  
+first allow it to contract.  
+To let something grow strong,  
+first allow it to weaken.  
 A seed must vanish into dark soil,  
 a breath must empty before it fills.  
 Thus I guide by reversal,  
@@ -715,17 +738,23 @@ Ask what grows in you.
 
 ## The Ones Who Remain Whole
 
-Heaven remains Heaven because it does not exalt itself.  
-The earth remains earth because it does not resist its nature.  
-And the soul remains whole when it refuses to be divided.
+Heaven remains Heaven  
+because it does not exalt itself.  
+The earth remains earth  
+because it does not resist its nature.  
+And the soul remains whole  
+when it refuses to be divided.
 
 ## The Leaking Jar
 
-The Kingdom is like a woman carrying a jar of meal  
+The Kingdom is like a woman  
+carrying a jar of meal  
 on the long road home.  
-The handle broke, and the meal ran out behind her,  
+The handle broke,  
+and the meal ran out behind her,  
 and she did not know it.  
-When she reached her house and set the jar down,  
+When she reached her house  
+and set the jar down,  
 she found it empty.  
 Behind her, the road lay white with meal.
 
@@ -792,8 +821,10 @@ The vessel is made for what it does not hold.
 
 ## The Yoke of Peace
 
-When the Way is lived, the ox knows its master's stall.  
-When the Way is forgotten, the sword is drawn in the street.  
+When the Way is lived,  
+the ox knows its master's stall.  
+When the Way is forgotten,  
+the sword is drawn in the street.  
 The yoke of the world is heavy with desire.  
 My yoke is easy, and brings peace.
 
@@ -857,7 +888,8 @@ and good to those who are not good---
 seeing only the Light within them.  
 Trusting those who trust,  
 and trusting those who do not trust---  
-for trust flows from the inner being, not theirs.
+for trust flows from the inner being,  
+not theirs.
 
 ## Life and Death
 
@@ -898,11 +930,15 @@ from the womb that bears the All.
 
 ## The Eye of the Needle
 
-The world says, "Strive to enter the narrow gate."  
-But I tell you: The gate is narrow only because you carry the burden of
-the many.  
-It is easier for a camel to pass through the eye of a needle  
-than for the one rich in self to enter the Kingdom.  
+The world says,  
+"Strive to enter the narrow gate."  
+But I tell you:  
+the gate is narrow only because  
+you carry the burden of the many.  
+It is easier for a camel  
+to pass through the eye of a needle  
+than for the one rich in self  
+to enter the Kingdom.  
 Become small, become single,  
 and the narrow path becomes wide as the sky.
 
@@ -935,7 +971,9 @@ The unforced is the natural.
 
 Live in the Light,  
 and you are like a newborn child---  
-unafraid of serpents, unmoved by loud voices, unharmed by illusions.  
+unafraid of serpents,  
+unmoved by loud voices,  
+unharmed by illusions.  
 The bones are soft, yet the strength is great.
 
 ## Lay Down No Law
@@ -1010,8 +1048,10 @@ do not send it on.
 
 You look for me in the high places,  
 and I am sitting by the road.  
-I was hungry, and you passed with a prayer on your lips.  
-I was a stranger, and you asked my name  
+I was hungry,  
+and you passed with a prayer on your lips.  
+I was a stranger,  
+and you asked my name  
 before you would open the door.  
 Do not search the heavens for the Living One.  
 Feed the one in front of you,  
@@ -1053,7 +1093,8 @@ $\cdot$ $\odot$ $\cdot$
 # The Wisdom of the Child
 
 ::: {.center}
-The child asks, and is not ashamed of not knowing.
+The child asks,  
+and is not ashamed of not knowing.
 :::
 
 ## The First Step
@@ -1089,7 +1130,8 @@ and not to us?"
 Levi answered him:  
 "If the Teacher made her worthy,  
 who are you to cast her out?"  
-Beware the jealousy that wears a disciple's robe.  
+Beware the jealousy  
+that wears a disciple's robe.  
 The Light does not ask whom you outrank.  
 It asks only whether you can see.  
 Be ashamed, put on the true Human,  
@@ -1103,7 +1145,8 @@ The one who makes himself high
 passes like a cloud;  
 the one who makes himself low  
 waters many fields.  
-So the Single One leads by standing beneath all,  
+So the Single One leads  
+by standing beneath all,  
 bearing the weight of the weary,  
 and because there is no competition in them,  
 there is nothing in them to oppose.
@@ -1123,7 +1166,8 @@ and you will trade the Kingdom for dust.
 
 Do not mistake your enemy.  
 The sleeper is not the self,  
-but the fear that makes the self its whole world.  
+but the fear  
+that makes the self its whole world.  
 My sword does not wound the flesh.  
 It parts the story from the one who sees,  
 fear from the one who feels it.  
@@ -1156,8 +1200,10 @@ and it will hold you.
 
 ## The Gift of Not-Knowing
 
-To know that you do not know---this is clarity.  
-To think you know while living in ignorance---this is blindness.  
+To know that you do not know---  
+this is clarity.  
+To think you know while living in ignorance---  
+this is blindness.  
 Take the cataract from your own eye first.
 
 ## Love That Owns Nothing
@@ -1180,7 +1226,8 @@ $\cdot$ $\odot$ $\cdot$
 # The Return to Source
 
 ::: {.center}
-To return to the Source is to come home to yourself.
+To return to the Source  
+is to come home to yourself.
 :::
 
 ## The Courage of the Way
@@ -1194,12 +1241,14 @@ and power that does not dominate.
 
 How can death frighten  
 one who has already risen?  
-Those who say, "First I will die, and then I will rise,"  
+Those who say,  
+"First I will die, and then I will rise,"  
 walk the road backward.  
 Rise while there is breath in you,  
 for the grave is no door  
 to one who never woke.  
-The resurrection does not wait at the end of your days.  
+The resurrection does not wait  
+at the end of your days.  
 It waits at the end of your sleep.
 
 ## He Wept
@@ -1276,7 +1325,8 @@ has not left the room.
 What clings to the passing  
 is torn when the passing goes.  
 From the clinging comes the fever,  
-and from the fever, a trembling in the whole body.  
+and from the fever,  
+a trembling in the whole body.  
 A fist holds no water;  
 a cupped hand is full.  
 You grasp at life so hard  
@@ -1285,8 +1335,10 @@ Open your hand, and be of good courage.
 
 ## The Green Wood and the Dry
 
-When the wood is green, it is full of sap and bends.  
-When the wood is dry, it is brittle and snaps.  
+When the wood is green,  
+it is full of sap and bends.  
+When the wood is dry,  
+it is brittle and snaps.  
 That which yields belongs to the Living One;  
 that which resists belongs to the grave.  
 Stay supple.  
@@ -1320,7 +1372,8 @@ uphold a world they did not claim as theirs.
 ## The End of Debts
 
 Even after a truce, resentment lingers.  
-Peter asked, "Shall I forgive my brother seven times?"  
+Peter asked,  
+"Shall I forgive my brother seven times?"  
 I said: seventy times seven,  
 until you lose count,  
 until there is no count to keep.  
