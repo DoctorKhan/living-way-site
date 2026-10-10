@@ -502,14 +502,10 @@ even by you.
 
 ## The Heavy Root
 
-The root of the tree is unseen,  
-yet it holds the whole tree upright.  
-So too the silent depth of your being  
-supports your every step.  
-Forget your root,  
-and you are blown about by every wind---  
-desire, fear, anger, ignorance.  
-Remember your depth, and nothing can uproot you.
+The root is never seen,  
+and the whole tree stands on it.  
+The wind takes the leaves.  
+It does not take the tree.
 
 ## The Footprints of the Master
 
