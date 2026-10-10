@@ -3,12 +3,13 @@
  *
  * - Pages: network-first, so readers always get the latest text when online;
  *   falls back to the last copy they read, then to /offline.html.
- * - Static assets (css/js/images/fonts/markdown): stale-while-revalidate.
+ * - CSS and JS: network-first (cached copy for offline only).
+ * - Other static assets (images/fonts/markdown): stale-while-revalidate.
  * - Never touches /api/, PDFs, range requests, or non-GET requests.
  *
  * Bump VERSION when the precache list changes.
  */
-const VERSION = "2026-10-09";
+const VERSION = "2026-10-09b";
 const STATIC_CACHE = `lw-static-${VERSION}`;
 const PAGES_CACHE = "lw-pages";
 const FONT_HOSTS = ["fonts.googleapis.com", "fonts.gstatic.com"];
@@ -34,8 +35,9 @@ const PRECACHE = [
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(STATIC_CACHE).then((cache) =>
-      // Add individually so one missing file cannot block installation.
-      Promise.all(PRECACHE.map((url) => cache.add(url).catch(() => {}))),
+      // Add individually so one missing file cannot block installation,
+      // and bypass the HTTP cache so a new version never stores stale copies.
+      Promise.all(PRECACHE.map((url) => cache.add(new Request(url, { cache: "reload" })).catch(() => {}))),
     ),
   );
   self.skipWaiting();
@@ -82,6 +84,19 @@ async function networkFirstPage(request) {
   }
 }
 
+// Stylesheets and scripts: network first, so a deploy shows up on the next
+// load. The cached copy is only for offline.
+async function networkFirstAsset(request) {
+  const cache = await caches.open(STATIC_CACHE);
+  try {
+    const response = await fetch(request, { cache: "no-cache" });
+    if (response.ok) cache.put(request, response.clone());
+    return response;
+  } catch {
+    return (await cache.match(request, { ignoreSearch: true })) || Response.error();
+  }
+}
+
 async function staleWhileRevalidate(request) {
   const cache = await caches.open(STATIC_CACHE);
   const cached = await cache.match(request);
@@ -102,6 +117,11 @@ self.addEventListener("fetch", (event) => {
   if (request.mode === "navigate") {
     if (url.origin !== self.location.origin || url.pathname.startsWith("/api/")) return;
     event.respondWith(networkFirstPage(request));
+    return;
+  }
+
+  if (url.origin === self.location.origin && /\.(css|js)$/.test(url.pathname)) {
+    event.respondWith(networkFirstAsset(request));
     return;
   }
 
