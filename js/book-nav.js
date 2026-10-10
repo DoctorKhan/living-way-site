@@ -110,18 +110,55 @@
     });
   });
 
-  function openPanel() {
-    lastFocus = document.activeElement;
+  function openPanel(returnFocusTo) {
+    lastFocus = returnFocusTo || document.activeElement;
     document.body.classList.add('lw-toc-open');
     toggle.setAttribute('aria-expanded', 'true');
+    if (menuRead && mobileMenu.matches) menuRead.setAttribute('aria-expanded', 'true');
     var active = toc.querySelector('a[aria-current]');
     if (active) active.scrollIntoView({ block: 'center' });
     setTimeout(function () { filter.focus({ preventScroll: true }); }, 50);
   }
+
+  // On phones, make the existing Read menu entry a second route to the book
+  // contents. The floating Contents button remains the quick in-reading control.
+  var menuRead = document.querySelector('.lw-links a[data-nav="read"]');
+  var mobileMenu = window.matchMedia('(max-width: 720px)');
+  if (menuRead) {
+    var readLabel = menuRead.textContent;
+    var readHref = menuRead.getAttribute('href');
+    var readCurrent = menuRead.getAttribute('aria-current');
+    function syncMenuContents() {
+      if (mobileMenu.matches) {
+        menuRead.textContent = 'Contents';
+        menuRead.setAttribute('href', '#lw-toc');
+        menuRead.setAttribute('aria-label', 'Open this book’s contents');
+        menuRead.setAttribute('aria-controls', 'lw-toc');
+        menuRead.setAttribute('aria-expanded', document.body.classList.contains('lw-toc-open') ? 'true' : 'false');
+        menuRead.removeAttribute('aria-current');
+      } else {
+        menuRead.textContent = readLabel;
+        menuRead.setAttribute('href', readHref);
+        menuRead.removeAttribute('aria-label');
+        menuRead.removeAttribute('aria-controls');
+        menuRead.removeAttribute('aria-expanded');
+        if (readCurrent) menuRead.setAttribute('aria-current', readCurrent);
+      }
+    }
+    menuRead.addEventListener('click', function (e) {
+      if (!mobileMenu.matches) return;
+      e.preventDefault();
+      openPanel(document.querySelector('.lw-menu-btn'));
+    });
+    syncMenuContents();
+    mobileMenu.addEventListener('change', syncMenuContents);
+  }
+
   function closePanel() {
     if (!document.body.classList.contains('lw-toc-open')) return;
     document.body.classList.remove('lw-toc-open');
     toggle.setAttribute('aria-expanded', 'false');
+    if (menuRead) menuRead.setAttribute('aria-expanded', 'false');
     if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
   }
   toggle.addEventListener('click', openPanel);
