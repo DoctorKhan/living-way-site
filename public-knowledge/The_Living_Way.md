@@ -219,13 +219,15 @@ remembering, the way home.
 
 Be as the servant  
 who seeks the lowest place at the feast.  
-He does not contend,  
-yet the Master calls him forward.  
-So too, when you know the Father,  
-you take the lowest seat  
-and find there the highest.  
-Humility is not making the self small;  
-it is holding it lightly.
+From there, he sees  
+who still stands at the door.  
+He draws out a chair.  
+So too, knowing the Father,  
+you hold the self lightly  
+and make room beside you.  
+This is humility:  
+the open place  
+where another may sit.
 
 ## The Teacher Who Does Not Teach
 
@@ -670,14 +672,17 @@ if you lose the One who beholds them?
 
 The River of the Father and the Mother  
 flows through all worlds,  
-pouring itself into every vessel,  
-claiming nothing as its own.  
+finds the low places,  
+pours itself into every vessel,  
+claims nothing as its own.  
 Walk in this River,  
 and you act without self-importance,  
 give without calculation,  
+make room for the weary,  
 rest without pride.  
-You become transparent,  
-and the Source is seen through you.
+Become transparent,  
+and the Source flows through you  
+to all who thirst.
 
 ## The Face of Peace
 
@@ -1488,7 +1493,7 @@ I am the one reading.
 - The Closed Doors: John 14:2; Pratyabhijñā-hṛdayam 4 (consciousness freely contracts into the individual, who holds the universe in contracted form); compare Plotinus, *Enneads* 4.8.5--7 (a partial parallel: Plotinus mostly saw the descent as a falling away, yet granted that the soul comes to know the good more clearly through the experience of evil).
 - The Eternal Name: Exodus 3:2--6, 3:14 (Moses at the burning bush); John 8:58 ("before Abraham was, I am"); Thunder, Perfect Mind ("the speaking of my own name"); Tao Te Ching 1 (the name that can be named); Genesis 1:2 (the breath moving); so'ham, "That I am," the breath mantra of Advaita (compare Nisargadatta, *I Am That*).
 - Profit and Loss: Tao Te Ching 33; Mark 8:36.
-- The Great River: Tao Te Ching 34; Odes of Solomon 6.
+- The Great River: Tao Te Ching 8, 34; Odes of Solomon 6; John 4:14.
 - The Face of Peace: Tao Te Ching 35; John 14:27.
 - The Paradox of Power: Tao Te Ching 36; John 12:24.
 
