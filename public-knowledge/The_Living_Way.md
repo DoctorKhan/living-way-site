@@ -215,19 +215,16 @@ and life opens around you.
 Exile is forgetting;  
 remembering, the way home.
 
-## The Servant at the Feast
+## The Lowest Seat
 
-Be as the servant  
-who seeks the lowest place at the feast.  
-From there, he sees  
-who still stands at the door.  
+At the feast,  
+he settles in the lowest seat  
+and tastes the bread.  
+Nothing in him waits  
+to be called higher.  
+A guest stands at the door.  
 He draws out a chair.  
-So too, knowing the Father,  
-you hold the self lightly  
-and make room beside you.  
-This is humility:  
-the open place  
-where another may sit.
+The table grows wider.
 
 ## The Teacher Who Does Not Teach
 
@@ -672,17 +669,15 @@ if you lose the One who beholds them?
 
 The River of the Father and the Mother  
 flows through all worlds,  
-finds the low places,  
-pours itself into every vessel,  
-claims nothing as its own.  
-Walk in this River,  
-and you act without self-importance,  
-give without calculation,  
-make room for the weary,  
-rest without pride.  
-Become transparent,  
-and the Source flows through you  
-to all who thirst.
+down to the low places  
+and abides there.  
+No height to hold,  
+no name to keep.  
+It fills each hollow,  
+feeds roots unseen;  
+the fields grow green.  
+The Source moves through you,  
+unseen and free.
 
 ## The Face of Peace
 
@@ -1449,7 +1444,7 @@ I am the one reading.
 - No Enemy: Tao Te Ching 5; Didache 1.3 ("love those who hate you, and you will have no enemy"); Matthew 5:45.
 - The Hollow Reed: Tao Te Ching 6.
 - The Unforced Kingdom: Tao Te Ching 7; Gospel of Truth (forgetting and remembering).
-- The Servant at the Feast: Tao Te Ching 8; Luke 14:7--11.
+- The Lowest Seat: Tao Te Ching 8; Luke 14:7--11.
 - The Teacher Who Does Not Teach: Thomas 13, 108.
 - The Full Barn: Thomas 63.
 
@@ -1493,7 +1488,7 @@ I am the one reading.
 - The Closed Doors: John 14:2; Pratyabhijñā-hṛdayam 4 (consciousness freely contracts into the individual, who holds the universe in contracted form); compare Plotinus, *Enneads* 4.8.5--7 (a partial parallel: Plotinus mostly saw the descent as a falling away, yet granted that the soul comes to know the good more clearly through the experience of evil).
 - The Eternal Name: Exodus 3:2--6, 3:14 (Moses at the burning bush); John 8:58 ("before Abraham was, I am"); Thunder, Perfect Mind ("the speaking of my own name"); Tao Te Ching 1 (the name that can be named); Genesis 1:2 (the breath moving); so'ham, "That I am," the breath mantra of Advaita (compare Nisargadatta, *I Am That*).
 - Profit and Loss: Tao Te Ching 33; Mark 8:36.
-- The Great River: Tao Te Ching 8, 34; Odes of Solomon 6; John 4:14.
+- The Great River: Tao Te Ching 8, 34; Odes of Solomon 6.
 - The Face of Peace: Tao Te Ching 35; John 14:27.
 - The Paradox of Power: Tao Te Ching 36; John 12:24.
 
