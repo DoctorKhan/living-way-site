@@ -222,9 +222,10 @@ he settles in the lowest seat
 and tastes the bread.  
 Nothing in him waits  
 to be called higher.  
-A guest stands at the door.  
-He draws out a chair.  
-The table grows wider.
+No one can place him lower;  
+no promise of rising can rule him.  
+In the lowest place,  
+he is free.
 
 ## The Teacher Who Does Not Teach
 
