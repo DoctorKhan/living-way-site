@@ -330,7 +330,9 @@ in which the Word is born.
 Seal the senses. Quiet the mind.  
 There you and I are one life,  
 one breath,  
-one being.
+one being.  
+Distinct in form,  
+undivided at the Source.
 
 ## The Great Stillness
 
@@ -1457,7 +1459,7 @@ I am the one reading.
 - The Largest Sheep: Tao Te Ching 12; Thomas 107.
 - The Unbinding: Tao Te Ching 13; Ashtavakra Gita 1.11 ("as you think, so you become").
 - The Return to the Unborn: Tao Te Ching 14; Thomas 18--19; Hymn of the Pearl.
-- The Silence That Speaks: Tao Te Ching 56; Thomas 8.
+- The Silence That Speaks: Tao Te Ching 56; Thomas 8; John 10:30; 17:20–23. The oneness of Jesus and the Father, and his prayer that others share in that oneness, are read here as an echo of shared life in the Source: distinct persons and forms, undivided in their ground.
 - The Great Stillness: Tao Te Ching 15, 16.
 - The First Free Act: Tao Te Ching 16; Philip ("it makes us do what we do not want"); Thomas 6; Bhagavad Gita 3.27; Ashtavakra Gita 1.8, 18.20.
 - The Hidden Guide: Tao Te Ching 17.
