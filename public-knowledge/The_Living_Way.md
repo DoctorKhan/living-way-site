@@ -266,7 +266,6 @@ it will find no room in you.
 The cup is precious for its emptiness,  
 and so is all the world.  
 The wave is only water moving;  
-the flame is only burning;  
 nowhere is a self  
 hidden inside.  
 Rest where you see this,  
