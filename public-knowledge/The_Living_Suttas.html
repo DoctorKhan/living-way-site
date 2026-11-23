@@ -66,6 +66,52 @@
             margin-top: 3rem;
         }
         
+        .saying-source p {
+            margin-top: 0.4rem;
+            text-align: right;
+            font-size: 0.85rem;
+            font-style: italic;
+        }
+        .saying-source a, a.source-back {
+            color: var(--text-muted, #6b6b6b);
+            text-decoration: none;
+        }
+        .saying-source a:hover, a.source-back:hover { text-decoration: underline; }
+        .source-excerpt {
+            margin: 0.6rem 0 1.4rem;
+            padding: 0.9rem 1.1rem;
+            border-left: 3px solid var(--accent);
+            background: rgba(140, 123, 108, 0.08);
+            border-radius: 0 6px 6px 0;
+            font-size: 1rem;
+        }
+        .source-excerpt-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-variant: small-caps;
+            letter-spacing: 0.04em;
+            color: var(--accent);
+            margin-bottom: 0.4rem;
+        }
+        .source-excerpt-close {
+            background: none;
+            border: 0;
+            font-size: 1.3rem;
+            line-height: 1;
+            color: var(--text-muted, #6b6b6b);
+            cursor: pointer;
+            padding: 0 0.2rem;
+        }
+        .source-excerpt-body p { margin: 0 0 0.6rem; }
+        .source-excerpt-credit {
+            margin: 0.3rem 0 0;
+            font-size: 0.8rem;
+            font-style: italic;
+            color: var(--text-muted, #6b6b6b);
+        }
+        .source-excerpt-credit a { color: inherit; }
+
         h3 {
             font-size: 1.4rem;
             color: var(--accent);
@@ -175,6 +221,7 @@ the path from forgetting to clarity, in the voice of the Buddha.">
 the path from forgetting to clarity, in the voice of the Buddha.">
     <meta name="twitter:image" content="https://thelivingway.app/images/og-image.png">
     <script src="/js/sayings-share.js" defer></script>
+    <script src="/js/source-excerpts.js" defer></script>
     <link rel="stylesheet" href="/css/site-nav.css">
     <script src="/js/site-nav.js" defer></script>
     <link rel="stylesheet" href="/css/book-nav.css">

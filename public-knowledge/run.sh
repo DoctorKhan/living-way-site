@@ -10,6 +10,7 @@ PUBLICATIONS_FILE="$ROOT/tools/publications.tsv"
 PUBLISH_LIBRARY_JS="$ROOT/tools/publish_library_assets.js"
 BOOK_TEX_TEMPLATE="$ROOT/templates/book_print_template.tex"
 BOOK_TEX_FILTER="$ROOT/tools/markdown_to_book_latex.lua"
+SOURCES_FILTER="$ROOT/tools/saying_sources.lua"
 PRINT_METADATA_DIR="$ROOT/templates/print-metadata"
 
 cmd=${1:-}
@@ -144,6 +145,7 @@ build_tex_from_markdown() {
       --to=latex \
       --top-level-division=chapter \
       --template="$BOOK_TEX_TEMPLATE" \
+      --lua-filter="$SOURCES_FILTER" \
       --lua-filter="$BOOK_TEX_FILTER" \
       "${metadata_args[@]}" \
       --metadata title="$title" \
@@ -246,20 +248,13 @@ sync_consumers() {
 
   publish_library_assets
 
-  local synced=false
-  if [[ -d "$ROOT/../living-way-site" ]]; then
-    echo "==> Syncing to living-way-site/public-knowledge/ ..."
-    "$SYNC_SCRIPT" "$ROOT/../living-way-site/public-knowledge/"
-    synced=true
-  fi
-  if [[ -d "$ROOT/../living-way-app" ]]; then
-    echo "==> Syncing to living-way-app/public-knowledge/ ..."
-    "$SYNC_SCRIPT" "$ROOT/../living-way-app/public-knowledge/"
-    synced=true
-  fi
-  if [[ "$synced" == false ]]; then
-    echo "==> No sibling repos at ../living-way-site or ../living-way-app — skipped sync."
-    echo "    (Clone them next to this repo, or run: ./tools/sync-public-knowledge.sh <dest>)"
+  local site_sync="$ROOT/../site/scripts/sync-public-knowledge.sh"
+  if [[ -x "$site_sync" ]]; then
+    echo "==> Syncing to site/public-knowledge/ ..."
+    "$site_sync"
+  else
+    echo "==> No ../site in this checkout — skipped sync."
+    echo "    (Or run: ./tools/sync-public-knowledge.sh <dest>)"
   fi
 }
 

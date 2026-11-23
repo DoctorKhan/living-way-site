@@ -135,6 +135,7 @@ Each voice or tradition gets one top-level folder:
 
 - `Laozi/`
 - `Gotama/`
+- `Zen/`
 - `Krishna/`
 - `Einstein/`
 - `Mindfulness/`
@@ -157,6 +158,7 @@ Use **`Mindfulness/`** for Living Way framing of **belief-optional, body-first**
 | File | Role |
 |------|------|
 | `The_Mindfulness_Path_of_the_Living_Way.md` | Primary mindfulness-path framing for the library |
+| `The_Lay_Verses_of_the_Living_Way.md` | Household curriculum in verse (cup, watch, freight, step back) — unbranded; novel companion |
 
 Update **`index.html`** if you add works here, then sync **`tools/sync-public-knowledge.sh`**.
 
@@ -170,6 +172,17 @@ Use **`Musashi/`** for **original** Living Way texts in the **spirit** of Miyamo
 | `The_Twenty-One_Precepts_of_the_Living_Way.md` | Short daily precepts (after the spirit of the *Dokkōdō*) |
 
 Update **`index.html`** when adding works; sync consumers with **`tools/sync-public-knowledge.sh`**.
+
+#### `Zen/` (everyday mind · direct pointing)
+
+Use **`Zen/`** for **original** Living Way texts in the **spirit** of Zen — ordinary mind, continuous practice, don't-know, direct pointing — without pasting copyrighted koan collections or modern Zen bestsellers verbatim. Gotama folder holds Pali-inflected Buddhist path; Zen folder holds Chan/Sōtō/Rinzai **form** (bowl, sweep, cup, tea) applied to household practice.
+
+| File | Role |
+|------|------|
+| `The_Everyday_Mind_of_the_Living_Way.md` | Primary Zen-path teaching — seven short sections |
+| *(see also)* `Mindfulness/The_Lay_Verses_of_the_Living_Way.md` Ch 22–25 | Household Zen verses in the lay curriculum |
+
+Update **`index.html`** when adding works; sync with **`tools/sync-public-knowledge.sh`**.
 
 #### `Krishna/` (Gita strand + Sanskrit shelf)
 
@@ -370,3 +383,8 @@ The cleanest near-term organization is not a major restructure. It is a stricter
 - sibling repos consuming this repo instead of redefining it
 
 That keeps the public library coherent without forcing a cross-repo migration.
+
+## Open Terminology Note (not actioned)
+
+- **"Outer Child" (`Core/living-way-guide.md`, Chapter 1 — "The Outer Child, the Inner Child, and the Path of the Adult").** This term collides with an unrelated, established usage in codependency/recovery literature (Robert Burney and others), where "the outer child" names a defensive, self-sabotaging persona that protects a wounded inner child — close to the opposite of this guide's meaning (a stage of consciousness marked by imitation, obedience to intermediaries, and imaginative belief, contrasted with the Adult of the Way's direct knowing). A reader who has encountered that recovery-literature framing first could misread the chapter.
+- Surfaced while adapting this triad (Outer Child / Adult of the Way / Inner Child) for an unrelated creative project, not from a report of actual reader confusion. Not evaluated here for whether it's worth changing — the term is load-bearing across Chapter 1, the closing "Return to the Inner Child" section, and the built HTML, so any rename is a real edit, not a find-and-replace. Revisit only if it actually causes confusion in practice.
