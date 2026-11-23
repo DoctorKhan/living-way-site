@@ -280,8 +280,10 @@ to conquer, to claim, to devour.
 But I tell you:  
 unless the lion becomes a child,  
 you will not know the Source.  
-The child is open, unguarded, whole.  
-There is no image of self to defend.  
+A child cries,  
+and then the crying is over.  
+It holds no grudge;  
+it has no image of itself to defend.  
 Therefore the child  
 steps into the Kingdom easily.
 
