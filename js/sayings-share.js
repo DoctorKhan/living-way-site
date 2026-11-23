@@ -1,21 +1,25 @@
 /*
- * Adds a "Share" button to every saying (h2[id]) on a book page.
+ * Adds Share and Copy-link buttons to every saying (h2[id]) on a book page.
+ * They sit at the foot of the saying, beside its source line, so the title
+ * stays clean.
  * Uses the native share sheet when available, otherwise copies the saying and
  * a direct link (page#saying-id) to the clipboard. A second button copies just
  * the link.
  */
 (function () {
   var STYLE =
-    '.lw-share{display:inline-flex;align-items:center;justify-content:center;margin-left:.55em;vertical-align:middle;' +
-    'width:1.8em;height:1.8em;color:#6b6152;background:transparent;border:1px solid rgba(107,97,82,.3);' +
-    'border-radius:50%;padding:.35em;cursor:pointer;opacity:.72;transition:opacity .2s,background .2s}' +
-    '.lw-share+.lw-share{margin-left:.35em}' +
+    '.lw-saying-foot{display:flex;align-items:center;gap:1rem;margin:-.6rem 0 0}' +
+    '.lw-saying-foot>p{margin:0!important;flex:1;min-width:0}' +
+    '.lw-actions{display:inline-flex;gap:.3rem;margin-left:auto;flex:none}' +
+    '.lw-share{display:inline-flex;align-items:center;justify-content:center;' +
+    'width:30px;height:30px;color:#6b6152;background:transparent;border:0;' +
+    'border-radius:50%;padding:7px;cursor:pointer;opacity:.55;transition:opacity .2s,background .2s}' +
     '.lw-share svg{display:block;width:100%;height:100%}' +
     '.lw-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}' +
-    '.lw-share:hover,.lw-share:focus-visible{opacity:1;background:rgba(255,255,255,.6)}' +
+    '.lw-share:hover,.lw-share:focus-visible{opacity:1;background:rgba(140,123,108,.12)}' +
     '.lw-saying-target{animation:lw-glow 2.4s ease-out}' +
     '@keyframes lw-glow{from{background:rgba(212,175,55,.22)}to{background:transparent}}' +
-    '@media print{.lw-share{display:none}}';
+    '@media print{.lw-actions{display:none}}';
 
   function sayingText(heading) {
     var parts = [];
@@ -88,6 +92,20 @@
     el.classList.add('lw-saying-target');
   }
 
+  // The source line under a saying, or a new foot row when it has none.
+  function footOf(h) {
+    var el = h.nextElementSibling, last = h;
+    while (el && !/^H[12]$/.test(el.tagName) && !el.matches('.ornament, .lw-saynav')) {
+      if (el.matches('.saying-source')) { el.classList.add('lw-saying-foot'); return el; }
+      last = el;
+      el = el.nextElementSibling;
+    }
+    var foot = document.createElement('div');
+    foot.className = 'lw-saying-foot';
+    last.after(foot);
+    return foot;
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     var headings = document.querySelectorAll('.container h2[id]');
     if (!headings.length) return;
@@ -108,7 +126,6 @@
       btn.setAttribute('title', 'Share this saying');
       btn.innerHTML = SHARE_ICON;
       btn.addEventListener('click', function () { share(h, btn); });
-      h.appendChild(btn);
 
       var link = document.createElement('button');
       link.type = 'button';
@@ -117,7 +134,12 @@
       link.setAttribute('title', 'Copy link');
       link.innerHTML = LINK_ICON;
       link.addEventListener('click', function () { copyLink(h, link); });
-      h.appendChild(link);
+
+      var actions = document.createElement('span');
+      actions.className = 'lw-actions';
+      actions.appendChild(btn);
+      actions.appendChild(link);
+      footOf(h).appendChild(actions);
     });
 
     highlightTarget();

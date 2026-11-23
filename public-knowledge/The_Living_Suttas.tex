@@ -42,6 +42,7 @@ teachings},
 \titlespacing*{\section}{0pt}{1.0ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 \newcommand{\sectionbreak}{\filbreak}
+\newcommand{\sayingsource}[1]{\par\nopagebreak\vspace{0.3\baselineskip}{\raggedleft\footnotesize\itshape #1\par}}
 \newcommand{\ornament}{
     \vspace{1.5cm}
     \begin{center}
@@ -59,6 +60,9 @@ teachings},
 
 % Pandoc emits \tightlist for compact lists.
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+% Semitic transliteration: alef (ʾ) and ayin (ʿ).
+\DeclareUnicodeCharacter{02BE}{\textquoteright}
+\DeclareUnicodeCharacter{02BF}{\textquoteleft}
 
 \begin{document}
 \begin{titlepage}
