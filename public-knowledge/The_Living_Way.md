@@ -250,12 +250,14 @@ The lamp is small, yet it lights the world.
 
 ## The Single Eye
 
-If the eye of the body is divided,  
+If the eye is divided,  
 it sees only confusion.  
-If the eye of the heart is single,  
-it fills the whole body with light.  
-The Nous stands between soul and spirit---  
-a lamp lit from both sides.  
+If the eye is single,  
+the whole body is filled with light.  
+This is the eye of the heart  
+that sits between spirit and mind:  
+lit by the one,  
+it shines upon the other.  
 Guard this lamp,  
 and the night cannot touch you.
 
@@ -1453,7 +1455,7 @@ I am the one reading.
 
 **The Kingdom Within**
 
-- The Single Eye: Tao Te Ching 10; Matthew 6:22; Mary 10 (the mind between soul and spirit); Dialogue of the Savior.
+- The Single Eye: Tao Te Ching 10; Matthew 6:22; Mary 10 (the eye that sees, between soul and spirit); Dialogue of the Savior.
 - The Inner and the Outer: Tao Te Ching 11; Thomas 22, 89.
 - The Lion and the Child: Thomas 7, 22.
 - The Largest Sheep: Tao Te Ching 12; Thomas 107.
