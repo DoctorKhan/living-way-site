@@ -263,12 +263,16 @@ it will find no room in you.
 
 ## The Inner and the Outer
 
-The cup is precious for its emptiness.  
-So too you are precious  
-when you are emptied of self.  
-Inside and outside are mirrors.  
-When they reflect without distortion,  
-the All is revealed.
+The cup is precious for its emptiness,  
+and so is all the world.  
+The wave is only water moving;  
+the flame is only burning;  
+nowhere is a self  
+hidden inside.  
+Rest where you see this,  
+and the inner becomes like the outer:  
+still water under an open sky,  
+until the All shines in both.
 
 ## The Lion and the Child
 
