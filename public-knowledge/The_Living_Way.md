@@ -1030,6 +1030,17 @@ bitter, clouded, clear.
 Each gives up its name  
 in the deep that receives it.
 
+## The Second Arrow
+
+The room does not ask who may enter.  
+Joy and sorrow walk in alike,  
+and it does not push out the one  
+to make space for the other.  
+You are like that room.  
+The pain that comes is the first arrow.  
+The "no" you hurl at it is the second,  
+and that one is yours to set down.
+
 ## The Treasure Within
 
 The Living Way is shelter for all beings---  
@@ -1037,6 +1048,19 @@ a home for the whole and the broken alike.
 Beautiful words can stir the mind,  
 but a heart that has found this hidden refuge  
 quietly transforms the world.
+
+## The Sky Behind the Clouds
+
+Remember a day of joy:  
+the sea when you were small,  
+the prize, the first key to your own door.  
+The days were many;  
+the joy was one.  
+It was never in the sea or the key.  
+It was the sky,  
+showing through a break in the clouds.  
+The sky does not come and go.  
+Only the clouds do.
 
 ## The Small Actions
 
@@ -1221,6 +1245,19 @@ Do not crowd another's house
 or weary another's days.  
 Leave them room,  
 and they will make room for you.
+
+## Love Without Need
+
+Say to the one you love:  
+"I do not ask you to make me whole.  
+Stay a day or a lifetime;  
+you are free."  
+This is not a cold word.  
+It lifts from their shoulders  
+a weight no one can carry.  
+Then desire what you will,  
+but let desire come from joy,  
+not go out searching for it.
 
 ::: {.center}
 $\cdot$ $\odot$ $\cdot$
@@ -1535,7 +1572,9 @@ I am the one reading.
 - Dig Down to the Root: Tao Te Ching 59; Philip on the root of evil; Matthew 3:10.
 - Governing by Non-Grasping: Tao Te Ching 60; Thomas 96; Matthew 13:33.
 - The Great Acceptance: Tao Te Ching 61.
+- The Second Arrow: Samyutta Nikaya 36.6 (the two arrows); Matthew 5:45; Tao Te Ching 16.
 - The Treasure Within: Tao Te Ching 62.
+- The Sky Behind the Clouds: Luke 17:21; Taittiriya Upanishad 3.6 (bliss is Brahman).
 - The Small Actions: Tao Te Ching 63.
 - The Least of These: Matthew 25:35--40.
 - The Open Table: Thomas 64; Didache 9 (the bread scattered on the hills, gathered into one).
@@ -1553,6 +1592,7 @@ I am the one reading.
 - Bring It Forth: Thomas 70.
 - The Gift of Not-Knowing: Tao Te Ching 71; Thomas 26; John 9:41; Matthew 7:5.
 - Love That Owns Nothing: Tao Te Ching 72; Philip ("faith receives, love gives"; love never calls anything its own).
+- Love Without Need: Philip (love never calls anything its own); William Blake ("He who binds to himself a joy").
 
 **The Return to Source**
 
