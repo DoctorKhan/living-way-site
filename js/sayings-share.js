@@ -1,14 +1,17 @@
 /*
  * Adds a "Share" button to every saying (h2[id]) on a book page.
  * Uses the native share sheet when available, otherwise copies the saying and
- * a direct link (page#saying-id) to the clipboard.
+ * a direct link (page#saying-id) to the clipboard. A second button copies just
+ * the link.
  */
 (function () {
   var STYLE =
     '.lw-share{display:inline-flex;align-items:center;justify-content:center;margin-left:.55em;vertical-align:middle;' +
     'width:1.8em;height:1.8em;color:#6b6152;background:transparent;border:1px solid rgba(107,97,82,.3);' +
     'border-radius:50%;padding:.35em;cursor:pointer;opacity:.72;transition:opacity .2s,background .2s}' +
+    '.lw-share+.lw-share{margin-left:.35em}' +
     '.lw-share svg{display:block;width:100%;height:100%}' +
+    '.lw-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}' +
     '.lw-share:hover,.lw-share:focus-visible{opacity:1;background:rgba(255,255,255,.6)}' +
     '.lw-saying-target{animation:lw-glow 2.4s ease-out}' +
     '@keyframes lw-glow{from{background:rgba(212,175,55,.22)}to{background:transparent}}' +
@@ -27,15 +30,45 @@
     return t === 'The Hidden Wisdom of Yeshua' ? 'The Living Way' : t;
   }
 
-  function flash(btn, label) {
+  var SHARE_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="m8.7 10.7 6.6-4.4M8.7 13.3l6.6 4.4"></path></svg>';
+  var LINK_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>';
+  var CHECK_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>';
+  var status;
+
+  function announce(msg) {
+    if (!status) return;
+    status.textContent = '';
+    setTimeout(function () { status.textContent = msg; }, 50);
+  }
+
+  function flash(btn, msg) {
     var original = btn.innerHTML;
-    btn.textContent = label;
+    btn.innerHTML = CHECK_ICON;
+    announce(msg);
     setTimeout(function () { btn.innerHTML = original; }, 1800);
+  }
+
+  function sayingUrl(heading) {
+    return location.origin + location.pathname + '#' + heading.id;
+  }
+
+  function copy(payload, btn, msg, promptLabel) {
+    var done = function () { flash(btn, msg); };
+    var fallback = function () { window.prompt(promptLabel, payload); };
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(payload).then(done, fallback);
+    } else {
+      fallback();
+    }
+  }
+
+  function copyLink(heading, btn) {
+    copy(sayingUrl(heading), btn, 'Link copied', 'Copy this link:');
   }
 
   function share(heading, btn) {
     var title = heading.dataset.title;
-    var url = location.origin + location.pathname + '#' + heading.id;
+    var url = sayingUrl(heading);
     var body = sayingText(heading);
     var text = title + '\n\n' + body + '\n\n— ' + bookTitle();
 
@@ -43,13 +76,7 @@
       navigator.share({ title: title, text: text, url: url }).catch(function () { /* cancelled */ });
       return;
     }
-    var payload = text + '\n' + url;
-    var done = function () { flash(btn, 'Copied'); };
-    if (navigator.clipboard && window.isSecureContext) {
-      navigator.clipboard.writeText(payload).then(done, function () { window.prompt('Copy this saying:', payload); });
-    } else {
-      window.prompt('Copy this saying:', payload);
-    }
+    copy(text + '\n' + url, btn, 'Saying copied', 'Copy this saying:');
   }
 
   function highlightTarget() {
@@ -67,6 +94,10 @@
     var style = document.createElement('style');
     style.textContent = STYLE;
     document.head.appendChild(style);
+    status = document.createElement('span');
+    status.className = 'lw-sr';
+    status.setAttribute('role', 'status');
+    document.body.appendChild(status);
 
     headings.forEach(function (h) {
       h.dataset.title = h.textContent.replace(/\s+/g, ' ').trim();
@@ -75,9 +106,18 @@
       btn.className = 'lw-share';
       btn.setAttribute('aria-label', 'Share “' + h.dataset.title + '”');
       btn.setAttribute('title', 'Share this saying');
-      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="m8.7 10.7 6.6-4.4M8.7 13.3l6.6 4.4"></path></svg>';
+      btn.innerHTML = SHARE_ICON;
       btn.addEventListener('click', function () { share(h, btn); });
       h.appendChild(btn);
+
+      var link = document.createElement('button');
+      link.type = 'button';
+      link.className = 'lw-share';
+      link.setAttribute('aria-label', 'Copy link to “' + h.dataset.title + '”');
+      link.setAttribute('title', 'Copy link');
+      link.innerHTML = LINK_ICON;
+      link.addEventListener('click', function () { copyLink(h, link); });
+      h.appendChild(link);
     });
 
     highlightTarget();

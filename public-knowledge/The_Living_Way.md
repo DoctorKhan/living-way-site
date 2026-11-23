@@ -203,7 +203,7 @@ even the storm becomes a song.
 ## The Unforced Kingdom
 
 The Kingdom comes by neither effort nor delay.  
-Loosen your grasp,  
+Loosen your grip,  
 and life opens around you.  
 Exile is forgetting;  
 remembering, the way home.
