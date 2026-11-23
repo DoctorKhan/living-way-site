@@ -456,7 +456,7 @@ The Way does not force.
 
 **The practice:** when you meet resistance, in a person, a task, or yourself, pause before you push. Ask: *"What would water do here?"* Water does not stop moving, and it does not fight. It finds the low way around, and in time it wears down stone. Take the lower seat. Say less. Let the situation show you its shape before you act on it.
 
-*In The Living Way:* 11, "The Servant at the Feast"; 102, "The Stone and the Corner".
+*In The Living Way:* 11, "The Lowest Seat"; 102, "The Stone and the Corner".
 
 ---
 
