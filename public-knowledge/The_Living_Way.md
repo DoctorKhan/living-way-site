@@ -188,7 +188,7 @@ who has not yet come home.
 
 ## The Hollow Reed
 
-The self forms to meet the world:  
+The persona forms to meet the world:  
 reaching for warmth,  
 turning from flame,  
 guarding what is tender.  
